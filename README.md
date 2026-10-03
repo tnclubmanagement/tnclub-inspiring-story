@@ -1,16 +1,16 @@
 # Những Câu Chuyện Truyền Cảm Hứng
 
-Trang blog tĩnh dùng theme **[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)**
+Trang blog tĩnh dùng theme **[Beautiful Jekyll](https://beautifuljekyll.com)**
 (Jekyll), build và host hoàn toàn miễn phí bằng **GitHub Pages**. Không cần
-chạy server/backend. Mỗi bài viết là một file Markdown.
+chạy server/backend. Mỗi bài viết là một file Markdown, có thể kèm ảnh lớn
+kiểu tạp chí.
 
 ## 1. Đưa lên GitHub lần đầu
 
 ```bash
 cd /Users/Tri.Ngo/training/inspiring-stories
-git init
 git add .
-git commit -m "Khởi tạo blog"
+git commit -m "Đổi sang theme Beautiful Jekyll"
 ```
 
 Tạo repo mới trên GitHub (ví dụ tên `inspiring-stories`), rồi:
@@ -23,8 +23,7 @@ git push -u origin main
 
 ## 2. Bật GitHub Pages (build bằng GitHub Actions)
 
-Theme Chirpy cần build qua GitHub Actions (file đã có sẵn ở
-`.github/workflows/pages-deploy.yml`, không cần sửa gì).
+File build đã có sẵn ở `.github/workflows/pages-deploy.yml`, không cần sửa gì.
 
 Vào repo trên GitHub → **Settings** → **Pages** → ở "Build and deployment",
 chọn **Source: GitHub Actions** (không chọn "Deploy from a branch").
@@ -32,17 +31,6 @@ chọn **Source: GitHub Actions** (không chọn "Deploy from a branch").
 Sau khi push code, vào tab **Actions** của repo để xem quá trình build
 (~1-2 phút). Xong, trang sẽ có ở:
 `https://<ten-github-cua-ban>.github.io/inspiring-stories/`
-
-### Cập nhật `_config.yml` cho đúng URL
-
-Mở `_config.yml`, sửa:
-```yaml
-url: "https://<ten-github-cua-ban>.github.io"
-baseurl: "/inspiring-stories"
-```
-(Nếu repo của bạn tên đúng dạng `<ten-github-cua-ban>.github.io` thì để `baseurl: ""`)
-
-Commit và push lại sau khi sửa — Actions sẽ tự build lại.
 
 ## 3. Đăng bài mới — cách dễ nhất, không cần máy tính
 
@@ -56,8 +44,8 @@ Vào GitHub (web hoặc app điện thoại) → mở repo → vào thư mục `
 ```markdown
 ---
 title: "Tên bài viết của bạn"
-date: 2026-10-05 08:00:00 +0700
-categories: [Chủ đề]
+subtitle: "Một câu mô tả ngắn, tuỳ chọn"
+cover-img: /assets/img/ten-anh.jpg   # ảnh lớn ở đầu bài, tuỳ chọn
 tags: [tag1, tag2]
 ---
 
@@ -69,52 +57,64 @@ Có thể chèn **chữ đậm**, *chữ nghiêng*, ảnh, link, v.v.
 - Bấm **Commit changes** → xong! Sau ~1-2 phút (Actions build) bài sẽ tự
   xuất hiện trên trang.
 
+### Thêm ảnh cho bài viết
+
+Upload ảnh vào thư mục `assets/img/` (trên GitHub: vào thư mục đó → **Add
+file → Upload files**), rồi dùng đường dẫn `/assets/img/ten-anh.jpg` trong
+`cover-img` hoặc chèn vào nội dung bài bằng Markdown: `![mô tả](/assets/img/ten-anh.jpg)`.
+
 ## 4. Đăng bài từ máy (nếu muốn viết bằng app soạn thảo quen thuộc)
 
-Tạo file `.md` mới trong `_posts/` theo đúng format trên, rồi:
-
 ```bash
-git add _posts/2026-10-05-cau-chuyen-ve-su-kien-tri.md
+git add _posts/2026-10-05-cau-chuyen-ve-su-kien-tri.md assets/img/ten-anh.jpg
 git commit -m "Thêm bài: Câu chuyện về sự kiên trì"
 git push
 ```
 
 ## 5. Chạy thử trên máy trước khi đăng (tuỳ chọn)
 
-Cần Ruby + Bundler. Lần đầu:
-
 ```bash
-bundle install
-bundle exec jekyll serve
+./serve.sh
 ```
 
-Mở `http://localhost:4000` để xem trước. Phần bình luận Facebook sẽ không
-hiển thị đầy đủ khi chạy ở `localhost` (Facebook yêu cầu domain public thật),
-nhưng sẽ hoạt động bình thường khi đã deploy lên GitHub Pages.
+Mở `http://localhost:4000` để xem trước. Nhấn `Ctrl+C` trong terminal để tắt
+server. Script này tự trỏ đúng phiên bản Ruby và cài gem nếu thiếu, bạn không
+cần tự chạy `bundle install`/`bundle exec jekyll serve` thủ công.
 
-## 6. Bình luận bằng Facebook
+Lưu ý: nếu bạn sửa `_config.yml`, phải tắt (`Ctrl+C`) và chạy lại `./serve.sh`
+thì thay đổi mới áp dụng (Jekyll chỉ đọc file này lúc khởi động).
 
-Phần bình luận dùng **Facebook Comments Plugin** (`_includes/comments/facebook.html`)
-— không cần tạo Facebook App, không cần backend. Mỗi bài viết sẽ có khung
-bình luận riêng dựa theo URL của bài viết.
+## 6. Bật bình luận bằng Facebook
+
+Theme đã tích hợp sẵn Facebook Comments, chỉ cần lấy 1 **Facebook App ID**
+miễn phí (vài bước bấm chuột, không cần viết code):
+
+1. Vào https://developers.facebook.com/apps → **Create App** → chọn loại
+   "Other" / "Consumer" (không cần use-case cụ thể) → đặt tên app bất kỳ
+   (ví dụ "Inspiring Stories Comments").
+2. Sau khi tạo xong, vào **App Settings → Basic**, copy **App ID**.
+3. Dán App ID vào `_config.yml`, dòng `fb_comment_id: ""` → `fb_comment_id: "123456789..."`.
+4. Commit, push — bình luận sẽ xuất hiện ở cuối mỗi bài khi trang đã deploy
+   (không hoạt động đầy đủ trên `localhost`, chỉ hoạt động trên domain thật).
 
 Muốn tắt comment ở một bài cụ thể: thêm `comments: false` vào phần front
 matter (đầu file) của bài đó.
 
 ## 7. Tuỳ biến thêm
 
-- `_config.yml`: đổi tên trang, mô tả, avatar, link Facebook/GitHub ở sidebar.
-- `_tabs/about.md`: nội dung trang "Giới thiệu".
-- Theme Chirpy có sẵn: tìm kiếm, dark/light mode, danh mục (categories), tag,
-  TOC cho từng bài — không cần cấu hình thêm.
+- `_config.yml`: đổi tên trang, tác giả, màu sắc (`page-col`, `link-col`,
+  v.v.), link Facebook ở footer (`social-network-links.facebook`), avatar
+  (`avatar: "/assets/img/..."`).
+- `aboutme.md`: nội dung trang "Giới thiệu".
+- Theme Beautiful Jekyll có sẵn: tìm kiếm, tag, chia sẻ lên mạng xã hội,
+  ảnh cover lớn cho từng bài — không cần cấu hình thêm.
 
 ## Cấu trúc project
 
 ```
-_config.yml              Cấu hình chung của site
-_posts/                  Nơi chứa bài viết (mỗi file .md = 1 bài)
-_tabs/                   Các trang tĩnh (About, Archives, Categories, Tags)
-_includes/comments/facebook.html  Khung bình luận Facebook
-_data/                   Dữ liệu dùng chung cho theme (contact, share links)
-.github/workflows/       Workflow build & deploy tự động lên GitHub Pages
+_config.yml       Cấu hình chung của site (tên, màu sắc, comment, v.v.)
+_posts/           Nơi chứa bài viết (mỗi file .md = 1 bài)
+aboutme.md        Trang giới thiệu
+assets/img/       Ảnh dùng trong bài viết / cover image
+.github/workflows/  Workflow build & deploy tự động lên GitHub Pages
 ```

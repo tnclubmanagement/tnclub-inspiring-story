@@ -1,0 +1,327 @@
+/* Giao diện tuỳ biến: "Liquid Glass" kiểu Apple — kính trong suốt bóng,
+   bo pill, highlight sáng ở góc, viền phát sáng màu nhẹ, nền sáng trung tính. */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Dancing+Script:wght@600;700&display=swap');
+
+:root {
+  --ink: #1d1d2b;
+  --muted: #6b6b7a;
+  --accent-pink: #ff7a8a;
+  --accent-blue: #5aa9ff;
+  --accent-green: #4ad6a8;
+  --glass-bg: rgba(255, 255, 255, 0.45);
+  --glass-border: rgba(255, 255, 255, 0.9);
+}
+
+body {
+  background-color: #eef1f6;
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(255, 122, 138, 0.45), transparent 42%),
+    radial-gradient(circle at 88% 12%, rgba(90, 169, 255, 0.45), transparent 42%),
+    radial-gradient(circle at 80% 78%, rgba(74, 214, 168, 0.4), transparent 42%),
+    radial-gradient(circle at 15% 82%, rgba(255, 199, 112, 0.4), transparent 42%),
+    radial-gradient(circle at 50% 45%, rgba(190, 150, 255, 0.3), transparent 50%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Lớp kính dùng chung: nền mờ, viền sáng, highlight góc, bóng đổ mềm */
+.glass-surface {
+  position: relative;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.9),
+    inset 0 -12px 24px -16px rgba(255, 255, 255, 0.4),
+    0 16px 40px rgba(31, 38, 70, 0.14);
+}
+
+.glass-surface::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55%;
+  height: 55%;
+  background: radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.85), transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+/* ---------- Navbar: pill kính nổi ---------- */
+.navbar-custom {
+  background: rgba(255, 255, 255, 0.35) !important;
+  backdrop-filter: blur(34px) saturate(200%);
+  -webkit-backdrop-filter: blur(34px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.95) !important;
+  border-radius: 999px !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%);
+  top: 14px !important;
+  width: calc(100% - 32px);
+  max-width: 920px;
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.9),
+    0 10px 30px rgba(31, 38, 70, 0.12);
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: var(--ink) !important;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+/* ---------- Hero / header lớn trên trang chủ ---------- */
+.header-section.has-img .big-img {
+  position: relative;
+}
+
+.header-section.has-img .big-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(20, 20, 40, 0.05) 0%, rgba(20, 20, 40, 0.4) 100%);
+  pointer-events: none;
+}
+
+.header-section.has-img .page-heading h1,
+.header-section.has-img .post-heading h1 {
+  color: #ffffff !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 800;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  letter-spacing: -0.01em;
+}
+
+.header-section.has-img .page-subheading,
+.header-section.has-img .post-subheading {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #ffffff !important;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 1.8rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 999px;
+  padding: 0.3rem 1.5rem;
+  text-shadow: none;
+}
+
+/* ---------- Danh sách bài viết: card kính bóng ---------- */
+.posts-list {
+  column-count: 1;
+  column-gap: 1.75rem;
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 640px) {
+  .posts-list { column-count: 2; }
+}
+
+@media (min-width: 1000px) {
+  .posts-list { column-count: 3; }
+}
+
+.post-preview {
+  display: inline-block;
+  width: 100%;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  margin: 0 0 1.75rem 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  padding-bottom: 1.5rem;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.08));
+  backdrop-filter: blur(34px) saturate(200%);
+  -webkit-backdrop-filter: blur(34px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 1),
+    inset 0 -20px 30px -18px rgba(255, 255, 255, 0.6),
+    0 20px 44px rgba(31, 38, 70, 0.16);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Highlight bóng sắc ở góc trên-trái, giống ánh sáng phản chiếu trên kính thật */
+.post-preview::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 70%;
+  height: 55%;
+  background: radial-gradient(circle at 25% 15%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 25%, transparent 65%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  z-index: 1;
+}
+
+/* Vệt sáng chéo (sheen) chạy qua toàn bộ card, giống phản xạ trên mặt kính */
+.post-preview::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 45%;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+  transform: skewX(-18deg);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Viền phát sáng màu đậm hơn, xen kẽ theo từng card */
+.posts-list li:nth-child(3n+1) .post-preview {
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,1),
+    inset 0 -20px 30px -18px rgba(255,255,255,0.6),
+    0 0 0 1.5px rgba(255,122,138,0.45),
+    0 20px 44px rgba(255,122,138,0.3);
+}
+.posts-list li:nth-child(3n+2) .post-preview {
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,1),
+    inset 0 -20px 30px -18px rgba(255,255,255,0.6),
+    0 0 0 1.5px rgba(90,169,255,0.45),
+    0 20px 44px rgba(90,169,255,0.3);
+}
+.posts-list li:nth-child(3n) .post-preview {
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,1),
+    inset 0 -20px 30px -18px rgba(255,255,255,0.6),
+    0 0 0 1.5px rgba(74,214,168,0.45),
+    0 20px 44px rgba(74,214,168,0.3);
+}
+
+.posts-list li:nth-child(2) .post-preview { margin-top: 2.5rem; }
+
+.post-preview:hover {
+  transform: translateY(-6px);
+  z-index: 2;
+  position: relative;
+}
+
+.post-preview .post-image {
+  margin: 0 0 1.1rem 0;
+  float: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 10px 10px 0 10px;
+}
+
+.post-preview .post-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+
+/* Biến thiên chiều cao ảnh để card cao thấp khác nhau (masonry) */
+.posts-list li:nth-child(3n+1) .post-image img { height: 180px; }
+.posts-list li:nth-child(3n+2) .post-image img { height: 260px; }
+.posts-list li:nth-child(3n) .post-image img { height: 220px; }
+
+.post-preview .post-title,
+.post-preview .post-subtitle,
+.post-preview .post-meta,
+.post-preview .post-entry {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.post-preview .post-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.post-preview .post-subtitle {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.3rem;
+  color: #c2447a;
+  font-weight: 600;
+}
+
+.post-preview .post-meta {
+  color: #9898a6;
+  font-size: 0.85rem;
+}
+
+.post-preview .blog-tags {
+  padding-left: 1.5rem;
+}
+
+/* Tag dạng pill kính bóng nhỏ */
+.post-preview .blog-tags a {
+  display: inline-block;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+  backdrop-filter: blur(8px);
+  color: var(--ink);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 4px 10px rgba(31, 38, 70, 0.08);
+  border-radius: 999px;
+  padding: 0.25rem 0.9rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ---------- Nội dung trang chi tiết bài viết ---------- */
+.post-container,
+#main-content {
+  color: var(--ink);
+}
+
+.post-container {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(34px) saturate(200%);
+  -webkit-backdrop-filter: blur(34px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  border-radius: 28px;
+  padding: 2rem;
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 1),
+    inset 0 -20px 30px -18px rgba(255, 255, 255, 0.5),
+    0 20px 44px rgba(31, 38, 70, 0.12);
+}
+
+.post-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 30%;
+  background: radial-gradient(circle at 15% 10%, rgba(255, 255, 255, 0.9), transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.post-container h1,
+.post-container h2,
+.post-container h3 {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+/* ---------- Footer ---------- */
+footer.footer {
+  background: rgba(29, 29, 43, 0.92) !important;
+}

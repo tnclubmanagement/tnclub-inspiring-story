@@ -1,115 +1,123 @@
-# The Site Configuration
+############################
+# --- Required options --- #
+############################
 
-# Import the theme
-theme: jekyll-theme-chirpy
+title: Cảm Hứng
+
+author: Tri Ngo
+
+theme: beautiful-jekyll-theme
+
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
+
+navbar-links:
+  Giới thiệu: "aboutme"
+
+################
+# --- Logo --- #
+################
+
+# Ảnh đại diện hiện ở góc trên navbar (tỉ lệ vuông đẹp nhất). Bỏ comment và
+# bỏ ảnh vào assets/img/ để dùng.
+# avatar: "/assets/img/avatar-icon.png"
+round-avatar: true
+
+#####################################
+# --- Footer social media links --- #
+#####################################
+
+social-network-links:
+  rss: true
+  facebook: # điền username/trang Facebook của bạn, ví dụ: your.page.name
+
+rss-description: Những câu chuyện truyền cảm hứng mình sưu tầm và chia sẻ lại.
+
+###########################
+# --- General options --- #
+###########################
+
+share-links-active:
+  facebook: true
+  twitter: false
+  linkedin: false
+
+title-on-all-pages: true
+excerpt_length: 50
+feed_show_excerpt: false
+feed_show_tags: true
+post_search: true
+edit_page_button: true
+
+######################################
+# --- Colours / background image --- #
+######################################
+
+page-col: "#EEF1F6"
+text-col: "#1D1D2B"
+link-col: "#5AA9FF"
+hover-col: "#FF7A8A"
+navbar-col: "#FFFFFF"
+navbar-text-col: "#1D1D2B"
+navbar-border-col: "#FFFFFF"
+footer-col: "#1D1D2B"
+footer-text-col: "#C7C7D1"
+footer-link-col: "#FFFFFF"
+footer-hover-col: "#5AA9FF"
+
+# File CSS tuỳ biến thêm (card bo góc, nền tối, chữ đậm kiểu tạp chí)
+site-css:
+  - "/assets/css/custom-styles.css"
+
+####################
+# --- Comments --- #
+####################
+
+# Bình luận bằng Facebook: cần tạo 1 Facebook App ID miễn phí (không cần
+# code), xem hướng dẫn trong README.md, rồi điền ID vào đây.
+fb_comment_id: ""
+
+################
+# --- Misc --- #
+################
+
+date_format: "%d/%m/%Y"
+
+#################################################################################
+# --- You don't need to touch anything below here (but you can if you want) --- #
+#################################################################################
 
 lang: vi
-
-timezone: Asia/Ho_Chi_Minh
-
-# jekyll-seo-tag settings
-title: Những Câu Chuyện Truyền Cảm Hứng
-
-tagline: Nơi lưu lại những câu chuyện mình thích
-
-description: >-
-  Nơi mình lưu lại và chia sẻ những câu chuyện truyền cảm hứng mình đọc được.
-
-# Fill in sau khi tạo repo GitHub, ví dụ: https://<ten-github>.github.io
-url: ""
-
-github:
-  username: # điền username GitHub của bạn (tuỳ chọn, hiện icon ở sidebar)
-
-twitter:
-  username: # bỏ trống nếu không dùng
-
-social:
-  name: # Tên của bạn
-  email: # email của bạn (tuỳ chọn)
-  links:
-    - https://www.facebook.com/ # đổi sang link Facebook của bạn
-
-theme_mode: # [light | dark] - để trống để tự theo hệ thống
-
-avatar: # link ảnh đại diện (local hoặc URL), tuỳ chọn
-
-toc: true
-
-actions:
-  edit_post:
-    enabled: false
-    url: ""
-    static_url: false
-
-comments:
-  # Dùng Facebook Comments Plugin thay cho các provider có sẵn của theme.
-  provider: facebook
-
-paginate: 10
-
-baseurl: ""
+timezone: "Asia/Ho_Chi_Minh"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
 
 kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
-
-collections:
-  tabs:
-    output: true
-    sort_by: order
+  input: GFM
 
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      layout: post
+      layout: "post"
       comments: true
-      toc: true
-      permalink: /posts/:title/
-  - scope:
-      path: _drafts
-    values:
-      comments: false
+      social-share: true
   - scope:
       path: ""
-      type: tabs
     values:
-      layout: page
-      permalink: /:title/
-
-sass:
-  style: compressed
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
+      layout: "page"
 
 exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - tools
-  - README.md
+  - CHANGELOG.md
+  - Gemfile
+  - Gemfile.lock
   - LICENSE
+  - README.md
 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap

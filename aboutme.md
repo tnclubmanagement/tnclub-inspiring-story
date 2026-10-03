@@ -1,7 +1,7 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+layout: page
+title: Giới thiệu
+subtitle: Về trang này
 ---
 
 Đây là nơi mình lưu lại những câu chuyện truyền cảm hứng mà mình đọc được và muốn chia sẻ lại.
