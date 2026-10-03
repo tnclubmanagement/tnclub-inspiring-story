@@ -1,0 +1,115 @@
+# The Site Configuration
+
+# Import the theme
+theme: jekyll-theme-chirpy
+
+lang: vi
+
+timezone: Asia/Ho_Chi_Minh
+
+# jekyll-seo-tag settings
+title: Những Câu Chuyện Truyền Cảm Hứng
+
+tagline: Nơi lưu lại những câu chuyện mình thích
+
+description: >-
+  Nơi mình lưu lại và chia sẻ những câu chuyện truyền cảm hứng mình đọc được.
+
+# Fill in sau khi tạo repo GitHub, ví dụ: https://<ten-github>.github.io
+url: ""
+
+github:
+  username: # điền username GitHub của bạn (tuỳ chọn, hiện icon ở sidebar)
+
+twitter:
+  username: # bỏ trống nếu không dùng
+
+social:
+  name: # Tên của bạn
+  email: # email của bạn (tuỳ chọn)
+  links:
+    - https://www.facebook.com/ # đổi sang link Facebook của bạn
+
+theme_mode: # [light | dark] - để trống để tự theo hệ thống
+
+avatar: # link ảnh đại diện (local hoặc URL), tuỳ chọn
+
+toc: true
+
+actions:
+  edit_post:
+    enabled: false
+    url: ""
+    static_url: false
+
+comments:
+  # Dùng Facebook Comments Plugin thay cho các provider có sẵn của theme.
+  provider: facebook
+
+paginate: 10
+
+baseurl: ""
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - tools
+  - README.md
+  - LICENSE
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
