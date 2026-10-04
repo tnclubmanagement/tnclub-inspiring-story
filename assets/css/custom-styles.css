@@ -221,20 +221,21 @@ body {
   font-size: 1.1rem;
 }
 
-.nav-link-home {
+/* Mọi link trong nav (Trang chủ, Giới thiệu, Lưu trữ, Liên hệ, Chính sách...)
+   đều có icon + chữ, canh chỉnh đồng bộ cùng 1 kiểu. */
+.nav-link-home,
+.nav-link-icon {
   display: flex !important;
   align-items: center;
   gap: 0.4rem;
 }
 
-.nav-link-home .fa-home {
+.nav-link-home .fa,
+.nav-link-icon .fa,
+#nav-search-icon {
   color: var(--accent-pink);
   font-size: 0.9rem;
   line-height: 1;
-}
-
-.nav-link-home-text {
-  display: inline;
 }
 
 /* ---------- Footer: slogan + link ---------- */

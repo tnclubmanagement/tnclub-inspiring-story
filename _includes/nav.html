@@ -30,8 +30,20 @@
             </div>
           </li>
         {% else %}
+          {%- capture icon -%}
+            {%- case link[1] -%}
+              {%- when "aboutme" -%}fa-info-circle
+              {%- when "tags" -%}fa-tags
+              {%- when "contact" -%}fa-envelope
+              {%- when "privacy" -%}fa-shield-alt
+              {%- else -%}fa-circle
+            {%- endcase -%}
+          {%- endcapture -%}
           <li class="nav-item">
-            <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+            <a class="nav-link nav-link-icon" href="{{ link[1] | relative_url }}">
+              <span class="fa {{ icon | strip }}" aria-hidden="true"></span>
+              <span>{{ link[0] }}</span>
+            </a>
           </li>
         {%- endif -%}
       {%- endfor -%}
