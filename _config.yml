@@ -8,6 +8,10 @@ author: Tri Ngo
 
 theme: beautiful-jekyll-theme
 
+# URL thật của site sau khi deploy GitHub Pages (Settings > Pages)
+url: "https://tnclubmanagement.github.io"
+baseurl: "/tnclub-inspiring-story"
+
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
