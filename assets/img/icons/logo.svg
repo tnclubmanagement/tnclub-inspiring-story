@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A8A"/>
+      <stop offset="55%" stop-color="#C9A7EB"/>
+      <stop offset="100%" stop-color="#5AA9FF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="url(#g)"/>
+  <!-- Open book, cach dieu don gian, mau trang -->
+  <path d="M256 168
+           C 220 140, 150 132, 104 148
+           L 104 356
+           C 150 340, 220 348, 256 376
+           C 292 348, 362 340, 408 356
+           L 408 148
+           C 362 132, 292 140, 256 168
+           Z"
+        fill="none" stroke="#ffffff" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="256" y1="168" x2="256" y2="376" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <!-- Sparkle nho -->
+  <path d="M378 118 L386 140 L408 148 L386 156 L378 178 L370 156 L348 148 L370 140 Z" fill="#ffffff"/>
+</svg>

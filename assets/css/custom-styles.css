@@ -15,54 +15,159 @@
 
 body {
   background-color: #eef1f6;
-  background-image:
-    radial-gradient(circle at 12% 18%, rgba(255, 122, 138, 0.45), transparent 42%),
-    radial-gradient(circle at 88% 12%, rgba(90, 169, 255, 0.45), transparent 42%),
-    radial-gradient(circle at 80% 78%, rgba(74, 214, 168, 0.4), transparent 42%),
-    radial-gradient(circle at 15% 82%, rgba(255, 199, 112, 0.4), transparent 42%),
-    radial-gradient(circle at 50% 45%, rgba(190, 150, 255, 0.3), transparent 50%);
-  background-attachment: fixed;
-  background-size: cover;
+}
+
+/* Khối màu nền: tạo bằng JS (custom-animations.js), "trôi" 1 lần vào đúng vị
+   trí khi tải trang rồi đứng yên — không loop. */
+#bg-blobs {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bg-blob {
+  position: absolute;
+  top: var(--blob-top);
+  left: var(--blob-left);
+  width: var(--blob-size);
+  height: var(--blob-size);
+  border-radius: 50%;
+  background: var(--blob-color);
+  filter: blur(60px);
+  opacity: 0;
+  transform: translate(var(--blob-dx), var(--blob-dy)) scale(0.7);
+  transition: transform 1.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.4s ease-out;
+}
+
+#bg-blobs.settled .bg-blob {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Hero: zoom nhẹ 1 lần (Ken Burns), không lặp lại */
+.header-section.has-img .big-img {
+  overflow: hidden;
+}
+
+.header-section.has-img .big-img.intro-header {
+  opacity: 0;
+  transform: scale(1.12);
+  transition: opacity 0.6s ease-out, transform 6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.header-section.has-img .big-img.intro-header.kenburns-settle {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Fade-in-up khi cuộn tới (hoặc khi tải trang), chỉ chạy 1 lần */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease-out, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Lớp kính dùng chung: nền mờ, viền sáng, highlight góc, bóng đổ mềm */
 .glass-surface {
   position: relative;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
-  backdrop-filter: blur(20px) saturate(160%);
-  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  overflow: hidden;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.08));
+  backdrop-filter: blur(36px) saturate(220%);
+  -webkit-backdrop-filter: blur(36px) saturate(220%);
   border: 1px solid var(--glass-border);
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.9),
-    inset 0 -12px 24px -16px rgba(255, 255, 255, 0.4),
-    0 16px 40px rgba(31, 38, 70, 0.14);
+    inset 0 1px 1px rgba(255, 255, 255, 1),
+    inset 0 -20px 30px -18px rgba(255, 255, 255, 0.6),
+    0 20px 44px rgba(31, 38, 70, 0.16);
 }
 
 .glass-surface::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 55%;
-  height: 55%;
-  background: radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.85), transparent 70%);
+  top: -10%;
+  left: -10%;
+  width: 65%;
+  height: 60%;
+  background: radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 25%, transparent 70%);
   pointer-events: none;
   mix-blend-mode: screen;
 }
 
-/* ---------- Navbar: pill kính nổi ---------- */
+/* ---------- Landing: khối giới thiệu + nút CTA ---------- */
+.landing-intro {
+  border-radius: 32px;
+  padding: 2rem 2.25rem;
+  margin: -4rem auto 2.5rem;
+  max-width: 760px;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
+.landing-intro h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 800;
+  margin-top: 0;
+}
+
+.landing-intro p {
+  color: var(--muted);
+  margin: 1rem 0 1.5rem;
+}
+
+.landing-cta {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, var(--accent-pink), var(--accent-blue));
+  border-radius: 999px;
+  padding: 0.5rem 1.75rem;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(255, 122, 138, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.landing-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(90, 169, 255, 0.4);
+  color: #ffffff !important;
+}
+
+.latest-heading {
+  font-family: "Playfair Display", Georgia, serif;
+  text-align: center;
+  margin-bottom: 1.75rem;
+  color: var(--ink);
+}
+
+/* ---------- Navbar: kính nổi, bo góc lớn (không dùng pill 999px để tránh
+   méo hình khi menu mobile mở ra) ---------- */
 .navbar-custom {
   background: rgba(255, 255, 255, 0.35) !important;
   backdrop-filter: blur(34px) saturate(200%);
   -webkit-backdrop-filter: blur(34px) saturate(200%);
   border: 1px solid rgba(255, 255, 255, 0.95) !important;
-  border-radius: 999px !important;
+  border-radius: 26px !important;
+  overflow: hidden;
   left: 50% !important;
   right: auto !important;
   transform: translateX(-50%);
   top: 14px !important;
   width: calc(100% - 32px);
   max-width: 920px;
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
   box-shadow:
     inset 0 1px 1px rgba(255, 255, 255, 0.9),
     0 10px 30px rgba(31, 38, 70, 0.12);
@@ -77,6 +182,67 @@ body {
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 800;
   letter-spacing: 0.01em;
+}
+
+/* ---------- Logo + Home icon ---------- */
+.navbar-brand-with-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-logo-icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(31, 38, 70, 0.25);
+}
+
+.navbar-brand-text {
+  font-size: 1.1rem;
+}
+
+.nav-link-home {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.nav-link-home .fa-home {
+  color: var(--accent-pink);
+}
+
+.nav-link-home-text {
+  display: none;
+}
+
+@media (max-width: 1199px) {
+  .nav-link-home-text {
+    display: inline;
+  }
+}
+
+/* ---------- Footer: slogan ---------- */
+.footer-slogan {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin: 0.5rem 0 1rem;
+}
+
+/* Menu mobile khi mở: bỏ margin âm của theme, làm liền mạch với khối kính,
+   thêm padding trái cho các mục cho thẳng với logo */
+.navbar-custom .navbar-collapse {
+  margin: 0.5rem -1.25rem -0.5rem !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.6) !important;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  padding-left: 1.25rem !important;
+}
+
+.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
+  padding-left: 2.25rem !important;
 }
 
 /* ---------- Hero / header lớn trên trang chủ ---------- */
@@ -144,9 +310,9 @@ body {
   overflow: hidden;
   border-radius: 32px;
   padding-bottom: 1.5rem;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.08));
-  backdrop-filter: blur(34px) saturate(200%);
-  -webkit-backdrop-filter: blur(34px) saturate(200%);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(40px) saturate(220%);
+  -webkit-backdrop-filter: blur(40px) saturate(220%);
   border: 1px solid rgba(255, 255, 255, 0.95);
   box-shadow:
     inset 0 1px 1px rgba(255, 255, 255, 1),
@@ -183,26 +349,30 @@ body {
   z-index: 1;
 }
 
-/* Viền phát sáng màu đậm hơn, xen kẽ theo từng card */
+/* Viền phát sáng 2 tông màu (giả cảm giác khúc xạ cầu vồng trên kính),
+   xen kẽ theo từng card */
 .posts-list li:nth-child(3n+1) .post-preview {
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,1),
     inset 0 -20px 30px -18px rgba(255,255,255,0.6),
-    0 0 0 1.5px rgba(255,122,138,0.45),
+    -3px -3px 0 -1px rgba(255,199,112,0.4),
+    3px 3px 0 -1px rgba(255,122,138,0.4),
     0 20px 44px rgba(255,122,138,0.3);
 }
 .posts-list li:nth-child(3n+2) .post-preview {
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,1),
     inset 0 -20px 30px -18px rgba(255,255,255,0.6),
-    0 0 0 1.5px rgba(90,169,255,0.45),
+    -3px -3px 0 -1px rgba(190,150,255,0.4),
+    3px 3px 0 -1px rgba(90,169,255,0.4),
     0 20px 44px rgba(90,169,255,0.3);
 }
 .posts-list li:nth-child(3n) .post-preview {
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,1),
     inset 0 -20px 30px -18px rgba(255,255,255,0.6),
-    0 0 0 1.5px rgba(74,214,168,0.45),
+    -3px -3px 0 -1px rgba(255,199,112,0.4),
+    3px 3px 0 -1px rgba(74,214,168,0.4),
     0 20px 44px rgba(74,214,168,0.3);
 }
 
@@ -219,15 +389,30 @@ body {
   float: none !important;
   width: 100% !important;
   max-width: 100% !important;
+  height: auto !important;
   padding: 10px 10px 0 10px;
 }
 
 .post-preview .post-image img {
   width: 100%;
   height: 220px;
+  max-width: 100% !important;
+  max-height: none !important;
   object-fit: cover;
   display: block;
   border-radius: 20px;
+}
+
+/* Theme ẩn ảnh lớn và hiện ảnh nhỏ 100x100 khi màn hình <500px — luôn giữ
+   ảnh lớn, bỏ ảnh nhỏ trùng lặp để tránh vỡ layout trên mobile */
+.post-preview .post-image-small {
+  display: none !important;
+}
+
+@media (max-width: 500px) {
+  .post-preview .post-image.post-image-normal {
+    display: block !important;
+  }
 }
 
 /* Biến thiên chiều cao ảnh để card cao thấp khác nhau (masonry) */

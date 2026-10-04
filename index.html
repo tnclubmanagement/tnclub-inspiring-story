@@ -2,5 +2,30 @@
 layout: home
 title: Những Câu Chuyện Truyền Cảm Hứng
 subtitle: Mỗi câu chuyện là một khoảnh khắc đáng nhớ
-cover-img: "/assets/img/hero.jpg"
+cover-img: "/assets/img/hero-1.jpg"
 ---
+
+<script>
+  // Danh sách ảnh hero để chọn ngẫu nhiên mỗi lần tải trang (xem assets/js/custom-animations.js)
+  window.HERO_IMAGES = [
+    "{{ '/assets/img/hero-1.jpg' | relative_url }}",
+    "{{ '/assets/img/hero-2.jpg' | relative_url }}",
+    "{{ '/assets/img/hero-3.jpg' | relative_url }}",
+    "{{ '/assets/img/hero-4.jpg' | relative_url }}",
+    "{{ '/assets/img/hero-5.jpg' | relative_url }}",
+    "{{ '/assets/img/hero-6.jpg' | relative_url }}"
+  ];
+</script>
+
+<section class="landing-intro glass-surface">
+  <h2>Chào bạn 👋</h2>
+  <p>
+    Đây là nơi mình lưu lại và chia sẻ những câu chuyện truyền cảm hứng mà
+    mình đọc được — về sự kiên trì, lòng tốt, và những khoảnh khắc nhỏ làm
+    thay đổi một ai đó. Hy vọng vài dòng dưới đây sẽ mang lại cho bạn một
+    chút động lực hôm nay.
+  </p>
+  <a class="landing-cta" href="#latest">Đọc câu chuyện mới nhất ↓</a>
+</section>
+
+<h2 id="latest" class="latest-heading">Câu chuyện mới nhất</h2>

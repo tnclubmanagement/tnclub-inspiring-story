@@ -70,6 +70,10 @@ footer-hover-col: "#5AA9FF"
 site-css:
   - "/assets/css/custom-styles.css"
 
+# JS tuỳ biến thêm: animation fade-in khi cuộn, hero zoom nhẹ, khối màu nền
+site-js:
+  - "/assets/js/custom-animations.js"
+
 ####################
 # --- Comments --- #
 ####################
@@ -106,10 +110,14 @@ defaults:
       layout: "post"
       comments: true
       social-share: true
+      head-extra: ["favicon.html"]
+      footer-extra: ["footer-slogan.html"]
   - scope:
       path: ""
     values:
       layout: "page"
+      head-extra: ["favicon.html"]
+      footer-extra: ["footer-slogan.html"]
 
 exclude:
   - CHANGELOG.md
