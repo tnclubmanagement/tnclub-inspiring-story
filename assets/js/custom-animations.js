@@ -7,6 +7,63 @@
     else document.addEventListener("DOMContentLoaded", fn);
   }
 
+  // Masonry thật bằng JS: CSS `column-count` bị lỗi dồn hết item vào 1 cột
+  // khi item cao + ít item (break-inside:avoid). Thay bằng thuật toán
+  // "luôn bỏ vào cột đang thấp nhất", đo chiều cao thật.
+  function initMasonry() {
+    var list = document.querySelector(".posts-list");
+    if (!list) return;
+    var items = Array.prototype.slice.call(list.children);
+    if (items.length === 0) return;
+
+    function columnsFor(w) {
+      if (w >= 1000) return 3;
+      if (w >= 640) return 2;
+      return 1;
+    }
+
+    function layout() {
+      var n = columnsFor(window.innerWidth);
+
+      if (n === 1) {
+        // 1 cột: giữ thứ tự gốc, không cần bọc thêm div/flex.
+        list.classList.remove("js-masonry");
+        items.forEach(function (item) {
+          list.appendChild(item);
+        });
+        return;
+      }
+
+      list.classList.add("js-masonry");
+      var cols = [];
+      for (var i = 0; i < n; i++) {
+        var col = document.createElement("div");
+        col.className = "masonry-col";
+        cols.push(col);
+      }
+      var heights = new Array(n).fill(0);
+      items.forEach(function (item) {
+        var idx = 0;
+        for (var i = 1; i < n; i++) {
+          if (heights[i] < heights[idx]) idx = i;
+        }
+        cols[idx].appendChild(item);
+        heights[idx] += item.offsetHeight + 28;
+      });
+      list.innerHTML = "";
+      cols.forEach(function (col) {
+        list.appendChild(col);
+      });
+    }
+
+    layout();
+    var resizeTimer;
+    window.addEventListener("resize", function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(layout, 200);
+    });
+  }
+
   onReady(function () {
     // 1) Hero: chọn ngẫu nhiên 1 trong các ảnh (window.HERO_IMAGES, tránh lặp
     // lại ảnh vừa xem lần trước), rồi zoom nhẹ 1 lần (Ken Burns), không lặp.
@@ -56,9 +113,15 @@
       });
     });
 
-    // 3) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
+    // 3) Masonry thật cho danh sách bài viết (phải chạy trước khi gắn
+    // reveal/stagger vì nó di chuyển các <li> sang cấu trúc cột mới).
+    initMasonry();
+
+    // 4) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
+    // Lưu ý: phải dùng "li.post-preview" (không phải "li" trống) để không
+    // bắt luôn các <li> nhỏ của danh sách tag bên trong mỗi card.
     var revealTargets = document.querySelectorAll(
-      ".landing-intro, .latest-heading, .posts-list > li, .post-container, .pagination.main-pager"
+      ".landing-intro, .latest-heading, .posts-list li.post-preview, .post-container, .pagination.main-pager"
     );
     revealTargets.forEach(function (el) {
       el.classList.add("reveal");
@@ -87,7 +150,7 @@
     }
 
     // Stagger nhẹ cho các card trong lưới masonry.
-    document.querySelectorAll(".posts-list > li").forEach(function (li, i) {
+    document.querySelectorAll(".posts-list li.post-preview").forEach(function (li, i) {
       li.style.transitionDelay = Math.min(i * 90, 450) + "ms";
     });
   });

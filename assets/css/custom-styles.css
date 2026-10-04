@@ -284,27 +284,32 @@ body {
   text-shadow: none;
 }
 
-/* ---------- Danh sách bài viết: card kính bóng ---------- */
+/* ---------- Danh sách bài viết: card kính bóng, masonry bằng JS ----------
+   (Không dùng CSS column-count: bị lỗi dồn hết item vào 1 cột khi item cao
+   + ít item với break-inside:avoid. Xem initMasonry() trong
+   custom-animations.js — phân cột theo chiều cao thực tế, luôn bỏ item vào
+   cột đang thấp nhất. Nếu JS tắt, danh sách vẫn hiển thị đúng dạng 1 cột.) */
 .posts-list {
-  column-count: 1;
-  column-gap: 1.75rem;
   list-style: none;
   padding: 0;
 }
 
-@media (min-width: 640px) {
-  .posts-list { column-count: 2; }
+.posts-list.js-masonry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.75rem;
 }
 
-@media (min-width: 1000px) {
-  .posts-list { column-count: 3; }
+.masonry-col {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .post-preview {
-  display: inline-block;
+  display: block;
   width: 100%;
-  break-inside: avoid;
-  -webkit-column-break-inside: avoid;
   margin: 0 0 1.75rem 0;
   position: relative;
   overflow: hidden;
@@ -350,8 +355,10 @@ body {
 }
 
 /* Viền phát sáng 2 tông màu (giả cảm giác khúc xạ cầu vồng trên kính),
-   xen kẽ theo từng card */
-.posts-list li:nth-child(3n+1) .post-preview {
+   xen kẽ theo từng card. Lưu ý: `.post-preview` chính là thẻ `<li>`, không
+   phải con của nó, nên phải viết liền `li.post-preview:nth-child(...)`
+   (compound selector), không phải descendant selector. */
+.posts-list li.post-preview:nth-child(3n+1) {
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,1),
     inset 0 -20px 30px -18px rgba(255,255,255,0.6),
@@ -359,7 +366,7 @@ body {
     3px 3px 0 -1px rgba(255,122,138,0.4),
     0 20px 44px rgba(255,122,138,0.3);
 }
-.posts-list li:nth-child(3n+2) .post-preview {
+.posts-list li.post-preview:nth-child(3n+2) {
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,1),
     inset 0 -20px 30px -18px rgba(255,255,255,0.6),
@@ -367,7 +374,7 @@ body {
     3px 3px 0 -1px rgba(90,169,255,0.4),
     0 20px 44px rgba(90,169,255,0.3);
 }
-.posts-list li:nth-child(3n) .post-preview {
+.posts-list li.post-preview:nth-child(3n) {
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,1),
     inset 0 -20px 30px -18px rgba(255,255,255,0.6),
@@ -376,7 +383,7 @@ body {
     0 20px 44px rgba(74,214,168,0.3);
 }
 
-.posts-list li:nth-child(2) .post-preview { margin-top: 2.5rem; }
+.posts-list li.post-preview:nth-child(2) { margin-top: 2.5rem; }
 
 .post-preview:hover {
   transform: translateY(-6px);

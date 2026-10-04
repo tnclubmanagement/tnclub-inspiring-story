@@ -15,4 +15,4 @@ fi
 
 bundle check >/dev/null 2>&1 || bundle install
 
-bundle exec jekyll serve --future
+bundle exec jekyll serve --future --baseurl ""
