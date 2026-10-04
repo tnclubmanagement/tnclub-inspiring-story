@@ -203,31 +203,45 @@ body {
 }
 
 .nav-link-home {
-  display: flex;
+  display: flex !important;
   align-items: center;
   gap: 0.4rem;
 }
 
 .nav-link-home .fa-home {
   color: var(--accent-pink);
+  font-size: 0.9rem;
+  line-height: 1;
 }
 
 .nav-link-home-text {
-  display: none;
+  display: inline;
 }
 
-@media (max-width: 1199px) {
-  .nav-link-home-text {
-    display: inline;
-  }
-}
-
-/* ---------- Footer: slogan ---------- */
+/* ---------- Footer: slogan + link ---------- */
 .footer-slogan {
   font-family: "Dancing Script", cursive;
   font-size: 1.4rem;
   color: #ffffff;
   margin: 0.5rem 0 1rem;
+}
+
+.footer-extra-links {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-extra-links a {
+  color: #e6d9e2;
+}
+
+.footer-extra-links a:hover {
+  color: var(--accent-pink);
+}
+
+.footer-extra-dot {
+  margin: 0 0.5rem;
+  opacity: 0.6;
 }
 
 /* Menu mobile khi mở: bỏ margin âm của theme, làm liền mạch với khối kính,

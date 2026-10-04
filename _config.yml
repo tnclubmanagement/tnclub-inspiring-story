@@ -18,6 +18,7 @@ baseurl: "/tnclub-inspiring-story"
 
 navbar-links:
   Giới thiệu: "aboutme"
+  Lưu trữ: "tags"
 
 ################
 # --- Logo --- #
@@ -115,13 +116,13 @@ defaults:
       comments: true
       social-share: true
       head-extra: ["favicon.html"]
-      footer-extra: ["footer-slogan.html"]
+      footer-extra: ["footer-slogan.html", "footer-links.html"]
   - scope:
       path: ""
     values:
       layout: "page"
       head-extra: ["favicon.html"]
-      footer-extra: ["footer-slogan.html"]
+      footer-extra: ["footer-slogan.html", "footer-links.html"]
 
 exclude:
   - CHANGELOG.md
