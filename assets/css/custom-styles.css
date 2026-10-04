@@ -11,6 +11,30 @@
   --accent-green: #4ad6a8;
   --glass-bg: rgba(255, 255, 255, 0.45);
   --glass-border: rgba(255, 255, 255, 0.9);
+
+  /* ========================================================================
+     TYPOGRAPHY DÙNG CHUNG — khai báo font DUY NHẤT ở đây.
+     Muốn đổi font chữ của toàn trang chỉ cần sửa 2 dòng dưới, KHÔNG sửa
+     rải rác ở các selector khác (tránh "clone" font-family đi nhiều chỗ).
+     ======================================================================== */
+  --font-title: "Playfair Display", Georgia, serif;    /* dùng cho title/heading */
+  --font-subtitle: "Dancing Script", cursive;           /* dùng cho subtitle/tagline */
+}
+
+/* Mọi heading thật (h1-h4) trong khu vực nội dung tuỳ biến đều tự động
+   dùng --font-title — không cần khai báo lại font-family ở từng heading.
+   Với các phần tử KHÔNG phải tag heading (span, a, p...) nhưng muốn dùng
+   font title/subtitle, gắn class `.font-title` / `.font-subtitle`. */
+h1, h2, h3, h4,
+.font-title {
+  font-family: var(--font-title);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.font-subtitle {
+  font-family: var(--font-subtitle);
+  font-weight: 600;
 }
 
 body {
@@ -112,8 +136,6 @@ body {
 }
 
 .landing-intro h2 {
-  font-family: "Playfair Display", Georgia, serif;
-  font-weight: 800;
   margin-top: 0;
 }
 
@@ -126,7 +148,7 @@ body {
   display: inline-block;
   position: relative;
   z-index: 1;
-  font-family: "Dancing Script", cursive;
+  font-family: var(--font-subtitle);
   font-size: 1.4rem;
   font-weight: 700;
   color: #ffffff !important;
@@ -145,7 +167,6 @@ body {
 }
 
 .latest-heading {
-  font-family: "Playfair Display", Georgia, serif;
   text-align: center;
   margin-bottom: 1.75rem;
   color: var(--ink);
@@ -179,8 +200,6 @@ body {
 }
 
 .navbar-custom .navbar-brand {
-  font-family: "Playfair Display", Georgia, serif;
-  font-weight: 800;
   letter-spacing: 0.01em;
 }
 
@@ -220,7 +239,8 @@ body {
 
 /* ---------- Footer: slogan + link ---------- */
 .footer-slogan {
-  font-family: "Dancing Script", cursive;
+  font-family: var(--font-subtitle);
+  font-weight: 700;
   font-size: 1.4rem;
   color: #ffffff;
   margin: 0.5rem 0 1rem;
@@ -275,10 +295,7 @@ body {
 .header-section.has-img .page-heading h1,
 .header-section.has-img .post-heading h1 {
   color: #ffffff !important;
-  font-family: "Playfair Display", Georgia, serif;
-  font-weight: 800;
   text-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
-  letter-spacing: -0.01em;
 }
 
 .header-section.has-img .page-subheading,
@@ -286,7 +303,7 @@ body {
   display: inline-block;
   margin-top: 0.75rem;
   color: #ffffff !important;
-  font-family: "Dancing Script", cursive;
+  font-family: var(--font-subtitle);
   font-weight: 700;
   font-size: 1.8rem;
   background: rgba(255, 255, 255, 0.2);
@@ -450,18 +467,15 @@ body {
 }
 
 .post-preview .post-title {
-  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.6rem;
-  font-weight: 800;
-  letter-spacing: -0.01em;
   color: var(--ink);
 }
 
 .post-preview .post-subtitle {
-  font-family: "Dancing Script", cursive;
+  font-family: var(--font-subtitle);
+  font-weight: 600;
   font-size: 1.3rem;
   color: #c2447a;
-  font-weight: 600;
 }
 
 .post-preview .post-meta {
@@ -519,12 +533,6 @@ body {
   background: radial-gradient(circle at 15% 10%, rgba(255, 255, 255, 0.9), transparent 70%);
   pointer-events: none;
   mix-blend-mode: screen;
-}
-
-.post-container h1,
-.post-container h2,
-.post-container h3 {
-  font-family: "Playfair Display", Georgia, serif;
 }
 
 /* ---------- Footer ---------- */
