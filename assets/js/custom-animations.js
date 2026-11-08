@@ -74,7 +74,35 @@
     var viewButtons = document.querySelectorAll(".home-view-btn");
     if (!list || !search || !tagFilter) return;
 
-    function applyFilters() {
+    function setView(mode) {
+      var validModes = ["grid", "list", "table", "timeline"];
+      if (validModes.indexOf(mode) === -1) mode = "grid";
+      list.classList.remove("view-grid", "view-list", "view-table", "view-timeline");
+      list.classList.add("view-" + mode);
+      viewButtons.forEach(function (item) {
+        var active = item.getAttribute("data-view") === mode;
+        item.classList.toggle("is-active", active);
+        item.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+    }
+
+    function updateUrl() {
+      var params = new URLSearchParams(window.location.search);
+      var query = search.value.trim();
+      var tag = tagFilter.value;
+      var mode = list.className.match(/view-(grid|list|table|timeline)/);
+      if (query) params.set("q", query);
+      else params.delete("q");
+      if (tag) params.set("tag", tag);
+      else params.delete("tag");
+      if (mode && mode[1] !== "grid") params.set("view", mode[1]);
+      else params.delete("view");
+      var queryString = params.toString();
+      var nextUrl = window.location.pathname + (queryString ? "?" + queryString : "") + window.location.hash;
+      window.history.replaceState(null, "", nextUrl);
+    }
+
+    function applyFilters(shouldUpdateUrl) {
       var query = search.value.trim().toLowerCase();
       var tag = tagFilter.value;
       var visible = 0;
@@ -87,24 +115,28 @@
       });
       if (resultCount) resultCount.textContent = visible + " câu chuyện";
       if (emptyState) emptyState.hidden = visible !== 0;
+      if (shouldUpdateUrl) updateUrl();
     }
 
-    search.addEventListener("input", applyFilters);
-    tagFilter.addEventListener("change", applyFilters);
+    function restoreFromUrl() {
+      var params = new URLSearchParams(window.location.search);
+      search.value = params.get("q") || "";
+      tagFilter.value = params.get("tag") || "";
+      if (tagFilter.value !== (params.get("tag") || "")) tagFilter.value = "";
+      setView(params.get("view") || "grid");
+      applyFilters(false);
+    }
+
+    search.addEventListener("input", function () { applyFilters(true); });
+    tagFilter.addEventListener("change", function () { applyFilters(true); });
     viewButtons.forEach(function (button) {
       button.addEventListener("click", function () {
-        var mode = button.getAttribute("data-view");
-        list.classList.remove("view-grid", "view-list", "view-table", "view-timeline");
-        list.classList.add("view-" + mode);
-        viewButtons.forEach(function (item) {
-          var active = item === button;
-          item.classList.toggle("is-active", active);
-          item.setAttribute("aria-pressed", active ? "true" : "false");
-        });
+        setView(button.getAttribute("data-view"));
+        updateUrl();
       });
     });
-    list.classList.add("view-grid");
-    applyFilters();
+    window.addEventListener("popstate", restoreFromUrl);
+    restoreFromUrl();
   }
 
   function initLazyImages() {

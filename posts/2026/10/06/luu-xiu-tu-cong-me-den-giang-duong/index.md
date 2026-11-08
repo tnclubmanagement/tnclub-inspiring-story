@@ -5,11 +5,17 @@ title: "Cõng mẹ đến giảng đường, rồi trở về mở đường cho
 subtitle: "Lưu Tú Tường và lời hứa không để một đứa trẻ nào phải bỏ học vì nghèo"
 cover-img: "/posts/2026/10/06/luu-xiu-tu-cong-me-den-giang-duong/cover.jpg"
 thumbnail-img: "/posts/2026/10/06/luu-xiu-tu-cong-me-den-giang-duong/cover.jpg"
+layout-style: magazine
 tags: [vuot-kho, giao-duc, long-tot, trung-quoc]
 ---
 
 Có những người bước ra khỏi nghịch cảnh để tìm một cuộc sống dễ dàng hơn.
 Lưu Tú Tường lại chọn quay về nơi mình từng muốn rời đi nhất.
+
+<figure class="story-figure story-figure-wide">
+  <img src="source-00-history.jpg" alt="Lưu Tú Tường cùng mẹ trong những năm tháng đi học">
+  <figcaption>Ảnh tư liệu thời Lưu Tú Tường còn đi học cùng mẹ. Ảnh: The Paper, ảnh tư liệu.</figcaption>
+</figure>
 
 Anh sinh ra ở huyện Vọng Mô, tỉnh Quý Châu, Trung Quốc. Khi còn nhỏ, cha
 qua đời vì bệnh. Mẹ vì cú sốc ấy mà mắc bệnh tâm thần. Đến năm học lớp ba,
@@ -29,6 +35,11 @@ Nhiều người nhớ câu chuyện ấy vì hình ảnh một chàng trai tr�
 hàng nghìn cây số để tiếp tục việc học. Nhưng điều đáng nhớ hơn là những
 gì anh làm sau khi đã bước qua cánh cửa đại học.
 
+<figure class="story-figure">
+  <img src="source-01.jpg" alt="Lưu Tú Tường trò chuyện cùng học sinh trên sân trường">
+  <figcaption>Lưu Tú Tường trò chuyện cùng học sinh tại trường. Ảnh: China News, ảnh do nguồn cung cấp.</figcaption>
+</figure>
+
 ## Một cuộc gọi làm thay đổi lựa chọn
 
 Năm 2012, khi sắp tốt nghiệp, Lưu Tú Tường từng dự định ở lại nơi khác để
@@ -45,6 +56,11 @@ ngồi xuống nói chuyện, lắng nghe và nhắc các em rằng tương lai 
 nhiều lựa chọn.
 
 Cuối cùng, anh quyết định trở về Vọng Mô làm giáo viên.
+
+<figure class="story-figure">
+  <img src="source-02.jpg" alt="Lưu Tú Tường giao lưu cùng học sinh">
+  <figcaption>Lưu Tú Tường giao lưu với học sinh sau khi trở về quê dạy học. Ảnh: China News, ảnh do nguồn cung cấp.</figcaption>
+</figure>
 
 Anh từng nói rằng mình muốn nói với những đứa trẻ trong núi rằng thế giới
 bên ngoài rất rộng, và các em hoàn toàn có thể bước ra nếu có cơ hội. Anh
@@ -86,6 +102,11 @@ giúp mình suốt thời gian đó chính là thầy Lưu.
 Sau này, cô trở về quê làm giáo viên và trở thành đồng nghiệp của người
 thầy từng giúp mình.
 
+<figure class="story-figure">
+  <img src="source-03.jpg" alt="Lưu Tú Tường trong một hoạt động cùng học sinh">
+  <figcaption>Lưu Tú Tường trong một hoạt động với học sinh. Ảnh: China News, ảnh do nguồn cung cấp.</figcaption>
+</figure>
+
 ## Trở về để không ai bị bỏ lại
 
 Trong nhiều năm, Lưu Tú Tường đã vận động hàng nghìn học sinh tiếp tục đến
@@ -108,6 +129,11 @@ những đứa trẻ khác.
 Anh từng chia sẻ rằng đi ra khỏi núi không chỉ để thay đổi cuộc đời mình,
 mà còn để một ngày có thể trở về, xây dựng quê hương và giúp những người
 đến sau có thêm cơ hội.
+
+<figure class="story-figure">
+  <img src="source-04.jpg" alt="Lưu Tú Tường hướng dẫn học sinh trong một buổi sinh hoạt">
+  <figcaption>Lưu Tú Tường trong một buổi sinh hoạt với học sinh. Ảnh: China News, ảnh do nguồn cung cấp.</figcaption>
+</figure>
 
 ### Nguồn tham khảo
 

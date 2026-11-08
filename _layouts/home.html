@@ -37,6 +37,12 @@ layout: page
 
 <!-- role="list" needed so Safari keeps list semantics with list-style resets. -->
 <ul class="posts-list list-unstyled" role="list">
+  <li class="posts-table-header" aria-hidden="true">
+    <span>STT</span>
+    <span>Ảnh</span>
+    <span>Nội dung</span>
+    <span>Ngày đăng</span>
+  </li>
   {% for post in posts %}
   <li class="post-preview"
       data-post-title="{{ post.title | strip_html | escape }}"
@@ -44,6 +50,7 @@ layout: page
       data-post-date="{{ post.date | date: '%Y-%m-%d' }}">
     <span class="timeline-marker" aria-hidden="true"></span>
     <time class="timeline-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%m/%Y" }}</time>
+    <span class="table-index">{{ forloop.index }}</span>
     <article>
       {% capture thumbnail %}
         {% if post.thumbnail-img %}
@@ -80,6 +87,7 @@ layout: page
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         {{ post.date | date: date_format }}
       </p>
+      <p class="table-excerpt">{{ post.content | strip_html | replace: "\n", " " | strip | truncatewords: 18 }}</p>
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags">
