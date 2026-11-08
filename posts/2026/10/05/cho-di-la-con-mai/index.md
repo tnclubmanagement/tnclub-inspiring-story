@@ -1,8 +1,11 @@
 ---
+layout: post
+date: "2026-10-05 00:00:00 +0700"
+permalink: /2026-10-05-cho-di-la-con-mai/
 title: "Cho đi là còn mãi"
 subtitle: "Một hành động nhỏ, một ảnh hưởng lớn"
-cover-img: "/assets/img/cover-1.jpg"
-thumbnail-img: "/assets/img/cover-1.jpg"
+cover-img: "/posts/2026/10/05/cho-di-la-con-mai/cover.jpg"
+thumbnail-img: "/posts/2026/10/05/cho-di-la-con-mai/cover.jpg"
 tags: [long-tot, cau-chuyen]
 ---
 

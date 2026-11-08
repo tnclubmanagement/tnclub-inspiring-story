@@ -1,8 +1,11 @@
 ---
+layout: post
+date: "2026-10-04 00:00:00 +0700"
+permalink: /2026-10-04-su-kien-tri/
 title: "Sự kiên trì không bao giờ là vô nghĩa"
 subtitle: "Một câu chuyện ngắn về việc không bỏ cuộc"
-cover-img: "/assets/img/cover-2.jpg"
-thumbnail-img: "/assets/img/cover-2.jpg"
+cover-img: "/posts/2026/10/04/su-kien-tri/cover.jpg"
+thumbnail-img: "/posts/2026/10/04/su-kien-tri/cover.jpg"
 tags: [kien-tri, dong-luc]
 ---
 

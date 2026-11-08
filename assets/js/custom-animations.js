@@ -11,6 +11,7 @@
   // khi item cao + ít item (break-inside:avoid). Thay bằng thuật toán
   // "luôn bỏ vào cột đang thấp nhất", đo chiều cao thật.
   function initMasonry() {
+    return;
     var list = document.querySelector(".posts-list");
     if (!list) return;
     var items = Array.prototype.slice.call(list.children);
@@ -62,6 +63,76 @@
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(layout, 200);
     });
+  }
+
+  function initHomeControls() {
+    var list = document.querySelector(".posts-list");
+    var search = document.querySelector("#home-post-search");
+    var tagFilter = document.querySelector("#home-tag-filter");
+    var resultCount = document.querySelector(".home-result-count");
+    var emptyState = document.querySelector(".home-empty-state");
+    var viewButtons = document.querySelectorAll(".home-view-btn");
+    if (!list || !search || !tagFilter) return;
+
+    function applyFilters() {
+      var query = search.value.trim().toLowerCase();
+      var tag = tagFilter.value;
+      var visible = 0;
+      list.querySelectorAll(":scope > .post-preview").forEach(function (card) {
+        var title = (card.getAttribute("data-post-title") || "").toLowerCase();
+        var tags = (card.getAttribute("data-post-tags") || "").split(",");
+        var matches = (!query || title.indexOf(query) !== -1) && (!tag || tags.indexOf(tag) !== -1);
+        card.hidden = !matches;
+        if (matches) visible += 1;
+      });
+      if (resultCount) resultCount.textContent = visible + " câu chuyện";
+      if (emptyState) emptyState.hidden = visible !== 0;
+    }
+
+    search.addEventListener("input", applyFilters);
+    tagFilter.addEventListener("change", applyFilters);
+    viewButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        var mode = button.getAttribute("data-view");
+        list.classList.remove("view-grid", "view-list", "view-table", "view-timeline");
+        list.classList.add("view-" + mode);
+        viewButtons.forEach(function (item) {
+          var active = item === button;
+          item.classList.toggle("is-active", active);
+          item.setAttribute("aria-pressed", active ? "true" : "false");
+        });
+      });
+    });
+    list.classList.add("view-grid");
+    applyFilters();
+  }
+
+  function initLazyImages() {
+    var images = document.querySelectorAll("img.lazy-image[data-src]");
+    if (images.length === 0) return;
+
+    function load(image) {
+      var source = image.getAttribute("data-src");
+      if (!source) return;
+      image.src = source;
+      image.removeAttribute("data-src");
+      image.classList.add("is-loaded");
+    }
+
+    if (!("IntersectionObserver" in window)) {
+      images.forEach(load);
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          load(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: "300px 0px" });
+    images.forEach(function (image) { observer.observe(image); });
   }
 
   onReady(function () {
@@ -116,6 +187,8 @@
     // 3) Masonry thật cho danh sách bài viết (phải chạy trước khi gắn
     // reveal/stagger vì nó di chuyển các <li> sang cấu trúc cột mới).
     initMasonry();
+    initHomeControls();
+    initLazyImages();
 
     // 4) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
     // Lưu ý: phải dùng "li.post-preview" (không phải "li" trống) để không
