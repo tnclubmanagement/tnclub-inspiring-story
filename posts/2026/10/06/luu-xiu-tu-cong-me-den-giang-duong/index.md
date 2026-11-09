@@ -114,6 +114,51 @@ trường và kết nối nguồn hỗ trợ cho hơn 4.000 em. Anh cũng thành
 giáo viên, tổ chức các buổi nói chuyện và xây dựng những hoạt động hỗ trợ
 học tập tại địa phương.
 
+## Những ghi nhận dành cho người thầy
+
+Lưu Tú Tường thường nói về học sinh nhiều hơn về những giải thưởng của
+mình. Tuy vậy, hành trình của anh đã được ghi nhận ở nhiều cấp độ khác
+nhau. Những ghi nhận ấy không chỉ dành cho câu chuyện cõng mẹ đi học, mà
+chủ yếu dành cho hơn mười năm anh quay về quê làm giáo viên, vận động học
+sinh trở lại trường và kết nối nguồn lực hỗ trợ các em.
+
+Một số dấu mốc nổi bật:
+
+- **Đề cử Giải thưởng Đạo đức Toàn quốc** và được ghi nhận trong danh sách
+  **Người tốt Trung Quốc**. Các nguồn báo chí cho biết anh từng hai lần
+  được đề cử giải thưởng đạo đức và hai lần vào danh sách Người tốt Trung
+  Quốc.
+- **Giải thưởng Thanh niên Ngũ Tứ Trung Quốc lần thứ 24** năm 2020. Đây là
+  một trong những ghi nhận quan trọng dành cho những người trẻ có đóng góp
+  nổi bật cho cộng đồng; anh là đại diện duy nhất của tỉnh Quý Châu trong
+  đợt trao giải được báo chí địa phương nhắc đến.
+- **Danh hiệu “Giáo viên đẹp nhất năm 2020”** của Trung Quốc. Danh hiệu này
+  ghi nhận những giáo viên có ảnh hưởng tích cực đến học sinh và cộng đồng,
+  đặc biệt ở những địa bàn khó khăn.
+- **Huân chương Lao động Ngày 1 tháng 5 toàn quốc**, cùng các ghi nhận như
+  **Giáo viên tốt Trung Quốc**, **Người lao động tiên tiến tỉnh Quý Châu**
+  và **Cá nhân tiên tiến trong công tác tuyên truyền lý luận cấp tỉnh**.
+- **Đại biểu Đại hội Đảng lần thứ 20 của Trung Quốc**. Đây không phải là
+  một giải thưởng nghề nghiệp, nhưng là sự ghi nhận đối với tiếng nói và
+  đóng góp của một cán bộ giáo dục cơ sở.
+- Năm 2023, những vật dụng gắn với hành trình dạy học của anh, trong đó có
+  tám chiếc xe máy từng dùng để đi vận động học sinh, cùng giấy chứng nhận
+  Giải thưởng Thanh niên Ngũ Tứ, được trao tặng cho **Bảo tàng Giáo viên
+  Trung Quốc** để lưu giữ như tư liệu về nghề dạy học và tinh thần giáo dục
+  có trách nhiệm.
+
+Phía sau những tấm bằng khen và huy chương là những dấu vết rất đời
+thường: tám chiếc xe máy bị chạy hỏng, những chuyến đi đến từng thôn làng,
+những lần bị từ chối và những lá thư của học sinh được anh cất giữ cẩn
+thận.
+
+Có lẽ phần thưởng có ý nghĩa nhất với Lưu Tú Tường không nằm trong tủ kính.
+Đó là việc những học sinh từng được anh kéo trở lại trường đã tốt nghiệp,
+đi làm, rồi có người trở về quê làm giáo viên và trở thành đồng nghiệp của
+anh. Một lời cảm ơn viết trong lá thư, một cuộc gọi báo tin đã đỗ đại học,
+hay một học sinh không còn phải rời trường để đi làm — với người thầy ấy,
+đó đều là những tấm bằng khen sống động.
+
 Điều anh làm không phải là biến mọi đứa trẻ thành thủ khoa. Anh chỉ muốn
 các em có quyền lựa chọn: được tiếp tục học, được nhìn thấy một thế giới
 rộng hơn ngôi làng của mình, và được quyết định tương lai bằng năng lực của
@@ -139,3 +184,6 @@ mà còn để một ngày có thể trở về, xây dựng quê hương và gi
 
 - [Bộ Giáo dục Trung Quốc: Câu chuyện Lưu Tú Tường](http://www.moe.gov.cn/jyb_xwfb/moe_2082/2022/2022_zl25/202210/t20221022_671482.html)
 - [China News: Lưu Tú Tường trở về quê dạy học](http://www.chinanews.com.cn/sh/2022/10-07/9868021.shtml)
+- [Bảo tàng Giáo viên Trung Quốc: Hiện vật nghề dạy học của Lưu Tú Tường](https://tchmuseum.qfnu.edu.cn/info/1256/2639.htm)
+- [Tân Hoa Xã: Lưu Tú Tường vì giáo dục quê hương](http://gz.xinhuanet.com/20241005/02724df7816945948a0e77d2ebcd9056/c.html)
+- [China Daily: Giáo viên đẹp nhất Lưu Tú Tường](https://cn.chinadaily.com.cn/a/202009/24/WS5f6c3030a3101e7ce972654b.html)

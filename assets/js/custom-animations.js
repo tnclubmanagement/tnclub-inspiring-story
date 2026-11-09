@@ -167,6 +167,40 @@
     images.forEach(function (image) { observer.observe(image); });
   }
 
+  function initStoryGalleries() {
+    document.querySelectorAll(".story-gallery").forEach(function (gallery) {
+      var slides = gallery.querySelectorAll(".story-slide");
+      var dots = gallery.querySelector(".story-gallery-dots");
+      var current = 0;
+      if (slides.length < 2 || !dots) return;
+
+      function show(index) {
+        current = (index + slides.length) % slides.length;
+        slides.forEach(function (slide, i) {
+          var active = i === current;
+          slide.classList.toggle("is-active", active);
+          slide.setAttribute("aria-hidden", active ? "false" : "true");
+        });
+        dots.querySelectorAll("button").forEach(function (dot, i) {
+          dot.classList.toggle("is-active", i === current);
+          dot.setAttribute("aria-selected", i === current ? "true" : "false");
+        });
+      }
+
+      slides.forEach(function (_, i) {
+        var dot = document.createElement("button");
+        dot.type = "button";
+        dot.setAttribute("aria-label", "Hiển thị hình " + (i + 1));
+        dot.setAttribute("role", "tab");
+        dot.addEventListener("click", function () { show(i); });
+        dots.appendChild(dot);
+      });
+      gallery.querySelector(".story-gallery-prev").addEventListener("click", function () { show(current - 1); });
+      gallery.querySelector(".story-gallery-next").addEventListener("click", function () { show(current + 1); });
+      show(0);
+    });
+  }
+
   onReady(function () {
     // 1) Hero: chọn ngẫu nhiên 1 trong các ảnh (window.HERO_IMAGES, tránh lặp
     // lại ảnh vừa xem lần trước), rồi zoom nhẹ 1 lần (Ken Burns), không lặp.
@@ -221,6 +255,7 @@
     initMasonry();
     initHomeControls();
     initLazyImages();
+    initStoryGalleries();
 
     // 4) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
     // Lưu ý: phải dùng "li.post-preview" (không phải "li" trống) để không
