@@ -34,18 +34,23 @@ Sau khi push code, vào tab **Actions** của repo để xem quá trình build
 
 ## 3. Đăng bài mới — cách dễ nhất, không cần máy tính
 
-Vào GitHub (web hoặc app điện thoại) → mở repo → vào thư mục `_posts/` →
-**Add file → Create new file**.
+Mỗi bài nằm trong một thư mục riêng theo dạng:
+`posts/YYYY/MM/DD/ten-bai-viet/`. Cách này giúp ảnh và nội dung của một bài
+luôn nằm cùng chỗ, dễ quản lý trên GitHub điện thoại.
 
-- Tên file **phải** theo định dạng: `YYYY-MM-DD-ten-bai-viet.md`
-  (ví dụ: `2026-10-05-cau-chuyen-ve-su-kien-tri.md`)
-- Nội dung file:
+Trên GitHub, chọn **Add file → Create new file** và nhập đường dẫn đầy đủ,
+ví dụ: `posts/2026/10/20/cau-chuyen-ve-su-kien/index.md`.
+
+Nội dung file:
 
 ```markdown
 ---
+layout: post
+date: "2026-10-20 00:00:00 +0700"
 title: "Tên bài viết của bạn"
 subtitle: "Một câu mô tả ngắn, tuỳ chọn"
-cover-img: /assets/img/ten-anh.jpg   # ảnh lớn ở đầu bài, tuỳ chọn
+cover-img: /posts/2026/10/20/cau-chuyen-ve-su-kien/cover.jpg
+thumbnail-img: /posts/2026/10/20/cau-chuyen-ve-su-kien/cover.jpg
 tags: [tag1, tag2]
 ---
 
@@ -59,14 +64,15 @@ Có thể chèn **chữ đậm**, *chữ nghiêng*, ảnh, link, v.v.
 
 ### Thêm ảnh cho bài viết
 
-Upload ảnh vào thư mục `assets/img/` (trên GitHub: vào thư mục đó → **Add
-file → Upload files**), rồi dùng đường dẫn `/assets/img/ten-anh.jpg` trong
-`cover-img` hoặc chèn vào nội dung bài bằng Markdown: `![mô tả](/assets/img/ten-anh.jpg)`.
+Sau khi tạo thư mục bài viết, upload ảnh vào chính thư mục đó (chọn **Add file
+→ Upload files**). Đặt ảnh bìa là `cover.jpg`, rồi dùng đường dẫn
+`/posts/2026/10/20/cau-chuyen-ve-su-kien/cover.jpg` trong front matter. Các ảnh
+khác của bài cũng đặt cùng thư mục và chèn bằng Markdown: `![mô tả](anh-khac.jpg)`.
 
 ## 4. Đăng bài từ máy (nếu muốn viết bằng app soạn thảo quen thuộc)
 
 ```bash
-git add _posts/2026-10-05-cau-chuyen-ve-su-kien-tri.md assets/img/ten-anh.jpg
+git add posts/2026/10/20/cau-chuyen-ve-su-kien/
 git commit -m "Thêm bài: Câu chuyện về sự kiên trì"
 git push
 ```
@@ -113,8 +119,8 @@ matter (đầu file) của bài đó.
 
 ```
 _config.yml       Cấu hình chung của site (tên, màu sắc, comment, v.v.)
-_posts/           Nơi chứa bài viết (mỗi file .md = 1 bài)
+posts/YYYY/MM/DD/ Mỗi bài gồm `index.md`, `cover.jpg` và các ảnh liên quan
 aboutme.md        Trang giới thiệu
-assets/img/       Ảnh dùng trong bài viết / cover image
+assets/img/       Ảnh dùng chung cho toàn site
 .github/workflows/  Workflow build & deploy tự động lên GitHub Pages
 ```

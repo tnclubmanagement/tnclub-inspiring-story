@@ -1,4 +1,30 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+  <svg class="nav-icon-defs" aria-hidden="true" focusable="false">
+    <symbol id="icon-home" viewBox="0 0 24 24">
+      <path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>
+      <path d="M9 21v-6h6v6"/>
+    </symbol>
+    <symbol id="icon-info" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9"/>
+      <path d="M12 11v5M12 8h.01"/>
+    </symbol>
+    <symbol id="icon-tags" viewBox="0 0 24 24">
+      <path d="m3 7 4-4h5l9 9-8 8-9-9Z"/>
+      <circle cx="8.5" cy="7.5" r="1"/>
+    </symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="2"/>
+      <path d="m3 7 9 6 9-6"/>
+    </symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24">
+      <path d="M12 3 20 6v5c0 5-3.4 8.3-8 10-4.6-1.7-8-5-8-10V6Z"/>
+      <path d="m9 12 2 2 4-4"/>
+    </symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24">
+      <circle cx="10.8" cy="10.8" r="6.8"/>
+      <path d="m16 16 5 5"/>
+    </symbol>
+  </svg>
 
   <a class="navbar-brand navbar-brand-with-logo" href="{{ '' | absolute_url }}">
     <img class="navbar-logo-icon" alt="{{ site.title }} logo" src="{{ '/assets/img/icons/logo.svg' | relative_url }}">
@@ -13,7 +39,7 @@
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link nav-link-home" href="{{ '' | absolute_url }}" title="Trang chủ">
-          <span class="fa fa-home" aria-hidden="true"></span>
+          <svg class="nav-line-icon" aria-hidden="true"><use href="#icon-home"></use></svg>
           <span class="nav-link-home-text">Trang chủ</span>
         </a>
       </li>
@@ -32,16 +58,16 @@
         {% else %}
           {%- capture icon -%}
             {%- case link[1] -%}
-              {%- when "aboutme" -%}fa-info-circle
-              {%- when "tags" -%}fa-tags
-              {%- when "contact" -%}fa-envelope
-              {%- when "privacy" -%}fa-shield-alt
-              {%- else -%}fa-circle
+              {%- when "aboutme" -%}icon-info
+              {%- when "tags" -%}icon-tags
+              {%- when "contact" -%}icon-mail
+              {%- when "privacy" -%}icon-shield
+              {%- else -%}icon-info
             {%- endcase -%}
           {%- endcapture -%}
           <li class="nav-item">
             <a class="nav-link nav-link-icon" href="{{ link[1] | relative_url }}">
-              <span class="fa {{ icon | strip }}" aria-hidden="true"></span>
+              <svg class="nav-line-icon" aria-hidden="true"><use href="#{{ icon | strip }}"></use></svg>
               <span>{{ link[0] }}</span>
             </a>
           </li>
@@ -50,7 +76,7 @@
       {% if site.post_search %}
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
-            <span id="nav-search-icon" class="fa fa-search"></span>
+            <svg id="nav-search-icon" class="nav-line-icon" aria-hidden="true"><use href="#icon-search"></use></svg>
             <span id="nav-search-text">Search</span>
           </a>
         </li>
