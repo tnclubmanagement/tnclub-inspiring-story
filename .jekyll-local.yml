@@ -1,0 +1,2 @@
+# Local development overrides. GitHub Pages continues to use _config.yml.
+baseurl: ""
