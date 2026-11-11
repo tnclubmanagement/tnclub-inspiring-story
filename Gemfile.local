@@ -1,0 +1,5 @@
+# Local-only dependencies. GitHub Pages uses the default Gemfile.
+source "https://rubygems.org"
+
+eval_gemfile "Gemfile"
+gem "jekyll-livereload"

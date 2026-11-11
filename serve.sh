@@ -8,6 +8,7 @@ export GEM_HOME="$HOME/.gem-beautiful-jekyll"
 export PATH="$GEM_HOME/bin:$PATH"
 
 cd "$(dirname "$0")"
+export BUNDLE_GEMFILE="$PWD/Gemfile.local"
 
 if ! gem list -i bundler -v ">=0" --silent >/dev/null 2>&1; then
   gem install bundler --no-document

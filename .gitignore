@@ -15,6 +15,7 @@ _site
 # NPM dependencies
 node_modules
 package-lock.json
+Gemfile.local.lock
 
 # IDE configurations
 .idea
