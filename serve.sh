@@ -20,11 +20,18 @@ bundle exec jekyll serve --future --config _config.yml,.jekyll-local.yml "$@" &
 server_pid=$!
 
 cleanup() {
+  trap - INT TERM EXIT
   kill "$server_pid" 2>/dev/null || true
   wait "$server_pid" 2>/dev/null || true
 }
 
-trap cleanup INT TERM EXIT
+stop_server() {
+  cleanup
+  exit 130
+}
+
+trap stop_server INT TERM
+trap cleanup EXIT
 
 printf "Nhấn R để ép reload trang qua LiveReload, Ctrl+C để dừng server.\n"
 

@@ -19,20 +19,30 @@ layout: page
     <label class="sr-only" for="home-post-search">Tìm bài viết</label>
     <input id="home-post-search" class="home-search" type="search" placeholder="Tìm câu chuyện..." autocomplete="off">
   </div>
-  <label class="sr-only" for="home-tag-filter">Lọc theo chủ đề</label>
-  <select id="home-tag-filter" class="home-tag-filter">
-    <option value="">Tất cả chủ đề</option>
-    {% for tag in home_tags %}
-    <option value="{{ tag | slugify }}">{{ tag }}</option>
-    {% endfor %}
-  </select>
   <div class="home-view-switcher" role="group" aria-label="Kiểu hiển thị">
     <button class="home-view-btn is-active" type="button" data-view="grid" aria-label="Dạng lưới" aria-pressed="true">Lưới</button>
     <button class="home-view-btn" type="button" data-view="list" aria-label="Dạng danh sách" aria-pressed="false">Danh sách</button>
     <button class="home-view-btn" type="button" data-view="table" aria-label="Dạng bảng" aria-pressed="false">Bảng</button>
     <button class="home-view-btn" type="button" data-view="timeline" aria-label="Dạng dòng thời gian" aria-pressed="false">Dòng thời gian</button>
   </div>
-  <p class="home-result-count" aria-live="polite">{{ posts.size }} câu chuyện</p>
+  <div class="home-filter-summary-row">
+    <div id="home-tag-filter" class="home-tag-filter-menu">
+      <span class="sr-only" id="home-tag-filter-label">Lọc theo chủ đề</span>
+      <button class="home-tag-filter-trigger" type="button" aria-expanded="false" aria-controls="home-tag-options">
+        Chủ đề: <span class="home-tag-filter-summary">Tất cả</span>
+      </button>
+      <div id="home-tag-options" class="home-tag-options" role="group" aria-labelledby="home-tag-filter-label" hidden>
+        <button class="home-tag-clear" type="button">Tất cả chủ đề</button>
+      {% for tag in home_tags %}
+        <label class="home-tag-option">
+          <input type="checkbox" value="{{ tag | slugify }}">
+          <span>{{ tag }}</span>
+        </label>
+      {% endfor %}
+      </div>
+    </div>
+    <p class="home-result-count" aria-live="polite">{{ posts.size }} câu chuyện</p>
+  </div>
 </section>
 
 <!-- role="list" needed so Safari keeps list semantics with list-style resets. -->
@@ -85,7 +95,9 @@ layout: page
         <span class="badge badge-warning">Bản nháp</span>
         {% endif %}
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-        {{ post.date | date: date_format }}
+        <time datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ post.date | date: date_format }}</time>
+        <span class="date-separator" aria-hidden="true"> · </span>
+        <span class="relative-date" data-date="{{ post.date | date: '%Y-%m-%dT%H:%M:%S%z' }}"></span>
       </p>
       <p class="table-excerpt">{{ post.content | strip_html | replace: "\n", " " | strip | truncatewords: 18 }}</p>
 
@@ -94,7 +106,7 @@ layout: page
         <ul class="list-inline list-unstyled" role="list">
           {% for tag in post.tags %}
           <li class="list-inline-item">
-            <a href="{{ '/tags' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+            <a class="home-tag-chip tag-chip-{{ tag | slugify }}" href="{{ '/tags' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
           </li>
           {% endfor %}
         </ul>

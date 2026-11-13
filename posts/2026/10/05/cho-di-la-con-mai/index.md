@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-05 00:00:00 +0700"
-permalink: /2026-10-05-cho-di-la-con-mai/
+permalink: /post/2026-10-05-cho-di-la-con-mai/
 title: "Cho đi là còn mãi"
 subtitle: "Một hành động nhỏ, một ảnh hưởng lớn"
 cover-img: "/posts/2026/10/05/cho-di-la-con-mai/cover.jpg"

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-03 00:00:00 +0700"
-permalink: /2026-10-03-chao-mung/
+permalink: /post/2026-10-03-chao-mung/
 title: "Chào mừng đến với trang của mình"
 subtitle: "Nơi lưu lại những câu chuyện truyền cảm hứng"
 cover-img: "/posts/2026/10/03/chao-mung/cover.jpg"

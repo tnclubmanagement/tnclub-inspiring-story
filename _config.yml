@@ -2,7 +2,7 @@
 # --- Required options --- #
 ############################
 
-title: Cảm Hứng
+title: Inspiring
 
 author: Tri Ngo
 
@@ -103,7 +103,7 @@ lang: vi
 timezone: "Asia/Ho_Chi_Minh"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /post/:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
@@ -132,6 +132,9 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+
+include:
+  - .well-known
 
 plugins:
   - jekyll-paginate

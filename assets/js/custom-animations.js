@@ -11,11 +11,20 @@
   // khi item cao + ít item (break-inside:avoid). Thay bằng thuật toán
   // "luôn bỏ vào cột đang thấp nhất", đo chiều cao thật.
   function initMasonry() {
-    return;
     var list = document.querySelector(".posts-list");
-    if (!list) return;
-    var items = Array.prototype.slice.call(list.children);
-    if (items.length === 0) return;
+    if (!list) return null;
+    var header = list.querySelector(".posts-table-header");
+    var items = Array.prototype.slice.call(list.querySelectorAll(".post-preview"));
+    if (items.length === 0) return null;
+
+    function restore() {
+      list.classList.remove("js-masonry");
+      list.innerHTML = "";
+      if (header) list.appendChild(header);
+      items.forEach(function (item) {
+        list.appendChild(item);
+      });
+    }
 
     function columnsFor(w) {
       if (w >= 1000) return 3;
@@ -27,14 +36,12 @@
       var n = columnsFor(window.innerWidth);
 
       if (n === 1) {
-        // 1 cột: giữ thứ tự gốc, không cần bọc thêm div/flex.
-        list.classList.remove("js-masonry");
-        items.forEach(function (item) {
-          list.appendChild(item);
-        });
+        restore();
         return;
       }
 
+      // Restore first so each card is measured at the current column width.
+      restore();
       list.classList.add("js-masonry");
       var cols = [];
       for (var i = 0; i < n; i++) {
@@ -44,6 +51,7 @@
       }
       var heights = new Array(n).fill(0);
       items.forEach(function (item) {
+        if (item.hidden) return;
         var idx = 0;
         for (var i = 1; i < n; i++) {
           if (heights[i] < heights[idx]) idx = i;
@@ -63,12 +71,19 @@
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(layout, 200);
     });
+
+    return { items: items, layout: layout, restore: restore };
   }
 
-  function initHomeControls() {
+  function initHomeControls(masonry) {
     var list = document.querySelector(".posts-list");
     var search = document.querySelector("#home-post-search");
     var tagFilter = document.querySelector("#home-tag-filter");
+    var tagOptions = tagFilter ? tagFilter.querySelectorAll("input[type=\"checkbox\"]") : [];
+    var tagTrigger = tagFilter ? tagFilter.querySelector(".home-tag-filter-trigger") : null;
+    var tagOptionsPanel = tagFilter ? tagFilter.querySelector(".home-tag-options") : null;
+    var tagSummary = tagFilter ? tagFilter.querySelector(".home-tag-filter-summary") : null;
+    var tagClear = tagFilter ? tagFilter.querySelector(".home-tag-clear") : null;
     var resultCount = document.querySelector(".home-result-count");
     var emptyState = document.querySelector(".home-empty-state");
     var viewButtons = document.querySelectorAll(".home-view-btn");
@@ -79,6 +94,10 @@
       if (validModes.indexOf(mode) === -1) mode = "grid";
       list.classList.remove("view-grid", "view-list", "view-table", "view-timeline");
       list.classList.add("view-" + mode);
+      if (masonry) {
+        if (mode === "grid") masonry.layout();
+        else masonry.restore();
+      }
       viewButtons.forEach(function (item) {
         var active = item.getAttribute("data-view") === mode;
         item.classList.toggle("is-active", active);
@@ -89,11 +108,11 @@
     function updateUrl() {
       var params = new URLSearchParams(window.location.search);
       var query = search.value.trim();
-      var tag = tagFilter.value;
+      var tags = getSelectedTags();
       var mode = list.className.match(/view-(grid|list|table|timeline)/);
       if (query) params.set("q", query);
       else params.delete("q");
-      if (tag) params.set("tag", tag);
+      if (tags.length) params.set("tag", tags.join(","));
       else params.delete("tag");
       if (mode && mode[1] !== "grid") params.set("view", mode[1]);
       else params.delete("view");
@@ -102,33 +121,71 @@
       window.history.replaceState(null, "", nextUrl);
     }
 
+    function getSelectedTags() {
+      var selected = [];
+      tagOptions.forEach(function (option) {
+        if (option.checked) selected.push(option.value);
+      });
+      return selected;
+    }
+
+    function updateTagSummary() {
+      var selected = getSelectedTags();
+      if (tagSummary) {
+        tagSummary.textContent = selected.length ? selected.length + " đã chọn" : "Tất cả";
+      }
+    }
+
     function applyFilters(shouldUpdateUrl) {
       var query = search.value.trim().toLowerCase();
-      var tag = tagFilter.value;
+      var selectedTags = getSelectedTags();
       var visible = 0;
-      list.querySelectorAll(":scope > .post-preview").forEach(function (card) {
+      var cards = masonry ? masonry.items : list.querySelectorAll(".post-preview");
+      cards.forEach(function (card) {
         var title = (card.getAttribute("data-post-title") || "").toLowerCase();
         var tags = (card.getAttribute("data-post-tags") || "").split(",");
-        var matches = (!query || title.indexOf(query) !== -1) && (!tag || tags.indexOf(tag) !== -1);
+        var matches = (!query || title.indexOf(query) !== -1) &&
+          (!selectedTags.length || selectedTags.some(function (tag) {
+            return tags.indexOf(tag) !== -1;
+          }));
         card.hidden = !matches;
         if (matches) visible += 1;
       });
+      updateTagSummary();
       if (resultCount) resultCount.textContent = visible + " câu chuyện";
       if (emptyState) emptyState.hidden = visible !== 0;
+      if (masonry && list.classList.contains("view-grid")) masonry.layout();
       if (shouldUpdateUrl) updateUrl();
     }
 
     function restoreFromUrl() {
       var params = new URLSearchParams(window.location.search);
       search.value = params.get("q") || "";
-      tagFilter.value = params.get("tag") || "";
-      if (tagFilter.value !== (params.get("tag") || "")) tagFilter.value = "";
+      var selectedTags = (params.get("tag") || "").split(",").filter(Boolean);
+      tagOptions.forEach(function (option) {
+        option.checked = selectedTags.indexOf(option.value) !== -1;
+      });
       setView(params.get("view") || "grid");
       applyFilters(false);
     }
 
     search.addEventListener("input", function () { applyFilters(true); });
-    tagFilter.addEventListener("change", function () { applyFilters(true); });
+    tagOptions.forEach(function (option) {
+      option.addEventListener("change", function () { applyFilters(true); });
+    });
+    if (tagClear) {
+      tagClear.addEventListener("click", function () {
+        tagOptions.forEach(function (option) { option.checked = false; });
+        applyFilters(true);
+      });
+    }
+    if (tagTrigger) {
+      tagTrigger.addEventListener("click", function () {
+        var expanded = tagOptionsPanel.hidden;
+        tagOptionsPanel.hidden = !expanded;
+        tagTrigger.setAttribute("aria-expanded", expanded ? "true" : "false");
+      });
+    }
     viewButtons.forEach(function (button) {
       button.addEventListener("click", function () {
         setView(button.getAttribute("data-view"));
@@ -165,6 +222,24 @@
       });
     }, { rootMargin: "300px 0px" });
     images.forEach(function (image) { observer.observe(image); });
+  }
+
+  function initRelativeDates() {
+    document.querySelectorAll(".relative-date[data-date]").forEach(function (element) {
+      var publishedAt = new Date(element.getAttribute("data-date"));
+      if (Number.isNaN(publishedAt.getTime())) return;
+
+      var diffDays = Math.floor((Date.now() - publishedAt.getTime()) / 86400000);
+      if (diffDays <= 0) {
+        element.textContent = "Hôm nay";
+      } else if (diffDays < 30) {
+        element.textContent = diffDays + " ngày trước";
+      } else if (diffDays < 365) {
+        element.textContent = Math.floor(diffDays / 30) + " tháng trước";
+      } else {
+        element.textContent = Math.floor(diffDays / 365) + " năm trước";
+      }
+    });
   }
 
   function initStoryGalleries() {
@@ -252,9 +327,10 @@
 
     // 3) Masonry thật cho danh sách bài viết (phải chạy trước khi gắn
     // reveal/stagger vì nó di chuyển các <li> sang cấu trúc cột mới).
-    initMasonry();
-    initHomeControls();
+    var masonry = initMasonry();
+    initHomeControls(masonry);
     initLazyImages();
+    initRelativeDates();
     initStoryGalleries();
 
     // 4) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.

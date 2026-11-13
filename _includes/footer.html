@@ -1,0 +1,19 @@
+<footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+        <div class="footer-two-lines">
+          <p class="footer-line footer-line-slogan">
+            {% include footer-slogan.html %}
+          </p>
+          <p class="footer-line footer-line-meta">
+            {% include footer-links.html %}
+            <span class="footer-extra-dot">&bull;</span>
+            {% if site.author %}{{ site.author }}<span class="footer-extra-dot">&bull;</span>{% endif %}
+            {{ site.time | date: '%Y' }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

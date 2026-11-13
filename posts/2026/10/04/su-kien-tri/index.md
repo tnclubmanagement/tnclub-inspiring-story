@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-04 00:00:00 +0700"
-permalink: /2026-10-04-su-kien-tri/
+permalink: /post/2026-10-04-su-kien-tri/
 title: "Sự kiên trì không bao giờ là vô nghĩa"
 subtitle: "Một câu chuyện ngắn về việc không bỏ cuộc"
 cover-img: "/posts/2026/10/04/su-kien-tri/cover.jpg"
