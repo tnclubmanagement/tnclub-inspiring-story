@@ -392,7 +392,6 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
   padding: 0.75rem 1rem;
   color: var(--ink) !important;
   background: rgba(255, 255, 255, 0.86);
-  border-radius: 44% 56% 52% 68%;
   box-shadow: 0 0.75rem 1.5rem rgba(31, 38, 70, 0.12);
   font-size: 0.7rem;
   font-weight: 700;
@@ -986,6 +985,7 @@ body:has(.home-landing) .container-md > .row > [class*="col-"] {
 
 .navbar-custom .navbar-nav .nav-link {
   padding-left: 1.25rem !important;
+  font-weight: 700;
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
