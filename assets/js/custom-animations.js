@@ -311,6 +311,144 @@
     });
   }
 
+  function initHistoryCalendar() {
+    var section = document.querySelector(".history-calendar-section");
+    var data = document.querySelector("#history-events-data");
+    var days = document.querySelector("#history-calendar-days");
+    var monthLabel = document.querySelector("#history-calendar-month");
+    var selectedLabel = document.querySelector("#history-selected-label");
+    var eventList = document.querySelector("#history-event-list");
+    var todayButton = document.querySelector("#history-today-button");
+    var previousButton = document.querySelector("#history-prev-month");
+    var nextButton = document.querySelector("#history-next-month");
+    if (!section || !data || !days || !monthLabel || !selectedLabel || !eventList) return;
+
+    var events;
+    try {
+      events = JSON.parse(data.textContent || "[]");
+    } catch (error) {
+      events = [];
+    }
+    var now = new Date();
+    var selected = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var visibleMonth = new Date(selected.getFullYear(), selected.getMonth(), 1);
+    var monthFormatter = new Intl.DateTimeFormat("vi-VN", { month: "long", year: "numeric" });
+    var dateFormatter = new Intl.DateTimeFormat("vi-VN", {
+      weekday: "long", day: "numeric", month: "long", year: "numeric"
+    });
+
+    function dateKey(month, day) {
+      return String(month + 1).padStart(2, "0") + "-" + String(day).padStart(2, "0");
+    }
+
+    function eventsFor(date) {
+      var key = dateKey(date.getMonth(), date.getDate());
+      return events.filter(function (event) { return event.date === key; });
+    }
+
+    function renderEvents() {
+      var selectedEvents = eventsFor(selected);
+      var isToday = selected.toDateString() === now.toDateString();
+      selectedLabel.textContent = isToday ? "Hôm nay trong lịch sử" : dateFormatter.format(selected);
+      eventList.innerHTML = "";
+
+      if (!selectedEvents.length) {
+        var empty = document.createElement("p");
+        empty.className = "history-events-empty";
+        empty.textContent = isToday
+          ? "Chưa có sự kiện được thêm cho ngày hôm nay."
+          : "Chưa có sự kiện được ghi nhận cho ngày này.";
+        eventList.appendChild(empty);
+        return;
+      }
+
+      selectedEvents.forEach(function (event) {
+        var card = document.createElement("article");
+        card.className = "history-event-card";
+
+        var year = document.createElement("span");
+        year.className = "history-event-year";
+        year.textContent = event.year;
+        card.appendChild(year);
+
+        var title = document.createElement("h4");
+        title.textContent = event.title;
+        card.appendChild(title);
+
+        var description = document.createElement("p");
+        description.textContent = event.description;
+        card.appendChild(description);
+
+        var source = document.createElement("small");
+        source.textContent = "Nguồn: " + event.source;
+        card.appendChild(source);
+        eventList.appendChild(card);
+      });
+    }
+
+    function renderCalendar() {
+      var year = visibleMonth.getFullYear();
+      var month = visibleMonth.getMonth();
+      var firstDay = (new Date(year, month, 1).getDay() + 6) % 7;
+      var daysInMonth = new Date(year, month + 1, 0).getDate();
+      var selectedKey = selected.getFullYear() + "-" + selected.getMonth() + "-" + selected.getDate();
+      monthLabel.textContent = monthFormatter.format(visibleMonth);
+      days.innerHTML = "";
+
+      for (var blank = 0; blank < firstDay; blank += 1) {
+        var spacer = document.createElement("span");
+        spacer.className = "history-calendar-spacer";
+        spacer.setAttribute("aria-hidden", "true");
+        days.appendChild(spacer);
+      }
+
+      for (var day = 1; day <= daysInMonth; day += 1) {
+        var date = new Date(year, month, day);
+        var button = document.createElement("button");
+        var key = year + "-" + month + "-" + day;
+        var hasEvents = eventsFor(date).length > 0;
+        button.type = "button";
+        button.className = "history-calendar-day";
+        button.textContent = day;
+        button.setAttribute("role", "gridcell");
+        button.setAttribute("aria-label", dateFormatter.format(date));
+        button.setAttribute("aria-pressed", key === selectedKey ? "true" : "false");
+        button.classList.toggle("is-selected", key === selectedKey);
+        button.classList.toggle("has-events", hasEvents);
+        button.addEventListener("click", function (event) {
+          selected = new Date(year, month, Number(event.currentTarget.textContent));
+          renderCalendar();
+          renderEvents();
+        });
+        days.appendChild(button);
+      }
+    }
+
+    if (previousButton) {
+      previousButton.addEventListener("click", function () {
+        visibleMonth.setMonth(visibleMonth.getMonth() - 1);
+        renderCalendar();
+      });
+    }
+    if (nextButton) {
+      nextButton.addEventListener("click", function () {
+        visibleMonth.setMonth(visibleMonth.getMonth() + 1);
+        renderCalendar();
+      });
+    }
+    if (todayButton) {
+      todayButton.addEventListener("click", function () {
+        selected = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        visibleMonth = new Date(selected.getFullYear(), selected.getMonth(), 1);
+        renderCalendar();
+        renderEvents();
+      });
+    }
+
+    renderCalendar();
+    renderEvents();
+  }
+
   function initFeaturedStories() {
     var section = document.querySelector(".featured-stories");
     if (!section) return;
@@ -449,6 +587,7 @@
     initLazyImages();
     initRelativeDates();
     initStoryGalleries();
+    initHistoryCalendar();
     initFeaturedStories();
     initHomeSectionDots();
 

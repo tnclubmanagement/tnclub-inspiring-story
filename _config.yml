@@ -74,7 +74,7 @@ footer-hover-col: "#5AA9FF"
 
 # File CSS tuỳ biến thêm (card bo góc, nền tối, chữ đậm kiểu tạp chí)
 site-css:
-  - "/assets/css/custom-styles.css"
+  - "/assets/css/custom-styles.css?v=history-calendar-1"
 
 # JS tuỳ biến thêm: animation fade-in khi cuộn, hero zoom nhẹ, khối màu nền
 site-js:

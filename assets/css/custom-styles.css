@@ -1065,6 +1065,245 @@ body:has(.home-landing) .container-md > .row > [class*="col-"] {
   }
 }
 
+/* ---------- Lịch sử Việt Nam ---------- */
+.history-calendar-section {
+  max-width: 1120px;
+  margin: 0 auto 5rem;
+  padding: clamp(2rem, 5vw, 4rem);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 2rem;
+  background: linear-gradient(135deg, rgba(255, 250, 246, 0.9), rgba(247, 244, 255, 0.92));
+  box-shadow: 0 1.5rem 3rem rgba(31, 38, 70, 0.1);
+}
+
+.history-calendar-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.history-calendar-heading h2 {
+  margin: 0 0 0.7rem;
+  color: var(--ink);
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  line-height: 1;
+}
+
+.history-calendar-heading p:not(.home-eyebrow) {
+  max-width: 36rem;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.history-today-button,
+.history-calendar-nav button {
+  border: 1px solid rgba(29, 29, 43, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  transition: background 180ms ease, transform 180ms ease;
+}
+
+.history-today-button {
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.history-today-button:hover,
+.history-calendar-nav button:hover {
+  background: #fff;
+  transform: translateY(-2px);
+}
+
+.history-calendar-layout {
+  display: grid;
+  grid-template-columns: minmax(270px, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
+  align-items: start;
+}
+
+.history-calendar {
+  padding: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.56);
+}
+
+.history-calendar-nav,
+.history-calendar-weekdays,
+.history-calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.35rem;
+}
+
+.history-calendar-nav {
+  grid-template-columns: 2.25rem 1fr 2.25rem;
+  align-items: center;
+  margin-bottom: 1.1rem;
+}
+
+.history-calendar-nav h3 {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-title);
+  font-size: 1.15rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.history-calendar-nav button {
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.history-calendar-weekdays {
+  margin-bottom: 0.35rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.history-calendar-day,
+.history-calendar-spacer {
+  min-height: 2.35rem;
+}
+
+.history-calendar-day {
+  position: relative;
+  border: 0;
+  border-radius: 0.7rem;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.history-calendar-day:hover,
+.history-calendar-day:focus-visible {
+  background: rgba(90, 169, 255, 0.17);
+  outline: none;
+}
+
+.history-calendar-day.is-selected {
+  background: var(--accent-pink);
+  color: #fff;
+  box-shadow: 0 0.35rem 0.8rem rgba(255, 122, 138, 0.3);
+}
+
+.history-calendar-day.has-events::after {
+  position: absolute;
+  right: 0.35rem;
+  bottom: 0.25rem;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  background: var(--accent-blue);
+  content: "";
+}
+
+.history-calendar-day.is-selected.has-events::after {
+  background: #fff;
+}
+
+.history-calendar-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.history-calendar-legend span {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--accent-blue);
+}
+
+.history-selected-label {
+  margin: 0 0 1rem;
+  color: var(--accent-pink);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.history-event-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.history-event-card {
+  padding: 1.25rem;
+  border-left: 3px solid var(--accent-pink);
+  border-radius: 0 1rem 1rem 0;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.history-event-year {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--accent-blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.history-event-card h4 {
+  margin: 0 0 0.55rem;
+  color: var(--ink);
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.history-event-card p {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.history-event-card small {
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.history-events-empty {
+  margin: 0;
+  padding: 1.25rem;
+  border: 1px dashed rgba(29, 29, 43, 0.18);
+  border-radius: 1rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 680px) {
+  .history-calendar-heading {
+    display: block;
+  }
+
+  .history-today-button {
+    margin-top: 1rem;
+  }
+
+  .history-calendar-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 991px) {
   .navbar-custom {
     top: 10px !important;

@@ -69,6 +69,24 @@ Sau khi tạo thư mục bài viết, upload ảnh vào chính thư mục đó (
 `/posts/2026/10/20/cau-chuyen-ve-su-kien/cover.jpg` trong front matter. Các ảnh
 khác của bài cũng đặt cùng thư mục và chèn bằng Markdown: `![mô tả](anh-khac.jpg)`.
 
+### Thêm sự kiện vào lịch sử
+
+Các mốc trong phần **Lịch sử Việt Nam** được lưu tại `_data/history-events.yml`.
+Mỗi sự kiện dùng ngày và tháng theo dạng `MM-DD`, nên lịch có thể hiện sự
+kiện đó lặp lại vào đúng ngày hằng năm:
+
+```yaml
+- date: "09-02"
+  title: "Tên sự kiện"
+  year: 1945
+  description: "Mô tả ngắn về sự kiện."
+  source: "Tên nguồn tham khảo"
+```
+
+Nên kiểm tra kỹ ngày tháng và ghi nguồn trước khi thêm sự kiện. Với ngày âm
+lịch hoặc mốc thời gian chưa xác định chính xác, hãy ghi chú rõ trong
+`description` thay vì tự quy đổi sang một ngày dương lịch cố định.
+
 ## 4. Đăng bài từ máy (nếu muốn viết bằng app soạn thảo quen thuộc)
 
 ```bash
