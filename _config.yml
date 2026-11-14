@@ -17,9 +17,9 @@ baseurl: "/tnclub-inspiring-story"
 ###############################################
 
 navbar-links:
+  Trang Chủ: "/"
   Bài viết: "posts"
   Lưu trữ: "tags"
-  Liên hệ: "contact"
 
 ################
 # --- Logo --- #

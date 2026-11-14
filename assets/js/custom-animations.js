@@ -86,6 +86,7 @@
     var tagClear = tagFilter ? tagFilter.querySelector(".home-tag-clear") : null;
     var tagClose = tagFilter ? tagFilter.querySelector(".home-tag-close") : null;
     var tagSearch = tagFilter ? tagFilter.querySelector(".home-tag-search") : null;
+    var clearSearch = document.querySelector("#home-search-clear");
     var resultCount = document.querySelector(".home-result-count");
     var emptyState = document.querySelector(".home-empty-state");
     var viewButtons = document.querySelectorAll(".home-view-btn");
@@ -138,15 +139,19 @@
       }
     }
 
+    function updateSearchUi() {
+      if (clearSearch) clearSearch.hidden = !search.value.trim();
+    }
+
     function applyFilters(shouldUpdateUrl) {
       var query = search.value.trim().toLowerCase();
       var selectedTags = getSelectedTags();
       var visible = 0;
       var cards = masonry ? masonry.items : list.querySelectorAll(".post-preview");
       cards.forEach(function (card) {
-        var title = (card.getAttribute("data-post-title") || "").toLowerCase();
+        var searchableText = (card.getAttribute("data-post-search") || card.getAttribute("data-post-title") || "").toLowerCase();
         var tags = (card.getAttribute("data-post-tags") || "").split(",");
-        var matches = (!query || title.indexOf(query) !== -1) &&
+        var matches = (!query || searchableText.indexOf(query) !== -1) &&
           (!selectedTags.length || selectedTags.some(function (tag) {
             return tags.indexOf(tag) !== -1;
           }));
@@ -154,6 +159,7 @@
         if (matches) visible += 1;
       });
       updateTagSummary();
+      updateSearchUi();
       if (resultCount) resultCount.textContent = visible + " câu chuyện";
       if (emptyState) emptyState.hidden = visible !== 0;
       if (masonry && list.classList.contains("view-grid")) masonry.layout();
@@ -172,6 +178,13 @@
     }
 
     search.addEventListener("input", function () { applyFilters(true); });
+    if (clearSearch) {
+      clearSearch.addEventListener("click", function () {
+        search.value = "";
+        search.focus();
+        applyFilters(true);
+      });
+    }
     tagOptions.forEach(function (option) {
       option.addEventListener("change", function () { applyFilters(true); });
     });
@@ -330,6 +343,39 @@
     select("phap-hoa");
   }
 
+  function initHomeSectionDots() {
+    var sections = document.querySelectorAll("[data-home-section]");
+    var dots = document.querySelectorAll("[data-home-dot]");
+    if (!sections.length || !dots.length) return;
+
+    var ticking = false;
+    function update() {
+      var marker = window.innerHeight * 0.35;
+      var current = sections[0].getAttribute("data-home-section");
+      sections.forEach(function (section) {
+        if (section.getBoundingClientRect().top <= marker) {
+          current = section.getAttribute("data-home-section");
+        }
+      });
+      dots.forEach(function (dot) {
+        var active = dot.getAttribute("data-home-dot") === current;
+        dot.classList.toggle("is-active", active);
+        dot.setAttribute("aria-current", active ? "true" : "false");
+      });
+      ticking = false;
+    }
+
+    function requestUpdate() {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(update);
+    }
+
+    window.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate);
+    update();
+  }
+
   onReady(function () {
     // 1) Hero: chọn ảnh ngẫu nhiên rồi chuyển ảnh chậm, tránh gây xao nhãng.
     var hero = document.querySelector(".header-section.has-img .big-img.intro-header");
@@ -404,6 +450,7 @@
     initRelativeDates();
     initStoryGalleries();
     initFeaturedStories();
+    initHomeSectionDots();
 
     // 4) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
     // Lưu ý: phải dùng "li.post-preview" (không phải "li" trống) để không

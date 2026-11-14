@@ -9,6 +9,6 @@ Nếu bạn có câu chuyện truyền cảm hứng muốn chia sẻ, hoặc ch�
 nói chuyện, hãy liên hệ với mình qua:
 
 - Facebook: [trang Facebook của mình](#) <!-- đổi link này sang trang Facebook thật -->
-- Email: <!-- điền email của bạn, ví dụ: ten@gmail.com -->
+- Email: <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a><!-- điền email của bạn, ví dụ: ten@gmail.com -->
 
 Mình sẽ cố gắng phản hồi sớm nhất có thể. Cảm ơn bạn đã ghé qua! 💛

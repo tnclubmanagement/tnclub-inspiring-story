@@ -343,7 +343,7 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
 .home-info-image {
   grid-area: image;
   position: relative;
-  min-height: 330px;
+  min-height: 280px;
   overflow: hidden;
   border: 8px solid rgba(255, 255, 255, 0.72);
   border-radius: 58% 42% 48% 52% / 44% 56% 44% 56%;
@@ -374,9 +374,19 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 330px;
+  min-height: 280px;
   object-fit: cover;
   transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.home-info-card-about .home-info-image {
+  align-self: center;
+  height: 320px;
+  min-height: 0;
+}
+
+.home-info-card-about .home-info-image img {
+  min-height: 0;
 }
 
 .home-info-card:hover .home-info-image img {
@@ -501,6 +511,10 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
   .home-info-image {
     margin: 0.25rem;
   }
+
+  .home-info-card-about .home-info-image {
+    height: 300px;
+  }
 }
 
 .featured-stories {
@@ -554,6 +568,46 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
 .featured-filter.is-active:focus{
   outline: 2px dotted #edae2f;
   outline-offset: 2px;
+}
+
+.home-section-dots {
+  position: fixed;
+  top: 50%;
+  right: 1.25rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  transform: translateY(-50%);
+}
+
+.home-section-dot {
+  display: block;
+  width: 0.55rem;
+  height: 0.55rem;
+  border: 1px solid rgba(30, 42, 90, 0.42);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 0.15rem 0.45rem rgba(31, 38, 70, 0.14);
+  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.home-section-dot:hover,
+.home-section-dot.is-active {
+  border-color: var(--accent-pink);
+  background: var(--accent-pink);
+  transform: scale(1.35);
+}
+
+.home-section-dot:focus-visible {
+  outline: 2px solid var(--accent-pink);
+  outline-offset: 0.25rem;
+}
+
+@media (max-width: 680px) {
+  .home-section-dots {
+    right: 0.7rem;
+  }
 }
 
 .featured-story-grid {
@@ -945,7 +999,6 @@ body:has(.home-landing) .container-md > .row > [class*="col-"] {
 .nav-link-home .fa,
 .nav-link-icon .fa,
 #nav-search-icon {
-  color: var(--accent-pink);
   font-size: 0.9rem;
   line-height: 1;
 }
@@ -1429,6 +1482,46 @@ footer .footer-line a:hover {
   min-width: 0;
 }
 
+.home-search-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0 0 0.45rem 0.25rem;
+}
+
+.home-search-kicker {
+  color: var(--accent-pink);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.home-search-caption {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.home-search-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.home-search-icon {
+  position: absolute;
+  left: 1rem;
+  z-index: 1;
+  width: 1.05rem;
+  height: 1.05rem;
+  fill: none;
+  stroke: var(--accent-pink);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+  pointer-events: none;
+}
+
 .home-filter-summary-row {
   display: grid;
   grid-column: 1 / -1;
@@ -1451,7 +1544,43 @@ footer .footer-line a:hover {
 }
 
 .home-search {
-  padding: 0 1rem;
+  padding: 0 3rem 0 2.75rem;
+  border-color: rgba(255, 122, 138, 0.22);
+  box-shadow: 0 0.35rem 1rem rgba(31, 38, 70, 0.04);
+  transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+}
+
+.home-search::placeholder {
+  color: rgba(29, 29, 43, 0.48);
+}
+
+.home-search:focus {
+  border-color: var(--accent-pink);
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(255, 122, 138, 0.14), 0 0.5rem 1.3rem rgba(31, 38, 70, 0.07);
+}
+
+.home-search-clear {
+  position: absolute;
+  right: 0.65rem;
+  display: grid;
+  width: 1.7rem;
+  height: 1.7rem;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(29, 29, 43, 0.08);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.home-search-clear:hover,
+.home-search-clear:focus-visible {
+  background: var(--accent-pink);
+  color: #fff;
+  outline: none;
 }
 
 .home-tag-filter-menu {
@@ -1586,7 +1715,6 @@ dialog.home-tag-options[open] {
   accent-color: var(--accent-pink);
 }
 
-.home-search:focus,
 .home-tag-filter-trigger:focus {
   border-color: var(--accent-blue);
   box-shadow: 0 0 0 3px rgba(90, 169, 255, 0.14);

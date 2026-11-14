@@ -52,11 +52,9 @@
         {% else %}
           {%- capture icon -%}
             {%- case link[1] -%}
-              {%- when "aboutme" -%}icon-info
+              {%- when "/" -%}icon-home
               {%- when "posts" -%}icon-home
               {%- when "tags" -%}icon-tags
-              {%- when "contact" -%}icon-mail
-              {%- when "privacy" -%}icon-shield
               {%- else -%}icon-info
             {%- endcase -%}
           {%- endcapture -%}
@@ -72,7 +70,7 @@
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
             <svg id="nav-search-icon" class="nav-line-icon" aria-hidden="true"><use href="#icon-search"></use></svg>
-            <span id="nav-search-text">Search</span>
+            <span id="nav-search-text">Tìm Kiếm</span>
           </a>
         </li>
       {%- endif %}

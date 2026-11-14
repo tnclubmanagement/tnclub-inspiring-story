@@ -5,7 +5,7 @@ subtitle: ""
 ---
 
 <main class="home-landing">
-  <section class="home-hero-clean">
+  <section id="home-hero" class="home-hero-clean" data-home-section="hero">
     <div class="home-hero-copy">
       <p class="home-eyebrow">Inspiring stories</p>
       <h1>Những câu chuyện<br><em>đáng để nhớ.</em></h1>
@@ -22,7 +22,7 @@ subtitle: ""
     </div>
   </section>
 
-<section class="landing-intro" aria-labelledby="landing-intro-title">
+<section id="home-intro" class="landing-intro" aria-labelledby="landing-intro-title" data-home-section="intro">
   <div class="landing-intro-copy">
     <p class="landing-intro-kicker">Một góc nhỏ để dừng lại</p>
     <h2 id="landing-intro-title">Chào bạn <span aria-hidden="true">👋</span></h2>
@@ -44,7 +44,7 @@ subtitle: ""
 </section>
 
 {% assign featured_posts = site.pages | where: "layout", "post" | sort: "date" | reverse %}
-<section class="featured-stories" aria-labelledby="featured-stories-title">
+<section id="home-featured" class="featured-stories" aria-labelledby="featured-stories-title" data-home-section="featured">
   <div class="featured-stories-heading">
     <div>
       <p class="home-eyebrow">Đọc chọn lọc</p>
@@ -93,10 +93,10 @@ subtitle: ""
   </div>
 </section>
 
-<section class="home-info-stack" aria-label="Thông tin về website">
+<section id="home-info" class="home-info-stack" aria-label="Thông tin về website" data-home-section="info">
   <article id="about" class="home-info-card home-info-card-about">
     <div class="home-info-image">
-      <img src="{{ '/assets/img/about-modern.jpg' | relative_url }}" alt="Hai người cùng trao đổi ý tưởng trên laptop" loading="lazy">
+      <img src="{{ '/assets/img/about-modern.jpg' | relative_url }}" alt="Tòa nhà hiện đại với mặt tiền kính giữa những tòa nhà cao tầng" loading="lazy">
       <span class="home-info-image-label">01 / Về trang này</span>
     </div>
     <div class="home-info-content">
@@ -112,7 +112,7 @@ subtitle: ""
         ngày hôm nay.
       </p>
       <a class="home-info-link" href="{{ '/aboutme/' | relative_url }}">Đọc thêm về trang này <span aria-hidden="true">↗</span></a>
-      <small class="home-info-credit">Ảnh: Unsplash / John Schnobrich</small>
+      <small class="home-info-credit">Ảnh: Pinterest</small>
     </div>
   </article>
 
@@ -131,12 +131,19 @@ subtitle: ""
         <li>Nếu thấy nội dung chưa phù hợp, hãy gửi lời nhắn để trang điều chỉnh.</li>
       </ul>
       <a class="home-info-link" href="{{ '/privacy/' | relative_url }}">Xem đầy đủ chính sách <span aria-hidden="true">↗</span></a>
-      <small class="home-info-credit">Ảnh: Unsplash / Negative Space</small>
+      <small class="home-info-credit">Ảnh: OfficeChai</small>
     </div>
     <div class="home-info-image">
-      <img src="{{ '/assets/img/privacy-modern.jpg' | relative_url }}" alt="Người dùng thanh toán trực tuyến trên laptop" loading="lazy">
+      <img src="https://officechai.com/wp-content/uploads/2015/05/Cyberecture-egg-shaped-building-mumbai.jpg" alt="Tòa nhà hình quả trứng phát sáng vào ban đêm" loading="lazy">
       <span class="home-info-image-label">02 / Minh bạch</span>
     </div>
   </article>
 </section>
 </main>
+
+<nav class="home-section-dots" aria-label="Điều hướng trang chủ">
+  <a class="home-section-dot is-active" href="#home-hero" data-home-dot="hero" aria-label="Phần mở đầu" aria-current="true"></a>
+  <a class="home-section-dot" href="#home-intro" data-home-dot="intro" aria-label="Giới thiệu" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-featured" data-home-dot="featured" aria-label="Bài viết tiêu biểu" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-info" data-home-dot="info" aria-label="Thông tin website" aria-current="false"></a>
+</nav>
