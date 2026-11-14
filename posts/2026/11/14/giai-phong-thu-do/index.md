@@ -2,9 +2,12 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-10-thang-10-1954/
-title: "10 tháng 10 năm 1954: Giải phóng Thủ đô"
+title: "Lịch sử Việt Nam – 05: Giải phóng Thủ đô"
 subtitle: "Ngày Hà Nội đón những đoàn quân trở về"
 history-date: "10-10"
+series: "Lịch sử Việt Nam"
+series_order: 5
+series_url: "/series/lich-su-viet-nam/"
 cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/M%E1%BB%99t%20con%20ph%E1%BB%91%20H%C3%A0%20N%E1%BB%99i%20v%C3%A0o%20th%C3%A1ng%2010%20n%C4%83m%201954.jpg?width=1600"
 thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/M%E1%BB%99t%20con%20ph%E1%BB%91%20H%C3%A0%20N%E1%BB%99i%20v%C3%A0o%20th%C3%A1ng%2010%20n%C4%83m%201954.jpg?width=800"
 tags: [lịch sử Việt Nam, calendar, Hà Nội]

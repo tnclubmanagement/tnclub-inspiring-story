@@ -2,9 +2,12 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-2-thang-9-1945/
-title: "2 tháng 9 năm 1945: Tuyên ngôn Độc lập"
+title: "Lịch sử Việt Nam – 03: Tuyên ngôn Độc lập"
 subtitle: "Khoảnh khắc khai sinh một nhà nước Việt Nam mới"
 history-date: "09-02"
+series: "Lịch sử Việt Nam"
+series_order: 3
+series_url: "/series/lich-su-viet-nam/"
 cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ba%20Dinh%20Square%20September%202nd%2C%201945.jpg?width=1600"
 thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ba%20Dinh%20Square%20September%202nd%2C%201945.jpg?width=800"
 tags: [lịch sử Việt Nam, calendar, độc lập]

@@ -2,9 +2,12 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-22-thang-12-1944/
-title: "22 tháng 12 năm 1944: Thành lập Quân đội nhân dân Việt Nam"
+title: "Lịch sử Việt Nam – 01: Thành lập Quân đội nhân dân Việt Nam"
 subtitle: "Từ một đội quân nhỏ đến truyền thống vì nhân dân"
 history-date: "12-22"
+series: "Lịch sử Việt Nam"
+series_order: 1
+series_url: "/series/lich-su-viet-nam/"
 cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Vo%20Nguyen%20Giap%2C%20Vietminh%20forces%2C%201944.jpg?width=1600"
 thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Vo%20Nguyen%20Giap%2C%20Vietminh%20forces%2C%201944.jpg?width=800"
 tags: [lịch sử Việt Nam, calendar, quân đội]

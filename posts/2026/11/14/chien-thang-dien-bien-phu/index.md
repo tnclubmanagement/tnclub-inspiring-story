@@ -2,9 +2,12 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-7-thang-5-1954/
-title: "7 tháng 5 năm 1954: Chiến thắng Điện Biên Phủ"
+title: "Lịch sử Việt Nam – 04: Chiến thắng Điện Biên Phủ"
 subtitle: "56 ngày đêm làm nên một dấu mốc lịch sử"
 history-date: "05-07"
+series: "Lịch sử Việt Nam"
+series_order: 4
+series_url: "/series/lich-su-viet-nam/"
 cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Dien%20Bien%20Phu%201954%20French%20prisoners.jpg?width=1600"
 thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Dien%20Bien%20Phu%201954%20French%20prisoners.jpg?width=800"
 tags: [lịch sử Việt Nam, calendar, kháng chiến]

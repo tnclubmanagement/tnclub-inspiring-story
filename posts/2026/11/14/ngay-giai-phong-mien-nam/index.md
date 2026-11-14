@@ -2,9 +2,12 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-30-thang-4-1975/
-title: "30 tháng 4 năm 1975: Ngày đất nước nối liền một dải"
+title: "Lịch sử Việt Nam – 06: Ngày đất nước nối liền một dải"
 subtitle: "Một dấu mốc lớn trong lịch sử hiện đại Việt Nam"
 history-date: "04-30"
+series: "Lịch sử Việt Nam"
+series_order: 6
+series_url: "/series/lich-su-viet-nam/"
 cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Reunification%20day%20banner.jpg?width=1600"
 thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Reunification%20day%20banner.jpg?width=800"
 tags: [lịch sử Việt Nam, calendar, lịch sử hiện đại]

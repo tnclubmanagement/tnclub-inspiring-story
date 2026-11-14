@@ -69,6 +69,36 @@ layout: base
             {% include social-share.html %}
           {% endif %}
 
+          {% if page.series %}
+            {% assign series_posts = site.pages | where: "series", page.series | sort: "series_order" %}
+            {% assign previous_order = page.series_order | minus: 1 %}
+            {% assign next_order = page.series_order | plus: 1 %}
+            {% assign series_previous = series_posts | where: "series_order", previous_order | first %}
+            {% assign series_next = series_posts | where: "series_order", next_order | first %}
+            {% assign series_url = page.series_url | default: '/series/hoa-binh-khong-de-co/' %}
+            <nav class="series-post-navigation" aria-label="Điều hướng trong chuyên đề">
+              <div class="series-post-navigation-heading">
+                <span>Chuyên đề</span>
+                <a href="{{ series_url | relative_url }}">{{ page.series }}</a>
+              </div>
+              <div class="series-post-navigation-links">
+                {% if series_previous %}
+                <a class="series-post-navigation-link previous" href="{{ series_previous.url | relative_url }}">
+                  <span class="series-post-navigation-arrow" aria-hidden="true">←</span>
+                  <span class="series-post-navigation-copy"><small>Bài trước · Phần {{ series_previous.series_order }}</small><strong>{{ series_previous.title }}</strong></span>
+                </a>
+                {% else %}
+                <span class="series-post-navigation-link is-empty"></span>
+                {% endif %}
+                {% if series_next %}
+                <a class="series-post-navigation-link next" href="{{ series_next.url | relative_url }}">
+                  <span class="series-post-navigation-copy"><small>Bài tiếp · Phần {{ series_next.series_order }}</small><strong>{{ series_next.title }}</strong></span>
+                  <span class="series-post-navigation-arrow" aria-hidden="true">→</span>
+                </a>
+                {% endif %}
+              </div>
+            </nav>
+          {% else %}
           <ul class="pagination blog-pager">
             {% if page.previous.url %}
             <li class="page-item previous">
@@ -81,6 +111,7 @@ layout: base
             </li>
             {% endif %}
           </ul>
+          {% endif %}
           {% include comments.html %}
         </div>
       </div>

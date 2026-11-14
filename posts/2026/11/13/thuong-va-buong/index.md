@@ -2,8 +2,11 @@
 layout: post
 date: "2026-11-13 09:00:00 +0700"
 permalink: /post/2026-11-13-thuong-va-buong/
-title: "[Thầy Pháp Hòa] Thương cũng là duyên, buông cũng là duyên"
+title: "Thầy Pháp Hòa – 02: Thương cũng là duyên, buông cũng là duyên"
 subtitle: "Thương một người không đồng nghĩa với việc phải sở hữu hay kiểm soát họ"
+series: "Thầy Pháp Hòa"
+series_order: 2
+series_url: "/series/thay-phap-hoa/"
 cover-img: "/assets/img/hero-2.jpg"
 thumbnail-img: "/assets/img/hero-2.jpg"
 tags: [phap-hoa, tinh-thuong, gia-dinh]

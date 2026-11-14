@@ -2,8 +2,11 @@
 layout: post
 date: "2026-11-13 11:00:00 +0700"
 permalink: /post/2026-11-13-hieu-dung-cach/
-title: "[Thầy Pháp Hòa] Hiếu không chỉ là chăm lo vật chất"
+title: "Thầy Pháp Hòa – 04: Hiếu không chỉ là chăm lo vật chất"
 subtitle: "Một gia đình bình an được xây bằng lời nói và cách sống mỗi ngày"
+series: "Thầy Pháp Hòa"
+series_order: 4
+series_url: "/series/thay-phap-hoa/"
 cover-img: "/assets/img/hero-4.jpg"
 thumbnail-img: "/assets/img/hero-4.jpg"
 tags: [phap-hoa, hieu-dao, gia-dinh]
