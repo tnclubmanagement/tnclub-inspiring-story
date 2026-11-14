@@ -685,21 +685,72 @@ footer .footer-line a:hover {
   box-shadow: 0 0 0 3px rgba(90, 169, 255, 0.14);
 }
 
-.home-tag-options {
-  position: absolute;
-  top: calc(100% + 0.4rem);
-  right: 0;
-  z-index: 10;
-  width: min(17rem, 80vw);
-  padding: 0.5rem;
+dialog.home-tag-options {
+  box-sizing: border-box;
+  width: min(42rem, calc(100vw - 2rem)) !important;
+  max-width: calc(100vw - 2rem);
+  max-height: min(34rem, calc(100vh - 4rem));
+  margin: auto;
+  padding: 1.25rem;
   border: 1px solid rgba(29, 29, 43, 0.12);
-  border-radius: 0.8rem;
+  border-radius: 1rem;
   background: rgba(255, 255, 255, 0.96);
   box-shadow: 0 12px 28px rgba(31, 38, 70, 0.16);
 }
 
-.home-tag-options[hidden] {
-  display: none;
+dialog.home-tag-options[open] {
+  display: block;
+}
+
+.home-tag-options::backdrop {
+  background: rgba(29, 29, 43, 0.35);
+  backdrop-filter: blur(3px);
+}
+
+.home-tag-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  color: var(--ink);
+}
+
+.home-tag-close {
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(29, 29, 43, 0.08);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.home-tag-search {
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding: 0 0.8rem;
+  border: 1px solid rgba(29, 29, 43, 0.14);
+  border-radius: 0.65rem;
+  font: inherit;
+  outline: none;
+}
+
+.home-tag-search:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(90, 169, 255, 0.14);
+}
+
+.home-tag-option-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.45rem;
+  max-height: 23rem;
+  overflow-y: auto;
+  margin-top: 0.75rem;
+  padding-right: 0.25rem;
 }
 
 .home-tag-clear,
@@ -731,6 +782,10 @@ footer .footer-line a:hover {
 .home-tag-option {
   gap: 0.5rem;
   cursor: pointer;
+}
+
+.home-tag-option[hidden] {
+  display: none;
 }
 
 .home-tag-option input {
@@ -1041,6 +1096,10 @@ footer .footer-line a:hover {
 
   .home-view-switcher {
     justify-self: stretch;
+  }
+
+  .home-tag-option-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .home-view-switcher {

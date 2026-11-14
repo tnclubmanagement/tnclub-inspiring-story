@@ -84,6 +84,8 @@
     var tagOptionsPanel = tagFilter ? tagFilter.querySelector(".home-tag-options") : null;
     var tagSummary = tagFilter ? tagFilter.querySelector(".home-tag-filter-summary") : null;
     var tagClear = tagFilter ? tagFilter.querySelector(".home-tag-clear") : null;
+    var tagClose = tagFilter ? tagFilter.querySelector(".home-tag-close") : null;
+    var tagSearch = tagFilter ? tagFilter.querySelector(".home-tag-search") : null;
     var resultCount = document.querySelector(".home-result-count");
     var emptyState = document.querySelector(".home-empty-state");
     var viewButtons = document.querySelectorAll(".home-view-btn");
@@ -179,13 +181,33 @@
         applyFilters(true);
       });
     }
-    if (tagTrigger) {
-      tagTrigger.addEventListener("click", function () {
-        var expanded = tagOptionsPanel.hidden;
-        tagOptionsPanel.hidden = !expanded;
-        tagTrigger.setAttribute("aria-expanded", expanded ? "true" : "false");
+    if (tagSearch) {
+      tagSearch.addEventListener("input", function () {
+        var query = tagSearch.value.trim().toLowerCase();
+        tagFilter.querySelectorAll(".home-tag-option").forEach(function (option) {
+          option.hidden = option.textContent.trim().toLowerCase().indexOf(query) === -1;
+        });
       });
     }
+    if (tagTrigger) {
+      tagTrigger.addEventListener("click", function () {
+        if (!tagOptionsPanel.open) {
+          tagOptionsPanel.showModal();
+          tagTrigger.setAttribute("aria-expanded", "true");
+          if (tagSearch) tagSearch.focus();
+        }
+      });
+    }
+    if (tagClose) tagClose.addEventListener("click", function () { tagOptionsPanel.close(); });
+    tagOptionsPanel.addEventListener("close", function () {
+      tagTrigger.setAttribute("aria-expanded", "false");
+      if (tagSearch) {
+        tagSearch.value = "";
+        tagFilter.querySelectorAll(".home-tag-option").forEach(function (option) {
+          option.hidden = false;
+        });
+      }
+    });
     viewButtons.forEach(function (button) {
       button.addEventListener("click", function () {
         setView(button.getAttribute("data-view"));

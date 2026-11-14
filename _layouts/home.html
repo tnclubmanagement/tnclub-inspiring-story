@@ -31,15 +31,22 @@ layout: page
       <button class="home-tag-filter-trigger" type="button" aria-expanded="false" aria-controls="home-tag-options">
         Chủ đề: <span class="home-tag-filter-summary">Tất cả</span>
       </button>
-      <div id="home-tag-options" class="home-tag-options" role="group" aria-labelledby="home-tag-filter-label" hidden>
+      <dialog id="home-tag-options" class="home-tag-options" aria-labelledby="home-tag-filter-label">
+        <div class="home-tag-dialog-header">
+          <strong id="home-tag-filter-label">Chọn chủ đề</strong>
+          <button class="home-tag-close" type="button" aria-label="Đóng">×</button>
+        </div>
+        <input class="home-tag-search" type="search" placeholder="Tìm chủ đề..." autocomplete="off">
         <button class="home-tag-clear" type="button">Tất cả chủ đề</button>
-      {% for tag in home_tags %}
-        <label class="home-tag-option">
-          <input type="checkbox" value="{{ tag | slugify }}">
-          <span>{{ tag }}</span>
-        </label>
-      {% endfor %}
-      </div>
+        <div class="home-tag-option-grid" role="group">
+        {% for tag in home_tags %}
+          <label class="home-tag-option">
+            <input type="checkbox" value="{{ tag | slugify }}">
+            <span>{{ tag }}</span>
+          </label>
+        {% endfor %}
+        </div>
+      </dialog>
     </div>
     <p class="home-result-count" aria-live="polite">{{ posts.size }} câu chuyện</p>
   </div>
