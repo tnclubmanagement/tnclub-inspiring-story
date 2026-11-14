@@ -345,6 +345,7 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
   position: relative;
   min-height: 330px;
   overflow: hidden;
+  border: 8px solid rgba(255, 255, 255, 0.72);
   border-radius: 58% 42% 48% 52% / 44% 56% 44% 56%;
   background: var(--ink);
   box-shadow: 0 1.25rem 2.5rem rgba(31, 38, 70, 0.16);
@@ -384,10 +385,15 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
 
 .home-info-image-label {
   position: absolute;
-  right: 1.25rem;
+  right: 6.25rem;
   bottom: 1.1rem;
   z-index: 1;
-  color: #fff;
+  margin: 0 !important;
+  padding: 0.75rem 1rem;
+  color: var(--ink) !important;
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 44% 56% 52% 68%;
+  box-shadow: 0 0.75rem 1.5rem rgba(31, 38, 70, 0.12);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -615,7 +621,7 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
 
 .featured-story-content p {
   display: -webkit-box;
-  min-height: 3.6em;
+  min-height: 4.6em;
   margin: 0 0 0.9rem;
   overflow: hidden;
   color: #7b8192;
