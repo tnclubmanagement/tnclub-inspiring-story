@@ -17,11 +17,11 @@ baseurl: "/tnclub-inspiring-story"
 ###############################################
 
 navbar-links:
-  Giới thiệu: "aboutme"
+  Giới thiệu: "/#about"
   Bài viết: "posts"
   Lưu trữ: "tags"
   Liên hệ: "contact"
-  Chính sách: "privacy"
+  Chính sách: "/#privacy"
 
 ################
 # --- Logo --- #

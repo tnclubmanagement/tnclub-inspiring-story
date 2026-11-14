@@ -298,6 +298,38 @@
     });
   }
 
+  function initFeaturedStories() {
+    var section = document.querySelector(".featured-stories");
+    if (!section) return;
+    var filters = section.querySelectorAll(".featured-filter");
+    var cards = Array.prototype.slice.call(section.querySelectorAll(".featured-story-card"));
+
+    function select(tag) {
+      var selectedTags = tag.split(",");
+      var shown = 0;
+      cards.forEach(function (card) {
+        var cardTags = card.getAttribute("data-featured-tags").split(",");
+        var matches = selectedTags.some(function (selectedTag) {
+          return cardTags.indexOf(selectedTag) !== -1;
+        });
+        card.hidden = !matches || shown >= 4;
+        if (matches && shown < 4) shown += 1;
+      });
+      filters.forEach(function (filter) {
+        var active = filter.getAttribute("data-featured-tag") === tag;
+        filter.classList.toggle("is-active", active);
+        filter.setAttribute("aria-selected", active ? "true" : "false");
+      });
+    }
+
+    filters.forEach(function (filter) {
+      filter.addEventListener("click", function () {
+        select(filter.getAttribute("data-featured-tag"));
+      });
+    });
+    select("phap-hoa");
+  }
+
   onReady(function () {
     // 1) Hero: chọn ảnh ngẫu nhiên rồi chuyển ảnh chậm, tránh gây xao nhãng.
     var hero = document.querySelector(".header-section.has-img .big-img.intro-header");
@@ -371,6 +403,7 @@
     initLazyImages();
     initRelativeDates();
     initStoryGalleries();
+    initFeaturedStories();
 
     // 4) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
     // Lưu ý: phải dùng "li.post-preview" (không phải "li" trống) để không
