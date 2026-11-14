@@ -6,6 +6,7 @@ title: "[Hòa bình không dễ có · 09] : Biên giới phía Bắc"
 subtitle: "Những người lính trẻ và người dân ở lại nơi địa đầu"
 series: "Hòa bình không dễ có"
 series_order: 9
+thumbnail-img: "https://sohanews.sohacdn.com/zoom/600_315/2019/2/17/600-1550372086153475138423-crop-1550372118747803080884.png"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới phía Bắc, Vị Xuyên]
 ---
 

@@ -10,7 +10,7 @@ permalink: /series/lich-su-viet-nam/
   <section class="series-hero" aria-labelledby="history-series-title">
     <div class="series-hero-copy">
       <p class="series-landing-kicker">Lịch sử Việt Nam · {{ series_posts.size }} bài</p>
-      <h1 id="history-series-title">Những ngày<br><em>đáng nhớ.</em></h1>
+      <h1 id="history-series-title"><span class="series-hero-title-line">Những ngày</span><br><em>đáng nhớ.</em></h1>
       <p class="series-landing-intro">
         Sáu bài viết ngắn về những dấu mốc quan trọng trong lịch sử Việt Nam,
         được sắp xếp theo trình tự thời gian để dễ đọc và dễ ghi nhớ.

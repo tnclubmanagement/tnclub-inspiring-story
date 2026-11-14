@@ -59,6 +59,12 @@ layout: page
         </div>
       </dialog>
     </div>
+    <div class="home-group-series-toggle">
+      <label for="home-group-series">
+        <input id="home-group-series" type="checkbox" checked>
+        <span>Gom theo series</span>
+      </label>
+    </div>
     <p class="home-result-count" aria-live="polite">{{ posts.size }} câu chuyện</p>
   </div>
 </section>
@@ -76,6 +82,8 @@ layout: page
   <li class="post-preview"
       data-post-title="{{ post.title | strip_html | escape }}"
       data-post-tags="{% for tag in post.tags %}{{ tag | slugify }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+      data-post-series="{{ post.series | default: 'Bài viết độc lập' | escape }}"
+      data-post-series-url="{{ post.series_url | escape }}"
       data-post-search="{{ search_text | strip_html | strip_newlines | escape }}"
       data-post-date="{{ post.date | date: '%Y-%m-%d' }}">
     <span class="timeline-marker" aria-hidden="true"></span>

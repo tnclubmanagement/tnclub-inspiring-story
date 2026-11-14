@@ -10,7 +10,7 @@ permalink: /series/thay-phap-hoa/
   <section class="series-hero" aria-labelledby="phap-hoa-series-title">
     <div class="series-hero-copy">
       <p class="series-landing-kicker">Pháp thoại ứng dụng · {{ series_posts.size }} bài</p>
-      <h1 id="phap-hoa-series-title">Thầy Pháp Hòa<br><em>và những điều bình dị.</em></h1>
+      <h1 id="phap-hoa-series-title"><span class="series-hero-title-line">Thầy Pháp Hòa</span><br><em>và những điều bình dị.</em></h1>
       <p class="series-landing-intro">
         Một tuyển chọn những bài viết ngắn về cách nhìn lại bản thân, nuôi
         dưỡng bình an và sống nhẹ nhàng hơn trong đời sống hằng ngày.

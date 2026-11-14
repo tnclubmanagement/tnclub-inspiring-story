@@ -10,7 +10,7 @@ permalink: /series/hoa-binh-khong-de-co/
   <section class="series-hero" aria-labelledby="series-title">
     <div class="series-hero-copy">
       <p class="series-landing-kicker">Chuyên đề lịch sử · {{ series_posts.size }} phần</p>
-      <h1 id="series-title">Hòa bình<br><em>không dễ có.</em></h1>
+      <h1 id="series-title"><span class="series-hero-title-line">Hòa bình</span><br><em>không dễ có.</em></h1>
       <p class="series-landing-intro">
         Những câu chuyện về người lính, người dân, người mẹ và những người
         sống tiếp cùng ký ức. Không chỉ kể trận đánh, mà nhìn vào mất mát phía

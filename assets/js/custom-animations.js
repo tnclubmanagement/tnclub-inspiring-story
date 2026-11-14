@@ -86,11 +86,56 @@
     var tagClear = tagFilter ? tagFilter.querySelector(".home-tag-clear") : null;
     var tagClose = tagFilter ? tagFilter.querySelector(".home-tag-close") : null;
     var tagSearch = tagFilter ? tagFilter.querySelector(".home-tag-search") : null;
+    var groupSeries = document.querySelector("#home-group-series");
     var clearSearch = document.querySelector("#home-search-clear");
     var resultCount = document.querySelector(".home-result-count");
     var emptyState = document.querySelector(".home-empty-state");
     var viewButtons = document.querySelectorAll(".home-view-btn");
     if (!list || !search || !tagFilter) return;
+
+    function getSeriesGroups() {
+      var groups = [];
+      var byKey = {};
+      masonry.items.forEach(function (card, index) {
+        var key = card.getAttribute("data-post-series") || "Bài viết độc lập";
+        if (!byKey[key]) {
+          byKey[key] = {
+            key: key,
+            url: card.getAttribute("data-post-series-url") || "",
+            items: [],
+            firstIndex: index
+          };
+          groups.push(byKey[key]);
+        }
+        byKey[key].items.push(card);
+      });
+      return groups;
+    }
+
+    function renderSeriesGroups() {
+      if (!masonry) return;
+      masonry.restore();
+      if (!groupSeries || !groupSeries.checked) return;
+
+      var groups = getSeriesGroups();
+      groups.forEach(function (group) {
+        var visibleItems = group.items.filter(function (item) { return !item.hidden; });
+        if (!visibleItems.length && !list.classList.contains("view-grid")) return;
+
+        var heading = document.createElement("li");
+        heading.className = "post-series-heading";
+        var label = document.createElement(group.url ? "a" : "span");
+        label.className = "post-series-heading-label";
+        label.textContent = group.key;
+        if (group.url) {
+          label.href = group.url;
+          label.setAttribute("aria-label", "Mở chuyên đề " + group.key);
+        }
+        heading.appendChild(label);
+        list.appendChild(heading);
+        group.items.forEach(function (item) { list.appendChild(item); });
+      });
+    }
 
     function setView(mode) {
       var validModes = ["grid", "list", "table", "timeline"];
@@ -98,9 +143,11 @@
       list.classList.remove("view-grid", "view-list", "view-table", "view-timeline");
       list.classList.add("view-" + mode);
       if (masonry) {
-        if (mode === "grid") masonry.layout();
+        if (mode === "grid" && (!groupSeries || !groupSeries.checked)) masonry.layout();
         else masonry.restore();
       }
+      renderSeriesGroups();
+      if (masonry && mode === "grid" && (!groupSeries || !groupSeries.checked)) masonry.layout();
       viewButtons.forEach(function (item) {
         var active = item.getAttribute("data-view") === mode;
         item.classList.toggle("is-active", active);
@@ -117,6 +164,8 @@
       else params.delete("q");
       if (tags.length) params.set("tag", tags.join(","));
       else params.delete("tag");
+      if (groupSeries && !groupSeries.checked) params.set("group", "0");
+      else params.delete("group");
       if (mode && mode[1] !== "grid") params.set("view", mode[1]);
       else params.delete("view");
       var queryString = params.toString();
@@ -162,7 +211,8 @@
       updateSearchUi();
       if (resultCount) resultCount.textContent = visible + " câu chuyện";
       if (emptyState) emptyState.hidden = visible !== 0;
-      if (masonry && list.classList.contains("view-grid")) masonry.layout();
+      renderSeriesGroups();
+      if (masonry && list.classList.contains("view-grid") && (!groupSeries || !groupSeries.checked)) masonry.layout();
       if (shouldUpdateUrl) updateUrl();
     }
 
@@ -170,6 +220,7 @@
       var params = new URLSearchParams(window.location.search);
       search.value = params.get("q") || "";
       var selectedTags = (params.get("tag") || "").split(",").filter(Boolean);
+      if (groupSeries) groupSeries.checked = params.get("group") !== "0";
       tagOptions.forEach(function (option) {
         option.checked = selectedTags.indexOf(option.value) !== -1;
       });
@@ -188,6 +239,9 @@
     tagOptions.forEach(function (option) {
       option.addEventListener("change", function () { applyFilters(true); });
     });
+    if (groupSeries) {
+      groupSeries.addEventListener("change", function () { applyFilters(true); });
+    }
     if (tagClear) {
       tagClear.addEventListener("click", function () {
         tagOptions.forEach(function (option) { option.checked = false; });

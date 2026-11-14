@@ -6,6 +6,7 @@ title: "[Hòa bình không dễ có · 10] : Những người ở lại sau chi�
 subtitle: "Những cuộc đời tiếp tục sống cùng mất mát"
 series: "Hòa bình không dễ có"
 series_order: 10
+thumbnail-img: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ngh%C4%A9a_trang_li%E1%BB%87t_s%C4%A9_Tr%C6%B0%E1%BB%9Dng_S%C6%A1n.JPG/1280px-Ngh%C4%A9a_trang_li%E1%BB%87t_s%C4%A9_Tr%C6%B0%E1%BB%9Dng_S%C6%A1n.JPG"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, ký ức chiến tranh, hòa bình]
 ---
 
