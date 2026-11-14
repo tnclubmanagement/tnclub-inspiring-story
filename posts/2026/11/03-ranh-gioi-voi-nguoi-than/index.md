@@ -2,7 +2,10 @@
 layout: post
 date: "2026-11-03 08:00:00 +0700"
 permalink: /post/2026-11-03-ranh-gioi-voi-nguoi-than/
-title: "[Nên-Không Nên] Ranh giới lành mạnh với người thân"
+title: "[Nên-Không Nên · 03] : Ranh giới lành mạnh với người thân"
+series: "Nên – Không nên"
+series_order: 3
+series_url: "/series/nen-khong-nen/"
 subtitle: "Yêu thương không đòi hỏi mình phải luôn nói có"
 cover-img: "/assets/img/hero-3.jpg"
 thumbnail-img: "/assets/img/hero-3.jpg"

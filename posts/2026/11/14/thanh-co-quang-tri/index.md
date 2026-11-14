@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-06-thanh-co-quang-tri/
-title: "Hòa bình không dễ có – 06: Thành cổ Quảng Trị"
+title: "[Hòa bình không dễ có · 06] : Thành cổ Quảng Trị"
 subtitle: "81 ngày đêm và những người nằm lại bên dòng Thạch Hãn"
 series: "Hòa bình không dễ có"
 series_order: 6

@@ -2,12 +2,32 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-10-nhung-nguoi-o-lai/
-title: "Hòa bình không dễ có – 10: Những người ở lại sau chiến tranh"
+title: "[Hòa bình không dễ có · 10] : Những người ở lại sau chiến tranh"
 subtitle: "Những cuộc đời tiếp tục sống cùng mất mát"
 series: "Hòa bình không dễ có"
 series_order: 10
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, ký ức chiến tranh, hòa bình]
 ---
+
+<section class="story-gallery" aria-label="Hình ảnh tư liệu về tưởng niệm sau chiến tranh">
+  <div class="story-gallery-track">
+    <figure class="story-slide is-active">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ngh%C4%A9a%20trang%20li%E1%BB%87t%20s%C4%A9%20Tr%C6%B0%E1%BB%9Dng%20S%C6%A1n.JPG?width=1200" alt="Nghĩa trang liệt sĩ Trường Sơn" loading="lazy">
+      <figcaption>Nghĩa trang liệt sĩ Trường Sơn, một không gian tưởng niệm: <a href="https://commons.wikimedia.org/wiki/File:Nghĩa_trang_liệt_sĩ_Trường_Sơn.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Truong%20Son%20National%20Cemetery%20-%20panoramio.jpg?width=1200" alt="Toàn cảnh nghĩa trang liệt sĩ Trường Sơn" loading="lazy">
+      <figcaption>Không gian tưởng niệm: <a href="https://commons.wikimedia.org/wiki/File:Truong_Son_National_Cemetery_-_panoramio.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ngh%C4%A9a%20trang%20LS%20Khe%20Sanh%201.JPG?width=1200" alt="Nghĩa trang liệt sĩ Khe Sanh" loading="lazy">
+      <figcaption>Nghĩa trang liệt sĩ Khe Sanh: <a href="https://commons.wikimedia.org/wiki/File:Nghĩa_trang_LS_Khe_Sanh_1.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+  </div>
+  <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
+  <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
+  <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
+</section>
 
 Chiến tranh thường có một ngày được ghi là kết thúc. Nhưng với nhiều gia
 đình, chiến tranh không chấm dứt vào ngày tiếng súng ngừng vang. Nó tiếp

@@ -2,7 +2,10 @@
 layout: post
 date: "2026-11-01 08:00:00 +0700"
 permalink: /post/2026-11-01-noi-chuyen-khi-cang-thang/
-title: "[Nên-Không Nên] Nói chuyện khi cả nhà đang căng thẳng"
+title: "[Nên-Không Nên · 01] : Nói chuyện khi cả nhà đang căng thẳng"
+series: "Nên – Không nên"
+series_order: 1
+series_url: "/series/nen-khong-nen/"
 subtitle: "Một cuộc trò chuyện tốt cần đúng lúc, không chỉ đúng ý"
 cover-img: "/assets/img/hero-1.jpg"
 thumbnail-img: "/assets/img/hero-1.jpg"

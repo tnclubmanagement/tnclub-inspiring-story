@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-01-nga-ba-dong-loc/
-title: "Hòa bình không dễ có – 01: Ngã ba Đồng Lộc"
+title: "[Hòa bình không dễ có · 01] : Ngã ba Đồng Lộc"
 subtitle: "Những người giữ đường giữa một tọa độ bị bom đạn vùi lấp"
 series: "Hòa bình không dễ có"
 series_order: 1

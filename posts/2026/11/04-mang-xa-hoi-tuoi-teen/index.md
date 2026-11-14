@@ -2,7 +2,10 @@
 layout: post
 date: "2026-11-04 08:00:00 +0700"
 permalink: /post/2026-11-04-mang-xa-hoi-tuoi-teen/
-title: "[Nên-Không Nên] Tuổi teen và cách dùng mạng xã hội tỉnh táo"
+title: "[Nên-Không Nên · 04] : Tuổi teen và cách dùng mạng xã hội tỉnh táo"
+series: "Nên – Không nên"
+series_order: 4
+series_url: "/series/nen-khong-nen/"
 subtitle: "Không phải điều gì xuất hiện trên màn hình cũng đáng để tin"
 cover-img: "/assets/img/hero-4.jpg"
 thumbnail-img: "/assets/img/hero-4.jpg"

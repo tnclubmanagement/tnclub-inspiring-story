@@ -2,7 +2,10 @@
 layout: post
 date: "2026-11-12 08:00:00 +0700"
 permalink: /post/2026-11-12-tieu-tien-co-chu-dich/
-title: "[Nên-Không Nên] Tiêu tiền có chủ đích"
+title: "[Nên-Không Nên · 10] : Tiêu tiền có chủ đích"
+series: "Nên – Không nên"
+series_order: 10
+series_url: "/series/nen-khong-nen/"
 subtitle: "Biết tiền đi đâu giúp mình bớt lo hơn, không phải sống khắt khe hơn"
 cover-img: "/assets/img/hero-6.jpg"
 thumbnail-img: "/assets/img/hero-6.jpg"

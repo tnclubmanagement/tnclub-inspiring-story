@@ -39,7 +39,7 @@ permalink: /series/lich-su-viet-nam/
           <span class="series-post-number">{{ post.series_order | prepend: "0" | slice: -2, 2 }}</span>
           <span class="series-post-content">
             <span class="series-post-label">Phần {{ post.series_order }}</span>
-            <strong>{{ post.title | remove_first: "Lịch sử Việt Nam – " }}</strong>
+            <strong>{{ post.title }}</strong>
             {% if post.subtitle %}<span class="series-post-subtitle">{{ post.subtitle }}</span>{% endif %}
           </span>
           <span class="series-post-arrow" aria-hidden="true">↗</span>

@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-13 12:00:00 +0700"
 permalink: /post/2026-11-13-cai-qua-tu-tan/
-title: "Thầy Pháp Hòa – 05: Cải quá tự tân: nhận ra để bắt đầu lại"
+title: "[Thầy Pháp Hòa · 05] : Cải quá tự tân: nhận ra để bắt đầu lại"
 subtitle: "Sai lầm không phải là bản án, nếu mình thật sự chịu thay đổi"
 series: "Thầy Pháp Hòa"
 series_order: 5

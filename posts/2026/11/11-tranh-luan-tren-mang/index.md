@@ -2,7 +2,10 @@
 layout: post
 date: "2026-11-11 08:00:00 +0700"
 permalink: /post/2026-11-11-tranh-luan-tren-mang/
-title: "[Nên-Không Nên] Tranh luận trên mạng: biết lúc nào nên dừng"
+title: "[Nên-Không Nên · 09] : Tranh luận trên mạng: biết lúc nào nên dừng"
+series: "Nên – Không nên"
+series_order: 9
+series_url: "/series/nen-khong-nen/"
 subtitle: "Không phải cuộc tranh luận nào cũng cần một người thắng"
 cover-img: "/assets/img/hero-5.jpg"
 thumbnail-img: "/assets/img/hero-5.jpg"

@@ -2,7 +2,10 @@
 layout: post
 date: "2026-11-07 08:00:00 +0700"
 permalink: /post/2026-11-07-thang-dau-di-lam/
-title: "[Nên-Không Nên] Tháng đầu đi làm: nên quan sát trước khi vội chứng minh"
+title: "[Nên-Không Nên · 06] : Tháng đầu đi làm: nên quan sát trước khi vội chứng minh"
+series: "Nên – Không nên"
+series_order: 6
+series_url: "/series/nen-khong-nen/"
 subtitle: "Hiểu cách một đội nhóm vận hành là bước khởi đầu khôn ngoan"
 cover-img: "/assets/img/hero-1.jpg"
 thumbnail-img: "/assets/img/hero-1.jpg"

@@ -2,7 +2,10 @@
 layout: post
 date: "2026-11-10 08:00:00 +0700"
 permalink: /post/2026-11-10-tu-choi-kheo-leo/
-title: "[Nên-Không Nên] Từ chối khéo léo mà không thấy có lỗi"
+title: "[Nên-Không Nên · 08] : Từ chối khéo léo mà không thấy có lỗi"
+series: "Nên – Không nên"
+series_order: 8
+series_url: "/series/nen-khong-nen/"
 subtitle: "Một lời từ chối rõ ràng tốt hơn một lời đồng ý miễn cưỡng"
 cover-img: "/assets/img/hero-4.jpg"
 thumbnail-img: "/assets/img/hero-4.jpg"

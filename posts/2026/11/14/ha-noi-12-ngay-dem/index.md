@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-04-ha-noi-12-ngay-dem/
-title: "Hòa bình không dễ có – 04: Hà Nội 12 ngày đêm"
+title: "[Hòa bình không dễ có · 04] : Hà Nội 12 ngày đêm"
 subtitle: "Bầu trời, trận địa và những người không trở về"
 series: "Hòa bình không dễ có"
 series_order: 4

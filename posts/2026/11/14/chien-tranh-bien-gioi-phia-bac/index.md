@@ -2,12 +2,32 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-09-bien-gioi-phia-bac/
-title: "Hòa bình không dễ có – 09: Biên giới phía Bắc"
+title: "[Hòa bình không dễ có · 09] : Biên giới phía Bắc"
 subtitle: "Những người lính trẻ và người dân ở lại nơi địa đầu"
 series: "Hòa bình không dễ có"
 series_order: 9
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới phía Bắc, Vị Xuyên]
 ---
+
+<section class="story-gallery" aria-label="Hình ảnh tư liệu về chiến tranh biên giới phía Bắc">
+  <div class="story-gallery-track">
+    <figure class="story-slide is-active">
+      <img src="https://sohanews.sohacdn.com/zoom/600_315/2019/2/17/600-1550372086153475138423-crop-1550372118747803080884.png" alt="Bản đồ chiến tranh biên giới phía Bắc năm 1979" loading="lazy">
+      <figcaption>Bản đồ chiến tranh biên giới phía Bắc năm 1979: <a href="https://soha.vn/" rel="noopener">Sohanews</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Main-qimg-635a560adbe72ffdcf64d20710cd0f1f-c.jpg?width=1200" alt="Xe tăng bị phá hủy trong tư liệu về chiến tranh biên giới phía Bắc" loading="lazy">
+      <figcaption>Tư liệu lưu trữ về chiến tranh biên giới phía Bắc; nguồn không ghi rõ địa điểm cụ thể: <a href="https://commons.wikimedia.org/wiki/File:Main-qimg-635a560adbe72ffdcf64d20710cd0f1f-c.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://media-int.vnecdn.net/3542378/data/images/2017/02/16/IMG_4812.JPG_1487245099.jpg" alt="Lệnh của Chủ tịch nước về tổng động viên ngày 5 tháng 3 năm 1979" loading="lazy">
+      <figcaption>Lệnh của Chủ tịch nước về tổng động viên ngày 5/3/1979: <a href="https://media-int.vnecdn.net/3542378/data/images/2017/02/16/IMG_4812.JPG_1487245099.jpg" rel="noopener">tư liệu VnExpress</a>.</figcaption>
+    </figure>
+  </div>
+  <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
+  <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
+  <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
+</section>
 
 Tháng 2 năm 1979, chiến tranh nổ ra trên tuyến biên giới phía Bắc Việt Nam.
 Các tỉnh Lạng Sơn, Cao Bằng, Lào Cai và nhiều địa bàn khác chịu ảnh hưởng

@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-02-tay-tien/
-title: "Hòa bình không dễ có – 02: Tây Tiến"
+title: "[Hòa bình không dễ có · 02] : Tây Tiến"
 subtitle: "Tuổi trẻ đi qua núi rừng, bệnh tật và những mùa chiến đấu"
 series: "Hòa bình không dễ có"
 series_order: 2

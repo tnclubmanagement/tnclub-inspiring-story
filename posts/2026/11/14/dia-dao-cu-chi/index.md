@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-03-dia-dao-cu-chi/
-title: "Hòa bình không dễ có – 03: Địa đạo Củ Chi"
+title: "[Hòa bình không dễ có · 03] : Địa đạo Củ Chi"
 subtitle: "Những con người sống và chiến đấu dưới lòng đất"
 series: "Hòa bình không dễ có"
 series_order: 3

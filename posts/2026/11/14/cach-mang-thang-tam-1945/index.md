@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-19-thang-8-1945/
-title: "Lịch sử Việt Nam – 02: Cách mạng tháng Tám ở Hà Nội"
+title: "[Lịch sử Việt Nam · 02] : Cách mạng tháng Tám ở Hà Nội"
 subtitle: "Ngày Hà Nội giành chính quyền và mở đầu một bước ngoặt lớn"
 history-date: "08-19"
 series: "Lịch sử Việt Nam"

@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-07-hien-luong-ben-hai/
-title: "Hòa bình không dễ có – 07: Cầu Hiền Lương và sông Bến Hải"
+title: "[Hòa bình không dễ có · 07] : Cầu Hiền Lương và sông Bến Hải"
 subtitle: "Một dòng sông, một cây cầu và những gia đình bị chia cắt"
 series: "Hòa bình không dễ có"
 series_order: 7
