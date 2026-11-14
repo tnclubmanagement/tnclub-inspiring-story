@@ -372,7 +372,14 @@
         card.appendChild(year);
 
         var title = document.createElement("h4");
-        title.textContent = event.title;
+        if (event.url) {
+          var titleLink = document.createElement("a");
+          titleLink.href = event.url;
+          titleLink.textContent = event.title;
+          title.appendChild(titleLink);
+        } else {
+          title.textContent = event.title;
+        }
         card.appendChild(title);
 
         var description = document.createElement("p");

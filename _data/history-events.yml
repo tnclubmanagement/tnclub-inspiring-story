@@ -9,12 +9,14 @@
   year: 1975
   description: "Chiến dịch Hồ Chí Minh kết thúc, đất nước bước vào thời kỳ thống nhất."
   source: "Tư liệu lịch sử Việt Nam"
+  url: "/post/lich-su-30-thang-4-1975/"
 
 - date: "05-07"
   title: "Chiến thắng Điện Biên Phủ"
   year: 1954
   description: "Chiến thắng làm nên dấu mốc lớn trong cuộc kháng chiến chống thực dân Pháp."
   source: "Tư liệu lịch sử Việt Nam"
+  url: "/post/lich-su-7-thang-5-1954/"
 
 - date: "07-27"
   title: "Ngày Thương binh - Liệt sĩ"
@@ -27,21 +29,25 @@
   year: 1945
   description: "Nhân dân Hà Nội giành chính quyền, mở đầu cho thắng lợi của Cách mạng tháng Tám."
   source: "Tư liệu lịch sử Việt Nam"
+  url: "/post/lich-su-19-thang-8-1945/"
 
 - date: "09-02"
   title: "Tuyên ngôn Độc lập được đọc tại Quảng trường Ba Đình"
   year: 1945
   description: "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa."
   source: "Tư liệu lịch sử Việt Nam"
+  url: "/post/lich-su-2-thang-9-1945/"
 
 - date: "10-10"
   title: "Ngày Giải phóng Thủ đô"
   year: 1954
   description: "Quân ta tiến vào tiếp quản Hà Nội, mở ra một chặng đường mới của Thủ đô."
   source: "Tư liệu lịch sử Việt Nam"
+  url: "/post/lich-su-10-thang-10-1954/"
 
 - date: "12-22"
   title: "Ngày thành lập Quân đội nhân dân Việt Nam"
   year: 1944
   description: "Đội Việt Nam Tuyên truyền Giải phóng quân, tiền thân của Quân đội nhân dân Việt Nam, được thành lập."
   source: "Tư liệu lịch sử Việt Nam"
+  url: "/post/lich-su-22-thang-12-1944/"
