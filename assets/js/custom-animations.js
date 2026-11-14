@@ -299,8 +299,7 @@
   }
 
   onReady(function () {
-    // 1) Hero: chọn ngẫu nhiên 1 trong các ảnh (window.HERO_IMAGES, tránh lặp
-    // lại ảnh vừa xem lần trước), rồi zoom nhẹ 1 lần (Ken Burns), không lặp.
+    // 1) Hero: chọn ảnh ngẫu nhiên rồi chuyển ảnh chậm, tránh gây xao nhãng.
     var hero = document.querySelector(".header-section.has-img .big-img.intro-header");
     if (hero) {
       var images = window.HERO_IMAGES;
@@ -310,6 +309,24 @@
         var chosen = choices[Math.floor(Math.random() * choices.length)];
         hero.style.backgroundImage = 'url("' + chosen + '")';
         sessionStorage.setItem("heroImagePrev", chosen);
+
+        if (images.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          var currentIndex = images.indexOf(chosen);
+          window.setInterval(function () {
+            currentIndex = (currentIndex + 1) % images.length;
+            var next = document.createElement("span");
+            next.className = "hero-slide-layer";
+            next.style.backgroundImage = 'url("' + images[currentIndex] + '")';
+            hero.appendChild(next);
+            requestAnimationFrame(function () {
+              next.classList.add("is-visible");
+            });
+            window.setTimeout(function () {
+              hero.style.backgroundImage = 'url("' + images[currentIndex] + '")';
+              next.remove();
+            }, 950);
+          }, 7000);
+        }
       }
       requestAnimationFrame(function () {
         requestAnimationFrame(function () {

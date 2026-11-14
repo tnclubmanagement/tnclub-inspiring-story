@@ -18,6 +18,7 @@ baseurl: "/tnclub-inspiring-story"
 
 navbar-links:
   Giới thiệu: "aboutme"
+  Bài viết: "posts"
   Lưu trữ: "tags"
   Liên hệ: "contact"
   Chính sách: "privacy"

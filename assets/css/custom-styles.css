@@ -70,9 +70,29 @@ body {
   transform: translate(0, 0) scale(1);
 }
 
-/* Hero: zoom nhẹ 1 lần (Ken Burns), không lặp lại */
+/* Hero: zoom nhẹ lúc vào trang và chuyển ảnh chậm, không giật */
 .header-section.has-img .big-img {
   overflow: hidden;
+}
+
+.header-section.has-img .big-img > .container-md,
+.header-section.has-img .big-img > .img-desc {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-slide-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+}
+
+.hero-slide-layer.is-visible {
+  opacity: 1;
 }
 
 .header-section.has-img .big-img.intro-header {
@@ -628,6 +648,12 @@ footer .footer-line a:hover {
   box-shadow: 0 12px 28px rgba(31, 38, 70, 0.08);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
+}
+
+.posts-page-intro {
+  margin: -0.75rem 0 1.25rem;
+  color: var(--muted);
+  text-align: center;
 }
 
 .home-search-wrap {
