@@ -533,6 +533,9 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
 }
 
 .featured-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   padding: 0.65rem 0.8rem;
   border: 0;
   border-radius: 0.35rem;
@@ -548,6 +551,10 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
 .featured-filter:hover {
   background: #edae2f;
   color: #fff;
+}
+.featured-filter.is-active:focus{
+  outline: 2px dotted #edae2f;
+  outline-offset: 2px;
 }
 
 .featured-story-grid {
