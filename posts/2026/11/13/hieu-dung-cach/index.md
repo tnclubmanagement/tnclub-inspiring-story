@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-13 11:00:00 +0700"
 permalink: /post/2026-11-13-hieu-dung-cach/
-title: "Hiếu không chỉ là chăm lo vật chất"
+title: "[Thầy Pháp Hòa] Hiếu không chỉ là chăm lo vật chất"
 subtitle: "Một gia đình bình an được xây bằng lời nói và cách sống mỗi ngày"
 cover-img: "/assets/img/hero-4.jpg"
 thumbnail-img: "/assets/img/hero-4.jpg"

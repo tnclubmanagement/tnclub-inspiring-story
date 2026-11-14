@@ -3,8 +3,8 @@ layout: post
 date: "2026-10-15 00:00:00 +0700"
 title: "Klepetan và Malena — tình yêu bay qua 13.000 cây số"
 subtitle: "Một bên không thể bay, một bên vẫn trở về mỗi mùa xuân"
-cover-img: "/posts/2026/10/15/klepetan-malena-doi-chim-co-va-canh-uoc-mo/cover.png"
-thumbnail-img: "/posts/2026/10/15/klepetan-malena-doi-chim-co-va-canh-uoc-mo/cover.png"
+cover-img: "/posts/2026/10/15/klepetan-malena-doi-chim-co-va-canh-uoc-mo/cover.jpg"
+thumbnail-img: "/posts/2026/10/15/klepetan-malena-doi-chim-co-va-canh-uoc-mo/cover.jpg"
 layout-style: magazine
 tags: [dong-vat, long-trung-thanh, tinh-yeu, chau-au]
 ---
@@ -18,8 +18,8 @@ mọi người biết chú đang bay về gặp Malena — người bạn đời
 theo mình.
 
 <figure class="story-figure story-figure-wide">
-  <img src="cover.png" alt="Minh họa Klepetan và Malena, đôi cò nổi tiếng ở Croatia">
-  <figcaption>Klepetan và Malena, đôi cò nổi tiếng ở Croatia. Hình: Wikimedia Commons.</figcaption>
+  <img src="migration-route.png" alt="Klepetan và Malena, đôi cò trắng">
+  <figcaption>Klepetan và Malena trên bản đồ di cư. Hình: YourStory.</figcaption>
 </figure>
 
 ## Malena không thể bay
@@ -43,6 +43,11 @@ cho nó là Klepetan.
 Kể từ đó, Klepetan bay từ miền nam châu Phi trở về Croatia mỗi năm. Quãng
 đường dài khoảng 13.000 km, kéo dài nhiều tuần và đi qua những vùng đất,
 biển và thời tiết khắc nghiệt.
+
+<figure class="story-figure story-figure-wide route-map">
+  <img src="migration-route.png" alt="Bản đồ minh họa đường bay của Klepetan từ Croatia đến miền nam châu Phi">
+  <figcaption>Minh họa quãng đường di cư giữa Croatia và miền nam châu Phi, khoảng 13.000 km.</figcaption>
+</figure>
 
 Malena không thể bay đến gặp Klepetan. Vì vậy, Klepetan là người luôn quay
 về.
@@ -86,4 +91,4 @@ về nơi nào.
 - [BBC: Câu chuyện đôi cò ở Croatia](https://www.bbc.co.uk/programmes/articles/wpDBMVcxMmYBg58jCsfzG0/chance-meetings-that-sparked-wonderful-relationships)
 - [HRT Croatia: Malena qua đời năm 2021](https://magazin.hrt.hr/price-iz-hrvatske/kraj-ljubavne-price-uginula-malena-2292640)
 - [Croatian National Tourist Board: Klepetan và Malena](https://www.htz.hr/hr/press/htz-vijesti/ljubavna-prica-malene-i-klepetana-ispricana-na-drustvenim-mrezama)
-- [Ảnh cover: Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Klepetan_%26_Malena.png)
+- [Ảnh cover và bản đồ: YourStory](https://images.yourstory.com/cs/2/96eabe90392211eb93f18319e8c07a74/Imagembc4-1688567218214.jpg?mode=crop&crop=faces&ar=16:9&format=auto&w=3840&q=75)
