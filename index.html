@@ -22,15 +22,25 @@ subtitle: ""
     </div>
   </section>
 
-<section class="landing-intro glass-surface">
-  <h2>Chào bạn 👋</h2>
-  <p>
-    Đây là nơi mình lưu lại và chia sẻ những câu chuyện truyền cảm hứng mà
-    mình đọc được — về sự kiên trì, lòng tốt, và những khoảnh khắc nhỏ làm
-    thay đổi một ai đó. Hy vọng vài dòng dưới đây sẽ mang lại cho bạn một
-    chút động lực hôm nay.
-  </p>
-  <a class="landing-cta" href="{{ '/posts/' | relative_url }}">Đọc các bài viết ↓</a>
+<section class="landing-intro" aria-labelledby="landing-intro-title">
+  <div class="landing-intro-copy">
+    <p class="landing-intro-kicker">Một góc nhỏ để dừng lại</p>
+    <h2 id="landing-intro-title">Chào bạn <span aria-hidden="true">👋</span></h2>
+    <p>
+      Đây là nơi mình lưu lại và chia sẻ những câu chuyện truyền cảm hứng mà
+      mình đọc được — về sự kiên trì, lòng tốt, và những khoảnh khắc nhỏ làm
+      thay đổi một ai đó.
+    </p>
+    <a class="landing-cta" href="{{ '/posts/' | relative_url }}">Đọc các bài viết <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="landing-intro-visual">
+    <span class="landing-intro-orbit landing-intro-orbit-one" aria-hidden="true"></span>
+    <span class="landing-intro-orbit landing-intro-orbit-two" aria-hidden="true"></span>
+    <div class="landing-intro-image">
+      <img src="{{ '/assets/img/hero-2.jpg' | relative_url }}" alt="Ánh nắng trên con đường giữa thiên nhiên" loading="lazy">
+    </div>
+    <p class="landing-intro-note">Một câu chuyện<br><em>có thể đổi một ngày.</em></p>
+  </div>
 </section>
 
 <section class="home-info-stack" aria-label="Thông tin về website">
