@@ -1,11 +1,14 @@
 ---
 layout: post
 date: "2026-10-10 00:00:00 +0700"
-title: "Nhận giấy báo Bắc Đại giữa công trường, rồi tự viết tiếp tương lai"
+title: "[Không đầu hàng · 05] : Nhận giấy báo Bắc Đại giữa công trường, rồi tự viết tiếp tương lai"
 subtitle: "Thôi Khánh Đào không xem câu chuyện của mình là một phép màu"
-cover-img: "/posts/2026/10/10/nhan-giay-bao-bac-dai-giua-cong-truong/cover.jpg"
-thumbnail-img: "/posts/2026/10/10/nhan-giay-bao-bac-dai-giua-cong-truong/cover.jpg"
+cover-img: "/posts/2026/10/10/nhan-giay-bao-bac-dai-giua-cong-truong/thoi-khanh-dao-nhan-giay-bao.jpg"
+thumbnail-img: "/posts/2026/10/10/nhan-giay-bao-bac-dai-giua-cong-truong/thoi-khanh-dao-nhan-giay-bao.jpg"
 tags: [vuot-kho, hoc-tap, bac-dai, trung-quoc]
+series: "Không đầu hàng"
+series_order: 5
+series_url: "/series/khong-dau-hang/"
 ---
 
 Thôi Khánh Đào nhận giấy báo trúng tuyển Đại học Bắc Kinh khi đang trộn
@@ -17,6 +20,11 @@ một chàng trai làm việc nặng giữa mùa hè, rồi nhận được gi�
 trong những trường đại học danh tiếng nhất Trung Quốc.
 
 Nhưng trước khi có bức ảnh ấy, đã có rất nhiều năm học tập trong im lặng.
+
+<figure class="story-figure story-figure-wide">
+  <img src="/posts/2026/10/10/nhan-giay-bao-bac-dai-giua-cong-truong/thoi-khanh-dao-nhan-giay-bao.jpg" alt="Thôi Khánh Đào cùng gia đình trong ngày nhận giấy báo trúng tuyển" loading="lazy">
+  <figcaption>Thôi Khánh Đào cùng gia đình trong ngày nhận giấy báo trúng tuyển. Ảnh tư liệu do người dùng cung cấp.</figcaption>
+</figure>
 
 ## Người anh cả trong một gia đình nghèo
 

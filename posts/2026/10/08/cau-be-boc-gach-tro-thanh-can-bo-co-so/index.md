@@ -1,11 +1,14 @@
 ---
 layout: post
 date: "2026-10-08 00:00:00 +0700"
-title: "Từ cậu bé bốc gạch đến cán bộ xây dựng quê hương"
+title: "[Không đầu hàng · 03] : Từ cậu bé bốc gạch đến cán bộ xây dựng quê hương"
 subtitle: "Lâm Vạn Đông chọn trở về Vân Nam sau khi tốt nghiệp Thanh Hoa"
 cover-img: "/posts/2026/10/08/cau-be-boc-gach-tro-thanh-can-bo-co-so/cover.jpg"
 thumbnail-img: "/posts/2026/10/08/cau-be-boc-gach-tro-thanh-can-bo-co-so/cover.jpg"
 tags: [vuot-kho, hoc-tap, que-huong, trung-quoc]
+series: "Không đầu hàng"
+series_order: 3
+series_url: "/series/khong-dau-hang/"
 ---
 
 Ngày giấy báo đại học được gửi về, Lâm Vạn Đông đang làm việc ở một công

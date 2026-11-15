@@ -1,12 +1,15 @@
 ---
 layout: post
 date: "2026-10-16 00:00:00 +0700"
-title: "Cõng bạn đến lớp suốt hai năm"
+title: "[Không đầu hàng · 07] : Cõng bạn đến lớp suốt hai năm"
 subtitle: "Trương Thải Hồng và Trần Thần — hai cô gái cùng giữ lấy ước mơ vào đại học"
 cover-img: "/posts/2026/10/16/cong-ban-den-lop/cover.jpg"
 thumbnail-img: "/posts/2026/10/16/cong-ban-den-lop/cover.jpg"
 layout-style: magazine
 tags: [dong-luc, giao-duc, tinh-ban, vuot-kho, trung-quoc]
+series: "Không đầu hàng"
+series_order: 7
+series_url: "/series/khong-dau-hang/"
 ---
 
 Mỗi buổi sáng, Trương Thải Hồng lại cúi người xuống trước mặt bạn.

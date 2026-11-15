@@ -1,12 +1,15 @@
 ---
 layout: post
 date: "2026-10-06 00:00:00 +0700"
-title: "Cõng mẹ đến giảng đường, rồi trở về mở đường cho người khác"
+title: "[Không đầu hàng · 01] : Cõng mẹ đến giảng đường, rồi trở về mở đường cho người khác"
 subtitle: "Lưu Tú Tường và lời hứa không để một đứa trẻ nào phải bỏ học vì nghèo"
 cover-img: "/posts/2026/10/06/luu-xiu-tu-cong-me-den-giang-duong/cover.jpg"
 thumbnail-img: "/posts/2026/10/06/luu-xiu-tu-cong-me-den-giang-duong/cover.jpg"
 layout-style: magazine
 tags: [vuot-kho, giao-duc, long-tot, trung-quoc]
+series: "Không đầu hàng"
+series_order: 1
+series_url: "/series/khong-dau-hang/"
 ---
 
 Có những người bước ra khỏi nghịch cảnh để tìm một cuộc sống dễ dàng hơn.

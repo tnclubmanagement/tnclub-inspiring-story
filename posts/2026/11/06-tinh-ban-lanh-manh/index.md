@@ -2,11 +2,14 @@
 layout: post
 date: "2026-11-06 08:00:00 +0700"
 permalink: /post/2026-11-06-tinh-ban-lanh-manh/
-title: "[Nên-Không Nên] Nhận ra một tình bạn lành mạnh"
+title: "[Nên-Không Nên · 06] : Nhận ra một tình bạn lành mạnh"
 subtitle: "Tình bạn tốt cho phép cả hai được là chính mình"
 cover-img: "/assets/img/hero-6.jpg"
 thumbnail-img: "/assets/img/hero-6.jpg"
 tags: [truong-hoc, tuoi-teen, tinh-ban, cam-xuc]
+series: "Nên – Không nên"
+series_order: 6
+series_url: "/series/nen-khong-nen/"
 ---
 
 Một người bạn tốt không phải là người luôn đồng ý với mình. Đó là người có

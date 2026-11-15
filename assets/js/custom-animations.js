@@ -86,7 +86,9 @@
     var tagClear = tagFilter ? tagFilter.querySelector(".home-tag-clear") : null;
     var tagClose = tagFilter ? tagFilter.querySelector(".home-tag-close") : null;
     var tagSearch = tagFilter ? tagFilter.querySelector(".home-tag-search") : null;
+    var seriesFilter = document.querySelector("#home-series-select");
     var groupSeries = document.querySelector("#home-group-series");
+    var collapsedSeries = {};
     var clearSearch = document.querySelector("#home-search-clear");
     var resultCount = document.querySelector(".home-result-count");
     var emptyState = document.querySelector(".home-empty-state");
@@ -101,6 +103,7 @@
         if (!byKey[key]) {
           byKey[key] = {
             key: key,
+            slug: card.getAttribute("data-post-series-key") || "",
             url: card.getAttribute("data-post-series-url") || "",
             items: [],
             firstIndex: index
@@ -115,25 +118,50 @@
     function renderSeriesGroups() {
       if (!masonry) return;
       masonry.restore();
+      masonry.items.forEach(function (item) {
+        item.classList.remove("is-series-collapsed");
+      });
       if (!groupSeries || !groupSeries.checked) return;
 
       var groups = getSeriesGroups();
       groups.forEach(function (group) {
         var visibleItems = group.items.filter(function (item) { return !item.hidden; });
-        if (!visibleItems.length && !list.classList.contains("view-grid")) return;
+        if (!visibleItems.length) return;
 
         var heading = document.createElement("li");
         heading.className = "post-series-heading";
-        var label = document.createElement(group.url ? "a" : "span");
+        var headingContent = document.createElement("div");
+        headingContent.className = "post-series-heading-content";
+        var toggle = document.createElement("button");
+        toggle.className = "post-series-collapse";
+        toggle.type = "button";
+        toggle.setAttribute("data-series-key", group.slug);
+        toggle.setAttribute("aria-expanded", collapsedSeries[group.slug] ? "false" : "true");
+        toggle.setAttribute("aria-label", (collapsedSeries[group.slug] ? "Mở " : "Thu gọn ") + group.key);
+        var label = document.createElement("span");
         label.className = "post-series-heading-label";
         label.textContent = group.key;
+        var icon = document.createElement("span");
+        icon.className = "post-series-collapse-icon";
+        icon.setAttribute("aria-hidden", "true");
+        icon.textContent = collapsedSeries[group.slug] ? "+" : "−";
+        toggle.appendChild(label);
+        toggle.appendChild(icon);
+        headingContent.appendChild(toggle);
         if (group.url) {
-          label.href = group.url;
-          label.setAttribute("aria-label", "Mở chuyên đề " + group.key);
+          var openSeries = document.createElement("a");
+          openSeries.className = "post-series-open";
+          openSeries.href = group.url;
+          openSeries.textContent = "Mở series ↗";
+          openSeries.setAttribute("aria-label", "Mở series " + group.key);
+          headingContent.appendChild(openSeries);
         }
-        heading.appendChild(label);
+        heading.appendChild(headingContent);
         list.appendChild(heading);
-        group.items.forEach(function (item) { list.appendChild(item); });
+        group.items.forEach(function (item) {
+          item.classList.toggle("is-series-collapsed", Boolean(collapsedSeries[group.slug]));
+          list.appendChild(item);
+        });
       });
     }
 
@@ -159,13 +187,19 @@
       var params = new URLSearchParams(window.location.search);
       var query = search.value.trim();
       var tags = getSelectedTags();
+      var series = seriesFilter ? seriesFilter.value : "";
       var mode = list.className.match(/view-(grid|list|table|timeline)/);
       if (query) params.set("q", query);
       else params.delete("q");
       if (tags.length) params.set("tag", tags.join(","));
       else params.delete("tag");
+      if (series) params.set("series", series);
+      else params.delete("series");
       if (groupSeries && !groupSeries.checked) params.set("group", "0");
       else params.delete("group");
+      var collapsed = Object.keys(collapsedSeries);
+      if (collapsed.length) params.set("collapsed", collapsed.join(","));
+      else params.delete("collapsed");
       if (mode && mode[1] !== "grid") params.set("view", mode[1]);
       else params.delete("view");
       var queryString = params.toString();
@@ -179,6 +213,13 @@
         if (option.checked) selected.push(option.value);
       });
       return selected;
+    }
+
+    function getCollapsedSeriesFromUrl(params) {
+      collapsedSeries = {};
+      (params.get("collapsed") || "").split(",").filter(Boolean).forEach(function (key) {
+        collapsedSeries[key] = true;
+      });
     }
 
     function updateTagSummary() {
@@ -195,15 +236,18 @@
     function applyFilters(shouldUpdateUrl) {
       var query = search.value.trim().toLowerCase();
       var selectedTags = getSelectedTags();
+      var selectedSeries = seriesFilter ? seriesFilter.value : "";
       var visible = 0;
       var cards = masonry ? masonry.items : list.querySelectorAll(".post-preview");
       cards.forEach(function (card) {
         var searchableText = (card.getAttribute("data-post-search") || card.getAttribute("data-post-title") || "").toLowerCase();
         var tags = (card.getAttribute("data-post-tags") || "").split(",");
+        var series = card.getAttribute("data-post-series-key") || "";
         var matches = (!query || searchableText.indexOf(query) !== -1) &&
           (!selectedTags.length || selectedTags.some(function (tag) {
             return tags.indexOf(tag) !== -1;
-          }));
+          })) &&
+          (!selectedSeries || series === selectedSeries);
         card.hidden = !matches;
         if (matches) visible += 1;
       });
@@ -220,7 +264,9 @@
       var params = new URLSearchParams(window.location.search);
       search.value = params.get("q") || "";
       var selectedTags = (params.get("tag") || "").split(",").filter(Boolean);
+      if (seriesFilter) seriesFilter.value = params.get("series") || "";
       if (groupSeries) groupSeries.checked = params.get("group") !== "0";
+      getCollapsedSeriesFromUrl(params);
       tagOptions.forEach(function (option) {
         option.checked = selectedTags.indexOf(option.value) !== -1;
       });
@@ -239,6 +285,9 @@
     tagOptions.forEach(function (option) {
       option.addEventListener("change", function () { applyFilters(true); });
     });
+    if (seriesFilter) {
+      seriesFilter.addEventListener("change", function () { applyFilters(true); });
+    }
     if (groupSeries) {
       groupSeries.addEventListener("change", function () { applyFilters(true); });
     }
@@ -280,6 +329,17 @@
         setView(button.getAttribute("data-view"));
         updateUrl();
       });
+    });
+    list.addEventListener("click", function (event) {
+      var toggle = event.target.closest(".post-series-collapse");
+      if (!toggle) return;
+      var key = toggle.getAttribute("data-series-key");
+      if (!key) return;
+      if (collapsedSeries[key]) delete collapsedSeries[key];
+      else collapsedSeries[key] = true;
+      renderSeriesGroups();
+      if (list.classList.contains("view-grid") && (!groupSeries || !groupSeries.checked)) masonry.layout();
+      updateUrl();
     });
     window.addEventListener("popstate", restoreFromUrl);
     restoreFromUrl();
@@ -579,7 +639,27 @@
     // 1) Hero: chọn ảnh ngẫu nhiên rồi chuyển ảnh chậm, tránh gây xao nhãng.
     var hero = document.querySelector(".header-section.has-img .big-img.intro-header");
     if (hero) {
+      var headerImages = document.querySelector("#header-big-imgs");
       var images = window.HERO_IMAGES;
+      if (!Array.isArray(images) && headerImages) {
+        images = [];
+        var imageCount = parseInt(headerImages.getAttribute("data-num-img") || "0", 10);
+        for (var imageIndex = 1; imageIndex <= imageCount; imageIndex++) {
+          var imageSource = headerImages.getAttribute("data-img-src-" + imageIndex);
+          if (imageSource) images.push(imageSource);
+        }
+      }
+      images = Array.isArray(images) ? images.map(function (source) {
+        try {
+          var parsed = new URL(source, window.location.href);
+          if (parsed.hostname === "tnclubmanagement.github.io") {
+            return parsed.pathname + parsed.search;
+          }
+        } catch (error) {
+          return source;
+        }
+        return source;
+      }) : images;
       if (Array.isArray(images) && images.length > 0) {
         var prev = sessionStorage.getItem("heroImagePrev");
         var choices = images.length > 1 ? images.filter(function (src) { return src !== prev; }) : images;

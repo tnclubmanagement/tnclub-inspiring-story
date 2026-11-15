@@ -1,11 +1,14 @@
 ---
 layout: post
 date: "2026-10-09 00:00:00 +0700"
-title: "Từ cậu bé nhặt phế liệu đến nghiên cứu sinh tiến sĩ Thanh Hoa"
+title: "[Không đầu hàng · 04] : Từ cậu bé nhặt phế liệu đến nghiên cứu sinh tiến sĩ Thanh Hoa"
 subtitle: "Bàng Chúng Vọng mang sự bền bỉ từ căn nhà nghèo vào phòng thí nghiệm"
-cover-img: "/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/cover.jpg"
-thumbnail-img: "/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/cover.jpg"
+cover-img: "/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-me.jpg"
+thumbnail-img: "/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-me.jpg"
 tags: [vuot-kho, hoc-tap, nghien-cuu, trung-quoc]
+series: "Không đầu hàng"
+series_order: 4
+series_url: "/series/khong-dau-hang/"
 ---
 
 Khi nhắc đến Bàng Chúng Vọng, nhiều người nhớ đến hình ảnh một cậu học
@@ -19,6 +22,22 @@ còn nhỏ, Bàng Chúng Vọng từng mắc bệnh tim bẩm sinh. Mẹ phải 
 Sau khi sức khỏe ổn định, cậu bé bắt đầu nhặt giấy, chai nhựa và phế liệu
 để phụ giúp gia đình. Những món đồ bán được không nhiều tiền, nhưng nó cho
 cậu cảm giác mình có thể làm một điều gì đó cho căn nhà của mình.
+
+<section class="story-gallery" aria-label="Hình ảnh về Bàng Chúng Vọng">
+  <div class="story-gallery-track">
+    <figure class="story-slide is-active">
+      <img src="/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-portrait.jpg" alt="Chân dung Bàng Chúng Vọng" loading="lazy">
+      <figcaption>Chân dung Bàng Chúng Vọng: <a href="https://dantri.com.vn/giao-duc/tu-cau-be-nhat-ve-chai-den-nghien-cuu-sinh-tien-si-dai-hoc-top-dau-the-gioi-20250521085059529.htm" rel="noopener">Dân trí</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-me.jpg" alt="Bàng Chúng Vọng bên mẹ trong những năm tháng khó khăn" loading="lazy">
+      <figcaption>Bàng Chúng Vọng bên mẹ trong tư liệu về hành trình vượt khó: <a href="https://dantri.com.vn/giao-duc/tu-cau-be-nhat-ve-chai-den-nghien-cuu-sinh-tien-si-dai-hoc-top-dau-the-gioi-20250521085059529.htm" rel="noopener">Dân trí</a>.</figcaption>
+    </figure>
+  </div>
+  <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
+  <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
+  <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
+</section>
 
 ## Không muốn được nhìn như một người đáng thương
 
@@ -54,6 +73,26 @@ hệ thống laser siêu ổn định. Từ một cậu bé từng nhặt phế 
 theo đuổi công việc nghiên cứu công nghệ chính xác phục vụ nhu cầu của đất
 nước.
 
+## Khi câu chuyện trở về với quê hương
+
+Năm 2025, khi 26 tuổi, Bàng Chúng Vọng vẫn đang là nghiên cứu sinh tiến sĩ
+chuyên ngành thiết bị chính xác tại Đại học Thanh Hoa. Theo Dân trí, anh đã
+công bố một số bài báo nghiên cứu khoa học trên các tạp chí chuyên ngành tại
+Trung Quốc.
+
+Quê hương của anh, huyện Ngô Kiều thuộc tỉnh Hà Bắc, cũng ghi nhận hành
+trình ấy theo một cách khác: chính quyền địa phương bổ nhiệm anh làm chuyên
+gia cố vấn, đồng thời là đại sứ văn hóa – du lịch của huyện. Đây là vai trò
+ở cấp địa phương, không phải một danh hiệu quốc gia; nhưng nó cho thấy câu
+chuyện của một cậu bé từng nhặt ve chai đã trở thành một phần hình ảnh của
+nơi mình sinh ra.
+
+Điều đáng chú ý là Bàng Chúng Vọng không được kể như một “phép màu” tách
+khỏi đời sống. Thành tích của anh được tạo nên từ nhiều năm học tập, làm
+việc và nghiên cứu trong một gia đình có hoàn cảnh đặc biệt. Khi ánh đèn
+truyền thông chiếu vào rồi tắt đi, phần quan trọng nhất vẫn là công việc
+anh tiếp tục làm mỗi ngày.
+
 ## Sự bền bỉ không chỉ dành cho kỳ thi
 
 Thi đỗ đại học có thể là bước ngoặt. Nhưng sau bước ngoặt đó, một người
@@ -71,3 +110,4 @@ người đã ngừng chú ý.
 
 - [Nhân dân nhật báo: Phỏng vấn Bàng Chúng Vọng](https://www.peopleapp.com/column/30050011080-500007040356)
 - [Thanh Hoa: Bàng Chúng Vọng và công việc nghiên cứu](https://mp.weixin.qq.com/s/93he4sF98f4K5dtRtQFuKw)
+- [Dân trí: Từ cậu bé nhặt ve chai đến nghiên cứu sinh tiến sĩ đại học top đầu thế giới](https://dantri.com.vn/giao-duc/tu-cau-be-nhat-ve-chai-den-nghien-cuu-sinh-tien-si-dai-hoc-top-dau-the-gioi-20250521085059529.htm)

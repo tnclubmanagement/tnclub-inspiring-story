@@ -2,9 +2,9 @@
 layout: post
 date: "2026-11-09 08:00:00 +0700"
 permalink: /post/2026-11-09-van-hoa-hop-va-email/
-title: "[Nên-Không Nên · 07] : Văn hóa họp và email: ít hơn nhưng rõ hơn"
+title: "[Nên-Không Nên · 09] : Văn hóa họp và email: ít hơn nhưng rõ hơn"
 series: "Nên – Không nên"
-series_order: 7
+series_order: 9
 series_url: "/series/nen-khong-nen/"
 subtitle: "Thời gian của người khác cũng là một nguồn lực cần được tôn trọng"
 cover-img: "/assets/img/hero-3.jpg"

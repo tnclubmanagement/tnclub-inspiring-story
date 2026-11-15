@@ -1,11 +1,14 @@
 ---
 layout: post
 date: "2026-10-11 00:00:00 +0700"
-title: "Chép bài tập để học, chọn con đường trở thành thầy giáo"
+title: "[Không đầu hàng · 06] : Chép bài tập để học, chọn con đường trở thành thầy giáo"
 subtitle: "Vương Miểu và ước mơ mang tri thức trở lại vùng núi Vân Nam"
 cover-img: "/posts/2026/10/11/chep-bai-tap-den-tro-thanh-thay-giao/cover.jpg"
 thumbnail-img: "/posts/2026/10/11/chep-bai-tap-den-tro-thanh-thay-giao/cover.jpg"
 tags: [vuot-kho, hoc-tap, giao-duc, trung-quoc]
+series: "Không đầu hàng"
+series_order: 6
+series_url: "/series/khong-dau-hang/"
 ---
 
 Ở một ngôi trường vùng núi Vân Nam, Vương Miểu từng có một cách học rất

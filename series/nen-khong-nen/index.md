@@ -12,7 +12,7 @@ permalink: /series/nen-khong-nen/
       <p class="series-landing-kicker">Đời sống · {{ series_posts.size }} bài</p>
       <h1 id="advice-series-title"><span class="series-hero-title-line">Nên làm,</span><br><em>không nên quên.</em></h1>
       <p class="series-landing-intro">
-        Mười bài viết ngắn về gia đình, học tập, công việc, giao tiếp và cách
+        Mười hai bài viết ngắn về gia đình, học tập, công việc, giao tiếp và cách
         sống tỉnh táo hơn trong những lựa chọn rất đời thường.
       </p>
       <a class="series-hero-button" href="#advice-series-list">Xem các bài viết <span aria-hidden="true">→</span></a>
@@ -25,7 +25,7 @@ permalink: /series/nen-khong-nen/
   </section>
   <section id="advice-series-list" class="series-reading-list" aria-labelledby="advice-series-list-title">
     <div class="series-section-heading">
-      <div><p class="series-landing-kicker">Mục lục</p><h2 id="advice-series-list-title">Mười tình huống quen thuộc</h2></div>
+        <div><p class="series-landing-kicker">Mục lục</p><h2 id="advice-series-list-title">Mười hai tình huống quen thuộc</h2></div>
       <p>Đọc theo thứ tự hoặc chọn bài gần với điều bạn đang trải qua.</p>
     </div>
     <ol class="series-post-list">
