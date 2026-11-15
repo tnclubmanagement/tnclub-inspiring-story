@@ -112,6 +112,14 @@
         }
         byKey[key].items.push(card);
       });
+      groups.forEach(function (group) {
+        if (group.slug) {
+          group.items.sort(function (first, second) {
+            return parseInt(first.getAttribute("data-post-series-order") || "9999", 10) -
+              parseInt(second.getAttribute("data-post-series-order") || "9999", 10);
+          });
+        }
+      });
       return groups;
     }
 
