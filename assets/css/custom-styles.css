@@ -2344,6 +2344,7 @@ body,
 }
 
 .series-hero {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1.7fr) minmax(180px, 0.8fr);
   gap: clamp(1.5rem, 4vw, 4rem);
@@ -2358,6 +2359,19 @@ body,
     linear-gradient(135deg, #fff9f1 0%, #f7f3ff 100%);
   box-shadow: 0 1.75rem 3.5rem rgba(31, 38, 70, 0.12);
   overflow: hidden;
+}
+
+.series-hero-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  width: 43%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.92;
+  mask-image: linear-gradient(to right, transparent 0%, #000 22%);
 }
 
 .series-hero-copy {
@@ -2754,6 +2768,14 @@ body,
     margin-bottom: 3.5rem;
     padding: 2rem 1.35rem 1.75rem;
     border-radius: 1.35rem;
+  }
+
+  .series-hero-image {
+    position: relative;
+    width: calc(100% + 2.7rem);
+    height: 280px;
+    margin: 2.5rem -1.35rem -1.75rem;
+    mask-image: linear-gradient(to bottom, transparent 0%, #000 18%);
   }
 
   .series-hero h1 {
