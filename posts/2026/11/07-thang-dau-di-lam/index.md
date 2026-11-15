@@ -17,6 +17,17 @@ quy tắc chưa được viết thành văn. Mục tiêu của giai đoạn này
 chứng minh mình biết hết, mà là hiểu cách đội nhóm vận hành và tạo được sự
 tin cậy bằng những việc nhỏ.
 
+## Một tình huống thường gặp
+
+Mai được giao tổng hợp số liệu cho cuộc họp thứ Sáu. Vì muốn tạo ấn tượng,
+Mai nhận thêm hai việc khác nhưng không hỏi rõ dữ liệu lấy từ đâu và ai duyệt
+kết quả cuối. Đến tối thứ Năm, Mai mới phát hiện một bảng số liệu còn thiếu.
+
+Trong trường hợp này, báo sớm và xác nhận lại phạm vi công việc sẽ chuyên
+nghiệp hơn là âm thầm làm xuyên đêm rồi nộp một bản chưa kiểm tra. Người mới
+không bị đánh giá vì đặt câu hỏi đúng lúc; họ thường mất uy tín khi để rủi ro
+đến phút cuối mới xuất hiện.
+
 ## Nên làm
 
 Ghi lại cách nhóm giao việc, đặt câu hỏi sau khi đã tự tìm hiểu và xác nhận

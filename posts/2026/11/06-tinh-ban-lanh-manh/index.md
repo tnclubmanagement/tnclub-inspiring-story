@@ -28,6 +28,17 @@ Khi có bất đồng, hãy nói về một việc cụ thể: “Mình buồn v
 chuyện riêng của mình”, thay vì kết luận “Cậu chẳng bao giờ tôn trọng mình”.
 Người bạn tốt có thể chưa đồng ý ngay, nhưng sẽ cho mình cơ hội nói rõ.
 
+## Nhìn từ một tình huống cụ thể
+
+Nam không muốn đưa mật khẩu mạng xã hội cho bạn thân. Nếu người bạn nói
+“Không đưa thì chứng tỏ cậu không tin mình”, đó không phải là bằng chứng Nam
+đã làm sai. Nam có thể trả lời: “Mình quý cậu, nhưng mật khẩu là thông tin
+riêng tư. Mình không chia sẻ với bất kỳ ai”.
+
+Nếu sau đó người bạn liên tục gây áp lực, đe dọa hoặc phát tán chuyện riêng,
+Nam nên lưu lại bằng chứng và nói với người lớn đáng tin cậy. Giữ một ranh
+giới không có nghĩa là phải tự xử lý một hành vi bắt nạt hoặc đe dọa.
+
 ## Nên làm
 
 Hỏi thăm thật sự, lắng nghe mà không lập tức phán xét và tôn trọng câu trả

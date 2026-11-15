@@ -18,6 +18,12 @@ nhà khoa học và hàng triệu người dân bình thường. Mỗi người 
 một hoàn cảnh khác nhau, nhưng đều để lại dấu ấn trong hành trình dựng nước,
 giữ nước và xây dựng xã hội.
 
+## Dữ kiện và bảng tra cứu
+
+Các mốc thời gian, chức vụ và đóng góp dưới đây là phần tóm tắt theo các
+nguồn tham khảo. Những chi tiết còn tranh luận hoặc thuộc truyền thuyết được
+ghi chú riêng; phần nhận định về ý nghĩa lịch sử được tách ở cuối bài.
+
 ## Bảng tra nhanh một số nhân vật tiêu biểu
 
 Các mốc dưới đây là thông tin tóm tắt để người đọc dễ định vị nhân vật.
@@ -194,7 +200,7 @@ Bửu, Trần Đại Nghĩa và Đặng Văn Ngữ. Họ cho thấy xây dựng 
 được thực hiện trên chiến trường, mà còn trong phòng thí nghiệm, bệnh viện,
 giảng đường và các công trình nghiên cứu.
 
-## Nhìn lịch sử qua từng con người
+## Suy ngẫm: Nhìn lịch sử qua từng con người
 
 Không nên nhìn các nhân vật lịch sử như những hình tượng hoàn toàn xa lạ
 hay không có khuyết điểm. Mỗi người đều sống trong một bối cảnh cụ thể, với
@@ -211,5 +217,9 @@ gần gũi khi ta nhìn thấy trong đó những con người biết ước mơ
 chọn và dám chịu trách nhiệm với thời đại của mình.
 
 *Nguồn tham khảo: các bộ sử Việt Nam, tư liệu bảo tàng, tư liệu lưu trữ và
-Wikimedia Commons. Khi viết bài chuyên sâu về từng nhân vật, nên kiểm tra
-thêm nguồn học thuật và tài liệu chính thống.*
+Wikimedia Commons. Có thể tra cứu thêm các hồ sơ nhân vật của
+[Bảo tàng Lịch sử Quốc gia](https://baotanglichsu.vn/vi/Articles/3098/nhan-vat-lich-su)
+và bài chuyên khảo về
+[Nguyễn Trãi](https://baotanglichsu.vn/vi/Articles/3098/18122/nguyen-trai-anh-hung-dan-toc-danh-nhan-van-hoa-1380-1442.html).
+Khi viết bài chuyên sâu về từng nhân vật, nên kiểm tra thêm nguồn học thuật
+và tài liệu chính thống.*

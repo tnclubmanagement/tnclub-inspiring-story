@@ -82,19 +82,6 @@ và những hậu quả kéo dài sau khi tiếng bom ngừng lại.
   </figcaption>
 </figure>
 
-<figure class="gallery-video">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/JGTpBZuaO_Y"
-    title="Video về phi công Vũ Xuân Thiều"
-    loading="lazy"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <figcaption class="gallery-video-caption">
-  Tư liệu về phi công Vũ Xuân Thiều trong chiến dịch năm 1972.
-  <a href="https://www.youtube.com/watch?v=JGTpBZuaO_Y" rel="noopener">Xem video gốc trên YouTube</a>.
-  </figcaption>
-</figure>
-
 ## Một cuộc chiến cần cả bầu trời và mặt đất
 
 Đối phó với B-52 không phải nhiệm vụ của một lực lượng duy nhất. Bộ đội
@@ -129,6 +116,19 @@ Video về Vũ Xuân Thiều nên được xem như một tư liệu gợi mở,
 cho việc đối chiếu hồ sơ lịch sử. Những chi tiết về thời điểm, diễn biến
 và nhân chứng cần được đọc cùng các nguồn lưu trữ hoặc bảo tàng chuyên
 ngành.
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/JGTpBZuaO_Y"
+    title="Video về phi công Vũ Xuân Thiều"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+  Tư liệu về phi công Vũ Xuân Thiều trong chiến dịch năm 1972.
+  <a href="https://www.youtube.com/watch?v=JGTpBZuaO_Y" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
 
 ## Người dân trong hầm trú ẩn
 

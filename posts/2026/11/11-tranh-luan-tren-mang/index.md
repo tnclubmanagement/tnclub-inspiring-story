@@ -24,6 +24,18 @@ viết. Kiểm tra nguồn, ngày đăng và bối cảnh trước khi kết lu�
 chỉ đưa ra một ảnh chụp màn hình hoặc một câu trích dẫn rời, hãy coi đó là
 thông tin chưa đầy đủ.
 
+## Một tình huống trên mạng
+
+Bạn thấy một ảnh chụp màn hình tố cáo một cửa hàng và muốn chia sẻ ngay.
+Trước khi làm vậy, hãy tìm bài đăng gốc, xem ngày đăng và kiểm tra xem cửa
+hàng hoặc nguồn độc lập nào đã phản hồi chưa. Nếu chưa đủ thông tin, có thể
+viết “Mình chưa xác minh được, mọi người nên kiểm tra thêm” hoặc không chia
+sẻ.
+
+Nếu người khác trả lời bằng một câu xúc phạm, việc đáp lại bằng một câu nặng
+hơn thường không làm thông tin rõ hơn. Một câu hỏi về nguồn hoặc quyết định
+dừng cuộc trao đổi có thể bảo vệ mình và những người đang đọc.
+
 ## Nên làm
 
 Đọc kỹ trước khi trả lời, phân biệt dữ kiện với quan điểm và dẫn nguồn khi

@@ -27,6 +27,18 @@ Không phải lúc nào cũng cần đề xuất phương án thay thế. Nếu 
 giới hạn an toàn, tài chính hoặc thời gian của mình, một câu từ chối ngắn đã
 đủ.
 
+## Ba tình huống quen thuộc
+
+Ở công việc, có thể từ chối một đầu việc mới khi lịch đã đầy bằng cách nêu
+rõ việc đang ưu tiên và đề nghị người phụ trách cùng sắp xếp lại. Với bạn bè,
+có thể nói “Tối nay mình không đi được, nhưng cuối tuần mình muốn gặp bạn”.
+Với lời mượn tiền, ta không cần bịa lý do; “Mình không thể cho mượn khoản này”
+là một câu trả lời hợp lệ.
+
+Một lời từ chối không cần làm người kia vui ngay lập tức. Điều quan trọng là
+nó rõ ràng, không hứa điều mình không làm được và không biến cuộc trò chuyện
+thành một lần công kích.
+
 ## Nên làm
 
 Trả lời ngắn, nói rõ khả năng của mình và nếu phù hợp thì đưa ra lựa chọn

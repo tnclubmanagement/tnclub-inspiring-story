@@ -22,6 +22,16 @@ Nếu chỉ cần thông báo hoặc xin một câu trả lời đơn giản, em
 có thể đủ. Một cuộc họp phù hợp hơn khi cần cùng phân tích vấn đề, quyết
 định giữa nhiều phương án hoặc xử lý một bất đồng khó giải quyết bằng văn bản.
 
+## Một ví dụ trước và sau
+
+Email “Mọi người xem giúp em file này và phản hồi sớm nhé” khiến người nhận
+không biết cần xem phần nào, phản hồi cho ai và hạn cuối là khi nào.
+
+Có thể viết lại: “Nhờ anh Minh kiểm tra số liệu cột C trong file đính kèm và
+xác nhận trước 16 giờ thứ Sáu. Nếu có chênh lệch, vui lòng ghi chú trực tiếp
+ở dòng tương ứng.” Câu thứ hai dài hơn một chút nhưng giảm được nhiều lượt
+hỏi lại.
+
 ## Nên làm
 
 Trước cuộc họp, ghi rõ mục tiêu, người cần tham gia và điều cần quyết định.

@@ -33,6 +33,8 @@ tags: [lịch sử Việt Nam, calendar, độc lập]
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Dữ kiện lịch sử
+
 Chiều ngày 2 tháng 9 năm 1945, tại Quảng trường Ba Đình ở Hà Nội, Chủ tịch
 Hồ Chí Minh đọc Tuyên ngôn Độc lập trước đông đảo nhân dân. Văn kiện tuyên
 bố sự ra đời của nước Việt Nam Dân chủ Cộng hòa.
@@ -51,7 +53,7 @@ Ngày 2 tháng 9 được ghi nhớ là Quốc khánh Việt Nam. Mỗi năm, ng
 mọi người về giá trị của độc lập, trách nhiệm bảo vệ thành quả của các thế
 hệ đi trước và nhiệm vụ xây dựng một đất nước tốt đẹp hơn.
 
-## Vì sao văn kiện vẫn được nhắc đến?
+## Diễn giải: Vì sao văn kiện vẫn được nhắc đến?
 
 Tuyên ngôn Độc lập vừa tuyên bố sự ra đời của một nhà nước mới, vừa trình
 bày cơ sở chính trị và đạo lý cho quyền tự quyết của dân tộc Việt Nam. Văn

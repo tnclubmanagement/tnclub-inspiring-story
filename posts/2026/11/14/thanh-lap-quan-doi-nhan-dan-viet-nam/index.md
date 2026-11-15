@@ -33,6 +33,8 @@ tags: [lịch sử Việt Nam, calendar, quân đội]
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Dữ kiện lịch sử
+
 Ngày 22 tháng 12 năm 1944, Đội Việt Nam Tuyên truyền Giải phóng quân được
 thành lập tại Cao Bằng. Đội ban đầu chỉ có 34 chiến sĩ, do đồng chí Võ
 Nguyên Giáp tổ chức và chỉ huy.
@@ -55,7 +57,7 @@ Nhìn lại mốc lịch sử này, điều còn được nhắc đến nhiều 
 những ngày đầu: ít người nhưng có lý tưởng rõ ràng, kỷ luật nghiêm và gắn
 bó với nhân dân.
 
-## Vì sao một đội quân nhỏ có ý nghĩa lớn?
+## Diễn giải: Vì sao một đội quân nhỏ có ý nghĩa lớn?
 
 Trong bối cảnh thuộc địa và chiến tranh, một lực lượng vũ trang không thể
 chỉ dựa vào vũ khí. Đội cần liên lạc, hậu cần, nơi trú ẩn và sự tin cậy của
@@ -71,3 +73,4 @@ khẩu hiệu.
 
 - [Bảo tàng Lịch sử Quân sự Việt Nam: Việt Nam Giải phóng quân – lực lượng nòng cốt trong Tổng khởi nghĩa](https://btlsqsvn.mod.gov.vn/tin-tuc/chi-tiet/viet-nam-giai-phong-quan-luc-luong-nong-cot-trong-tong-khoi-nghia-bad6ceec-2b85-4927-bbfe-999c9039cd59)
 - [Bộ Tư lệnh Bảo vệ Lăng Chủ tịch Hồ Chí Minh: Quân đội nhân dân Việt Nam](https://btllang.mod.gov.vn/tin-tuc/tin-tong-hop/3003-quan-do-i-nhan-dan-vie-t-nam-70-nam-xay-du-ng-chie-n-da-u-va-truo-ng-tha-nh.html)
+- [Bảo tàng Lịch sử Quốc gia: Sự kiện thành lập Đội Việt Nam Tuyên truyền Giải phóng quân](https://baotanglichsu.vn/vi/Articles/3097/75108/su-kien-thanh-lap-djoi-viet-nam-tuyen-truyen-giai-phong-quan-qua-suu-tap-hien-vat-tai-lieu-tai-bao-tang-lich-su-quoc-gia.html)
