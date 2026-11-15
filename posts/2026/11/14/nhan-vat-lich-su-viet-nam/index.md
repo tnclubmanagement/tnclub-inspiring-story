@@ -4,8 +4,8 @@ date: "2026-11-14 00:00:00 +0700"
 permalink: /post/nhan-vat-lich-su-viet-nam/
 title: "Những nhân vật làm nên lịch sử Việt Nam"
 subtitle: "Một bức tranh khái quát về những con người đáng nhớ qua các thời kỳ"
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ba%20Dinh%20Square%20September%202nd%2C%201945.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ba%20Dinh%20Square%20September%202nd%2C%201945.jpg?width=800"
+cover-img: "/posts/2026/11/14/nhan-vat-lich-su-viet-nam/banner-lich-su-viet-nam.jpg"
+thumbnail-img: "/posts/2026/11/14/nhan-vat-lich-su-viet-nam/banner-lich-su-viet-nam.jpg"
 tags: [lịch sử Việt Nam, nhân vật lịch sử, calendar]
 ---
 
@@ -26,6 +26,7 @@ ngôi” được thay bằng mốc bắt đầu chức vụ hoặc vai trò n�
   <table>
     <thead>
       <tr>
+        <th>STT</th>
         <th>Nhân vật</th>
         <th>Sinh – mất</th>
         <th>Lên ngôi / bắt đầu vai trò</th>
@@ -33,30 +34,30 @@ ngôi” được thay bằng mốc bắt đầu chức vụ hoặc vai trò n�
       </tr>
     </thead>
     <tbody>
-      <tr><td>Hùng Vương</td><td>Thời truyền thuyết</td><td>Chưa xác định</td><td>Vua nước Văn Lang</td></tr>
-      <tr><td>An Dương Vương</td><td>? – khoảng 179 TCN</td><td>Khoảng 257 TCN</td><td>Vua nước Âu Lạc</td></tr>
-      <tr><td>Hai Bà Trưng</td><td>Trưng Trắc: ? – 43<br>Trưng Nhị: ? – 43</td><td>Năm 40</td><td>Nữ vương, lãnh đạo khởi nghĩa</td></tr>
-      <tr><td>Bà Triệu</td><td>226 – 248</td><td>Khoảng 248</td><td>Thủ lĩnh khởi nghĩa</td></tr>
-      <tr><td>Ngô Quyền</td><td>808 – 944</td><td>Năm 939</td><td>Vua, người mở đầu thời kỳ tự chủ</td></tr>
-      <tr><td>Lý Thái Tổ</td><td>974 – 1028</td><td>Năm 1009</td><td>Hoàng đế, người dời đô về Thăng Long</td></tr>
-      <tr><td>Lý Thường Kiệt</td><td>1019 – 1105</td><td>—</td><td>Thái úy, danh tướng nhà Lý</td></tr>
-      <tr><td>Trần Hưng Đạo</td><td>1228 – 1300</td><td>—</td><td>Quốc công Tiết chế</td></tr>
-      <tr><td>Chu Văn An</td><td>1292 – 1370</td><td>—</td><td>Nhà giáo, Tư nghiệp Quốc Tử Giám</td></tr>
-      <tr><td>Lê Lợi</td><td>1385 – 1433</td><td>Năm 1428</td><td>Hoàng đế, thủ lĩnh khởi nghĩa Lam Sơn</td></tr>
-      <tr><td>Nguyễn Trãi</td><td>1380 – 1442</td><td>—</td><td>Nhà chính trị, nhà văn hóa</td></tr>
-      <tr><td>Lê Thánh Tông</td><td>1442 – 1497</td><td>Năm 1460</td><td>Hoàng đế nhà Lê sơ</td></tr>
-      <tr><td>Nguyễn Huệ – Quang Trung</td><td>1753 – 1792</td><td>Năm 1788</td><td>Hoàng đế, thủ lĩnh phong trào Tây Sơn</td></tr>
-      <tr><td>Nguyễn Ánh – Gia Long</td><td>1762 – 1820</td><td>Năm 1802</td><td>Hoàng đế, vị vua đầu triều Nguyễn</td></tr>
-      <tr><td>Nguyễn Trung Trực</td><td>1838 – 1868</td><td>—</td><td>Thủ lĩnh nghĩa quân chống Pháp</td></tr>
-      <tr><td>Phan Đình Phùng</td><td>1847 – 1895</td><td>—</td><td>Lãnh tụ khởi nghĩa Hương Khê</td></tr>
-      <tr><td>Hoàng Hoa Thám</td><td>1858 – 1913</td><td>—</td><td>Lãnh tụ khởi nghĩa Yên Thế</td></tr>
-      <tr><td>Phan Bội Châu</td><td>1867 – 1940</td><td>—</td><td>Nhà yêu nước, nhà hoạt động cách mạng</td></tr>
-      <tr><td>Phan Châu Trinh</td><td>1872 – 1926</td><td>—</td><td>Nhà yêu nước, nhà canh tân</td></tr>
-      <tr><td>Hồ Chí Minh</td><td>1890 – 1969</td><td>Năm 1945</td><td>Chủ tịch nước Việt Nam Dân chủ Cộng hòa</td></tr>
-      <tr><td>Võ Nguyên Giáp</td><td>1911 – 2013</td><td>Năm 1948</td><td>Đại tướng, Tổng Tư lệnh Quân đội nhân dân Việt Nam</td></tr>
-      <tr><td>Nguyễn Thị Minh Khai</td><td>1910 – 1941</td><td>—</td><td>Nhà hoạt động cách mạng</td></tr>
-      <tr><td>Võ Thị Sáu</td><td>1933 – 1952</td><td>—</td><td>Nữ du kích, người hoạt động kháng chiến</td></tr>
-      <tr><td>Đặng Thùy Trâm</td><td>1942 – 1970</td><td>—</td><td>Bác sĩ, liệt sĩ</td></tr>
+      <tr><td>01</td><td>Hùng Vương</td><td>Thời truyền thuyết</td><td>Chưa xác định</td><td>Vua nước Văn Lang</td></tr>
+      <tr><td>02</td><td>An Dương Vương</td><td>? – khoảng 179 TCN</td><td>Khoảng 257 TCN</td><td>Vua nước Âu Lạc</td></tr>
+      <tr><td>03</td><td>Hai Bà Trưng</td><td>Trưng Trắc: ? – 43<br>Trưng Nhị: ? – 43</td><td>Năm 40</td><td>Nữ vương, lãnh đạo khởi nghĩa</td></tr>
+      <tr><td>04</td><td>Bà Triệu</td><td>226 – 248</td><td>Khoảng 248</td><td>Thủ lĩnh khởi nghĩa</td></tr>
+      <tr><td>05</td><td>Ngô Quyền</td><td>808 – 944</td><td>Năm 939</td><td>Vua, người mở đầu thời kỳ tự chủ</td></tr>
+      <tr><td>06</td><td>Lý Thái Tổ</td><td>974 – 1028</td><td>Năm 1009</td><td>Hoàng đế, người dời đô về Thăng Long</td></tr>
+      <tr><td>07</td><td>Lý Thường Kiệt</td><td>1019 – 1105</td><td>—</td><td>Thái úy, danh tướng nhà Lý</td></tr>
+      <tr><td>08</td><td>Trần Hưng Đạo</td><td>1228 – 1300</td><td>—</td><td>Quốc công Tiết chế</td></tr>
+      <tr><td>09</td><td>Chu Văn An</td><td>1292 – 1370</td><td>—</td><td>Nhà giáo, Tư nghiệp Quốc Tử Giám</td></tr>
+      <tr><td>10</td><td>Lê Lợi</td><td>1385 – 1433</td><td>Năm 1428</td><td>Hoàng đế, thủ lĩnh khởi nghĩa Lam Sơn</td></tr>
+      <tr><td>11</td><td>Nguyễn Trãi</td><td>1380 – 1442</td><td>—</td><td>Nhà chính trị, nhà văn hóa</td></tr>
+      <tr><td>12</td><td>Lê Thánh Tông</td><td>1442 – 1497</td><td>Năm 1460</td><td>Hoàng đế nhà Lê sơ</td></tr>
+      <tr><td>13</td><td>Nguyễn Huệ – Quang Trung</td><td>1753 – 1792</td><td>Năm 1788</td><td>Hoàng đế, thủ lĩnh phong trào Tây Sơn</td></tr>
+      <tr><td>14</td><td>Nguyễn Ánh – Gia Long</td><td>1762 – 1820</td><td>Năm 1802</td><td>Hoàng đế, vị vua đầu triều Nguyễn</td></tr>
+      <tr><td>15</td><td>Nguyễn Trung Trực</td><td>1838 – 1868</td><td>—</td><td>Thủ lĩnh nghĩa quân chống Pháp</td></tr>
+      <tr><td>16</td><td>Phan Đình Phùng</td><td>1847 – 1895</td><td>—</td><td>Lãnh tụ khởi nghĩa Hương Khê</td></tr>
+      <tr><td>17</td><td>Hoàng Hoa Thám</td><td>1858 – 1913</td><td>—</td><td>Lãnh tụ khởi nghĩa Yên Thế</td></tr>
+      <tr><td>18</td><td>Phan Bội Châu</td><td>1867 – 1940</td><td>—</td><td>Nhà yêu nước, nhà hoạt động cách mạng</td></tr>
+      <tr><td>19</td><td>Phan Châu Trinh</td><td>1872 – 1926</td><td>—</td><td>Nhà yêu nước, nhà canh tân</td></tr>
+      <tr><td>20</td><td>Hồ Chí Minh</td><td>1890 – 1969</td><td>Năm 1945</td><td>Chủ tịch nước Việt Nam Dân chủ Cộng hòa</td></tr>
+      <tr><td>21</td><td>Võ Nguyên Giáp</td><td>1911 – 2013</td><td>Năm 1948</td><td>Đại tướng, Tổng Tư lệnh Quân đội nhân dân Việt Nam</td></tr>
+      <tr><td>22</td><td>Nguyễn Thị Minh Khai</td><td>1910 – 1941</td><td>—</td><td>Nhà hoạt động cách mạng</td></tr>
+      <tr><td>23</td><td>Võ Thị Sáu</td><td>1933 – 1952</td><td>—</td><td>Nữ du kích, người hoạt động kháng chiến</td></tr>
+      <tr><td>24</td><td>Đặng Thùy Trâm</td><td>1942 – 1970</td><td>—</td><td>Bác sĩ, liệt sĩ</td></tr>
     </tbody>
   </table>
 </div>
@@ -68,16 +69,40 @@ giữ ngôi vua hoặc không có mốc lên ngôi.*
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử Việt Nam">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ba%20Dinh%20Square%20September%202nd%2C%201945.jpg?width=1200" alt="Quảng trường Ba Đình ngày 2 tháng 9 năm 1945" loading="lazy">
+      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/ba-dinh-1945.jpg" alt="Quảng trường Ba Đình ngày 2 tháng 9 năm 1945" loading="lazy">
       <figcaption>Quảng trường Ba Đình năm 1945: <a href="https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_September_2nd,_1945.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vo%20Nguyen%20Giap%2C%20Vietminh%20forces%2C%201944.jpg?width=1200" alt="Võ Nguyên Giáp cùng lực lượng Việt Minh" loading="lazy">
+      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/vo-nguyen-giap-1944.jpg" alt="Một đơn vị giải phóng quân trong tư liệu năm 1944" loading="lazy">
       <figcaption>Võ Nguyên Giáp và lực lượng Việt Minh: <a href="https://commons.wikimedia.org/wiki/File:Vo_Nguyen_Giap,_Vietminh_forces,_1944.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Reunification%20day%20banner.jpg?width=1200" alt="Biểu ngữ về ngày thống nhất đất nước" loading="lazy">
+      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/reunification-banner.jpg" alt="Biểu ngữ về ngày thống nhất đất nước" loading="lazy">
       <figcaption>Tư liệu về ngày thống nhất: <a href="https://commons.wikimedia.org/wiki/File:Reunification_day_banner.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/hai-ba-trung.jpg" alt="Tranh Đông Hồ về Hai Bà Trưng" loading="lazy">
+      <figcaption>Tranh Đông Hồ về Hai Bà Trưng: <a href="https://commons.wikimedia.org/wiki/File:Hai_ba_trung_Dong_Ho_painting.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/nguyen-trai.jpg" alt="Hình tượng Nguyễn Trãi trong tư liệu Wikimedia Commons" loading="lazy">
+      <figcaption>Tư liệu về Nguyễn Trãi: <a href="https://commons.wikimedia.org/wiki/File:Nguyen_Trai.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/quang-trung.jpg" alt="Tượng Quang Trung Nguyễn Huệ ở Gò Đống Đa" loading="lazy">
+      <figcaption>Tượng Quang Trung – Nguyễn Huệ ở Gò Đống Đa: <a href="https://commons.wikimedia.org/wiki/File:Quang_Trung_Nguy%E1%BB%85n_Hu%E1%BB%87,_G%C3%B2_%C4%90%E1%BB%91ng_%C4%90a.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/phan-boi-chau.jpg" alt="Chân dung Phan Bội Châu" loading="lazy">
+      <figcaption>Chân dung Phan Bội Châu: <a href="https://commons.wikimedia.org/wiki/File:Phan_Boi_Chau.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/dang-thuy-tram.jpg" alt="Chân dung Đặng Thùy Trâm" loading="lazy">
+      <figcaption>Chân dung Đặng Thùy Trâm: <a href="https://commons.wikimedia.org/wiki/File:Dang_Thuy_Tram.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/vo-thi-sau.jpg" alt="Chân dung Võ Thị Sáu trong tư liệu Wikimedia Commons" loading="lazy">
+      <figcaption>Tư liệu về Võ Thị Sáu: <a href="https://commons.wikimedia.org/wiki/File:Portrait_of_V%C3%B5_Th%E1%BB%8B_S%C3%A1u.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>
   <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>

@@ -1345,6 +1345,20 @@ body:has(.home-landing) .container-md > .row > [class*="col-"] {
 }
 
 .history-facts-table td:first-child {
+  width: 3.5rem;
+  min-width: 3.5rem;
+  color: var(--accent-pink);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+  font-weight: 800;
+}
+
+.history-facts-table th:first-child {
+  width: 3.5rem;
+  text-align: center;
+}
+
+.history-facts-table td:nth-child(2) {
   min-width: 10rem;
   font-weight: 800;
 }

@@ -8,8 +8,8 @@ history-date: "04-30"
 series: "Lịch sử Việt Nam"
 series_order: 6
 series_url: "/series/lich-su-viet-nam/"
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Reunification%20day%20banner.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Reunification%20day%20banner.jpg?width=800"
+cover-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jpg"
+thumbnail-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jpg"
 tags: [lịch sử Việt Nam, calendar, lịch sử hiện đại]
 ---
 
