@@ -47,6 +47,8 @@ jobs:
 
       - name: Verify generated site
         run: python3 scripts/check_site.py
+        env:
+          SITE_DIR: "_site${{ steps.pages.outputs.base_path }}"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v5

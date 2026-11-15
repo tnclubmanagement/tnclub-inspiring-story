@@ -2,13 +2,14 @@
 """Check generated site invariants without third-party dependencies."""
 
 from html.parser import HTMLParser
+import os
 from pathlib import Path
 import re
 import sys
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = ROOT / "_site"
+SITE = ROOT / os.environ.get("SITE_DIR", "_site")
 POSTS = ROOT / "posts"
 
 
