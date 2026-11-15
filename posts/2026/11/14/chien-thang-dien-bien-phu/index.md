@@ -33,6 +33,21 @@ tags: [lịch sử Việt Nam, calendar, kháng chiến]
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Video liên quan
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/0ZmrOf1o37s"
+    title="Video về Chiến thắng Điện Biên Phủ"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+    Tư liệu về Chiến thắng Điện Biên Phủ.
+    <a href="https://www.youtube.com/watch?v=0ZmrOf1o37s" target="_blank" rel="noopener noreferrer">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
+
 ## Vì sao Điện Biên Phủ trở thành điểm quyết chiến
 
 Sau nhiều năm chiến tranh, quân Pháp muốn giành lại thế chủ động ở Đông
