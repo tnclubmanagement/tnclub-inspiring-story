@@ -1711,6 +1711,36 @@ body,
   margin: 2rem auto 3rem;
 }
 
+.contact-email-card {
+  display: inline-block;
+  margin: 0.25rem 0 1.5rem;
+  padding: 0.8rem 1.15rem;
+  border: 1px solid rgba(255, 122, 138, 0.35);
+  border-radius: 0.85rem;
+  background: linear-gradient(135deg, rgba(255, 122, 138, 0.12), rgba(90, 169, 255, 0.1));
+  box-shadow: 0 0.65rem 1.3rem rgba(31, 38, 70, 0.08);
+}
+
+.contact-email-card a {
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-email-card a:hover {
+  color: var(--accent-pink);
+}
+
+:root[data-theme="dark"] .contact-email-card {
+  border-color: rgba(255, 159, 172, 0.35);
+  background: linear-gradient(135deg, rgba(255, 122, 138, 0.16), rgba(90, 169, 255, 0.12));
+  box-shadow: 0 0.65rem 1.3rem rgba(0, 0, 0, 0.22);
+}
+
+:root[data-theme="dark"] .contact-email-card a {
+  color: var(--theme-link);
+}
+
 .site-map-section {
   padding: 1.4rem;
   border: 1px solid rgba(29, 29, 43, 0.1);
