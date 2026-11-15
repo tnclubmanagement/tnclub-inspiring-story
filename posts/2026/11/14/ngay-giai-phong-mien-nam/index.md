@@ -15,17 +15,13 @@ tags: [lịch sử Việt Nam, calendar, lịch sử hiện đại]
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
   <div class="story-gallery-track">
-    <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Reunification%20day%20banner.jpg?width=1200" alt="Biểu ngữ về ngày thống nhất đất nước" loading="lazy">
-      <figcaption>Ảnh tư liệu: <a href="https://commons.wikimedia.org/wiki/File:Reunification_day_banner.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
-    </figure>
     <figure class="story-slide">
       <img src="https://commons.wikimedia.org/wiki/Special:FilePath/HCMCampaign.svg?width=1200" alt="Sơ đồ Chiến dịch Hồ Chí Minh" loading="lazy">
       <figcaption>Sơ đồ chiến dịch: <a href="https://commons.wikimedia.org/wiki/File:HCMCampaign.svg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Surrender%20letter%20of%20Duong%20Van%20Minh.JPG?width=1200" alt="Văn bản đầu hàng của Dương Văn Minh" loading="lazy">
-      <figcaption>Ảnh tư liệu: <a href="https://commons.wikimedia.org/wiki/File:Surrender_letter_of_Duong_Van_Minh.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption>
+      <img src="https://sqhx-hanoi.mediacdn.vn/zoom/900x540/91579363132710912/2026/5/1/giai-phong-mn-17776262808031824508666-0-0-768-1229-crop-1777626283775369472641.jpg" alt="Hình ảnh ngày Giải phóng miền Nam 30 tháng 4 năm 1975" loading="lazy">
+      <figcaption>Ảnh tư liệu ngày Giải phóng miền Nam: <a href="https://sqhx-hanoi.mediacdn.vn/zoom/900x540/91579363132710912/2026/5/1/giai-phong-mn-17776262808031824508666-0-0-768-1229-crop-1777626283775369472641.jpg" rel="noopener">Nguồn ảnh</a>.</figcaption>
     </figure>
   </div>
   <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
@@ -68,6 +64,100 @@ Nhìn lại ngày thống nhất không chỉ để nhắc đến chiến thắn
 rằng hòa bình đòi hỏi một quá trình dài để người dân trở về, đoàn tụ, làm
 việc và hàn gắn. Cách nhìn ấy giúp câu chuyện lịch sử giữ được con người ở
 trung tâm thay vì chỉ còn là một mốc trên lịch.
+
+## Gallery Lễ diễu binh 30/04/2025
+
+<section class="story-gallery" aria-label="Hình ảnh Lễ diễu binh, diễu hành ngày 30 tháng 4 năm 2025">
+  <div class="story-gallery-track">
+    <figure class="story-slide is-active">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/img2237-1745974613236326587692.jpg" alt="Người dân Thành phố Hồ Chí Minh chào mừng Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam" loading="lazy">
+      <figcaption>Người dân chào mừng Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/phaole-17459853228632141027699.jpg" alt="Pháo lễ trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam" loading="lazy">
+      <figcaption>Pháo lễ trong chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/tiemkich-17459856846631007479479.jpg" alt="Tiêm kích bay chào mừng trong Lễ diễu binh ngày 30 tháng 4 năm 2025" loading="lazy">
+      <figcaption>Tiêm kích bay chào mừng. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/xe-bieu-tuong-1745985510690628788194.jpg" alt="Xe biểu tượng trong đoàn diễu hành kỷ niệm 50 năm ngày Giải phóng miền Nam" loading="lazy">
+      <figcaption>Xe biểu tượng trong đoàn diễu hành. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/1-1-17459853602111135733219.jpg" alt="Một khối diễu binh trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam" loading="lazy">
+      <figcaption>Một khối diễu binh trong đội hình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/img2261-1745982745840914614523.jpg" alt="Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 1" loading="lazy">
+      <figcaption>Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/trungquoc-17459825605851155582010.jpg" alt="Đoàn khách Trung Quốc tại Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam" loading="lazy">
+      <figcaption>Đoàn khách Trung Quốc tại chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/lao-17459825937611208039988.jpg" alt="Đoàn khách Lào tại Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam" loading="lazy">
+      <figcaption>Đoàn khách Lào tại chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/campuchia-1745982608338472768967.jpg" alt="Đoàn khách Campuchia tại Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam" loading="lazy">
+      <figcaption>Đoàn khách Campuchia tại chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/img2262-17459827730961561146752.jpg" alt="Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 2" loading="lazy">
+      <figcaption>Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/img2264-17459828032981110902381.jpg" alt="Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 3" loading="lazy">
+      <figcaption>Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/1-1745983193033372848542.jpg" alt="Đội hình diễu binh trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 1" loading="lazy">
+      <figcaption>Đội hình diễu binh trong chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/2-1745983208071437604864.jpg" alt="Đội hình diễu binh trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 2" loading="lazy">
+      <figcaption>Đội hình diễu binh trong chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/3-1745983223461829319668.jpg" alt="Đội hình diễu binh trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 3" loading="lazy">
+      <figcaption>Đội hình diễu binh trong chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/5-17459832470701633705005.jpg" alt="Đội hình diễu binh trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 4" loading="lazy">
+      <figcaption>Đội hình diễu binh trong chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/7-17459832804151914400438.jpg" alt="Đội hình diễu binh trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 5" loading="lazy">
+      <figcaption>Đội hình diễu binh trong chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/9-17459833091321059819450.jpg" alt="Đội hình diễu binh trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 6" loading="lazy">
+      <figcaption>Đội hình diễu binh trong chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/img2288-17459866108681776910819.jpg" alt="Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 4" loading="lazy">
+      <figcaption>Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/hongky-1745983774191614544998.jpg" alt="Đoàn khách Hồng Kỳ tại Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam" loading="lazy">
+      <figcaption>Đoàn khách Hồng Kỳ tại chương trình kỷ niệm. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/a127-17460072373471102965905.jpg" alt="Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 5" loading="lazy">
+      <figcaption>Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="https://xdcs.cdnchinhphu.vn/thumb_w/1200/446259493575335936/2025/4/30/9-174598236487177857854.jpg" alt="Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam, ảnh 6" loading="lazy">
+      <figcaption>Ảnh tư liệu trong Lễ kỷ niệm 50 năm ngày Giải phóng miền Nam. <a href="https://xaydungchinhsach.chinhphu.vn/ke-hoach-to-chuc-le-ky-niem-dieu-binh-dieu-hanh-va-cac-hoat-dong-ky-niem-50-nam-ngay-giai-phong-mien-nam-thong-nhat-dat-nuoc-119250402163625351.htm" rel="noopener">Ảnh: Xây dựng Chính sách</a>.</figcaption>
+    </figure>
+  </div>
+  <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
+  <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
+  <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
+</section>
 
 ### Nguồn tham khảo
 

@@ -268,7 +268,8 @@ body {
   margin: 0 !important;
   padding: 0.75rem 1rem;
   color: var(--ink) !important;
-  background: rgba(255, 255, 255, 0.86);
+  background: var(--theme-bg);
+  opacity: 0.86;
   box-shadow: 0 0.75rem 1.5rem rgba(31, 38, 70, 0.12);
   font-family: var(--font-subtitle);
   font-size: 1rem;
@@ -1011,7 +1012,8 @@ body:has(.home-landing) .container-md > .row > [class*="col-"] {
   bottom: 4%;
   left: 0;
   padding: 0.85rem 1.1rem;
-  background: #fff;
+  background: var(--theme-bg);
+  opacity: 0.86;
   color: #1e2a5a;
   font-family: var(--font-subtitle);
   font-size: 1.25rem;
@@ -2065,7 +2067,7 @@ body,
 .history-calendar-nav button {
   border: 1px solid rgba(29, 29, 43, 0.12);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--theme-bg);
   color: var(--ink);
   cursor: pointer;
   font: inherit;
