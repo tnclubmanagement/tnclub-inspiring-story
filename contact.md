@@ -13,5 +13,13 @@ nói chuyện, hãy liên hệ với mình qua:
 
 Mình sẽ cố gắng phản hồi sớm nhất có thể. Cảm ơn bạn đã ghé qua! 💛
 
-Bạn cũng có thể xem toàn bộ các trang đang được website công khai tại
-[sitemap.xml]({{ '/sitemap.xml' | relative_url }}).
+Bạn có thể xem cấu trúc các khu vực của website tại
+[Sơ đồ website]({{ '/sitemap/' | relative_url }}).
+
+## Sơ đồ website
+
+<p class="site-map-contact-intro">
+  Bạn có thể đi thẳng đến khu vực mình quan tâm từ sơ đồ dưới đây.
+</p>
+
+{% include site-map-tree.html %}
