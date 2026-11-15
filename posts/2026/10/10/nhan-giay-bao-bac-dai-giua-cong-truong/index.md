@@ -76,6 +76,19 @@ nghiệp của mình. Với một người từng phải đi làm công trườn
 người nổi tiếng”. Đó là: anh đã có cơ hội học tiếp, và tương lai vẫn còn
 được chính anh viết tiếp.
 
+## Một tờ giấy báo không giải quyết mọi khó khăn
+
+Đỗ đại học là một bước ngoặt, nhưng sau đó vẫn còn học phí, chi phí sinh
+hoạt, việc thích nghi với môi trường mới và áp lực phải theo kịp bạn bè. Vì
+vậy, điều đáng kể trong câu chuyện này không chỉ là khoảnh khắc nhận giấy
+báo giữa công trường, mà là những lựa chọn tiếp theo để người học có thể
+thật sự ở lại giảng đường.
+
+Các chương trình học bổng, hỗ trợ của nhà trường và sự giúp đỡ của cộng đồng
+có thể tạo ra khác biệt lớn. Kể câu chuyện đầy đủ cũng là nhắc rằng cơ hội
+giáo dục không nên phụ thuộc hoàn toàn vào khả năng tự vượt qua của một cá
+nhân.
+
 ### Nguồn tham khảo
 
 - [China News: Thôi Khánh Đào nhập học Bắc Đại](https://www.chinanews.com.cn/sh/2018/08-31/8615199.shtml)

@@ -61,6 +61,19 @@ hiệu sách để chép từng trang bài tập. Nhưng có lẽ chính vì đ�
 thốn, cậu sẽ hiểu vì sao một cuốn sách, một khoản học phí hay một lời
 khuyến khích đúng lúc có thể giữ một đứa trẻ ở lại với việc học.
 
+## Từ người cần được giúp đến người tạo cơ hội
+
+Việc từng phải chép bài không phải là một phẩm chất đáng xấu hổ. Nó cho thấy
+một học sinh đã thiếu điều kiện học tập và phải tìm cách bám lại việc học.
+Khi trở thành thầy giáo, nhân vật trong câu chuyện hiểu rõ hơn cảm giác của
+những học sinh không có sách, không có người kèm hoặc cần thêm thời gian để
+theo kịp lớp.
+
+Một người thầy tốt không chỉ truyền kiến thức. Họ còn giúp học sinh tin rằng
+mình có thể hỏi, có thể sai và có thể bắt đầu lại. Đó là cách một trải nghiệm
+khó khăn được chuyển thành sự đồng cảm, thay vì trở thành lý do để phán xét
+những người đang ở phía sau.
+
 ### Nguồn tham khảo
 
 - [Tân Hoa Xã: “Cậu bé chép bài tập” và gia đình](http://www.xinhuanet.com/local/2021-02/24/c_1127134102.htm)

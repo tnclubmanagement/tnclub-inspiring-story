@@ -69,6 +69,18 @@ Từ công trường nơi anh từng bốc gạch cùng mẹ đến văn phòng 
 nhà, con đường ấy không xóa đi những ngày nghèo khó. Nó biến những ngày đó
 thành lý do để anh chọn một công việc có ích cho cộng đồng.
 
+## Trở về không phải là bước lùi
+
+Sau khi bước vào môi trường đại học, lựa chọn của Lâm Vạn Đông vẫn không kết
+thúc ở tấm giấy báo hay một danh hiệu. Làm việc tại quê nhà đồng nghĩa với
+việc phải hiểu những vấn đề rất cụ thể: đường sá, sinh kế, dịch vụ công và
+nhu cầu của người dân.
+
+Một hành trình học tập có ý nghĩa không chỉ được đo bằng việc đi xa đến đâu.
+Nó còn được đo bằng khả năng đem kiến thức trở lại giải quyết những việc
+gần mình. Tuy vậy, không nên biến lựa chọn trở về thành nghĩa vụ cho mọi
+người; mỗi người có hoàn cảnh, năng lực và cách đóng góp khác nhau.
+
 ### Nguồn tham khảo
 
 - [Đại học Thanh Hoa: Lâm Vạn Đông sau khi tốt nghiệp](https://www.tsinghua.edu.cn/info/3015/105103.htm)

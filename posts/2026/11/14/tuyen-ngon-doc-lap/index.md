@@ -51,6 +51,18 @@ Ngày 2 tháng 9 được ghi nhớ là Quốc khánh Việt Nam. Mỗi năm, ng
 mọi người về giá trị của độc lập, trách nhiệm bảo vệ thành quả của các thế
 hệ đi trước và nhiệm vụ xây dựng một đất nước tốt đẹp hơn.
 
+## Vì sao văn kiện vẫn được nhắc đến?
+
+Tuyên ngôn Độc lập vừa tuyên bố sự ra đời của một nhà nước mới, vừa trình
+bày cơ sở chính trị và đạo lý cho quyền tự quyết của dân tộc Việt Nam. Văn
+kiện nối các nguyên lý về quyền con người với quyền của một dân tộc, rồi đặt
+độc lập trong hoàn cảnh cụ thể của đất nước năm 1945.
+
+Đọc lại văn kiện hôm nay, người đọc có thể chú ý đến hai câu hỏi: một quốc
+gia cần làm gì để bảo vệ quyền tự quyết, và độc lập có ý nghĩa ra sao trong
+đời sống của người dân? Những câu hỏi ấy giúp ngày Quốc khánh không chỉ là
+ngày nghỉ hay một hình ảnh lễ nghi.
+
 ### Nguồn tham khảo
 
 - [Bảo tàng Lịch sử Quốc gia: Tuyên ngôn Độc lập 2/9/1945](https://baotanglichsu.vn/vi/Articles/3096/71055/tuyen-ngon-djoc-lap-2-9-1945-ban-tuyen-ngon-ve-y-chi-khong-co-gi-quy-hon-djoc-lap-tu-do-cua-dan-toc-viet-nam.html)

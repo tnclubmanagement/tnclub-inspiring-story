@@ -16,6 +16,17 @@ Nhiều người đồng ý vì sợ làm người khác thất vọng, rồi cu
 thời gian hoặc năng lượng để làm tốt. Từ chối đúng lúc là cách giữ lời hứa
 với cả hai bên.
 
+## Ba phần của một lời từ chối
+
+Một lời từ chối rõ ràng thường có ba phần: xác nhận yêu cầu, nói khả năng
+hiện tại và đưa phương án khác nếu thật sự có. Ví dụ: “Mình hiểu việc này cần
+xong trong tuần. Mình không thể nhận thêm lúc này, nhưng có thể xem vào thứ
+Hai”.
+
+Không phải lúc nào cũng cần đề xuất phương án thay thế. Nếu việc đó vượt quá
+giới hạn an toàn, tài chính hoặc thời gian của mình, một câu từ chối ngắn đã
+đủ.
+
 ## Nên làm
 
 Trả lời ngắn, nói rõ khả năng của mình và nếu phù hợp thì đưa ra lựa chọn
@@ -26,6 +37,14 @@ thứ Hai” là một câu trả lời đủ lịch sự.
 
 Đừng bịa lý do phức tạp, hứa mơ hồ hoặc để người khác chờ quá lâu. Cũng
 đừng xin lỗi liên tục như thể nhu cầu chính đáng của mình là một lỗi lầm.
+Nếu người khác tiếp tục gây áp lực, hãy lặp lại giới hạn bằng câu ngắn thay
+vì tranh luận không dứt: “Mình hiểu bạn không vui, nhưng quyết định của mình
+vẫn là không nhận việc này.”
+
+## Một câu có thể thử
+
+“Mình chưa thể nhận việc này trong tuần này. Mình sẽ báo lại nếu lịch thay đổi,
+nhưng hiện tại bạn nên tìm phương án khác.”
 
 ## Thử hôm nay
 

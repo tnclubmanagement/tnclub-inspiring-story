@@ -103,6 +103,29 @@ layout: base
                 {% endif %}
               </div>
             </nav>
+            <section class="series-post-index" aria-labelledby="series-post-index-title">
+              <div class="series-post-index-heading">
+                <span>Đọc cùng chuyên đề</span>
+                <h2 id="series-post-index-title">{{ page.series }}</h2>
+              </div>
+              <ol class="series-post-index-list">
+                {% for series_post in series_posts %}
+                <li>
+                  {% if series_post.url == page.url %}
+                  <span class="series-post-index-link is-current" aria-current="page">
+                    <span>Phần {{ series_post.series_order }}</span>
+                    <strong>{{ series_post.title | split: "] : " | last }}</strong>
+                  </span>
+                  {% else %}
+                  <a class="series-post-index-link" href="{{ series_post.url | relative_url }}">
+                    <span>Phần {{ series_post.series_order }}</span>
+                    <strong>{{ series_post.title | split: "] : " | last }}</strong>
+                  </a>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ol>
+            </section>
           {% else %}
           <ul class="pagination blog-pager">
             {% if page.previous.url %}

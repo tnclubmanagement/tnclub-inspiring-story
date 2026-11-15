@@ -51,6 +51,20 @@ Ngày Giải phóng Thủ đô không chỉ đánh dấu sự thay đổi về q
 phố. Đây còn là ngày người Hà Nội cảm nhận rõ niềm vui hòa bình sau một
 chặng đường dài. Thủ đô từ đó bước vào thời kỳ khôi phục và xây dựng mới.
 
+## Ngày 10 tháng 10 diễn ra như thế nào?
+
+Sau Hiệp định Genève năm 1954, việc tiếp quản Hà Nội được chuẩn bị theo một
+lộ trình để tránh hỗn loạn và bảo đảm an toàn cho người dân. Sáng 10 tháng
+10, các đơn vị quân đội tiến vào thành phố trong sự đón chào của đông đảo
+người dân. Việc tiếp quản không chỉ là một nghi thức; đó còn là khởi đầu của
+việc khôi phục giao thông, trường học, cơ quan và đời sống đô thị sau nhiều
+năm chiến tranh.
+
+Niềm vui của ngày trở về đi cùng một nhiệm vụ lớn: xây dựng lại thành phố,
+giải quyết những thiếu thốn và hàn gắn các chia cắt trong đời sống. Vì thế,
+ý nghĩa của ngày giải phóng không chỉ nằm ở hình ảnh đoàn quân tiến vào, mà
+còn ở những năm tháng người dân cùng nhau khôi phục Hà Nội.
+
 ### Nguồn tham khảo
 
 - [Bảo tàng Lịch sử Quốc gia: Ngày giải phóng Thủ đô 10-10-1954](https://baotanglichsu.vn/vi/Articles/3097/12610/ngay-giai-phong-thu-djo-10-10-1954.html)

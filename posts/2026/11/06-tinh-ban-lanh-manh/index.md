@@ -14,19 +14,36 @@ series_url: "/series/nen-khong-nen/"
 
 Một người bạn tốt không phải là người luôn đồng ý với mình. Đó là người có
 thể nói thật mà không làm nhục, biết vui khi mình tiến bộ và tôn trọng lúc
-mình cần không gian riêng.
+mình cần không gian riêng. Tình bạn lành mạnh không hoàn hảo; hai người vẫn
+có thể bất đồng, nhưng không cần làm nhau sợ hãi để giữ mối quan hệ.
+
+## Dấu hiệu đáng tin cậy
+
+Hai người có thể giữ lời hứa, xin lỗi khi làm sai và nói thẳng khi có điều
+khiến mình buồn. Mỗi người cũng được có những mối quan hệ khác ngoài tình
+bạn này. Sự thân thiết không cần đi kèm kiểm soát lịch trình, điện thoại hay
+danh sách người được phép nói chuyện.
+
+Khi có bất đồng, hãy nói về một việc cụ thể: “Mình buồn vì hôm qua cậu kể
+chuyện riêng của mình”, thay vì kết luận “Cậu chẳng bao giờ tôn trọng mình”.
+Người bạn tốt có thể chưa đồng ý ngay, nhưng sẽ cho mình cơ hội nói rõ.
 
 ## Nên làm
 
-Giữ lời hứa, xin lỗi khi làm sai và nói thẳng khi có điều khiến mình buồn.
-Hãy để bạn có những mối quan hệ khác ngoài mình; sự thân thiết không cần
-đi kèm kiểm soát.
+Hỏi thăm thật sự, lắng nghe mà không lập tức phán xét và tôn trọng câu trả
+lời “mình chưa muốn nói”. Nếu cần xin lỗi, hãy nói mình đã làm gì và sẽ sửa
+ra sao, thay vì chỉ yêu cầu người kia quên chuyện.
 
 ## Không nên làm
 
-Đừng dùng bí mật của bạn để đe dọa, kiểm tra điện thoại hoặc bắt bạn phải
-chứng minh lòng trung thành. Nếu thường xuyên bị xúc phạm, cô lập hoặc ép
-làm điều nguy hiểm, hãy tìm người lớn đáng tin cậy.
+Đừng dùng bí mật để đe dọa, kiểm tra điện thoại hoặc bắt bạn phải chứng minh
+lòng trung thành. Nếu thường xuyên bị xúc phạm, cô lập, ép làm điều nguy hiểm
+hoặc bị đe dọa phát tán thông tin riêng tư, hãy tìm người lớn đáng tin cậy.
+
+## Một câu có thể thử
+
+“Mình quý tình bạn này, nhưng việc đó làm mình không thoải mái. Mình muốn
+chúng ta tìm cách khác.”
 
 ## Thử hôm nay
 

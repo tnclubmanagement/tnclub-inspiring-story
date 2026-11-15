@@ -24,6 +24,17 @@ hơn. Cũng có những mối duyên kết thúc sau khi đã giúp cả hai tr�
 Nhìn được tính vô thường của các mối quan hệ không làm tình thương nhỏ đi;
 ngược lại, nó giúp mình hiện diện trọn vẹn hơn khi còn có thể.
 
+## Tôn trọng không đồng nghĩa với lạnh nhạt
+
+Trong một mối quan hệ, ta vẫn có thể quan tâm mà không kiểm tra mọi tin nhắn,
+không quyết định thay người khác và không dùng hy sinh để đòi lại quyền kiểm
+soát. Nếu một người chọn con đường khác, điều đó có thể làm mình buồn nhưng
+không tự động có nghĩa họ vô ơn hay không còn yêu thương.
+
+Buông cũng không có nghĩa phải tiếp tục ở trong một mối quan hệ gây tổn hại.
+Khi có thao túng, đe dọa hoặc bạo lực, việc tìm sự giúp đỡ và đặt khoảng cách
+là cách bảo vệ mình, không phải là thiếu tình nghĩa.
+
 ## Gợi ý thực hành
 
 Trước khi nhắn một lời trách móc, hãy tự hỏi: “Mình đang muốn người này tốt
@@ -31,4 +42,6 @@ hơn, hay chỉ muốn họ làm đúng ý mình?”. Một câu nói thành th�
 mỏng thường mở được cánh cửa mà sự hơn thua chỉ làm đóng lại.
 
 Đây là bài tóm lược theo chủ đề, không trích nguyên văn lời giảng. Xem thêm
-tại [kênh YouTube chính thức của Tu Viện Trúc Lâm](https://www.youtube.com/@TrucLamThichPhapHoa).
+tại pháp thoại
+[“Thương cũng là duyên, buông cũng là duyên”](https://phaptu.com/thuong-cung-la-duyen-buong-cung-la-duyen-thay-thich-phap-hoa-plaabziwvcq-phat-phap/)
+và [kênh YouTube chính thức của Tu Viện Trúc Lâm](https://www.youtube.com/@TrucLamThichPhapHoa).

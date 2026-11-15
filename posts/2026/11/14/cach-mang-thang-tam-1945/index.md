@@ -55,6 +55,27 @@ Ngày 19 tháng 8 vì thế không chỉ là một ngày trong lịch sử. Đó
 nhắc về vai trò của sự chuẩn bị lâu dài: khi cơ hội xuất hiện, một cộng
 đồng đã sẵn sàng có thể tạo ra thay đổi lớn.
 
+## Một cuộc chuyển biến diễn ra trong nhiều ngày
+
+Cách mạng tháng Tám ở Hà Nội không nên được hiểu như một khoảnh khắc tách
+rời khỏi những biến động trước đó. Sau khi Nhật đầu hàng Đồng minh, bộ máy
+chính quyền cũ rơi vào khủng hoảng, trong khi các tổ chức cách mạng đã chuẩn
+bị lực lượng và vận động quần chúng từ trước.
+
+Ngày 19 tháng 8 năm 1945, cuộc mít tinh lớn tại Quảng trường Nhà hát Lớn
+chuyển thành cuộc biểu tình giành chính quyền. Những ngày sau đó, chính
+quyền cách mạng tiếp quản nhiều cơ quan tại Hà Nội. Người dân vừa chứng kiến
+niềm vui thay đổi, vừa phải đối mặt với thiếu thốn và một tương lai còn rất
+bất định.
+
+## Nhìn sự kiện qua đời sống người dân
+
+Các mốc chính trị thường được kể bằng tên tổ chức và địa điểm, nhưng sự
+chuyển biến ấy cũng đi qua những người tham gia mít tinh, giữ trật tự, truyền
+tin và chăm lo đời sống trong thành phố. Thêm góc nhìn này giúp người đọc
+hiểu rằng một cuộc cách mạng cần cả quyết định chính trị lẫn sự tham gia của
+cộng đồng.
+
 ### Nguồn tham khảo
 
 - [Bảo tàng Lịch sử Quốc gia: Từ lời thề trước đình Tân Trào đến bản Tuyên ngôn Độc lập](https://baotanglichsu.vn/vi/Articles/3097/18474/tu-loi-the-truoc-djinh-tan-trao-djen-ban-tuyen-ngon-djoc-lap.html)

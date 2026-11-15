@@ -7,6 +7,9 @@ subtitle: "Một bức tranh khái quát về những con người đáng nhớ 
 cover-img: "/posts/2026/11/14/nhan-vat-lich-su-viet-nam/banner-lich-su-viet-nam.jpg"
 thumbnail-img: "/posts/2026/11/14/nhan-vat-lich-su-viet-nam/banner-lich-su-viet-nam.jpg"
 tags: [lịch sử Việt Nam, nhân vật lịch sử, calendar]
+series: "Lịch sử Việt Nam"
+series_order: 4
+series_url: "/series/lich-su-viet-nam/"
 ---
 
 Lịch sử Việt Nam không chỉ được tạo nên bởi những vị vua hay những vị tướng.

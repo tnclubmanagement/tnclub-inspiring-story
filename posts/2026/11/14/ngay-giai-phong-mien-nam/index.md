@@ -54,6 +54,19 @@ khăn để hàn gắn những mất mát và bắt đầu lại cuộc sống.
 **Ngày này trong lịch sử nhắc chúng ta rằng hòa bình luôn có giá trị lớn và
 cần được trân trọng.**
 
+## Một ngày kết thúc chiến tranh, một giai đoạn mới bắt đầu
+
+Ngày 30 tháng 4 thường được nhớ qua những hình ảnh tại Sài Gòn, nhưng sự
+kiện này là kết quả của nhiều diễn biến quân sự và chính trị trong mùa xuân
+năm 1975. Sau khi chiến tranh kết thúc, đất nước phải đối diện với thương
+tích, gia đình ly tán, cơ sở hạ tầng hư hỏng và những khác biệt trải nghiệm
+giữa các cộng đồng.
+
+Nhìn lại ngày thống nhất không chỉ để nhắc đến chiến thắng. Cũng cần nhớ
+rằng hòa bình đòi hỏi một quá trình dài để người dân trở về, đoàn tụ, làm
+việc và hàn gắn. Cách nhìn ấy giúp câu chuyện lịch sử giữ được con người ở
+trung tâm thay vì chỉ còn là một mốc trên lịch.
+
 ### Nguồn tham khảo
 
 - [Bảo tàng Lịch sử Quốc gia: Chiến dịch Hồ Chí Minh lịch sử (26/4–30/4/1975)](https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html)

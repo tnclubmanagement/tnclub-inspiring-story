@@ -55,6 +55,18 @@ Nhìn lại mốc lịch sử này, điều còn được nhắc đến nhiều 
 những ngày đầu: ít người nhưng có lý tưởng rõ ràng, kỷ luật nghiêm và gắn
 bó với nhân dân.
 
+## Vì sao một đội quân nhỏ có ý nghĩa lớn?
+
+Trong bối cảnh thuộc địa và chiến tranh, một lực lượng vũ trang không thể
+chỉ dựa vào vũ khí. Đội cần liên lạc, hậu cần, nơi trú ẩn và sự tin cậy của
+người dân. Vì vậy, sự ra đời của đội quân đầu tiên cũng gắn với việc xây dựng
+cơ sở và tổ chức quần chúng, chứ không chỉ là một sự kiện quân sự.
+
+Khi đọc lại mốc này, có thể ghi nhớ ba lớp ý nghĩa: ngày thành lập, những
+hoạt động đầu tiên và quá trình phát triển thành một lực lượng lớn hơn. Cách
+nhìn theo tiến trình giúp sự kiện không bị thu gọn thành một con số hoặc một
+khẩu hiệu.
+
 ### Nguồn tham khảo
 
 - [Bảo tàng Lịch sử Quân sự Việt Nam: Việt Nam Giải phóng quân – lực lượng nòng cốt trong Tổng khởi nghĩa](https://btlsqsvn.mod.gov.vn/tin-tuc/chi-tiet/viet-nam-giai-phong-quan-luc-luong-nong-cot-trong-tong-khoi-nghia-bad6ceec-2b85-4927-bbfe-999c9039cd59)

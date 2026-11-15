@@ -101,3 +101,14 @@ dung. Nhưng nó giúp ta hiểu mình hơn, làm tốt hơn và có đủ bình
 sau nhiều lần vấp ngã, ta vẫn còn giữ được khả năng bắt đầu lại — tỉnh
 táo hơn, tử tế hơn với chính mình và bền bỉ hơn một chút so với ngày hôm
 qua.
+
+### Ghi chú nguồn
+
+Bài viết là góc nhìn suy ngẫm, không phải lời khẳng định rằng mọi cố gắng
+đều chắc chắn dẫn đến thành công. Khả năng thích nghi thường chịu ảnh hưởng
+cả bởi kỹ năng cá nhân lẫn nguồn lực xã hội và sự hỗ trợ xung quanh.
+
+Tham khảo:
+
+- [American Psychological Association: Resilience](https://www.apa.org/topics/resilience)
+- [American Psychological Association: Perseverance toward life goals](https://www.apa.org/news/press/releases/2019/05/goals-perseverance)

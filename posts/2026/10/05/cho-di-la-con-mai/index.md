@@ -106,3 +106,15 @@ mình có thể làm gì để hôm nay của họ nhẹ hơn một chút?”
 Có thể việc ấy rất nhỏ. Nhưng nếu người nhận có thêm một chút can đảm để đi
 tiếp, rồi một ngày họ lại trao sự tử tế ấy cho người khác, thì điều ta cho
 đi đã không mất. Nó chỉ đang tiếp tục sống trong một hình thức khác.
+
+### Ghi chú nguồn
+
+Các nghiên cứu về lòng tốt thường cho thấy mối liên hệ giữa hành động hào
+phóng và cảm nhận hạnh phúc, ý nghĩa hoặc sự gắn kết. Điều đó không có nghĩa
+là cho đi luôn dễ dàng hoặc ai cũng phải hy sinh để trở thành người tốt.
+Sự giúp đỡ bền vững cần có sự tự nguyện và giới hạn phù hợp.
+
+Tham khảo:
+
+- [Greater Good Science Center: How Kindness Fits Into a Happy Life](https://greatergood.berkeley.edu/article/item/how_kindness_fits_into_a_happy_life)
+- [Greater Good Science Center: The Science of Generosity](https://ggsc.berkeley.edu/images/uploads/GGSC-JTF_White_Paper-Generosity-FINAL.pdf)
