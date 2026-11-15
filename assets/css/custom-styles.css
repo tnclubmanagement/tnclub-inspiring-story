@@ -2712,6 +2712,80 @@ body:has(.series-page) .header-section {
   visibility: hidden;
 }
 
+.series-post-index {
+  margin: 1.25rem 0 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid rgba(29, 29, 43, 0.08);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.series-post-index-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.series-post-index-heading span {
+  color: var(--accent-pink);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.series-post-index-heading h2 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.series-post-index-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.series-post-index-link {
+  display: block;
+  height: 100%;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.65rem;
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.series-post-index-link > span {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.series-post-index-link strong {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+a.series-post-index-link:hover,
+.series-post-index-link.is-current {
+  background: rgba(255, 122, 138, 0.1);
+  color: var(--accent-pink);
+  text-decoration: none;
+}
+
+.series-post-index-link.is-current {
+  cursor: default;
+}
+
 @media (max-width: 680px) {
   .history-calendar {
     padding: 0.85rem;
@@ -2755,6 +2829,23 @@ body:has(.series-page) .header-section {
 
   .series-post-navigation-links {
     grid-template-columns: 1fr;
+  }
+
+  .series-post-index {
+    padding: 1rem;
+  }
+
+  .series-post-index-heading,
+  .series-post-index-list {
+    grid-template-columns: 1fr;
+  }
+
+  .series-post-index-heading {
+    display: block;
+  }
+
+  .series-post-index-heading h2 {
+    margin-top: 0.25rem;
   }
 
   .series-post-navigation-link.next {

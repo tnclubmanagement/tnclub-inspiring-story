@@ -23,6 +23,17 @@ mình mới có cơ hội sửa nó.
 chuỗi lựa chọn nhỏ: biết xin lỗi, bớt đổ lỗi, thay một phản ứng nóng bằng
 một khoảng dừng, và kiên trì làm lại dù chưa hoàn hảo.
 
+## Xin lỗi cần đi cùng thay đổi
+
+Một lời xin lỗi có ý nghĩa hơn khi nói rõ mình đã làm gì, điều đó ảnh hưởng
+đến ai và mình sẽ sửa bằng hành động nào. Chẳng hạn, thay vì nói “Xin lỗi nếu
+bạn buồn”, có thể nói: “Mình đã nói quá lời trong cuộc họp. Lần sau mình sẽ
+trao đổi riêng và không ngắt lời bạn”.
+
+Thay đổi cũng không phải lúc nào được người khác tin ngay. Người đã bị tổn
+thương có quyền cần thời gian và có quyền giữ khoảng cách. Phần của mình là
+kiên trì hành xử khác đi, không đòi người khác phải công nhận ngay lập tức.
+
 ## Bắt đầu từ một điều cụ thể
 
 Hãy chọn một thói quen bạn muốn sửa trong bảy ngày tới. Viết rõ lúc nào

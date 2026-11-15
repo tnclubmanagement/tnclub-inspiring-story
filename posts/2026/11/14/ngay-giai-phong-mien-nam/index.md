@@ -33,6 +33,8 @@ tags: [lịch sử Việt Nam, calendar, lịch sử hiện đại]
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Dữ kiện lịch sử
+
 Ngày 30 tháng 4 năm 1975 là ngày Giải phóng miền Nam, thống nhất đất nước.
 Đây là kết quả của một chặng đường dài đấu tranh, hy sinh và mong muốn hòa
 bình của nhiều thế hệ người Việt Nam.
@@ -54,7 +56,21 @@ khăn để hàn gắn những mất mát và bắt đầu lại cuộc sống.
 **Ngày này trong lịch sử nhắc chúng ta rằng hòa bình luôn có giá trị lớn và
 cần được trân trọng.**
 
+## Diễn giải: Một ngày kết thúc chiến tranh, một giai đoạn mới bắt đầu
+
+Ngày 30 tháng 4 thường được nhớ qua những hình ảnh tại Sài Gòn, nhưng sự
+kiện này là kết quả của nhiều diễn biến quân sự và chính trị trong mùa xuân
+năm 1975. Sau khi chiến tranh kết thúc, đất nước phải đối diện với thương
+tích, gia đình ly tán, cơ sở hạ tầng hư hỏng và những khác biệt trải nghiệm
+giữa các cộng đồng.
+
+Nhìn lại ngày thống nhất không chỉ để nhắc đến chiến thắng. Cũng cần nhớ
+rằng hòa bình đòi hỏi một quá trình dài để người dân trở về, đoàn tụ, làm
+việc và hàn gắn. Cách nhìn ấy giúp câu chuyện lịch sử giữ được con người ở
+trung tâm thay vì chỉ còn là một mốc trên lịch.
+
 ### Nguồn tham khảo
 
 - [Bảo tàng Lịch sử Quốc gia: Chiến dịch Hồ Chí Minh lịch sử (26/4–30/4/1975)](https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html)
 - [Bảo tàng Lịch sử Quốc gia: Chiến dịch Hồ Chí Minh (14–30/4/1975)](https://baotanglichsu.vn/vi/Articles/3097/16216/chien-dich-ho-chi-minh-14-30-4-1975-tran-quyet-chien-chien-luoc-cuoi-cung-thang-loi-ket-thuc-hoan-toan-cuoc-chong-my-cuu-nuoc-cua-quan-va-dan-viet-nam.html)
+- [Bảo tàng Lịch sử Quốc gia: Chiến thắng 30/4 – đỉnh cao của sự nghiệp giải phóng dân tộc](https://baotanglichsu.vn/vi/Articles/3097/73875/chien-thang-30-4-djinh-cao-choi-loi-cua-su-nghiep-giai-phong-dan-toc.html)

@@ -24,6 +24,17 @@ nhiệm của mình và chọn cách nói có ích hơn. Sau đó, vẫn cần �
 đối thoại là cần thiết. Im lặng không nên trở thành cái cớ để trốn tránh
 một lời xin lỗi hoặc một cuộc nói chuyện quan trọng.
 
+## Ba câu hỏi trước khi lên tiếng
+
+Trước một câu nói đang nóng, hãy hỏi: “Điều này có đúng không?”, “Có cần nói
+ngay bây giờ không?” và “Mình muốn người kia hiểu điều gì?”. Ba câu hỏi không
+đảm bảo cuộc trò chuyện sẽ dễ dàng, nhưng chúng tạo ra một khoảng dừng giữa
+cảm xúc và hành động.
+
+Khoảng dừng ấy cũng có giới hạn. Nếu cần trả lời một việc quan trọng, hãy
+nói rõ: “Mình đang quá căng thẳng, cho mình một giờ rồi mình sẽ quay lại”.
+Người kia không phải tự đoán xem mình đang trừng phạt họ hay chỉ cần thời gian.
+
 ## Thử một khoảng dừng ngắn
 
 Khi sắp nói một câu khó nghe, hãy dừng lại ba nhịp thở. Nếu câu nói ấy
@@ -31,4 +42,6 @@ không giúp người nghe hiểu hơn, không giúp tình hình tốt hơn và 
 phản ánh điều mình thật sự muốn xây dựng, hãy đợi đến khi bình tĩnh hơn.
 
 Nội dung trên là phần tóm lược và ứng dụng cá nhân. Các bài giảng đầy đủ
-được đăng trên [kênh YouTube của Tu Viện Trúc Lâm](https://www.youtube.com/@TrucLamThichPhapHoa).
+được tham khảo từ pháp thoại
+[“Học cách im lặng đúng lúc, buông bỏ bớt tham cầu”](https://phaptu.com/hoc-cach-im-lang-dung-luc-buong-bo-bot-tham-cau-thay-thich-phap-hoa-pciatdtnp2i-phat-phap/)
+và [kênh YouTube của Tu Viện Trúc Lâm](https://www.youtube.com/@TrucLamThichPhapHoa).

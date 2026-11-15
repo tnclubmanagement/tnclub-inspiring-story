@@ -69,6 +69,19 @@ Từ ruộng nước quê nhà đến Tencent AI Lab là một quãng đường 
 quãng đường ấy bắt đầu từ một quyết định giản dị: dù hôm nay phải làm thêm,
 ngày mai vẫn phải đến lớp.
 
+## Điều câu chuyện không nên bị hiểu sai
+
+Hoàng Quốc Bình không đi từ nghèo khó đến nghiên cứu AI chỉ bằng ý chí cá
+nhân. Câu chuyện còn có những người thầy, cơ hội học tập, công việc giúp anh
+duy trì việc học và môi trường nghiên cứu sau này. Khi kể một hành trình như
+vậy, cần nhìn cả sự bền bỉ của nhân vật lẫn những điều kiện đã giúp sự bền
+bỉ ấy có kết quả.
+
+Thành công hiện tại cũng không xóa đi những năm tháng thiếu thốn. Điều đáng
+nhớ không phải là lãng mạn hóa việc trẻ em phải làm việc nặng để đi học, mà
+là nhìn thấy giá trị của giáo dục, sự hỗ trợ đúng lúc và khả năng tiếp tục
+học trong những hoàn cảnh khó khăn.
+
 ### Nguồn tham khảo
 
 - [Nam Phương: Từ cậu bé chăn trâu đến nhà nghiên cứu trí tuệ nhân tạo](https://static.nfapp.southcn.com/content/202108/26/c5676321.html)
