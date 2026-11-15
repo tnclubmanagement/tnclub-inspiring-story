@@ -786,6 +786,29 @@
     update();
   }
 
+  function initExternalLinks() {
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var href = link.getAttribute("href");
+      if (!href || /^(#|mailto:|tel:|javascript:)/i.test(href)) return;
+
+      var url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (error) {
+        return;
+      }
+
+      if (url.origin === window.location.origin) return;
+
+      link.target = "_blank";
+      var rel = (link.getAttribute("rel") || "").split(/\s+/).filter(Boolean);
+      ["noopener", "noreferrer"].forEach(function (value) {
+        if (rel.indexOf(value) === -1) rel.push(value);
+      });
+      link.setAttribute("rel", rel.join(" "));
+    });
+  }
+
   onReady(function () {
     // 1) Hero: chọn ảnh ngẫu nhiên rồi chuyển ảnh chậm, tránh gây xao nhãng.
     var hero = document.querySelector(".header-section.has-img .big-img.intro-header");
@@ -884,6 +907,7 @@
     initHistoryCalendar();
     initFeaturedStories();
     initHomeSectionDots();
+    initExternalLinks();
 
     // 4) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
     // Lưu ý: phải dùng "li.post-preview" (không phải "li" trống) để không
