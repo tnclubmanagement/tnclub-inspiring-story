@@ -38,7 +38,7 @@ những cuộc hành quân kiệt sức và những người đã không thể t
     </figure>
     <figure class="story-slide">
       <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/ruong-bac-thang-user.jpg" alt="Ruộng bậc thang giữa vùng núi Tây Bắc" loading="lazy">
-      <figcaption>Ruộng bậc thang vùng Tây Bắc: <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxSq49EqS-HfGcb52g2ensjlSp2_67u8kW5lDH2cTRKcqWV25qtPlM4_M&amp;s=10" target="_blank" rel="noopener noreferrer">nguồn ảnh</a>.</figcaption>
+      <figcaption>Ruộng bậc thang vùng Tây Bắc: <a href="https://taybacsensetravel.com/view/at_nhung-hinh-anh-du-lich-dep-me-hon-cua-vung-dat-tay-bac_019194d3614616680f8a580c1f6a964e.jpg" target="_blank" rel="noopener noreferrer">nguồn ảnh</a>.</figcaption>
     </figure>
     <figure class="story-slide">
       <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/tay-tien-minh-hoa-user.jpg" alt="Tranh minh họa bài thơ Tây Tiến của Quang Dũng" loading="lazy">
