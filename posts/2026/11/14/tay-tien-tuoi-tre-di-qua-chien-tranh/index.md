@@ -42,7 +42,7 @@ những cuộc hành quân kiệt sức và những người đã không thể t
     </figure>
     <figure class="story-slide">
       <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/tay-tien-minh-hoa-user.jpg" alt="Tranh minh họa bài thơ Tây Tiến của Quang Dũng" loading="lazy">
-      <figcaption>Một hình minh họa cho bài thơ <em>Tây Tiến</em>, do bạn đọc cung cấp: <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQPvlfUNy4ZyR-dIbT2F45RqcZQTm5cDkqtQIDJmKImANaXUSKtOvGFBU&amp;s=10" target="_blank" rel="noopener noreferrer">nguồn ảnh</a>.</figcaption>
+      <figcaption>Phong cảnh Tây Bắc kèm toàn bài thơ <em>Tây Tiến</em>, trình bày lại để dễ đọc: <a href="https://i.pinimg.com/1200x/4b/1a/67/4b1a672f9e816f430b64d44aad683586.jpg" target="_blank" rel="noopener noreferrer">ảnh gốc</a>.</figcaption>
     </figure>
   </div>
   <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
