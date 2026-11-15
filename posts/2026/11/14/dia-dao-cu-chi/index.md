@@ -38,6 +38,62 @@ duy trì bằng cuộc sống của cả một cộng đồng.
     allowfullscreen></iframe>
 </div>
 
+## Từ những đoạn hầm nhỏ đến mạng lưới liên hoàn
+
+Địa đạo Củ Chi không xuất hiện trong một lần đào duy nhất. Khoảng năm 1948,
+người dân ở Tân Phú Trung và Phước Vĩnh An bắt đầu đào những đoạn hầm ngắn để
+cất giấu tài liệu, vũ khí và che chở cán bộ hoạt động trong vùng địch hậu.
+Khi chiến tranh kéo dài, những đoạn hầm riêng lẻ được nối lại, mở rộng và
+được tổ chức theo nhu cầu của từng khu vực.
+
+Trong giai đoạn 1961–1965, khi hoạt động chiến tranh du kích ở Củ Chi phát
+triển mạnh, hệ thống này tiếp tục được gia cố. Đường hầm không chỉ là chỗ
+ẩn nấp mà còn là một phần của thế trận trên mặt đất: từ đường “xương sống”
+tỏa ra các nhánh nhỏ, nối với chiến hào, hầm chiến đấu và những lối thoát
+được giấu kín.
+
+Theo Cục Di sản văn hóa, toàn bộ mạng lưới từng dài hơn 200 km, kết hợp với
+khoảng 500 km chiến hào và công sự. Những con số ấy không nên được hiểu như
+một công trình được xây dựng bằng máy móc. Mỗi mét hầm là đất được đào lên
+bằng dụng cụ thô sơ, rồi phải chuyển đi mà không để lộ dấu vết.
+
+## Ba tầng dưới mặt đất
+
+Ở những khu vực được nghiên cứu và bảo tồn, địa đạo thường được mô tả với
+nhiều tầng sâu khác nhau, phổ biến khoảng 3 m, 6 m và 12 m dưới mặt đất.
+Độ sâu không giống nhau ở mọi đoạn, vì người đào phải tính đến chất đất,
+mạch nước, khả năng trú ẩn và việc di chuyển giữa các khu vực.
+
+Tầng trên có thể dùng để quan sát, liên lạc hoặc tránh những đợt càn quét
+thông thường. Những tầng sâu hơn giúp con người tránh bom pháo và duy trì
+hoạt động trong thời gian dài hơn. Các cửa hầm được ngụy trang, đường đi
+ngoắt ngoéo, còn lỗ thông hơi được bố trí kín đáo để giảm nguy cơ bị phát
+hiện.
+
+Nhưng địa đạo không phải một nơi an toàn tuyệt đối. Nước có thể tràn vào,
+khói và hơi nóng có thể làm người bên trong kiệt sức, còn một lối vào bị lộ
+có thể đe dọa cả mạng lưới. Sự tồn tại của hệ thống phụ thuộc vào kỷ luật,
+im lặng, trí nhớ về địa hình và sự hiểu biết của những người sống quanh đó.
+
+## Củ Chi trong các cuộc càn
+
+Từ năm 1966, Củ Chi trở thành mục tiêu của những cuộc hành quân quy mô lớn.
+Các lực lượng đối phương dùng bộ binh, xe cơ giới, máy bay, bom pháo và nhiều
+cách khác để tìm đường hầm, phá căn cứ và buộc người dân rời khỏi địa bàn.
+Cuộc hành quân Crimp đầu năm 1966 và Cedar Falls đầu năm 1967 thường được
+nhắc đến khi nói về nỗ lực đánh phá vùng căn cứ và khu vực “Tam giác sắt”.
+
+Có thời điểm, các đội tìm hầm được huấn luyện để chui vào những đường ngầm
+hẹp, trong khi bên ngoài là xe ủi, chó nghiệp vụ và các trận bom phá. Người
+trong địa đạo phải thay đổi lối đi, che giấu đất đào, giữ liên lạc và chờ
+thời cơ phản công. Địa hình và hệ thống hầm giúp quân dân Củ Chi bám trụ,
+nhưng không thể xóa đi tổn thất của những cuộc càn quét.
+
+Vì thế, gọi Củ Chi là một “kỳ quan quân sự” chỉ mới nói được một nửa câu
+chuyện. Nửa còn lại là một vùng dân cư bị biến thành chiến trường, nơi mỗi
+gia đình phải học cách sống giữa thiếu thốn, bom đạn và nguy cơ mất nhà,
+mất người thân.
+
 ## Một vùng đất bị đẩy xuống lòng đất
 
 Củ Chi nằm ở khu vực phía tây bắc Sài Gòn, trên một địa bàn có ý nghĩa quan
@@ -59,9 +115,16 @@ binh và người bảo đảm lương thực đều góp phần duy trì hệ t
 
 Trẻ em, phụ nữ và người già cũng bị chiến tranh ảnh hưởng sâu sắc. Có người
 phải rời nhà, có người sống nhiều ngày trong hầm, có người làm nhiệm vụ
-liên lạc hoặc chăm sóc gia đình trong điều kiện thiếu thốn. Vì vậy, câu
-chuyện Củ Chi không chỉ là chuyện của du kích hay bộ đội; đó còn là chuyện
-của dân thường bị buộc phải biến nơi trú ẩn thành một phần đời sống.
+liên lạc hoặc chăm sóc gia đình trong điều kiện thiếu thốn. Bữa ăn đơn giản,
+nước sạch khan hiếm, ánh sáng và không khí đều phải tiết kiệm. Những việc
+tưởng như bình thường — nấu ăn, sơ cứu, chuyển tin, chăm sóc trẻ nhỏ — đều
+trở thành một phần của công việc tồn tại.
+
+Vì vậy, câu chuyện Củ Chi không chỉ là chuyện của du kích hay bộ đội; đó còn
+là chuyện của dân thường bị buộc phải biến nơi trú ẩn thành một phần đời
+sống. Một mạng lưới hầm có thể được tính bằng kilomet, nhưng đời sống bên
+trong nó được đo bằng những ca trực, bữa ăn, cơn sốt và lần trở về không
+chắc chắn.
 
 ## Vết thương không nằm hết dưới lòng đất
 
@@ -76,13 +139,24 @@ sống sót nhưng mang thương tật và ký ức không thể xóa. Một h�
 có thể còn nguyên như một di tích, nhưng những con người từng sống trong đó
 thì không thể trở lại.
 
-Ngày nay, Củ Chi là một di tích lịch sử và điểm giáo dục truyền thống. Khi
-tham quan, điều đáng nhớ không chỉ là cách địa đạo được thiết kế. Đó là
-câu hỏi về cái giá mà người dân phải trả để tồn tại trong chiến tranh, và
-vì sao không ai nên xem hòa bình là điều hiển nhiên.
+## Di tích và ký ức
+
+Ngày nay, Củ Chi là một di tích lịch sử và điểm giáo dục truyền thống. Một
+số đoạn hầm phục vụ tham quan đã được gia cố và điều chỉnh, vì vậy trải
+nghiệm của du khách không hoàn toàn giống điều kiện chiến tranh trước đây.
+Sự khác biệt ấy cần được nói rõ để người xem không nhầm một tuyến tham quan
+với toàn bộ đời sống khắc nghiệt của địa đạo.
+
+Khi tham quan, điều đáng nhớ không chỉ là cách địa đạo được thiết kế. Đó là
+câu hỏi về cái giá mà người dân phải trả để tồn tại trong chiến tranh, về
+những người đã không còn trở về, và vì sao không ai nên xem hòa bình là điều
+hiển nhiên. Di tích có thể giúp ta hình dung quá khứ, nhưng không thể thay
+thế lời kể của những gia đình đã sống qua quá khứ ấy.
 
 ### Nguồn tham khảo
 
 - [Bảo tàng Lịch sử Quốc gia: Địa đạo Củ Chi – điểm hẹn tìm về lịch sử](https://baotanglichsu.vn/vi/Articles/3096/19319/djia-djao-cu-chi-djiem-hen-tim-ve-lich-su.html)
 - [Bảo tàng Lịch sử Quốc gia: Địa đạo Củ Chi và giá trị di sản](https://baotanglichsu.vn/fr/Articles/3258/71727/vers-une-reconnaissance-des-tunnels-de-cu-chi-par-l-unesco-en-tant-que-patrimoine-mondial.html)
+- [Cục Di sản văn hóa: Di tích lịch sử Địa đạo Củ Chi](https://dsvh.gov.vn/di-tich-lich-su-dia-dao-cu-chi-1490)
+- [VietnamPlus: Di tích lịch sử Địa đạo Củ Chi – kỳ quan nghệ thuật quân sự độc đáo](https://special.vietnamplus.vn/2021/01/13/diadaocuchi/)
 - Tư liệu hình ảnh từ Wikimedia Commons.
