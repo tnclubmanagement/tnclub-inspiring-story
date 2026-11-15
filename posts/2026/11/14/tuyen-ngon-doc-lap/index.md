@@ -8,8 +8,8 @@ history-date: "09-02"
 series: "Lịch sử Việt Nam"
 series_order: 3
 series_url: "/series/lich-su-viet-nam/"
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ba%20Dinh%20Square%20September%202nd%2C%201945.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ba%20Dinh%20Square%20September%202nd%2C%201945.jpg?width=800"
+cover-img: "/posts/2026/11/14/tuyen-ngon-doc-lap/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/tuyen-ngon-doc-lap/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, độc lập]
 ---
 
@@ -51,5 +51,7 @@ Ngày 2 tháng 9 được ghi nhớ là Quốc khánh Việt Nam. Mỗi năm, ng
 mọi người về giá trị của độc lập, trách nhiệm bảo vệ thành quả của các thế
 hệ đi trước và nhiệm vụ xây dựng một đất nước tốt đẹp hơn.
 
-*Nguồn tham khảo: Tuyên ngôn Độc lập ngày 2 tháng 9 năm 1945 và tư liệu
-lịch sử Việt Nam.*
+### Nguồn tham khảo
+
+- [Bảo tàng Lịch sử Quốc gia: Tuyên ngôn Độc lập 2/9/1945](https://baotanglichsu.vn/vi/Articles/3096/71055/tuyen-ngon-djoc-lap-2-9-1945-ban-tuyen-ngon-ve-y-chi-khong-co-gi-quy-hon-djoc-lap-tu-do-cua-dan-toc-viet-nam.html)
+- [Bảo tàng Lịch sử Quốc gia: Chủ tịch Hồ Chí Minh với Bản Tuyên ngôn Độc lập](https://baotanglichsu.vn/vi/Articles/3097/71053/chu-tich-ho-chi-minh-voi-ban-tuyen-ngon-djoc-lap-nhung-gia-tri-lich-su-con-mai-voi-thoi-gian.html)

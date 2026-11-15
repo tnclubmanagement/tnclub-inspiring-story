@@ -6,7 +6,7 @@ title: "[08 · Hòa bình không dễ có] : Chiến tranh biên giới Tây Nam
 subtitle: "Những người lính chiến đấu xa quê và người dân Campuchia trong thảm họa"
 series: "Hòa bình không dễ có"
 series_order: 8
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Memorial%20Monument%20-%20Kratie%20province%20-%20Cambodia.jpeg?width=1200"
+thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-tay-nam/thumbnail-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới Tây Nam, Campuchia]
 ---
 

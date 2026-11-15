@@ -128,7 +128,10 @@ thang dài và một câu nói ngắn:
 
 Rồi đến một ngày, người được cõng có thể tự đi bằng đôi chân của mình.
 Nhưng tình bạn đã giúp họ đi xa hơn rất nhiều so với một đoạn đường từ
-ký túc xá đến lớp học.
+ký túc xá đến lớp học. Trương Thải Hồng không chỉ đưa Trần Thần đến lớp;
+việc ấy giúp cả hai có thêm một nhịp sinh hoạt để bám vào trong những năm
+đại học. Một tình bạn bền không biến một người thành người được cứu, mà tạo
+ra đủ tin cậy để cả hai cùng giữ lấy mục tiêu của mình.
 
 ### Nguồn tham khảo
 

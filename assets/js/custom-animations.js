@@ -400,11 +400,53 @@
   }
 
   function initStoryGalleries() {
+    var lightbox = document.getElementById("story-lightbox");
+    if (!lightbox) {
+      lightbox = document.createElement("dialog");
+      lightbox.id = "story-lightbox";
+      lightbox.className = "story-lightbox";
+      lightbox.innerHTML = '<button class="story-lightbox-close" type="button" aria-label="Đóng ảnh">×</button><button class="story-lightbox-prev" type="button" aria-label="Ảnh trước">←</button><figure><img class="story-lightbox-image" alt=""><figcaption></figcaption></figure><button class="story-lightbox-next" type="button" aria-label="Ảnh tiếp theo">→</button>';
+      document.body.appendChild(lightbox);
+    }
+    var lightboxImage = lightbox.querySelector(".story-lightbox-image");
+    var lightboxCaption = lightbox.querySelector("figcaption");
+    var activeGallery;
+    var activeIndex = 0;
+
+    function closeLightbox() {
+      if (lightbox.open) lightbox.close();
+    }
+
+    function showLightbox(index) {
+      if (!activeGallery) return;
+      var slides = activeGallery.querySelectorAll(".story-slide");
+      activeIndex = (index + slides.length) % slides.length;
+      var image = slides[activeIndex].querySelector("img");
+      var caption = slides[activeIndex].querySelector("figcaption");
+      lightboxImage.src = image.currentSrc || image.src;
+      lightboxImage.alt = image.alt || "";
+      lightboxCaption.innerHTML = caption ? caption.innerHTML : "";
+      if (!lightbox.open) lightbox.showModal();
+    }
+
+    lightbox.querySelector(".story-lightbox-close").addEventListener("click", closeLightbox);
+    lightbox.querySelector(".story-lightbox-prev").addEventListener("click", function () { showLightbox(activeIndex - 1); });
+    lightbox.querySelector(".story-lightbox-next").addEventListener("click", function () { showLightbox(activeIndex + 1); });
+    lightbox.addEventListener("click", function (event) {
+      if (event.target === lightbox) closeLightbox();
+    });
+    document.addEventListener("keydown", function (event) {
+      if (!lightbox.open) return;
+      if (event.key === "Escape") closeLightbox();
+      if (event.key === "ArrowLeft") showLightbox(activeIndex - 1);
+      if (event.key === "ArrowRight") showLightbox(activeIndex + 1);
+    });
+
     document.querySelectorAll(".story-gallery").forEach(function (gallery) {
       var slides = gallery.querySelectorAll(".story-slide");
       var dots = gallery.querySelector(".story-gallery-dots");
       var current = 0;
-      if (slides.length < 2 || !dots) return;
+      if (!slides.length || !dots) return;
 
       function show(index) {
         current = (index + slides.length) % slides.length;
@@ -429,6 +471,25 @@
       });
       gallery.querySelector(".story-gallery-prev").addEventListener("click", function () { show(current - 1); });
       gallery.querySelector(".story-gallery-next").addEventListener("click", function () { show(current + 1); });
+      slides.forEach(function (slide, i) {
+        var image = slide.querySelector("img");
+        if (!image) return;
+        image.classList.add("story-gallery-zoomable");
+        image.setAttribute("tabindex", "0");
+        image.setAttribute("role", "button");
+        image.setAttribute("aria-label", "Mở ảnh lớn: " + (image.alt || "ảnh tư liệu"));
+        image.addEventListener("click", function () {
+          activeGallery = gallery;
+          showLightbox(i);
+        });
+        image.addEventListener("keydown", function (event) {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            activeGallery = gallery;
+            showLightbox(i);
+          }
+        });
+      });
       show(0);
     });
   }

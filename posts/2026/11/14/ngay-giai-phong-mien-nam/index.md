@@ -54,5 +54,7 @@ khăn để hàn gắn những mất mát và bắt đầu lại cuộc sống.
 **Ngày này trong lịch sử nhắc chúng ta rằng hòa bình luôn có giá trị lớn và
 cần được trân trọng.**
 
-*Nguồn tham khảo: Tư liệu lịch sử Việt Nam và các tài liệu về Chiến dịch Hồ
-Chí Minh.*
+### Nguồn tham khảo
+
+- [Bảo tàng Lịch sử Quốc gia: Chiến dịch Hồ Chí Minh lịch sử (26/4–30/4/1975)](https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html)
+- [Bảo tàng Lịch sử Quốc gia: Chiến dịch Hồ Chí Minh (14–30/4/1975)](https://baotanglichsu.vn/vi/Articles/3097/16216/chien-dich-ho-chi-minh-14-30-4-1975-tran-quyet-chien-chien-luoc-cuoi-cung-thang-loi-ket-thuc-hoan-toan-cuoc-chong-my-cuu-nuoc-cua-quan-va-dan-viet-nam.html)

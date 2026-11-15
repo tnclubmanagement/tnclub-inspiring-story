@@ -6,7 +6,7 @@ title: "[09 · Hòa bình không dễ có] : Biên giới phía Bắc"
 subtitle: "Những người lính trẻ và người dân ở lại nơi địa đầu"
 series: "Hòa bình không dễ có"
 series_order: 9
-thumbnail-img: "https://sohanews.sohacdn.com/zoom/600_315/2019/2/17/600-1550372086153475138423-crop-1550372118747803080884.png"
+thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-phia-bac/thumbnail-local.png"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới phía Bắc, Vị Xuyên]
 ---
 
@@ -84,6 +84,6 @@ chứ không phải để nuôi thêm hận thù.
 
 ### Nguồn tham khảo
 
-- Hồ sơ nghĩa trang và khu tưởng niệm liệt sĩ biên giới phía Bắc.
-- Hồi ký cựu chiến binh, tư liệu địa phương và nghiên cứu lịch sử.
-- Tài liệu về mặt trận Vị Xuyên và công tác tìm kiếm, quy tập hài cốt.
+- [Bảo tàng Lịch sử Quốc gia: 40 năm cuộc chiến đấu bảo vệ biên giới phía Bắc](https://baotanglichsu.vn/vi/Articles/3091/69623/40-nam-cuoc-chien-djau-bao-ve-bien-gioi-phia-bac-nhung-ky-uc-khong-quen.html)
+- [Bảo tàng Lịch sử Quốc gia: Nhìn lại chiến tranh biên giới 1979](https://baotanglichsu.vn/vi/Articles/3097/15795/nhin-lai-chien-tranh-bien-gioi-1979.html)
+- Hồi ký cựu chiến binh, tư liệu địa phương và tài liệu về mặt trận Vị Xuyên.

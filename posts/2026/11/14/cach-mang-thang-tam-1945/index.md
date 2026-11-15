@@ -8,8 +8,8 @@ history-date: "08-19"
 series: "Lịch sử Việt Nam"
 series_order: 2
 series_url: "/series/lich-su-viet-nam/"
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%ADt%20tinh%20ch%C3%A0o%20m%E1%BB%ABng%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20th%C3%A0nh%20c%C3%B4ng%20t%E1%BA%A1i%20Nh%C3%A0%20h%C3%A1t%20L%E1%BB%9Bn%20H%C3%A0%20N%E1%BB%99i.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%ADt%20tinh%20ch%C3%A0o%20m%E1%BB%ABng%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20th%C3%A0nh%20c%C3%B4ng%20t%E1%BA%A1i%20Nh%C3%A0%20h%C3%A1t%20L%E1%BB%9Bn%20H%C3%A0%20N%E1%BB%99i.jpg?width=800"
+cover-img: "/posts/2026/11/14/cach-mang-thang-tam-1945/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/cach-mang-thang-tam-1945/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, Cách mạng tháng Tám]
 ---
 
@@ -55,4 +55,7 @@ Ngày 19 tháng 8 vì thế không chỉ là một ngày trong lịch sử. Đó
 nhắc về vai trò của sự chuẩn bị lâu dài: khi cơ hội xuất hiện, một cộng
 đồng đã sẵn sàng có thể tạo ra thay đổi lớn.
 
-*Nguồn tham khảo: Tư liệu về Cách mạng tháng Tám năm 1945.*
+### Nguồn tham khảo
+
+- [Bảo tàng Lịch sử Quốc gia: Từ lời thề trước đình Tân Trào đến bản Tuyên ngôn Độc lập](https://baotanglichsu.vn/vi/Articles/3097/18474/tu-loi-the-truoc-djinh-tan-trao-djen-ban-tuyen-ngon-djoc-lap.html)
+- [Bảo tàng Lịch sử Quốc gia: Tuyên ngôn Độc lập 2/9/1945](https://baotanglichsu.vn/vi/Articles/3096/71055/tuyen-ngon-djoc-lap-2-9-1945-ban-tuyen-ngon-ve-y-chi-khong-co-gi-quy-hon-djoc-lap-tu-do-cua-dan-toc-viet-nam.html)

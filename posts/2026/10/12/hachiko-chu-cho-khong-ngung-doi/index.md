@@ -179,7 +179,10 @@ không thể giải thích vì sao mình vẫn quay lại ga. Chú chỉ làm m�
 duy nhất mà mình tin là đúng: chờ người chủ của mình.
 
 Và sau gần một thế kỷ, hàng triệu người vẫn dừng lại trước bức tượng ở
-Shibuya để nhớ về chú.
+Shibuya để nhớ về chú. Nhưng điều còn lại không chỉ là hình ảnh một chú chó
+đứng chờ ở nhà ga. Đó là câu hỏi về cách con người đối xử với sự gắn bó:
+ta có thể không giữ được một người bên cạnh mãi mãi, nhưng vẫn có thể trân
+trọng quãng thời gian họ đã hiện diện trong đời mình.
 
 ### Nguồn tham khảo
 

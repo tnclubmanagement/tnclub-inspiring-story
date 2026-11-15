@@ -610,6 +610,136 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
   }
 }
 
+/* ---------- Final visual polish for post browsing ---------- */
+.home-controls {
+  gap: 0.9rem;
+  padding: 0.85rem;
+  border: 1px solid rgba(29, 29, 43, 0.08);
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 1rem 2.25rem rgba(31, 38, 70, 0.08);
+}
+
+.home-search-heading {
+  margin-bottom: 0.55rem;
+}
+
+.home-search-kicker {
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+}
+
+.home-search-caption {
+  color: #777789;
+  font-size: 0.8rem;
+}
+
+.home-search,
+.home-tag-filter-trigger,
+.home-series-filter select,
+.home-group-series-toggle {
+  border-color: rgba(29, 29, 43, 0.14);
+  background: #fff;
+  color: #30303d;
+}
+
+.home-search,
+.home-tag-filter-trigger,
+.home-series-filter select {
+  height: 2.75rem;
+}
+
+.home-search:focus,
+.home-tag-filter-trigger:focus,
+.home-tag-filter-trigger[aria-expanded="true"],
+.home-series-filter select:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(90, 169, 255, 0.14);
+}
+
+.home-view-switcher {
+  padding: 0.25rem;
+  border-color: rgba(29, 29, 43, 0.12);
+  background: #f7f7fa;
+}
+
+.home-view-btn {
+  height: 2.25rem;
+  padding-inline: 0.8rem;
+  color: #686878;
+  font-size: 0.78rem;
+}
+
+.home-view-btn.is-active {
+  background: #252536;
+  box-shadow: 0 0.25rem 0.7rem rgba(29, 29, 43, 0.18);
+}
+
+.home-filter-summary-row {
+  gap: 0.65rem;
+}
+
+.home-group-series-toggle {
+  min-height: 2.75rem;
+}
+
+.home-result-count {
+  color: #777789;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.post-series-heading {
+  margin-top: 1.7rem;
+  padding: 0.75rem 0.35rem 0.65rem;
+  border-bottom-color: rgba(255, 122, 138, 0.28);
+}
+
+.post-series-heading-label {
+  font-size: 1.05rem;
+}
+
+.post-series-open {
+  padding: 0.35rem 0.6rem;
+  border-radius: 0.5rem;
+  background: rgba(90, 169, 255, 0.08);
+  color: #4d78a8;
+}
+
+.post-series-open:hover {
+  background: rgba(255, 122, 138, 0.1);
+}
+
+@media (max-width: 680px) {
+  .home-controls {
+    gap: 0.7rem;
+    padding: 0.7rem;
+  }
+
+  .home-search-caption {
+    font-size: 0.76rem;
+  }
+
+  .home-view-switcher {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .home-view-btn {
+    flex: 1 1 0;
+    padding-inline: 0.35rem;
+    font-size: 0.7rem;
+  }
+
+  .post-series-heading-content {
+    gap: 0.5rem;
+  }
+
+  .post-series-open {
+    font-size: 0.68rem;
+  }
+}
+
 .featured-story-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -3331,6 +3461,91 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   width: 1.2rem;
   border-radius: 999px;
   background: #fff;
+}
+
+.story-gallery-zoomable {
+  cursor: zoom-in;
+}
+
+.story-gallery-zoomable:focus-visible {
+  outline: 3px solid var(--accent-pink);
+  outline-offset: -3px;
+}
+
+.story-lightbox {
+  width: min(92vw, 1100px);
+  max-width: 1100px;
+  padding: 3.5rem 4rem 1.25rem;
+  border: 0;
+  border-radius: 1rem;
+  background: #151820;
+  color: #fff;
+}
+
+.story-lightbox::backdrop {
+  background: rgba(8, 10, 15, 0.86);
+  backdrop-filter: blur(5px);
+}
+
+.story-lightbox figure {
+  margin: 0;
+}
+
+.story-lightbox-image {
+  display: block;
+  width: 100%;
+  max-height: 78vh;
+  object-fit: contain;
+}
+
+.story-lightbox figcaption {
+  margin-top: 0.8rem;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.story-lightbox-close,
+.story-lightbox-prev,
+.story-lightbox-next {
+  position: absolute;
+  z-index: 1;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.story-lightbox-close {
+  top: 0.8rem;
+  right: 0.8rem;
+}
+
+.story-lightbox-prev,
+.story-lightbox-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.story-lightbox-prev { left: 0.8rem; }
+.story-lightbox-next { right: 0.8rem; }
+
+.story-lightbox-close:hover,
+.story-lightbox-prev:hover,
+.story-lightbox-next:hover {
+  background: var(--accent-pink);
+}
+
+@media (max-width: 680px) {
+  .story-lightbox {
+    width: 100vw;
+    padding: 3.5rem 2.75rem 1rem;
+    border-radius: 0;
+  }
 }
 
 .story-gallery-note {

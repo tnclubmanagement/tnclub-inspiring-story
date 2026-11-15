@@ -88,7 +88,10 @@ Gobi không biết cuộc đua là gì. Chú không hiểu thành tích, danh ti
 những bài báo. Chú chỉ biết chạy về phía người mình đã chọn.
 
 Đôi khi, một mối quan hệ bắt đầu rất đơn giản: một chú chó đứng bên đường,
-một người chạy ngang qua, rồi cả hai quyết định không đi tiếp một mình.
+một người chạy ngang qua. Điều làm câu chuyện của Gobi đáng nhớ không chỉ là
+việc chú chạy theo Dion Leonard, mà còn là trách nhiệm bắt đầu sau cuộc đua:
+đưa một con vật xa lạ về nhà, chữa trị, làm thủ tục và kiên nhẫn xây dựng
+một cuộc sống chung.
 
 ### Nguồn tham khảo
 

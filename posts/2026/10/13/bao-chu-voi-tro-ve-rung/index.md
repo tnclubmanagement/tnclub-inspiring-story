@@ -98,7 +98,8 @@ những mối quan hệ được chứng minh bằng việc biết lúc nào ph�
 
 Người “cha voi” đã chăm sóc A Bảo để một ngày chú có thể không cần anh nữa.
 Đó là một kiểu tình yêu rất khó: làm tất cả để mình trở nên không còn cần
-thiết.
+thiết. Thành công của việc chăm sóc không nằm ở việc giữ A Bảo ở lại, mà ở
+chỗ chuẩn bị đủ để chú có thể sống an toàn khi trở về với đồng loại.
 
 ### Nguồn tham khảo
 

@@ -69,6 +69,31 @@ Sau khi tạo thư mục bài viết, upload ảnh vào chính thư mục đó (
 `/posts/2026/10/20/cau-chuyen-ve-su-kien/cover.jpg` trong front matter. Các ảnh
 khác của bài cũng đặt cùng thư mục và chèn bằng Markdown: `![mô tả](anh-khac.jpg)`.
 
+Nên ưu tiên ảnh đã tải về thư mục bài viết thay vì dùng URL ảnh trực tiếp từ
+website khác. Cách này tránh lỗi hotlink hoặc ảnh bị chặn khi trang hiển thị.
+Tên file nên ngắn, không dấu và mô tả đúng nội dung ảnh.
+
+### Đưa bài vào một series
+
+Thêm các trường sau vào front matter của bài:
+
+```yaml
+series: "Tên series"
+series_order: 1
+series_url: "/series/ten-series/"
+```
+
+`series_order` là số thứ tự thật của bài trong series. Title nên đặt số ở đầu
+để dễ quản lý:
+
+```yaml
+title: "[01 · Tên series] : Tên bài viết"
+```
+
+Khi tạo bài mới ở giữa series, cần đánh lại `series_order` và phần số trong
+title của các bài phía sau. Trang `/posts/` sẽ dùng `series_order` để xếp bài
+đúng thứ tự khi bật **Gom theo series**.
+
 ### Thêm sự kiện vào lịch sử
 
 Các mốc trong phần **Lịch sử Việt Nam** được lưu tại `_data/history-events.yml`.
@@ -130,8 +155,10 @@ matter (đầu file) của bài đó.
   v.v.), link Facebook ở footer (`social-network-links.facebook`), avatar
   (`avatar: "/assets/img/..."`).
 - `aboutme.md`: nội dung trang "Giới thiệu".
-- Theme Beautiful Jekyll có sẵn: tìm kiếm, tag, chia sẻ lên mạng xã hội,
-  ảnh cover lớn cho từng bài — không cần cấu hình thêm.
+- Trang `/posts/` có tìm kiếm toàn bộ nội dung bài, lọc theo chủ đề và series,
+  nhiều kiểu hiển thị, gom nhóm và thu gọn từng series.
+- Theme Beautiful Jekyll có sẵn: tag, chia sẻ lên mạng xã hội và ảnh cover lớn
+  cho từng bài — không cần cấu hình thêm.
 
 ## Cấu trúc project
 

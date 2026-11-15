@@ -6,8 +6,8 @@ title: "[04 · Hòa bình không dễ có] : Hà Nội 12 ngày đêm"
 subtitle: "Bầu trời, trận địa và những người không trở về"
 series: "Hòa bình không dễ có"
 series_order: 4
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/B-52%20Arc%20Light%20strike.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/B-52%20Arc%20Light%20strike.jpg?width=800"
+cover-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Hà Nội, B-52]
 ---
 
@@ -72,6 +72,6 @@ là nhớ đến những người đã trả giá để thành phố có thể s
 
 ### Nguồn tham khảo
 
-- Tư liệu Bảo tàng Phòng không – Không quân.
-- Tư liệu về chiến dịch tháng 12 năm 1972 và ký ức người dân Hà Nội.
+- [Bảo tàng Lịch sử Quốc gia: Hà Nội không khuất phục](https://baotanglichsu.vn/vi/Articles/3091/13365/ha-noi-khong-khuat-phuc.html)
+- [Bảo tàng Lịch sử Quốc gia: Hà Nội – Điện Biên Phủ trên không qua lời kể nhân chứng](https://baotanglichsu.vn/vi/Articles/3316/13236/ha-noi-djien-bien-phu-tren-khong-qua-loi-ke-nhan-chung.html)
 - Tư liệu hình ảnh từ Wikimedia Commons.

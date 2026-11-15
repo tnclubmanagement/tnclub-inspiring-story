@@ -8,8 +8,8 @@ history-date: "10-10"
 series: "Lịch sử Việt Nam"
 series_order: 5
 series_url: "/series/lich-su-viet-nam/"
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/M%E1%BB%99t%20con%20ph%E1%BB%91%20H%C3%A0%20N%E1%BB%99i%20v%C3%A0o%20th%C3%A1ng%2010%20n%C4%83m%201954.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/M%E1%BB%99t%20con%20ph%E1%BB%91%20H%C3%A0%20N%E1%BB%99i%20v%C3%A0o%20th%C3%A1ng%2010%20n%C4%83m%201954.jpg?width=800"
+cover-img: "/posts/2026/11/14/giai-phong-thu-do/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/giai-phong-thu-do/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, Hà Nội]
 ---
 
@@ -51,5 +51,7 @@ Ngày Giải phóng Thủ đô không chỉ đánh dấu sự thay đổi về q
 phố. Đây còn là ngày người Hà Nội cảm nhận rõ niềm vui hòa bình sau một
 chặng đường dài. Thủ đô từ đó bước vào thời kỳ khôi phục và xây dựng mới.
 
-*Nguồn tham khảo: Tư liệu về ngày Giải phóng Thủ đô và lịch sử Hà Nội năm
-1954.*
+### Nguồn tham khảo
+
+- [Bảo tàng Lịch sử Quốc gia: Ngày giải phóng Thủ đô 10-10-1954](https://baotanglichsu.vn/vi/Articles/3097/12610/ngay-giai-phong-thu-djo-10-10-1954.html)
+- [Bảo tàng Lịch sử Quốc gia: Hà Nội trong ngày 10-10-1954](https://baotanglichsu.vn/vi/Articles/3097/17119/ha-noi-trong-ngay-10-10-1954-lich-su-va-nhung-nhiem-vu-nang-ne-khi-djo.html)
