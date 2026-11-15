@@ -494,6 +494,65 @@
     });
   }
 
+  function initReadingTools() {
+    var root = document.documentElement;
+    var savedTheme = window.localStorage.getItem("inspiring-theme");
+    var themeButton = document.createElement("button");
+    themeButton.className = "theme-toggle";
+    themeButton.type = "button";
+    themeButton.setAttribute("aria-label", "Đổi giao diện sáng tối");
+    themeButton.textContent = savedTheme === "dark" ? "☀" : "☾";
+    if (savedTheme) root.dataset.theme = savedTheme;
+    themeButton.addEventListener("click", function () {
+      var next = root.dataset.theme === "dark" ? "light" : "dark";
+      root.dataset.theme = next;
+      window.localStorage.setItem("inspiring-theme", next);
+      themeButton.textContent = next === "dark" ? "☀" : "☾";
+    });
+    document.body.appendChild(themeButton);
+
+    var button = document.querySelector(".post-audio-toggle");
+    var article = document.querySelector(".post-body");
+    if (!button || !article || !("speechSynthesis" in window)) return;
+    var utterance;
+    var voices = [];
+    function loadVoices() {
+      voices = window.speechSynthesis.getVoices();
+    }
+    loadVoices();
+    window.speechSynthesis.addEventListener("voiceschanged", loadVoices);
+    button.addEventListener("click", function () {
+      if (window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+        button.setAttribute("aria-pressed", "false");
+        button.innerHTML = '<span aria-hidden="true">▶</span> Đọc bài';
+        return;
+      }
+      var vietnameseVoice = voices.find(function (voice) {
+        return voice.lang && voice.lang.toLowerCase().indexOf("vi") === 0;
+      });
+      if (!vietnameseVoice) {
+        button.textContent = "Chưa có giọng Việt";
+        button.title = "Hãy cài hoặc bật một giọng đọc tiếng Việt trong hệ điều hành";
+        return;
+      }
+      var readable = article.cloneNode(true);
+      readable.querySelectorAll("a, .story-gallery, .post-reading-tools").forEach(function (element) {
+        element.remove();
+      });
+      utterance = new SpeechSynthesisUtterance(readable.innerText.replace(/\s+/g, " ").trim());
+      utterance.lang = "vi-VN";
+      utterance.voice = vietnameseVoice;
+      utterance.onend = function () {
+        button.setAttribute("aria-pressed", "false");
+        button.innerHTML = '<span aria-hidden="true">▶</span> Đọc bài';
+      };
+      button.setAttribute("aria-pressed", "true");
+      button.innerHTML = '<span aria-hidden="true">■</span> Dừng đọc';
+      window.speechSynthesis.speak(utterance);
+    });
+  }
+
   function initHistoryCalendar() {
     var section = document.querySelector(".history-calendar-section");
     var data = document.querySelector("#history-events-data");
@@ -797,6 +856,7 @@
     initLazyImages();
     initRelativeDates();
     initStoryGalleries();
+    initReadingTools();
     initHistoryCalendar();
     initFeaturedStories();
     initHomeSectionDots();

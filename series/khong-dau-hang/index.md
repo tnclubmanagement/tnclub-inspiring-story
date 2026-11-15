@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Không đầu hàng"
 subtitle: ""
 permalink: /series/khong-dau-hang/
 ---

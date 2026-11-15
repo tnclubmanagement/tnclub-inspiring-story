@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Nên – Không nên"
 subtitle: ""
 permalink: /series/nen-khong-nen/
 ---

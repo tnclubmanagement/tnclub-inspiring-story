@@ -12,3 +12,6 @@ nói chuyện, hãy liên hệ với mình qua:
 - Email: <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a><!-- điền email của bạn, ví dụ: ten@gmail.com -->
 
 Mình sẽ cố gắng phản hồi sớm nhất có thể. Cảm ơn bạn đã ghé qua! 💛
+
+Bạn cũng có thể xem toàn bộ các trang đang được website công khai tại
+[sitemap.xml]({{ '/sitemap.xml' | relative_url }}).
