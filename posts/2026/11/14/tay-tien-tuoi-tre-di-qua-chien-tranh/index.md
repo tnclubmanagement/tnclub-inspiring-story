@@ -50,6 +50,58 @@ những cuộc hành quân kiệt sức và những người đã không thể t
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+<section class="poem-readable" aria-label="Bản chữ bài thơ Tây Tiến">
+  <p class="poem-readable-kicker">Bản chữ dễ đọc</p>
+  <h2>Tây Tiến</h2>
+  <p class="poem-readable-author">Quang Dũng · 1948</p>
+  <div class="poem-readable-text">
+    <p>
+      Sông Mã xa rồi Tây Tiến ơi!<br>
+      Nhớ về rừng núi, nhớ chơi vơi<br>
+      Sài Khao sương lấp đoàn quân mỏi<br>
+      Mường Lát hoa về trong đêm hơi<br>
+      Dốc lên khúc khuỷu dốc thăm thẳm<br>
+      Heo hút cồn mây súng ngửi trời<br>
+      Ngàn thước lên cao, ngàn thước xuống<br>
+      Nhà ai Pha Luông mưa xa khơi
+    </p>
+    <p>
+      Anh bạn dãi dầu không bước nữa<br>
+      Gục lên súng mũ bỏ quên đời!<br>
+      Chiều chiều oai linh thác gầm thét<br>
+      Đêm đêm Mường Hịch cọp trêu người<br>
+      Nhớ ôi Tây Tiến cơm lên khói<br>
+      Mai Châu mùa em thơm nếp xôi
+    </p>
+    <p>
+      Doanh trại bừng lên hội đuốc hoa<br>
+      Kìa em xiêm áo tự bao giờ<br>
+      Khèn lên man điệu nàng e ấp<br>
+      Nhạc về Viên Chăn xây hồn thơ<br>
+      Người đi Châu Mộc chiều sương ấy<br>
+      Có thấy hồn lau nẻo bến bờ<br>
+      Có nhớ dáng người trên độc mộc<br>
+      Trôi dòng nước lũ hoa đong đưa
+    </p>
+    <p>
+      Tây Tiến đoàn binh không mọc tóc<br>
+      Quân xanh màu lá dữ oai hùm<br>
+      Mắt trừng gửi mộng qua biên giới<br>
+      Đêm mơ Hà Nội dáng kiều thơm<br>
+      Rải rác biên cương mồ viễn xứ<br>
+      Chiến trường đi chẳng tiếc đời xanh<br>
+      Áo bào thay chiếu anh về đất<br>
+      Sông Mã gầm lên khúc độc hành
+    </p>
+    <p>
+      Tây Tiến người đi không hẹn ước<br>
+      Đường lên thăm thẳm một chia phôi<br>
+      Ai lên Tây Tiến mùa xuân ấy<br>
+      Hồn về Sầm Nứa chẳng về xuôi
+    </p>
+  </div>
+</section>
+
 ## Video liên quan
 
 <div class="gallery-video">
