@@ -6,8 +6,8 @@ title: "[07 · Hòa bình không dễ có] : Cầu Hiền Lương và sông Bế
 subtitle: "Một dòng sông, một cây cầu và những gia đình bị chia cắt"
 series: "Hòa bình không dễ có"
 series_order: 7
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Benhai04.JPG?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Benhai04.JPG?width=800"
+cover-img: "/posts/2026/11/14/cau-hien-luong-song-ben-hai/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/cau-hien-luong-song-ben-hai/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Hiền Lương, Bến Hải]
 ---
 
@@ -71,6 +71,6 @@ xóm và được gọi một đất nước bằng một cái tên chung.
 
 ### Nguồn tham khảo
 
-- Tư liệu Khu di tích đôi bờ Hiền Lương – Bến Hải.
-- Tư liệu về Hiệp định Genève năm 1954 và giới tuyến quân sự tạm thời.
+- [Bảo tàng Lịch sử Quốc gia: Đôi bờ giới tuyến](https://baotanglichsu.vn/vi/Articles/3129/19731/djoi-bo-gioi-tuyen.html)
+- [Bảo tàng Lịch sử Quốc gia: Hội nghị Giơnevơ 8/5–21/7/1954](https://baotanglichsu.vn/vi/Articles/3097/19190/tu-ngay-8-5-djen-21-7-1954-hoi-nghi-gionevo.html)
 - Tư liệu hình ảnh từ Wikimedia Commons.

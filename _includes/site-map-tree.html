@@ -1,0 +1,46 @@
+<div class="site-map-tree" aria-label="Sơ đồ website">
+  <div class="site-map-root">
+    <span class="site-map-node-kicker">Bắt đầu</span>
+    <a href="{{ '/' | relative_url }}">Trang chủ</a>
+    <span class="site-map-node-note">Nơi bắt đầu khám phá Inspiring</span>
+  </div>
+
+  <div class="site-map-branches">
+    <section class="site-map-branch">
+      <div class="site-map-node">
+        <span class="site-map-node-kicker">Nội dung chính</span>
+        <a href="{{ '/posts/' | relative_url }}">Bài viết</a>
+        <span class="site-map-node-note">Tìm kiếm, lọc và đọc theo series</span>
+      </div>
+      <div class="site-map-children">
+        <a class="site-map-leaf" href="{{ '/posts/' | relative_url }}">Danh sách bài viết</a>
+        <a class="site-map-leaf" href="{{ '/tags/' | relative_url }}">Theo chủ đề/tag</a>
+        <div class="site-map-node site-map-node-muted">
+          <span class="site-map-node-kicker">Đọc theo mạch</span>
+          <span>Series</span>
+          <span class="site-map-node-note">Các bài được đánh số theo thứ tự</span>
+        </div>
+        <div class="site-map-series-grid">
+          <a class="site-map-leaf" href="{{ '/series/hoa-binh-khong-de-co/' | relative_url }}">Hòa bình không dễ có</a>
+          <a class="site-map-leaf" href="{{ '/series/lich-su-viet-nam/' | relative_url }}">Lịch sử Việt Nam</a>
+          <a class="site-map-leaf" href="{{ '/series/khong-dau-hang/' | relative_url }}">Không đầu hàng</a>
+          <a class="site-map-leaf" href="{{ '/series/thay-phap-hoa/' | relative_url }}">Thầy Pháp Hòa</a>
+          <a class="site-map-leaf" href="{{ '/series/nen-khong-nen/' | relative_url }}">Nên – Không nên</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-map-branch">
+      <div class="site-map-node">
+        <span class="site-map-node-kicker">Thông tin</span>
+        <span>Về website</span>
+        <span class="site-map-node-note">Thông tin và liên hệ</span>
+      </div>
+      <div class="site-map-children">
+        <a class="site-map-leaf" href="{{ '/aboutme/' | relative_url }}">Giới thiệu</a>
+        <a class="site-map-leaf" href="{{ '/contact/' | relative_url }}">Liên hệ</a>
+        <a class="site-map-leaf" href="{{ '/privacy/' | relative_url }}">Chính sách riêng tư</a>
+      </div>
+    </section>
+  </div>
+</div>

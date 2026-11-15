@@ -6,8 +6,8 @@ title: "[01 · Hòa bình không dễ có] : Ngã ba Đồng Lộc"
 subtitle: "Những người giữ đường giữa một tọa độ bị bom đạn vùi lấp"
 series: "Hòa bình không dễ có"
 series_order: 1
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Nga%20Ba%20Dong%20Loc.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Nga%20Ba%20Dong%20Loc.jpg?width=800"
+cover-img: "/posts/2026/11/14/nga-ba-dong-loc/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/nga-ba-dong-loc/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, thanh niên xung phong, chiến tranh]
 ---
 

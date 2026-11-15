@@ -6,8 +6,8 @@ title: "[06 · Hòa bình không dễ có] : Thành cổ Quảng Trị"
 subtitle: "81 ngày đêm và những người nằm lại bên dòng Thạch Hãn"
 series: "Hòa bình không dễ có"
 series_order: 6
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Thanh%20co%20Quang%20Tri%2040%20nam%20su%20kien%2081%20ngay%20dem%201972.JPG?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Thanh%20co%20Quang%20Tri%2040%20nam%20su%20kien%2081%20ngay%20dem%201972.JPG?width=800"
+cover-img: "/posts/2026/11/14/thanh-co-quang-tri/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/thanh-co-quang-tri/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Thành cổ Quảng Trị, chiến tranh]
 ---
 

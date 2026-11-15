@@ -12,3 +12,14 @@ nói chuyện, hãy liên hệ với mình qua:
 - Email: <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a><!-- điền email của bạn, ví dụ: ten@gmail.com -->
 
 Mình sẽ cố gắng phản hồi sớm nhất có thể. Cảm ơn bạn đã ghé qua! 💛
+
+Bạn có thể xem cấu trúc các khu vực của website tại
+[Sơ đồ website]({{ '/sitemap/' | relative_url }}).
+
+## Sơ đồ website
+
+<p class="site-map-contact-intro">
+  Bạn có thể đi thẳng đến khu vực mình quan tâm từ sơ đồ dưới đây.
+</p>
+
+{% include site-map-tree.html %}

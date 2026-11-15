@@ -82,9 +82,11 @@ Klepetan và Malena không phải một câu chuyện tình hoàn hảo theo ngh
 người. Họ không thể ở bên nhau quanh năm. Một người phải ở lại, một người
 phải bay đi. Nhưng sự xa cách không xóa được thói quen trở về.
 
-Có những tình yêu không được đo bằng số ngày ở cạnh nhau. Chúng được đo
-bằng việc, sau một hành trình dài đến đâu, người ta vẫn biết mình đang bay
-về nơi nào.
+Có những tình yêu không được đo bằng số ngày ở cạnh nhau. Câu chuyện của
+Klepetan và Malena cũng nhắc ta rằng sự chăm sóc có một phần rất lặng lẽ:
+ở lại khi người kia không thể tự bay, bảo vệ một mái nhà qua mùa đông, rồi
+chấp nhận mất mát khi một vòng đời kết thúc. Nhìn như vậy, câu chuyện không
+chỉ là một lời hứa lãng mạn, mà còn là câu chuyện về trách nhiệm bền bỉ.
 
 ### Nguồn tham khảo
 

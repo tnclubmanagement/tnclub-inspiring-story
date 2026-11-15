@@ -6,8 +6,8 @@ title: "[02 · Hòa bình không dễ có] : Tây Tiến"
 subtitle: "Tuổi trẻ đi qua núi rừng, bệnh tật và những mùa chiến đấu"
 series: "Hòa bình không dễ có"
 series_order: 2
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/MocChau.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/MocChau.jpg?width=800"
+cover-img: "/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Tây Tiến, kháng chiến chống Pháp]
 ---
 
@@ -154,7 +154,7 @@ trân trọng những người đã hy sinh; và để hiểu rằng hòa bình 
 
 ### Nguồn tham khảo
 
-- VOV: tư liệu về Trung đoàn 52 Tây Tiến và Khu di tích lịch sử Tây Tiến.
-- Báo Nhân Dân: tư liệu về quá trình hình thành và thành phần của Trung
-  đoàn Tây Tiến.
+- [Bảo tàng Lịch sử Quốc gia: Chuyện kể về những chiến sĩ đi Tây Tiến](https://baotanglichsu.vn/VI/Articles/3098/71332/chuyen-ke-ve-liet-si-cao-tu-cuong-tieu-djoi-truong-chi-djoi-giai-phong-quan-djau-tien-dji-tay-tien-1945.html)
+- Báo Nhân Dân và VOV: tư liệu về Trung đoàn 52 Tây Tiến và Khu di tích
+  lịch sử Tây Tiến.
 - Các tư liệu nghiên cứu về Quang Dũng và bài thơ *Tây Tiến*.

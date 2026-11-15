@@ -6,8 +6,8 @@ title: "[03 · Hòa bình không dễ có] : Địa đạo Củ Chi"
 subtitle: "Những con người sống và chiến đấu dưới lòng đất"
 series: "Hòa bình không dễ có"
 series_order: 3
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Cu%20Chi%20Tunnels%20Vietnam%20war.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Cu%20Chi%20Tunnels%20Vietnam%20war.jpg?width=800"
+cover-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Củ Chi, chiến tranh]
 ---
 
@@ -72,6 +72,6 @@ vì sao không ai nên xem hòa bình là điều hiển nhiên.
 
 ### Nguồn tham khảo
 
-- Tư liệu giới thiệu Khu di tích lịch sử Địa đạo Củ Chi.
-- Hồi ký và lời kể nhân chứng về đời sống vùng Củ Chi trong chiến tranh.
+- [Bảo tàng Lịch sử Quốc gia: Địa đạo Củ Chi – điểm hẹn tìm về lịch sử](https://baotanglichsu.vn/vi/Articles/3096/19319/djia-djao-cu-chi-djiem-hen-tim-ve-lich-su.html)
+- [Bảo tàng Lịch sử Quốc gia: Địa đạo Củ Chi và giá trị di sản](https://baotanglichsu.vn/fr/Articles/3258/71727/vers-une-reconnaissance-des-tunnels-de-cu-chi-par-l-unesco-en-tant-que-patrimoine-mondial.html)
 - Tư liệu hình ảnh từ Wikimedia Commons.

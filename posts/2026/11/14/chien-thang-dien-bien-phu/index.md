@@ -8,8 +8,8 @@ history-date: "05-07"
 series: "Lịch sử Việt Nam"
 series_order: 4
 series_url: "/series/lich-su-viet-nam/"
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Dien%20Bien%20Phu%201954%20French%20prisoners.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/Dien%20Bien%20Phu%201954%20French%20prisoners.jpg?width=800"
+cover-img: "/posts/2026/11/14/chien-thang-dien-bien-phu/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/chien-thang-dien-bien-phu/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, kháng chiến]
 ---
 
@@ -57,5 +57,8 @@ nơi trên thế giới.
 hậu phương. Vì vậy, Điện Biên Phủ thường được nhớ đến như biểu tượng của ý
 chí, sự bền bỉ và sức mạnh đoàn kết.
 
-*Nguồn tham khảo: Tư liệu về Chiến dịch Điện Biên Phủ và Hiệp định Genève
-năm 1954.*
+### Nguồn tham khảo
+
+- [Báo Nhân Dân: Trang thông tin đặc biệt 70 năm Chiến thắng Điện Biên Phủ](https://dienbienphu.nhandan.vn/)
+- [Báo Nhân Dân: Những dấu mốc quan trọng trong đàm phán Hiệp định Geneva](https://nhandan.vn/nhung-dau-moc-quan-trong-trong-dam-phan-hiep-dinh-geneva-post818470.html)
+- [Báo Nhân Dân: Chiến thắng Điện Biên Phủ – cách nhìn lịch đại](https://nhandan.vn/chien-thang-dien-bien-phu-cach-nhin-lich-dai-post804733.html)

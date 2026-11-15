@@ -6,8 +6,8 @@ title: "[05 · Hòa bình không dễ có] : Mậu Thân ở Huế"
 subtitle: "Tuổi trẻ, thường dân và những cuộc đời bị chiến tranh cắt ngang"
 series: "Hòa bình không dễ có"
 series_order: 5
-cover-img: "https://commons.wikimedia.org/wiki/Special:FilePath/HU%E1%BA%BE%201968%20-%20Tet%20Offensive.jpg?width=1600"
-thumbnail-img: "https://commons.wikimedia.org/wiki/Special:FilePath/HU%E1%BA%BE%201968%20-%20Tet%20Offensive.jpg?width=800"
+cover-img: "/posts/2026/11/14/mau-than-o-hue/cover-local.jpg"
+thumbnail-img: "/posts/2026/11/14/mau-than-o-hue/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Mậu Thân, Huế]
 ---
 
@@ -81,6 +81,6 @@ giữ bằng sự thật, lòng trắc ẩn và trách nhiệm với ký ức c�
 
 ### Nguồn tham khảo
 
-- Tư liệu nhân chứng và các nghiên cứu về Trận Mậu Thân tại Huế.
-- VOV và các tài liệu địa phương về Tiểu đội 11 cô gái sông Hương.
+- [Bảo tàng Lịch sử Quốc gia: Nơi họp và quyết định Tổng tiến công Tết Mậu Thân 1968](https://baotanglichsu.vn/vi/Articles/3091/55748/noi-hop-va-quyet-djinh-cuoc-tong-tien-cong-va-noi-day-tet-mau-than-1968.html)
+- [Bảo tàng Lịch sử Quốc gia: Cuộc Tổng tiến công và nổi dậy Tết Mậu Thân 1968](https://baotanglichsu.vn/vi/Articles/3097/73672/cuoc-tong-tien-cong-va-noi-day-tet-mau-than-1968-tam-voc-va-y-nghia-lich-su.html)
 - Tư liệu lưu trữ hình ảnh từ Wikimedia Commons.

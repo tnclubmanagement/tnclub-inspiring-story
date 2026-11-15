@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Thầy Pháp Hòa"
 subtitle: ""
 permalink: /series/thay-phap-hoa/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Hòa bình không dễ có"
 subtitle: ""
 permalink: /series/hoa-binh-khong-de-co/
 ---

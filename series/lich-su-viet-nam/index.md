@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Lịch sử Việt Nam"
 subtitle: ""
 permalink: /series/lich-su-viet-nam/
 ---
