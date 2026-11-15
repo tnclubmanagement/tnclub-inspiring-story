@@ -44,7 +44,3 @@ có thể trả lời ngay, nhưng mọi góp ý chân thành đều được tr
 Bạn có thể xem các khu vực chính của Inspiring tại
 [Sơ đồ website]({{ '/sitemap/' | relative_url }}), hoặc bắt đầu từ danh sách
 [bài viết mới nhất]({{ '/posts/' | relative_url }}).
-
-## Sơ đồ website
-
-{% include site-map-tree.html %}
