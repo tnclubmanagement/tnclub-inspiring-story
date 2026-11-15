@@ -53,6 +53,30 @@ tags: [lịch sử Việt Nam, calendar, kháng chiến]
       <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dan-cong.jpg" alt="Khối dân công hỏa tuyến với những chiếc xe đạp thồ" loading="lazy">
       <figcaption>Khối dân công hỏa tuyến với những chiếc xe đạp thồ gợi nhớ hậu cần Chiến dịch Điện Biên Phủ: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-co-do.jpg" alt="Những lá cờ đỏ trong đội hình lễ kỷ niệm" loading="lazy">
+      <figcaption>Những lá cờ đỏ trong đội hình lễ kỷ niệm: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dieu-binh.jpg" alt="Khối chiến sĩ diễu binh trong lễ kỷ niệm" loading="lazy">
+      <figcaption>Các khối chiến sĩ diễu binh qua lễ đài: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-ky-binh.jpg" alt="Khối kỵ binh diễu hành trên đường phố Điện Biên" loading="lazy">
+      <figcaption>Khối kỵ binh trong đội hình diễu hành: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dan-toc.jpg" alt="Đại diện các dân tộc trong đội hình lễ kỷ niệm" loading="lazy">
+      <figcaption>Đại diện các dân tộc trong đội hình diễu hành: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-nguoi-dan.jpg" alt="Người dân Điện Biên đứng bên đường theo dõi lễ diễu hành" loading="lazy">
+      <figcaption>Người dân Điện Biên theo dõi đoàn diễu hành: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-tren-bau-troi.jpg" alt="Đội hình máy bay mang cờ trên bầu trời Điện Biên" loading="lazy">
+      <figcaption>Đội hình máy bay mang cờ trên bầu trời Điện Biên: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
   </div>
   <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
   <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
