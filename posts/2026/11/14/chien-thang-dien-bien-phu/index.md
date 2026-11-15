@@ -33,6 +33,32 @@ tags: [lịch sử Việt Nam, calendar, kháng chiến]
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Gallery lễ kỷ niệm 70 năm
+
+<section class="story-gallery" aria-label="Hình ảnh lễ kỷ niệm 70 năm Chiến thắng Điện Biên Phủ">
+  <div class="story-gallery-track">
+    <figure class="story-slide is-active">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-truc-thang.jpg" alt="Trực thăng mang cờ Đảng và cờ Tổ quốc bay qua lễ đài" loading="lazy">
+      <figcaption>Trực thăng mang cờ Đảng và cờ Tổ quốc bay qua lễ đài trong buổi tổng duyệt: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-nu-quan-y.jpg" alt="Khối nữ sĩ quan quân y diễu hành" loading="lazy">
+      <figcaption>Khối nữ sĩ quan quân y trong đội hình diễu binh: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-cong-nhan.jpg" alt="Khối công nhân diễu hành với cờ và hoa" loading="lazy">
+      <figcaption>Khối công nhân Việt Nam trong đội hình diễu hành: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
+    <figure class="story-slide">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dan-cong.jpg" alt="Khối dân công hỏa tuyến với những chiếc xe đạp thồ" loading="lazy">
+      <figcaption>Khối dân công hỏa tuyến với những chiếc xe đạp thồ gợi nhớ hậu cần Chiến dịch Điện Biên Phủ: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
+    </figure>
+  </div>
+  <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
+  <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
+  <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình lễ kỷ niệm"></div>
+</section>
+
 ## Video liên quan
 
 <figure class="gallery-video">
