@@ -2,6 +2,7 @@
 layout: page
 title: Liên hệ
 subtitle: Mình luôn sẵn sàng lắng nghe
+cover-img: "/assets/img/about-modern.jpg"
 permalink: /contact/
 ---
 

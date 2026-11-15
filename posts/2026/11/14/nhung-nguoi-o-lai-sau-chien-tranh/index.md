@@ -6,6 +6,7 @@ title: "[10 · Hòa bình không dễ có] : Những người ở lại sau chi�
 subtitle: "Những cuộc đời tiếp tục sống cùng mất mát"
 series: "Hòa bình không dễ có"
 series_order: 10
+cover-img: "/posts/2026/11/14/nhung-nguoi-o-lai-sau-chien-tranh/thumbnail-local.jpg"
 thumbnail-img: "/posts/2026/11/14/nhung-nguoi-o-lai-sau-chien-tranh/thumbnail-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, ký ức chiến tranh, hòa bình]
 ---
@@ -29,6 +30,21 @@ tags: [lịch sử Việt Nam, Hòa bình không dễ có, ký ức chiến tran
   <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
+
+## Video liên quan
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/xeo3lIa25yk"
+    title="Video về những người ở lại sau chiến tranh"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+    Video về ký ức, mất mát và những người tiếp tục sống sau chiến tranh.
+    <a href="https://www.youtube.com/watch?v=xeo3lIa25yk" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
 
 Chiến tranh thường có một ngày được ghi là kết thúc. Nhưng với nhiều gia
 đình, chiến tranh không chấm dứt vào ngày tiếng súng ngừng vang. Nó tiếp
@@ -87,21 +103,63 @@ là họ không nhớ. Có khi họ im lặng vì không muốn gia đình đau,
 biết diễn đạt thế nào, hoặc vì trong ký ức có những điều quá nặng nề để
 nói ra.
 
-## Hòa bình là một công việc phải gìn giữ
+## Xương máu không phải là một khẩu hiệu
 
 Nhìn lại những câu chuyện từ Đồng Lộc, Tây Tiến, Củ Chi, Hà Nội, Huế,
 Quảng Trị, Hiền Lương, Campuchia và biên giới phía Bắc, ta thấy mỗi nơi có
-một hoàn cảnh khác nhau. Nhưng tất cả đều gặp nhau ở một điều: người Việt
-đã mất mát quá nhiều.
+một hoàn cảnh khác nhau. Nhưng tất cả đều gặp nhau ở một sự thật không thể
+né tránh: người Việt đã phải trả một cái giá quá lớn bằng máu, tuổi trẻ và
+những cuộc đời chưa kịp sống trọn.
+
+<aside class="history-war-cost">
+  <span class="history-war-cost-label">Cái giá của chiến tranh</span>
+  <p>
+    Qua nhiều thời kỳ, Việt Nam nhiều lần trở thành chiến trường của những
+    cuộc xung đột có sự can dự của các thế lực bên ngoài và các cường quốc.
+    Bom đạn rơi xuống thành phố, làng quê, cầu đường, trường học và ruộng
+    đồng; nhưng hậu quả không dừng lại khi chiến tranh kết thúc. Nó còn nằm
+    trong những ngôi mộ chưa biết tên, những người mất tích, những thân thể
+    mang thương tật, những giấc ngủ không yên và những gia đình truyền nỗi
+    đau từ thế hệ này sang thế hệ khác.
+  </p>
+</aside>
+
+Đằng sau mỗi con số thương vong là một căn nhà mất người. Đằng sau mỗi
+chiến thắng là những người lính không trở về, những người mẹ chờ tin,
+những người vợ nuôi con một mình và những đứa trẻ lớn lên với một khoảng
+trống không thể gọi tên. Không có bản đồ chiến sự nào đủ rộng để chứa hết
+những mất mát ấy.
+
+Vì thế, không nên kể lịch sử chiến tranh chỉ bằng những mũi tên tiến công,
+những trận đánh và những cụm từ hào hùng. Cần nhớ cả người dân bị cuốn vào
+cuộc chiến, những người làm nhiệm vụ phía sau và những người sống tiếp
+trong một đất nước còn đầy dấu vết bom đạn. Lòng biết ơn chỉ có ý nghĩa
+khi đi cùng sự thật và sự tôn trọng đối với mọi nỗi đau.
+
+## Hòa bình là điều phải gìn giữ
 
 Hòa bình không chỉ là một mốc trong sách lịch sử. Đó là bữa cơm gia đình,
 lớp học có đủ người, con đường không có hố bom, người mẹ không phải chờ
 giấy báo tử và người lính có thể trở về sống trọn một đời.
 
-Vì vậy, viết về chiến tranh cần để lại nhiều hơn niềm tự hào. Cần để lại
-lòng biết ơn, sự tỉnh táo và mong muốn không lặp lại những mất mát ấy.
-Nhớ đúng về người đã khuất là một cách để người đang sống biết trân trọng
-hòa bình.
+Những người ở lại không sống chỉ để kể lại chiến tranh. Họ làm việc, nuôi
+con, tìm kiếm hài cốt, chăm sóc thương binh, giữ nghĩa trang và truyền ký
+ức cho thế hệ sau. Chính sự bền bỉ ấy nối một đất nước sau đổ nát với ngày
+hôm nay.
+
+Viết về chiến tranh, vì vậy, cần để lại nhiều hơn niềm tự hào. Cần để lại
+lòng biết ơn, sự tỉnh táo và một lời cảnh tỉnh: không một tham vọng quyền
+lực nào đáng để dân thường phải trả giá bằng mạng sống, và không một thế
+hệ nào nên coi hòa bình là điều tự nhiên có sẵn.
+
+<aside class="history-conclusion">
+  <span class="history-conclusion-label">Điều còn lại</span>
+  <p>
+    Nhớ về những người đã khuất không phải để nuôi thêm hận thù. Là để hiểu
+    rằng hòa bình được xây trên xương máu của rất nhiều người, và trách nhiệm
+    của người đang sống là không để những mất mát ấy lặp lại.
+  </p>
+</aside>
 
 ### Nguồn tham khảo
 

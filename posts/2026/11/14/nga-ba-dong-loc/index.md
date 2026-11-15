@@ -51,6 +51,10 @@ tiếp tục đi qua.
     loading="lazy"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
+    <figcaption class="gallery-video-caption">
+    Tư liệu về Ngã ba Đồng Lộc
+    <a href="https://www.youtube.com/watch?v=3vX9ffuryb4" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
 </div>
 
 ## Một ngã ba trên con đường không được phép tắc

@@ -6,6 +6,7 @@ title: "[08 · Hòa bình không dễ có] : Chiến tranh biên giới Tây Nam
 subtitle: "Những người lính chiến đấu xa quê và người dân Campuchia trong thảm họa"
 series: "Hòa bình không dễ có"
 series_order: 8
+cover-img: "/posts/2026/11/14/chien-tranh-bien-gioi-tay-nam/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-tay-nam/thumbnail-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới Tây Nam, Campuchia]
 ---
@@ -29,6 +30,49 @@ tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới Tây Nam
   <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
+
+## Âm nhạc liên quan
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/TY1C4cFwSuo"
+    title="Bài hát liên quan đến chiến tranh biên giới Tây Nam"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+    Bài hát liên quan đến ký ức chiến tranh biên giới Tây Nam.
+    <a href="https://www.youtube.com/watch?v=TY1C4cFwSuo" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/fRHjmnYdtFs"
+    title="Bài hát liên quan đến chiến tranh biên giới Tây Nam"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+    Bài hát liên quan đến những người đã chiến đấu ở chiến trường Tây Nam.
+    <a href="https://www.youtube.com/watch?v=fRHjmnYdtFs" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
+
+## Video liên quan
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/ViDLqo41DUI?list=PL_ZkvT_2lEmu_BH7oC9yiBJPzTNX9Fiz3"
+    title="Video liên quan đến chiến tranh biên giới Tây Nam"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+    Video liên quan đến chiến tranh biên giới Tây Nam.
+    <a href="https://www.youtube.com/watch?v=ViDLqo41DUI&amp;list=PL_ZkvT_2lEmu_BH7oC9yiBJPzTNX9Fiz3" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
 
 Chiến tranh biên giới Tây Nam là một chương lịch sử thường được nhắc đến
 ít hơn so với các cuộc chiến khác. Đây là đề tài cần viết cẩn trọng vì liên

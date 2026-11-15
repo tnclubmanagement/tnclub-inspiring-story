@@ -6,6 +6,7 @@ title: "[09 · Hòa bình không dễ có] : Biên giới phía Bắc"
 subtitle: "Những người lính trẻ và người dân ở lại nơi địa đầu"
 series: "Hòa bình không dễ có"
 series_order: 9
+cover-img: "/posts/2026/11/14/chien-tranh-bien-gioi-phia-bac/thumbnail-local.png"
 thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-phia-bac/thumbnail-local.png"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới phía Bắc, Vị Xuyên]
 ---
@@ -30,6 +31,21 @@ tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới phía B�
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Video liên quan
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/Peo_6a_eUNY"
+    title="Video về chiến tranh biên giới phía Bắc"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+    Tư liệu về chiến tranh biên giới phía Bắc.
+    <a href="https://www.youtube.com/watch?v=Peo_6a_eUNY" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
+
 Tháng 2 năm 1979, chiến tranh nổ ra trên tuyến biên giới phía Bắc Việt Nam.
 Các tỉnh Lạng Sơn, Cao Bằng, Lào Cai và nhiều địa bàn khác chịu ảnh hưởng
 nặng nề. Sau giai đoạn đầu, những cuộc giao tranh tiếp tục kéo dài ở
@@ -39,6 +55,34 @@ nhiều khu vực, trong đó có mặt trận Vị Xuyên.
 người lính Việt Nam hy sinh không có nghĩa là kích động thù ghét đối với
 người dân Trung Quốc. Cần phân biệt quyết định của chính quyền, hoạt động
 quân sự và số phận của những người dân ở hai bên biên giới.
+
+## Bối cảnh quốc tế không thể bỏ qua
+
+Muốn hiểu vì sao cuộc chiến năm 1979 xảy ra, không thể chỉ nhìn vào đường
+biên giới. Từ đầu thập niên 1970, quan hệ Trung–Mỹ thay đổi nhanh chóng.
+Chuyến thăm Trung Quốc của Tổng thống Richard Nixon năm 1972 và Thông cáo
+Thượng Hải mở ra quá trình hai nước từng bước xích lại gần nhau; đến ngày
+1 tháng 1 năm 1979, Hoa Kỳ và Trung Quốc chính thức thiết lập quan hệ ngoại
+giao.
+
+Sự thay đổi ấy diễn ra trong lúc quan hệ Trung–Xô đã rạn nứt sâu sắc. Việt
+Nam ký Hiệp ước Hữu nghị và Hợp tác với Liên Xô vào tháng 11 năm 1978, còn
+quân đội Việt Nam tiến vào Campuchia cuối năm 1978 để lật đổ chế độ Khmer
+Đỏ sau nhiều năm xung đột và các cuộc tấn công qua biên giới. Những sự kiện
+này khiến Trung Quốc nhìn Việt Nam trong mối liên hệ với Liên Xô và
+Campuchia, chứ không chỉ như một tranh chấp biên giới song phương.
+
+Vì vậy, có thể nói quá trình Trung–Mỹ xích lại gần nhau đã tạo ra một
+không gian địa chính trị mới, trong đó Trung Quốc muốn thể hiện vai trò,
+gây sức ép với Việt Nam và đối phó với ảnh hưởng của Liên Xô. Một số
+nghiên cứu cho rằng việc “trừng phạt Việt Nam” cũng nhằm gửi tín hiệu đến
+Washington và Moscow.
+
+Điều chắc chắn là những tính toán giữa các cường quốc không diễn ra trên
+một bàn cờ vô hại. Khi các chính phủ theo đuổi lợi ích chiến lược, người
+dân ở các tỉnh biên giới phải hứng chịu pháo kích, sơ tán, mất nhà cửa và
+mất người thân. Đó là khoảng cách cần được nhìn thấy giữa ngôn ngữ ngoại
+giao và đời sống của người dân.
 
 ## Người dân trong vùng chiến sự
 
@@ -86,4 +130,7 @@ chứ không phải để nuôi thêm hận thù.
 
 - [Bảo tàng Lịch sử Quốc gia: 40 năm cuộc chiến đấu bảo vệ biên giới phía Bắc](https://baotanglichsu.vn/vi/Articles/3091/69623/40-nam-cuoc-chien-djau-bao-ve-bien-gioi-phia-bac-nhung-ky-uc-khong-quen.html)
 - [Bảo tàng Lịch sử Quốc gia: Nhìn lại chiến tranh biên giới 1979](https://baotanglichsu.vn/vi/Articles/3097/15795/nhin-lai-chien-tranh-bien-gioi-1979.html)
+- [Office of the Historian, U.S. Department of State: U.S.-China rapprochement](https://history.state.gov/milestones/1969-1976/rapprochement-china)
+- [Office of the Historian, U.S. Department of State: Normalization of U.S.-China relations](https://history.state.gov/milestones/1977-1980/china-policy)
+- [Vietnam Center and Archive: The Sino-Vietnamese War and the Sino-Soviet conflict](https://web.archive.org/web/20210109132309/http:/www.vietnam.ttu.edu/events/1996_Symposium/96papers/elleviet.htm)
 - Hồi ký cựu chiến binh, tư liệu địa phương và tài liệu về mặt trận Vị Xuyên.

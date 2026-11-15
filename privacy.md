@@ -2,6 +2,7 @@
 layout: page
 title: Chính sách & Điều khoản
 subtitle: Minh bạch và đơn giản
+cover-img: "/assets/img/privacy-modern.jpg"
 permalink: /privacy/
 ---
 
