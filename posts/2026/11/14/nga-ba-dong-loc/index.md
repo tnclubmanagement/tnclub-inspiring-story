@@ -42,6 +42,17 @@ tiếp tục đi qua.
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Video liên quan
+
+<div class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/3vX9ffuryb4"
+    title="Video về Ngã ba Đồng Lộc"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
+
 ## Một ngã ba trên con đường không được phép tắc
 
 Đồng Lộc thuộc huyện Can Lộc, tỉnh Hà Tĩnh, là nơi giao nhau của Quốc lộ

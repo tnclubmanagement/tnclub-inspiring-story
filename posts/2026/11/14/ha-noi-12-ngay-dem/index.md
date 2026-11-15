@@ -28,6 +28,73 @@ những trận trực chiến kéo dài, những khu phố rung chuyển và r�
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Vì sao Hà Nội trở thành mục tiêu
+
+Cuối năm 1972, cuộc chiến bước vào một giai đoạn quyết liệt khi các cuộc
+đàm phán và hoạt động quân sự diễn ra song song. Hà Nội, Hải Phòng và một
+số địa phương miền Bắc giữ vai trò quan trọng về chính trị, giao thông,
+hậu cần và chỉ huy. Vì thế, các đợt tập kích đường không không chỉ nhằm vào
+một trận địa quân sự riêng lẻ, mà còn tác động đến cả mạng lưới thành phố,
+cầu đường, nhà ga, nhà máy và khu dân cư.
+
+Tên gọi “Điện Biên Phủ trên không” thường được dùng để nhấn mạnh tính chất
+quyết định của chiến dịch. Tuy nhiên, khi đọc về sự kiện, cần đặt tên gọi
+ấy bên cạnh đời sống cụ thể của người dân: những ca trực trong hầm, những
+đoạn đường bị cắt, bệnh viện phải sơ tán và những gia đình không biết người
+thân của mình đang ở đâu.
+
+## Mười hai ngày đêm không diễn ra trong một khoảnh khắc
+
+Chiến dịch bắt đầu vào tối 18 tháng 12 năm 1972 và kéo dài đến ngày 29
+tháng 12. Cường độ các đợt đánh phá thay đổi theo từng ngày, nhưng nhịp
+sống của thành phố liên tục bị đặt trong tình trạng báo động. Người dân
+không chỉ đối mặt với tiếng bom; họ còn phải di chuyển, cứu người, dập
+cháy, khắc phục đường sá và tìm cách duy trì những công việc thiết yếu.
+
+Có thể hình dung diễn biến qua ba lớp thời gian:
+
+- **Những ngày đầu:** hệ thống phòng không chuyển sang trạng thái trực
+  chiến cao, các đơn vị quan sát và chiến đấu phải nhanh chóng nhận diện
+  hướng tiến công, bảo vệ các mục tiêu trọng yếu.
+- **Giai đoạn cao điểm:** các đợt tập kích dồn dập hơn, nhiều khu vực của
+  Hà Nội chịu sức ép lớn. Trận địa, nhà ga, khu dân cư và bệnh viện đều
+  phải hoạt động trong điều kiện thiếu an toàn.
+- **Những ngày cuối:** các đợt đánh phá tiếp tục gây tổn thất, nhưng khả
+  năng tổ chức phòng thủ và sức chịu đựng của thành phố vẫn được duy trì.
+  Đến ngày 29 tháng 12, hoạt động ném bom tạm dừng ở miền Bắc.
+
+Mốc thời gian giúp người đọc tránh biến “12 ngày đêm” thành một hình ảnh
+biểu tượng quá ngắn. Đây là một chuỗi ngày có mở đầu, cao điểm, tổn thất
+và những hậu quả kéo dài sau khi tiếng bom ngừng lại.
+
+## Video liên quan
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/WHbveIxVjaM"
+    title="Video về Hà Nội 12 ngày đêm"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+  Video khái quát về 12 ngày đêm chiến đấu bảo vệ Hà Nội.
+  <a href="https://www.youtube.com/watch?v=WHbveIxVjaM" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/JGTpBZuaO_Y"
+    title="Video về phi công Vũ Xuân Thiều"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+  Tư liệu về phi công Vũ Xuân Thiều trong chiến dịch năm 1972.
+  <a href="https://www.youtube.com/watch?v=JGTpBZuaO_Y" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
+
 ## Một cuộc chiến cần cả bầu trời và mặt đất
 
 Đối phó với B-52 không phải nhiệm vụ của một lực lượng duy nhất. Bộ đội
@@ -39,6 +106,29 @@ Trên bầu trời là những phi công phải cất cánh trong điều kiện
 hiểm. Dưới mặt đất là các trạm radar và trận địa tên lửa liên tục theo dõi,
 tính toán, chịu đựng những đợt phản kích. Một quyết định chậm có thể khiến
 đơn vị mất cơ hội; một sai sót có thể khiến người lính không trở về.
+
+## Phi công Vũ Xuân Thiều
+
+Trong ký ức về chiến dịch, câu chuyện của phi công Vũ Xuân Thiều thường
+được nhắc cùng một khoảnh khắc đặc biệt trên bầu trời. Ông là phi công của
+Không quân Nhân dân Việt Nam, đã cất cánh chiến đấu trong những ngày cuối
+tháng 12 năm 1972.
+
+Khi máy bay bị đối phương bám đuổi và không còn nhiều khả năng trở về, Vũ
+Xuân Thiều đã điều khiển máy bay lao vào B-52. Hành động ấy khiến ông hy
+sinh, đồng thời trở thành một trong những câu chuyện được nhắc lại về sự
+quyết liệt của lực lượng không quân trong chiến dịch.
+
+Không nên chỉ nhìn câu chuyện này như một hình ảnh anh hùng tách rời khỏi
+chiến thuật. Mỗi chuyến bay là kết quả của thông tin radar, chỉ huy mặt
+đất, kỹ thuật bảo đảm và sự phối hợp giữa nhiều lực lượng. Đằng sau quyết
+định trong vài giây là quá trình huấn luyện, những người đồng đội và một
+trận địa đang cố bảo vệ thành phố.
+
+Video về Vũ Xuân Thiều nên được xem như một tư liệu gợi mở, không thay thế
+cho việc đối chiếu hồ sơ lịch sử. Những chi tiết về thời điểm, diễn biến
+và nhân chứng cần được đọc cùng các nguồn lưu trữ hoặc bảo tàng chuyên
+ngành.
 
 ## Người dân trong hầm trú ẩn
 

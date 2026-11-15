@@ -20,6 +20,43 @@ Viết về Huế cần tránh hai thái cực: biến mọi đau thương thàn
 chỉ chọn một cách kể rồi phủ nhận ký ức của những người khác. Điều quan
 trọng trước hết là gọi tên những người đã chịu mất mát.
 
+## Huế trước Tết Mậu Thân
+
+Huế không chỉ là một đô thị có giá trị lịch sử và tôn giáo. Trong chiến
+tranh, thành phố còn có vị trí quân sự quan trọng ở miền Trung, với sông
+Hương chia cắt khu vực phía Bắc và phía Nam, các tuyến giao thông nối về
+phía nam và nhiều cơ sở hành chính, quân sự.
+
+Vị trí ấy khiến Huế trở thành một mục tiêu có ý nghĩa lớn trong Tổng tiến
+công và nổi dậy Tết Mậu Thân 1968. Nhưng vị trí quân sự không thể giải
+thích hết sự đau đớn của thành phố. Huế là nơi người dân sinh sống, học
+tập, chữa bệnh, đi lễ và làm việc. Khi giao tranh kéo dài, mọi không gian
+đời thường đều có thể biến thành nơi trú ẩn hoặc nơi bị cô lập.
+
+## Một chiến dịch, nhiều lớp diễn biến
+
+Tết Mậu Thân không phải là một trận đánh duy nhất diễn ra trong một đêm.
+Đó là một đợt tiến công rộng trên nhiều đô thị và địa bàn miền Nam, bắt
+đầu vào thời điểm Tết năm 1968. Ở Huế, giao tranh kéo dài nhiều ngày và
+diễn biến khác nhau giữa khu vực Thành Nội, phía Nam thành phố và các vùng
+ven đô.
+
+Có thể đọc diễn biến của Huế qua ba lớp:
+
+- **Đột kích và chiếm giữ ban đầu:** các lực lượng tiến vào nhiều khu vực
+  trong lúc đối phương bị bất ngờ và hệ thống phòng thủ chưa hoàn toàn
+  chuyển sang trạng thái phản ứng.
+- **Giao tranh kéo dài:** lực lượng tăng viện, pháo binh và không kích được
+  sử dụng để giành lại từng khu vực. Thành phố bị chia cắt, việc đi lại và
+  cứu trợ trở nên rất khó khăn.
+- **Tái chiếm và hậu quả:** sau khi giao tranh kết thúc, người dân trở về
+  những khu phố bị phá hủy, tìm người thân, nhận diện người chết và đối
+  diện với những câu hỏi chưa thể giải đáp ngay.
+
+Các nguồn có thể khác nhau khi mô tả lực lượng, thời điểm và thương vong.
+Vì vậy, phần diễn biến cần được đọc như một lịch sử nhiều tiếng nói,
+không nên rút gọn thành một câu chuyện thắng – thua đơn tuyến.
+
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về Huế năm 1968">
   <div class="story-gallery-track">
     <figure class="story-slide is-active"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/HU%E1%BA%BE%201968%20-%20Tet%20Offensive.jpg?width=1200" alt="Huế trong Tổng tiến công Tết Mậu Thân 1968" loading="lazy"><figcaption>Tư liệu Huế năm 1968: <a href="https://commons.wikimedia.org/wiki/File:HUẾ_1968_-_Tet_Offensive.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
@@ -30,6 +67,21 @@ trọng trước hết là gọi tên những người đã chịu mất mát.
   <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
+
+## Video liên quan
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/zMTPhndVHoo"
+    title="Video về Mậu Thân ở Huế"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+    Tư liệu về sự kiện Mậu Thân ở Huế.
+    <a href="https://www.youtube.com/watch?v=zMTPhndVHoo" rel="noopener">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
 
 ## Thành phố của những người trẻ
 
@@ -44,6 +96,26 @@ thương hoặc hỗ trợ địa phương. Có những sinh viên đang học t
 bị thương hoặc không bao giờ trở lại giảng đường. Khi viết về nhóm này,
 cần xác định từng trường hợp bằng hồ sơ và lời kể cụ thể; không nên gom
 tất cả sinh viên thành một nhóm giống nhau.
+
+## Những ngày thành phố bị chia cắt
+
+Giao tranh trong đô thị làm thay đổi hoàn toàn cách người dân sống. Họ
+không thể dễ dàng rời nhà để mua lương thực, đưa người bị thương đến bệnh
+viện hoặc liên lạc với gia đình ở khu vực khác. Những căn nhà, trường học,
+chùa, bệnh viện và hầm trú ẩn trở thành các điểm tạm thời để tránh bom đạn
+hoặc chăm sóc người bị thương.
+
+Trong một thành phố bị chia cắt, tin tức thường đến chậm và không đầy đủ.
+Một gia đình có thể chỉ biết người thân mất tích, nhưng chưa biết họ đang
+ở đâu hoặc vì sao không trở về. Những lời kể sau chiến tranh vì thế thường
+mang theo khoảng trống ký ức, sự sợ hãi và những chi tiết chỉ được nói ra
+sau nhiều năm.
+
+Đây cũng là lý do các bức ảnh về Huế năm 1968 cần được đọc cẩn thận. Một
+bức ảnh có thể cho thấy một cây cầu, một khu phố hoặc công việc nhận diện
+nạn nhân, nhưng không tự nó trả lời được toàn bộ câu hỏi về người trong
+ảnh. Chú thích và nguồn lưu trữ giúp người đọc phân biệt điều nhìn thấy
+với điều cần tiếp tục kiểm chứng.
 
 ## Mười một cô gái sông Hương
 
@@ -61,6 +133,19 @@ thành viên của tiểu đội đã hy sinh.
 Đó là việc những cô gái có thể đã có một cuộc đời khác: học tập, làm việc,
 lập gia đình và chăm sóc cha mẹ. Chiến tranh đã biến tuổi trẻ của họ thành
 một nhiệm vụ sống còn.
+
+## Sau khi tiếng súng ngừng
+
+Thiệt hại của Huế không kết thúc khi giao tranh chấm dứt. Thành phố cần
+thời gian để sửa đường, khôi phục bệnh viện, tìm kiếm người mất tích và
+đưa những gia đình phải sơ tán trở về. Với người sống sót, việc trở lại
+đời thường không có nghĩa là ký ức đã biến mất.
+
+Những năm sau đó, Mậu Thân ở Huế tiếp tục được kể từ nhiều vị trí: lịch sử
+quân sự, hồi ức của người dân, hồ sơ chính quyền, nghiên cứu học thuật và
+ký ức gia đình. Các cách kể ấy có thể không trùng nhau hoàn toàn. Một bài
+viết có trách nhiệm không cần che giấu sự khác biệt, nhưng cần nói rõ đâu
+là dữ kiện có nguồn, đâu là lời kể cá nhân và đâu là vấn đề còn tranh luận.
 
 ## Những gia đình không có một lời giải thích duy nhất
 

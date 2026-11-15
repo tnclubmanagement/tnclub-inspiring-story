@@ -27,6 +27,17 @@ duy trì bằng cuộc sống của cả một cộng đồng.
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Video liên quan
+
+<div class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/m6i4uRiLEKU"
+    title="Video về Địa đạo Củ Chi"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
+
 ## Một vùng đất bị đẩy xuống lòng đất
 
 Củ Chi nằm ở khu vực phía tây bắc Sài Gòn, trên một địa bàn có ý nghĩa quan

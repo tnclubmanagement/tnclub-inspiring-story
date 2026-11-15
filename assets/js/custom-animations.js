@@ -553,6 +553,29 @@
     });
   }
 
+  function initSeriesTitles() {
+    document.querySelectorAll(".post-heading h1, .page-heading h1").forEach(function (heading) {
+      var title = heading.textContent.trim();
+      var separator = title.indexOf("] : ");
+      if (separator === -1 || heading.querySelector(".series-title-name")) return;
+
+      var prefix = title.slice(0, separator + 1);
+      var name = title.slice(separator + 4);
+      heading.textContent = "";
+
+      var prefixElement = document.createElement("span");
+      prefixElement.className = "series-title-prefix";
+      prefixElement.textContent = prefix;
+
+      var nameElement = document.createElement("span");
+      nameElement.className = "series-title-name";
+      nameElement.textContent = name;
+
+      heading.appendChild(prefixElement);
+      heading.appendChild(nameElement);
+    });
+  }
+
   function initHistoryCalendar() {
     var section = document.querySelector(".history-calendar-section");
     var data = document.querySelector("#history-events-data");
@@ -857,6 +880,7 @@
     initRelativeDates();
     initStoryGalleries();
     initReadingTools();
+    initSeriesTitles();
     initHistoryCalendar();
     initFeaturedStories();
     initHomeSectionDots();

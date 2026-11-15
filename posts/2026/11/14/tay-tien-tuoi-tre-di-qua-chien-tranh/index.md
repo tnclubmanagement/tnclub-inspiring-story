@@ -42,6 +42,17 @@ những cuộc hành quân kiệt sức và những người đã không thể t
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Video liên quan
+
+<div class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/r1PFMI0pjEo"
+    title="Video về Tây Tiến"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
+
 ## Một đơn vị ở miền Tây
 
 Trung đoàn Tây Tiến được thành lập ngày 27 tháng 2 năm 1947. Sau đó, đơn
