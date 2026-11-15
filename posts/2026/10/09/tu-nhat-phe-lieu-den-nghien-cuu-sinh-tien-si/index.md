@@ -39,6 +39,21 @@ cậu cảm giác mình có thể làm một điều gì đó cho căn nhà củ
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+## Video về Bàng Chúng Vọng
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/kLFnUFRy9hQ"
+    title="Video về hoàn cảnh của Bàng Chúng Vọng"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+    Video nhìn lại hoàn cảnh gia đình và hành trình vượt khó của Bàng Chúng Vọng.
+    <a href="https://www.youtube.com/watch?v=kLFnUFRy9hQ" target="_blank" rel="noopener noreferrer">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
+
 ## Không muốn được nhìn như một người đáng thương
 
 Bàng Chúng Vọng từng trở thành tâm điểm chú ý sau khi đạt 684 điểm và được

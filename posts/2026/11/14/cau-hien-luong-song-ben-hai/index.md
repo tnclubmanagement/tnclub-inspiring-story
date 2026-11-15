@@ -42,6 +42,21 @@ tuyến kéo dài, những quy định khắt khe và nỗi nhớ người thân
   </figcaption>
 </figure>
 
+## Video ca nhạc
+
+<figure class="gallery-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/RH18YdLQORk"
+    title="Ca khúc về cầu Hiền Lương và sông Bến Hải"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <figcaption class="gallery-video-caption">
+    Ca khúc gợi nhắc về cầu Hiền Lương và sông Bến Hải.
+    <a href="https://www.youtube.com/watch?v=RH18YdLQORk" target="_blank" rel="noopener noreferrer">Xem video gốc trên YouTube</a>.
+  </figcaption>
+</figure>
+
 ## Một giới tuyến tạm thời
 
 Sau Hiệp định Genève năm 1954, vĩ tuyến 17 và sông Bến Hải trở thành khu vực
