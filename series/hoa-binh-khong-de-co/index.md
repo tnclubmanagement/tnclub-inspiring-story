@@ -2,6 +2,7 @@
 layout: page
 title: "Hòa bình không dễ có"
 subtitle: ""
+cover-img: "/assets/img/series-peace.jpg"
 permalink: /series/hoa-binh-khong-de-co/
 ---
 
@@ -22,6 +23,19 @@ permalink: /series/hoa-binh-khong-de-co/
       <span class="series-hero-line" aria-hidden="true"></span>
       <p>“Phía sau mỗi con số là một cái tên, một gia đình và một cuộc đời.”</p>
       <span class="series-hero-caption">Ghi nhớ để biết trân trọng hòa bình</span>
+    </div>
+  </section>
+
+  <section class="series-video" aria-labelledby="series-video-title">
+    <p class="series-landing-kicker">Tư liệu liên quan</p>
+    <h2 id="series-video-title">Hòa bình không dễ có</h2>
+    <div class="gallery-video">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/4cSTibyaG8A"
+        title="Video về chuyên đề Hòa bình không dễ có"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
   </section>
 

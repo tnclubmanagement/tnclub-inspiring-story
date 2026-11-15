@@ -2444,6 +2444,17 @@ body,
   text-transform: uppercase;
 }
 
+.series-video {
+  max-width: 940px;
+  margin: 0 auto 5rem;
+}
+
+.series-video h2 {
+  margin: 0 0 1.25rem;
+  color: var(--ink);
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
 .series-reading-list {
   max-width: 940px;
   margin: 0 auto;
