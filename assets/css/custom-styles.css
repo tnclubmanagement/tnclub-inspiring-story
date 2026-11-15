@@ -4212,65 +4212,6 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   color: #fff;
 }
 
-.poem-readable {
-  margin: 2.5rem auto;
-  padding: 2rem clamp(1.25rem, 4vw, 3rem);
-  border: 1px solid rgba(90, 169, 255, 0.25);
-  border-left: 0.35rem solid var(--accent-blue);
-  border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.72);
-  box-shadow: 0 0.8rem 1.8rem rgba(31, 38, 70, 0.08);
-}
-
-.poem-readable-kicker {
-  margin: 0;
-  color: var(--accent-blue);
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.poem-readable h2 {
-  margin: 0.4rem 0 0;
-}
-
-.poem-readable-author {
-  margin: 0.15rem 0 1.5rem;
-  color: var(--muted);
-  font-family: var(--font-subtitle);
-  font-size: 1.1rem;
-}
-
-.poem-readable-text {
-  color: var(--ink);
-  font-family: var(--font-title);
-  font-size: clamp(1rem, 1.5vw, 1.12rem);
-  line-height: 1.9;
-}
-
-.poem-readable-text p {
-  margin: 0 0 1.25rem;
-}
-
-.poem-readable-text p:last-child {
-  margin-bottom: 0;
-}
-
-:root[data-theme="dark"] .poem-readable {
-  border-color: rgba(154, 203, 255, 0.28);
-  background: var(--theme-surface);
-  box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.2);
-}
-
-:root[data-theme="dark"] .poem-readable-text {
-  color: var(--theme-text);
-}
-
-:root[data-theme="dark"] .poem-readable-author {
-  color: var(--theme-muted);
-}
-
 .story-gallery-track {
   min-height: 430px;
 }
