@@ -2719,7 +2719,8 @@ body:has(.series-page) .header-section {
   padding: 1.25rem 1.5rem;
   border: 1px solid rgba(29, 29, 43, 0.08);
   border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.48);
+  background: var(--theme-bg);
+  opacity: 0.86;
 }
 
 .series-post-index-heading {
@@ -4537,6 +4538,11 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   margin: 0 0 1rem;
 }
 
+.post-heading .post-reading-tools {
+  justify-content: center;
+  margin: 1rem 0 0;
+}
+
 .post-audio-toggle,
 .theme-toggle {
   border: 1px solid rgba(29, 29, 43, 0.14);
@@ -4739,6 +4745,11 @@ body:has(.magazine-story) .container-md {
   line-height: 1.9;
 }
 
+.magazine-story .post-body > p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .magazine-story .post-body > p:first-of-type {
   color: #4d4a45;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -4798,6 +4809,10 @@ body:has(.magazine-story) .container-md {
   .magazine-story .post-body {
     font-size: 1rem;
     line-height: 1.8;
+  }
+
+  .magazine-story .post-body > p {
+    text-align: left;
   }
 
   .magazine-story .post-body > p:first-of-type {
