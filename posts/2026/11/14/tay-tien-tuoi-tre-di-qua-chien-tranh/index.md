@@ -29,23 +29,19 @@ những cuộc hành quân kiệt sức và những người đã không thể t
       <figcaption>Mộc Châu, một địa danh gắn với vùng hoạt động của Trung đoàn Tây Tiến: <a href="https://commons.wikimedia.org/wiki/File:MocChau.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Between%20Son%20La%20and%20Moc%20Chau.png?width=1200" alt="Cảnh núi trên tuyến Sơn La – Mộc Châu" loading="lazy">
-      <figcaption>Núi rừng Sơn La – Mộc Châu: <a href="https://commons.wikimedia.org/wiki/File:Between_Son_La_and_Moc_Chau.png" rel="noopener">Wikimedia Commons</a>.</figcaption>
-    </figure>
-    <figure class="story-slide">
       <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Qu%E1%BB%91c%20l%E1%BB%99%206%20qua%20%C4%91%E1%BB%8Ba%20ph%E1%BA%ADn%20th%E1%BB%8B%20tr%E1%BA%A5n%20M%E1%BB%99c%20Ch%C3%A2u.jpg?width=1200" alt="Đường qua Mộc Châu" loading="lazy">
       <figcaption>Tuyến đường qua Mộc Châu ngày nay: <a href="https://commons.wikimedia.org/wiki/File:Quốc_lộ_6_qua_địa_phận_thị_trấn_Mộc_Châu.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="mai-chau-user.jpg" alt="Bản làng giữa núi rừng và ruộng lúa ở Mai Châu" loading="lazy">
+      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/mai-chau-user.jpg" alt="Bản làng giữa núi rừng và ruộng lúa ở Mai Châu" loading="lazy">
       <figcaption>Phong cảnh Mai Châu, gợi không gian núi rừng miền Tây Bắc: <a href="https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/depositphotos416716766xl-1736818922029.jpg" target="_blank" rel="noopener noreferrer">nguồn ảnh</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="ruong-bac-thang-user.jpg" alt="Ruộng bậc thang giữa vùng núi Tây Bắc" loading="lazy">
+      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/ruong-bac-thang-user.jpg" alt="Ruộng bậc thang giữa vùng núi Tây Bắc" loading="lazy">
       <figcaption>Ruộng bậc thang vùng Tây Bắc: <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxSq49EqS-HfGcb52g2ensjlSp2_67u8kW5lDH2cTRKcqWV25qtPlM4_M&amp;s=10" target="_blank" rel="noopener noreferrer">nguồn ảnh</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="tay-tien-minh-hoa-user.jpg" alt="Tranh minh họa bài thơ Tây Tiến của Quang Dũng" loading="lazy">
+      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/tay-tien-minh-hoa-user.jpg" alt="Tranh minh họa bài thơ Tây Tiến của Quang Dũng" loading="lazy">
       <figcaption>Một hình minh họa cho bài thơ <em>Tây Tiến</em>, do bạn đọc cung cấp: <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQPvlfUNy4ZyR-dIbT2F45RqcZQTm5cDkqtQIDJmKImANaXUSKtOvGFBU&amp;s=10" target="_blank" rel="noopener noreferrer">nguồn ảnh</a>.</figcaption>
     </figure>
   </div>
