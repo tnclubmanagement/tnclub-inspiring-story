@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-11 00:00:00 +0700"
-title: "[Không đầu hàng · 06] : Chép bài tập để học, chọn con đường trở thành thầy giáo"
+title: "[06 · Không đầu hàng] : Chép bài tập để học, chọn con đường trở thành thầy giáo"
 subtitle: "Vương Miểu và ước mơ mang tri thức trở lại vùng núi Vân Nam"
 cover-img: "/posts/2026/10/11/chep-bai-tap-den-tro-thanh-thay-giao/cover.jpg"
 thumbnail-img: "/posts/2026/10/11/chep-bai-tap-den-tro-thanh-thay-giao/cover.jpg"

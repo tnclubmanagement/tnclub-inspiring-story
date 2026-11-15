@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-07 08:00:00 +0700"
 permalink: /post/2026-11-07-thang-dau-di-lam/
-title: "[Nên-Không Nên · 07] : Tháng đầu đi làm: nên quan sát trước khi vội chứng minh"
+title: "[07 · Nên-Không Nên] : Tháng đầu đi làm: nên quan sát trước khi vội chứng minh"
 series: "Nên – Không nên"
 series_order: 7
 series_url: "/series/nen-khong-nen/"

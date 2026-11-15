@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-02 08:00:00 +0700"
 permalink: /post/2026-11-02-giup-cha-me-ton-trong/
-title: "[Nên-Không Nên · 02] : Giúp cha mẹ mà vẫn tôn trọng sự tự chủ"
+title: "[02 · Nên-Không Nên] : Giúp cha mẹ mà vẫn tôn trọng sự tự chủ"
 series: "Nên – Không nên"
 series_order: 2
 series_url: "/series/nen-khong-nen/"

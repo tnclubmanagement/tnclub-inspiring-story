@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-12 08:00:00 +0700"
 permalink: /post/2026-11-12-tieu-tien-co-chu-dich/
-title: "[Nên-Không Nên · 12] : Tiêu tiền có chủ đích"
+title: "[12 · Nên-Không Nên] : Tiêu tiền có chủ đích"
 series: "Nên – Không nên"
 series_order: 12
 series_url: "/series/nen-khong-nen/"

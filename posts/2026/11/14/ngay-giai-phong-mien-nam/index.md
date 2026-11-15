@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-30-thang-4-1975/
-title: "[Lịch sử Việt Nam · 06] : Ngày đất nước nối liền một dải"
+title: "[06 · Lịch sử Việt Nam] : Ngày đất nước nối liền một dải"
 subtitle: "Một dấu mốc lớn trong lịch sử hiện đại Việt Nam"
 history-date: "04-30"
 series: "Lịch sử Việt Nam"

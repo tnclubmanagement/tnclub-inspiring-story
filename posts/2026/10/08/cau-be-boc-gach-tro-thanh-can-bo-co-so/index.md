@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-08 00:00:00 +0700"
-title: "[Không đầu hàng · 03] : Từ cậu bé bốc gạch đến cán bộ xây dựng quê hương"
+title: "[03 · Không đầu hàng] : Từ cậu bé bốc gạch đến cán bộ xây dựng quê hương"
 subtitle: "Lâm Vạn Đông chọn trở về Vân Nam sau khi tốt nghiệp Thanh Hoa"
 cover-img: "/posts/2026/10/08/cau-be-boc-gach-tro-thanh-can-bo-co-so/cover.jpg"
 thumbnail-img: "/posts/2026/10/08/cau-be-boc-gach-tro-thanh-can-bo-co-so/cover.jpg"

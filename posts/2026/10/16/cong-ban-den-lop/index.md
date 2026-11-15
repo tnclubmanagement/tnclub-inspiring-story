@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-16 00:00:00 +0700"
-title: "[Không đầu hàng · 07] : Cõng bạn đến lớp suốt hai năm"
+title: "[07 · Không đầu hàng] : Cõng bạn đến lớp suốt hai năm"
 subtitle: "Trương Thải Hồng và Trần Thần — hai cô gái cùng giữ lấy ước mơ vào đại học"
 cover-img: "/posts/2026/10/16/cong-ban-den-lop/cover.jpg"
 thumbnail-img: "/posts/2026/10/16/cong-ban-den-lop/cover.jpg"

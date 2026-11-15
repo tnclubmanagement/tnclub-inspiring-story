@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-13 08:00:00 +0700"
 permalink: /post/2026-11-13-buong-bo-de-binh-an/
-title: "[Thầy Pháp Hòa · 01] : Muốn bớt khổ, hãy học cách buông bỏ"
+title: "[01 · Thầy Pháp Hòa] : Muốn bớt khổ, hãy học cách buông bỏ"
 subtitle: "Bình an bắt đầu từ việc nhìn lại những điều mình đang nắm giữ"
 series: "Thầy Pháp Hòa"
 series_order: 1

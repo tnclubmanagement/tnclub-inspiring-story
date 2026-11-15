@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-05-mau-than-o-hue/
-title: "[Hòa bình không dễ có · 05] : Mậu Thân ở Huế"
+title: "[05 · Hòa bình không dễ có] : Mậu Thân ở Huế"
 subtitle: "Tuổi trẻ, thường dân và những cuộc đời bị chiến tranh cắt ngang"
 series: "Hòa bình không dễ có"
 series_order: 5

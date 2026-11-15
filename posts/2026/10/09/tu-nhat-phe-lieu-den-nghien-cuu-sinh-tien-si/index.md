@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-09 00:00:00 +0700"
-title: "[Không đầu hàng · 04] : Từ cậu bé nhặt phế liệu đến nghiên cứu sinh tiến sĩ Thanh Hoa"
+title: "[04 · Không đầu hàng] : Từ cậu bé nhặt phế liệu đến nghiên cứu sinh tiến sĩ Thanh Hoa"
 subtitle: "Bàng Chúng Vọng mang sự bền bỉ từ căn nhà nghèo vào phòng thí nghiệm"
 cover-img: "/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-me.jpg"
 thumbnail-img: "/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-me.jpg"

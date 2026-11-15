@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-11 08:00:00 +0700"
 permalink: /post/2026-11-11-tranh-luan-tren-mang/
-title: "[Nên-Không Nên · 11] : Tranh luận trên mạng: biết lúc nào nên dừng"
+title: "[11 · Nên-Không Nên] : Tranh luận trên mạng: biết lúc nào nên dừng"
 series: "Nên – Không nên"
 series_order: 11
 series_url: "/series/nen-khong-nen/"

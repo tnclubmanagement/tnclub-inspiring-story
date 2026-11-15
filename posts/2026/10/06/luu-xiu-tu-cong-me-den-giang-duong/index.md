@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-06 00:00:00 +0700"
-title: "[Không đầu hàng · 01] : Cõng mẹ đến giảng đường, rồi trở về mở đường cho người khác"
+title: "[01 · Không đầu hàng] : Cõng mẹ đến giảng đường, rồi trở về mở đường cho người khác"
 subtitle: "Lưu Tú Tường và lời hứa không để một đứa trẻ nào phải bỏ học vì nghèo"
 cover-img: "/posts/2026/10/06/luu-xiu-tu-cong-me-den-giang-duong/cover.jpg"
 thumbnail-img: "/posts/2026/10/06/luu-xiu-tu-cong-me-den-giang-duong/cover.jpg"

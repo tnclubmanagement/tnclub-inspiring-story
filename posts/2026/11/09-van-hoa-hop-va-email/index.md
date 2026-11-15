@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-09 08:00:00 +0700"
 permalink: /post/2026-11-09-van-hoa-hop-va-email/
-title: "[Nên-Không Nên · 09] : Văn hóa họp và email: ít hơn nhưng rõ hơn"
+title: "[09 · Nên-Không Nên] : Văn hóa họp và email: ít hơn nhưng rõ hơn"
 series: "Nên – Không nên"
 series_order: 9
 series_url: "/series/nen-khong-nen/"

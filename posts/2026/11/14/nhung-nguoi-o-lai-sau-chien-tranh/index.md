@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-10-nhung-nguoi-o-lai/
-title: "[Hòa bình không dễ có · 10] : Những người ở lại sau chiến tranh"
+title: "[10 · Hòa bình không dễ có] : Những người ở lại sau chiến tranh"
 subtitle: "Những cuộc đời tiếp tục sống cùng mất mát"
 series: "Hòa bình không dễ có"
 series_order: 10

@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-06 08:00:00 +0700"
 permalink: /post/2026-11-06-tinh-ban-lanh-manh/
-title: "[Nên-Không Nên · 06] : Nhận ra một tình bạn lành mạnh"
+title: "[06 · Nên-Không Nên] : Nhận ra một tình bạn lành mạnh"
 subtitle: "Tình bạn tốt cho phép cả hai được là chính mình"
 cover-img: "/assets/img/hero-6.jpg"
 thumbnail-img: "/assets/img/hero-6.jpg"

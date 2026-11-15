@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-7-thang-5-1954/
-title: "[Lịch sử Việt Nam · 04] : Chiến thắng Điện Biên Phủ"
+title: "[04 · Lịch sử Việt Nam] : Chiến thắng Điện Biên Phủ"
 subtitle: "56 ngày đêm làm nên một dấu mốc lịch sử"
 history-date: "05-07"
 series: "Lịch sử Việt Nam"

@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-2-thang-9-1945/
-title: "[Lịch sử Việt Nam · 03] : Tuyên ngôn Độc lập"
+title: "[03 · Lịch sử Việt Nam] : Tuyên ngôn Độc lập"
 subtitle: "Khoảnh khắc khai sinh một nhà nước Việt Nam mới"
 history-date: "09-02"
 series: "Lịch sử Việt Nam"

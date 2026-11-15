@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-05 08:00:00 +0700"
 permalink: /post/2026-11-05-khi-bi-diem-kem/
-title: "[Nên-Không Nên · 05] : Khi bị điểm kém, nên làm gì trước?"
+title: "[05 · Nên-Không Nên] : Khi bị điểm kém, nên làm gì trước?"
 series: "Nên – Không nên"
 series_order: 5
 series_url: "/series/nen-khong-nen/"

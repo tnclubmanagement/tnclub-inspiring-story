@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-09-bien-gioi-phia-bac/
-title: "[Hòa bình không dễ có · 09] : Biên giới phía Bắc"
+title: "[09 · Hòa bình không dễ có] : Biên giới phía Bắc"
 subtitle: "Những người lính trẻ và người dân ở lại nơi địa đầu"
 series: "Hòa bình không dễ có"
 series_order: 9

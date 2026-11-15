@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-22-thang-12-1944/
-title: "[Lịch sử Việt Nam · 01] : Thành lập Quân đội nhân dân Việt Nam"
+title: "[01 · Lịch sử Việt Nam] : Thành lập Quân đội nhân dân Việt Nam"
 subtitle: "Từ một đội quân nhỏ đến truyền thống vì nhân dân"
 history-date: "12-22"
 series: "Lịch sử Việt Nam"

@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-13 10:00:00 +0700"
 permalink: /post/2026-11-13-im-lang-dung-luc/
-title: "[Thầy Pháp Hòa · 03] : Im lặng đúng lúc cũng là một cách tu"
+title: "[03 · Thầy Pháp Hòa] : Im lặng đúng lúc cũng là một cách tu"
 subtitle: "Không phải điều gì mình nghĩ cũng cần nói ra ngay"
 series: "Thầy Pháp Hòa"
 series_order: 3

@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-08-chien-tranh-bien-gioi-tay-nam/
-title: "[Hòa bình không dễ có · 08] : Chiến tranh biên giới Tây Nam"
+title: "[08 · Hòa bình không dễ có] : Chiến tranh biên giới Tây Nam"
 subtitle: "Những người lính chiến đấu xa quê và người dân Campuchia trong thảm họa"
 series: "Hòa bình không dễ có"
 series_order: 8

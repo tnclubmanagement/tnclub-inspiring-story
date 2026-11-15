@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-10 00:00:00 +0700"
-title: "[Không đầu hàng · 05] : Nhận giấy báo Bắc Đại giữa công trường, rồi tự viết tiếp tương lai"
+title: "[05 · Không đầu hàng] : Nhận giấy báo Bắc Đại giữa công trường, rồi tự viết tiếp tương lai"
 subtitle: "Thôi Khánh Đào không xem câu chuyện của mình là một phép màu"
 cover-img: "/posts/2026/10/10/nhan-giay-bao-bac-dai-giua-cong-truong/thoi-khanh-dao-nhan-giay-bao.jpg"
 thumbnail-img: "/posts/2026/10/10/nhan-giay-bao-bac-dai-giua-cong-truong/thoi-khanh-dao-nhan-giay-bao.jpg"

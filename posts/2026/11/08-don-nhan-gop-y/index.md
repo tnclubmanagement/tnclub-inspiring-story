@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-08 08:00:00 +0700"
 permalink: /post/2026-11-08-don-nhan-gop-y/
-title: "[Nên-Không Nên · 08] : Đón nhận góp ý mà không đánh mất mình"
+title: "[08 · Nên-Không Nên] : Đón nhận góp ý mà không đánh mất mình"
 subtitle: "Góp ý là dữ liệu để tiến bộ, không phải bản án về giá trị của bạn"
 cover-img: "/assets/img/hero-2.jpg"
 thumbnail-img: "/assets/img/hero-2.jpg"

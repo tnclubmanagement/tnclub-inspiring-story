@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-10-thang-10-1954/
-title: "[Lịch sử Việt Nam · 05] : Giải phóng Thủ đô"
+title: "[05 · Lịch sử Việt Nam] : Giải phóng Thủ đô"
 subtitle: "Ngày Hà Nội đón những đoàn quân trở về"
 history-date: "10-10"
 series: "Lịch sử Việt Nam"

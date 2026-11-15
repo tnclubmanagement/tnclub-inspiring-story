@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-10-07 00:00:00 +0700"
-title: "[Không đầu hàng · 02] : Từ cậu bé bắt lươn đến nhà nghiên cứu AI tại Tencent"
+title: "[02 · Không đầu hàng] : Từ cậu bé bắt lươn đến nhà nghiên cứu AI tại Tencent"
 subtitle: "Hoàng Quốc Bình và hành trình biến những đêm mò mẫm thành một sự nghiệp khoa học"
 cover-img: "/posts/2026/10/07/tu-cau-be-bat-luon-den-nha-nghien-cuu-ai/cover.jpg"
 thumbnail-img: "/posts/2026/10/07/tu-cau-be-bat-luon-den-nha-nghien-cuu-ai/cover.jpg"

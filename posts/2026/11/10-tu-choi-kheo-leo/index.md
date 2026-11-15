@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-10 08:00:00 +0700"
 permalink: /post/2026-11-10-tu-choi-kheo-leo/
-title: "[Nên-Không Nên · 10] : Từ chối khéo léo mà không thấy có lỗi"
+title: "[10 · Nên-Không Nên] : Từ chối khéo léo mà không thấy có lỗi"
 series: "Nên – Không nên"
 series_order: 10
 series_url: "/series/nen-khong-nen/"

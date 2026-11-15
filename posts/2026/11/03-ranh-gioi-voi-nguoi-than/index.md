@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-03 08:00:00 +0700"
 permalink: /post/2026-11-03-ranh-gioi-voi-nguoi-than/
-title: "[Nên-Không Nên · 03] : Ranh giới lành mạnh với người thân"
+title: "[03 · Nên-Không Nên] : Ranh giới lành mạnh với người thân"
 series: "Nên – Không nên"
 series_order: 3
 series_url: "/series/nen-khong-nen/"
