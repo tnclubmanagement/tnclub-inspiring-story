@@ -2,12 +2,12 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-7-thang-5-1954/
-title: "[04 · Lịch sử Việt Nam] : Chiến thắng Điện Biên Phủ"
+title: "[03 · Hòa bình không dễ có] : Chiến thắng Điện Biên Phủ"
 subtitle: "56 ngày đêm làm nên một dấu mốc lịch sử"
 history-date: "05-07"
-series: "Lịch sử Việt Nam"
-series_order: 4
-series_url: "/series/lich-su-viet-nam/"
+series: "Hòa bình không dễ có"
+series_order: 3
+series_url: "/series/hoa-binh-khong-de-co/"
 cover-img: "/posts/2026/11/14/chien-thang-dien-bien-phu/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/chien-thang-dien-bien-phu/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, kháng chiến]

@@ -2,10 +2,10 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-03-dia-dao-cu-chi/
-title: "[03 · Hòa bình không dễ có] : Địa đạo Củ Chi"
+title: "[04 · Hòa bình không dễ có] : Địa đạo Củ Chi"
 subtitle: "Những con người sống và chiến đấu dưới lòng đất"
 series: "Hòa bình không dễ có"
-series_order: 3
+series_order: 4
 cover-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Củ Chi, chiến tranh]

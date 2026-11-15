@@ -47,7 +47,7 @@ permalink: /series/hoa-binh-khong-de-co/
     <div class="series-section-heading">
       <div>
         <p class="series-landing-kicker">Mục lục</p>
-        <h2 id="series-reading-title">Mười chặng ký ức</h2>
+        <h2 id="series-reading-title">Mười một chặng ký ức</h2>
       </div>
       <p>Đọc theo thứ tự để đi từ chiến trường đến những người ở lại.</p>
     </div>

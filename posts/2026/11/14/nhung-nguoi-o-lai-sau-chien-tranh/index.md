@@ -2,10 +2,10 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-10-nhung-nguoi-o-lai/
-title: "[10 · Hòa bình không dễ có] : Những người ở lại sau chiến tranh"
+title: "[11 · Hòa bình không dễ có] : Những người ở lại sau chiến tranh"
 subtitle: "Những cuộc đời tiếp tục sống cùng mất mát"
 series: "Hòa bình không dễ có"
-series_order: 10
+series_order: 11
 cover-img: "/posts/2026/11/14/nhung-nguoi-o-lai-sau-chien-tranh/thumbnail-local.jpg"
 thumbnail-img: "/posts/2026/11/14/nhung-nguoi-o-lai-sau-chien-tranh/thumbnail-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, ký ức chiến tranh, hòa bình]

@@ -2,10 +2,10 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/hoa-binh-khong-de-co-06-thanh-co-quang-tri/
-title: "[06 · Hòa bình không dễ có] : Thành cổ Quảng Trị"
+title: "[07 · Hòa bình không dễ có] : Thành cổ Quảng Trị"
 subtitle: "81 ngày đêm và những người nằm lại bên dòng Thạch Hãn"
 series: "Hòa bình không dễ có"
-series_order: 6
+series_order: 7
 cover-img: "/posts/2026/11/14/thanh-co-quang-tri/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/thanh-co-quang-tri/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Thành cổ Quảng Trị, chiến tranh]
