@@ -474,6 +474,21 @@
       slides.forEach(function (slide, i) {
         var image = slide.querySelector("img");
         if (!image) return;
+        function markLoaded() {
+          slide.classList.remove("is-loading", "is-error");
+          slide.classList.add("is-loaded");
+        }
+        function markError() {
+          slide.classList.remove("is-loading", "is-loaded");
+          slide.classList.add("is-error");
+        }
+        slide.classList.add("is-loading");
+        image.addEventListener("load", markLoaded, { once: true });
+        image.addEventListener("error", markError, { once: true });
+        if (image.complete) {
+          if (image.naturalWidth > 0) markLoaded();
+          else markError();
+        }
         image.classList.add("story-gallery-zoomable");
         image.setAttribute("tabindex", "0");
         image.setAttribute("role", "button");

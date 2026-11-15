@@ -4347,12 +4347,36 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
 }
 
 .story-slide {
+  position: relative;
   display: none;
   margin: 0;
 }
 
 .story-slide.is-active {
   display: block;
+}
+
+.story-slide.is-loading::before,
+.story-slide.is-error::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: rgba(255, 255, 255, 0.9);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+  transform: translate(-50%, -50%);
+}
+
+.story-slide.is-loading::before {
+  content: "Đang tải ảnh…";
+}
+
+.story-slide.is-error::before {
+  content: "Không tải được ảnh";
 }
 
 .story-slide > img {
