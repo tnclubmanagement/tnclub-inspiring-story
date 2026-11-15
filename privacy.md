@@ -6,20 +6,57 @@ cover-img: "/assets/img/privacy-modern.jpg"
 permalink: /privacy/
 ---
 
-### Chính sách riêng tư
+## Về website này
 
-Trang này là một blog cá nhân, chia sẻ các câu chuyện truyền cảm hứng. Trang
-không thu thập thông tin cá nhân của người đọc, không dùng cookie theo dõi
-quảng cáo.
+Inspiring là một website cá nhân, được tạo ra để lưu lại và chia sẻ những câu
+chuyện truyền cảm hứng, những bài viết về lịch sử, cùng một số suy ngẫm trong
+đời sống.
 
-Phần bình luận (nếu có) sử dụng **Facebook Comments Plugin** — khi bạn bình
-luận, dữ liệu đó do Facebook quản lý theo [chính sách riêng tư của
-Facebook](https://www.facebook.com/privacy/policy/).
+Website này **không hoạt động vì mục đích thương mại**. Trang không bán sản
+phẩm, không cung cấp dịch vụ trả phí và không đặt mục tiêu kiếm tiền từ nội
+dung. Mọi bài viết ở đây chỉ nhằm chia sẻ thông tin, gợi mở suy nghĩ và giúp
+người đọc có thêm một góc nhìn về câu chuyện được kể.
 
-### Điều khoản sử dụng
+## Thông tin cá nhân và quyền riêng tư
 
-- Nội dung trên trang chỉ nhằm mục đích chia sẻ, truyền cảm hứng — không
-  phải lời khuyên chuyên môn (y tế, pháp lý, tài chính...).
-- Bạn có thể chia sẻ lại nội dung, vui lòng ghi nguồn khi trích dẫn.
-- Nếu phát hiện nội dung chưa phù hợp, vui lòng [liên hệ](/contact/) để
-  mình điều chỉnh.
+Website không chủ động thu thập, mua bán hoặc lưu trữ thông tin cá nhân của
+người đọc. Trang cũng không sử dụng cookie để theo dõi quảng cáo hoặc xây dựng
+hồ sơ người dùng.
+
+Một số nội dung nhúng, chẳng hạn video YouTube hoặc phần bình luận Facebook
+(nếu được sử dụng), có thể do nền tảng bên ngoài cung cấp. Khi bạn tương tác
+với những nội dung đó, nền tảng tương ứng có thể xử lý dữ liệu theo cách riêng
+của họ. Website không kiểm soát và không lưu trữ những dữ liệu này.
+
+## Tính chất của nội dung
+
+Các bài viết được biên soạn từ sách, tài liệu, nguồn công khai, tư liệu hình
+ảnh hoặc những câu chuyện được chia sẻ lại. Nội dung được viết với mục đích
+giúp người đọc dễ tiếp cận hơn, không phải là một công trình nghiên cứu đầy
+đủ và cũng không thay thế cho tài liệu chuyên môn.
+
+Với các chủ đề lịch sử, một số chi tiết có thể được diễn giải ngắn gọn để phù
+hợp với cách đọc trên website. Khi cần tìm hiểu sâu hơn, bạn nên đối chiếu
+thêm với sách, tài liệu lưu trữ và các nguồn đáng tin cậy khác.
+
+## Khi phát hiện sai sót
+
+Mình luôn cố gắng kiểm tra thông tin trước khi đăng, nhưng website có thể vẫn
+có lỗi về ngày tháng, tên người, địa danh, cách diễn đạt hoặc nguồn tham
+khảo. Nếu bạn phát hiện điều gì chưa chính xác, thiếu ngữ cảnh hoặc cần bổ
+sung, rất mong bạn [liên hệ]({{ '/contact/' | relative_url }}) và gửi thông
+tin cụ thể cùng nguồn tham khảo nếu có.
+
+Sau khi kiểm tra, mình sẽ chỉnh sửa, bổ sung hoặc ghi chú lại nội dung khi
+thấy cần thiết. Những thay đổi quan trọng có thể được cập nhật trực tiếp
+trong bài viết để người đọc sau này không tiếp tục gặp thông tin chưa chính
+xác.
+
+## Chia sẻ lại nội dung
+
+Bạn có thể giới thiệu hoặc chia sẻ đường dẫn đến các bài viết nếu thấy hữu
+ích. Khi trích dẫn một đoạn nội dung, vui lòng ghi rõ nguồn là **Inspiring**
+và dẫn về bài viết gốc để người đọc có thể xem đầy đủ ngữ cảnh.
+
+Trang này có thể được điều chỉnh khi cách vận hành website thay đổi. Mục tiêu
+luôn là giữ cho thông tin ở đây rõ ràng, trung thực và hữu ích nhất có thể.
