@@ -15,7 +15,7 @@ Nhắc đến Tây Tiến, nhiều người nhớ ngay đến những câu thơ 
 núi cao, sương dày, những chặng đường dốc và hình ảnh người lính vừa hào
 hùng vừa lãng mạn. Nhưng trước khi trở thành một bài thơ được học trong nhà
 trường, Tây Tiến là tên của một đơn vị và là ký ức sống của những người đã
-đi qua chiến trường miền Tây.
+đi qua chiến trường miền Tây Bắc và Thượng Lào.
 
 Đọc lịch sử Tây Tiến cần giữ được hai điều cùng lúc. Một mặt, phải trân
 trọng vẻ đẹp của tuổi trẻ, tình đồng đội và tinh thần chiến đấu. Mặt khác,
@@ -61,7 +61,7 @@ những cuộc hành quân kiệt sức và những người đã không thể t
     allowfullscreen></iframe>
 </div>
 
-## Một đơn vị ở miền Tây
+## Trung đoàn Tây Tiến và chiến trường miền Tây Bắc
 
 Trung đoàn Tây Tiến được thành lập ngày 27 tháng 2 năm 1947. Sau đó, đơn
 vị mang tên Trung đoàn 52 Tây Tiến. Nhiệm vụ của trung đoàn là phối hợp với
