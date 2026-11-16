@@ -56,10 +56,10 @@ người lính Việt Nam hy sinh không có nghĩa là kích động thù ghét
 người dân Trung Quốc. Cần phân biệt quyết định của chính quyền, hoạt động
 quân sự và số phận của những người dân ở hai bên biên giới.
 
-## Bối cảnh quốc tế không thể bỏ qua
+## Bối cảnh quốc tế
 
-Muốn hiểu vì sao cuộc chiến năm 1979 xảy ra, không thể chỉ nhìn vào đường
-biên giới. Từ đầu thập niên 1970, quan hệ Trung–Mỹ thay đổi nhanh chóng.
+Muốn hiểu vì sao cuộc chiến năm 1979 xảy ra, cần đặt sự kiện ở biên giới
+trong bối cảnh quốc tế. Từ đầu thập niên 1970, quan hệ Trung–Mỹ thay đổi nhanh chóng.
 Chuyến thăm Trung Quốc của Tổng thống Richard Nixon năm 1972 và Thông cáo
 Thượng Hải mở ra quá trình hai nước từng bước xích lại gần nhau; đến ngày
 1 tháng 1 năm 1979, Hoa Kỳ và Trung Quốc chính thức thiết lập quan hệ ngoại
@@ -72,7 +72,7 @@ quân đội Việt Nam tiến vào Campuchia cuối năm 1978 để lật đổ
 này khiến Trung Quốc nhìn Việt Nam trong mối liên hệ với Liên Xô và
 Campuchia, chứ không chỉ như một tranh chấp biên giới song phương.
 
-Vì vậy, có thể nói quá trình Trung–Mỹ xích lại gần nhau đã tạo ra một
+Trong bối cảnh đó, quá trình Trung–Mỹ xích lại gần nhau tạo ra một
 không gian địa chính trị mới, trong đó Trung Quốc muốn thể hiện vai trò,
 gây sức ép với Việt Nam và đối phó với ảnh hưởng của Liên Xô. Một số
 nghiên cứu cho rằng việc “trừng phạt Việt Nam” cũng nhằm gửi tín hiệu đến
@@ -116,8 +116,8 @@ Có người mang thương tật, có người mất ngủ nhiều năm, có ng�
 đến đồng đội vì mỗi cái tên kéo theo quá nhiều ký ức. Có người trở thành
 cha mẹ nhưng vẫn giữ trong lòng hình ảnh của những người bạn đã hy sinh.
 
-Những câu chuyện ấy nên được lắng nghe qua hồi ký và lời kể trực tiếp,
-không nên biến cựu binh thành những nhân vật chỉ biết nói lời hào hùng.
+Những câu chuyện ấy cần được lắng nghe qua hồi ký và lời kể trực tiếp,
+thay vì biến cựu binh thành những nhân vật chỉ biết nói lời hào hùng.
 Nỗi sợ, sự im lặng và cảm giác day dứt cũng là một phần sự thật của chiến
 tranh.
 

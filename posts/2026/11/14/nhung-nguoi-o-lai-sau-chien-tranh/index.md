@@ -130,7 +130,7 @@ những người vợ nuôi con một mình và những đứa trẻ lớn lên 
 trống không thể gọi tên. Không có bản đồ chiến sự nào đủ rộng để chứa hết
 những mất mát ấy.
 
-Vì thế, không nên kể lịch sử chiến tranh chỉ bằng những mũi tên tiến công,
+Lịch sử chiến tranh không thể chỉ được kể bằng những mũi tên tiến công,
 những trận đánh và những cụm từ hào hùng. Cần nhớ cả người dân bị cuốn vào
 cuộc chiến, những người làm nhiệm vụ phía sau và những người sống tiếp
 trong một đất nước còn đầy dấu vết bom đạn. Lòng biết ơn chỉ có ý nghĩa

@@ -57,7 +57,7 @@ tiếp tục đi qua.
   </figcaption>
 </div>
 
-## Một ngã ba trên con đường không được phép tắc
+## Một ngã ba trên tuyến đường sống còn
 
 Đồng Lộc thuộc huyện Can Lộc, tỉnh Hà Tĩnh, là nơi giao nhau của Quốc lộ
 15A và một tuyến đường nối về phía biển. Trong những năm chiến tranh, các
@@ -118,9 +118,9 @@ Sự kiện ấy thường được kể bằng những hình ảnh rất bi th�
 xẻng văng lại, đồng đội và người dân tìm kiếm trong đất đá. Nhưng đằng sau
 những hình ảnh đó là mười cuộc đời riêng biệt. Có người mới mười bảy tuổi,
 có người đã giữ vai trò tiểu đội trưởng, có người có cha mẹ đang chờ ở quê.
-Họ không phải những cái tên được sinh ra chỉ để trở thành biểu tượng. Trước
-ngày hôm đó, họ là những cô gái trẻ đang làm một công việc nguy hiểm vì
-muốn con đường tiếp tục thông.
+Trước ngày hôm đó, họ là những cô gái trẻ đang làm một công việc nguy hiểm
+để con đường tiếp tục thông; họ không sinh ra để trở thành những biểu tượng
+vô danh.
 
 ## Mười cái tên và một vùng ký ức
 

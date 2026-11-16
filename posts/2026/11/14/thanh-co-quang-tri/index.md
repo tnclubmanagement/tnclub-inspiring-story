@@ -34,8 +34,8 @@ không còn là một công trình có thể che chở cho con người như tr�
 
 Các tài liệu chính thức thường gọi cuộc chiến bảo vệ Thành cổ là 81 ngày
 đêm, tính từ ngày 28 tháng 6 đến ngày 16 tháng 9 năm 1972. Cách tính này
-giúp người đọc hình dung độ dài của trận chiến, nhưng không nên hiểu rằng
-mỗi ngày đều diễn ra theo cùng một nhịp độ. Có những ngày tập trung vào
+giúp người đọc hình dung độ dài của trận chiến, nhưng 81 ngày ấy không diễn
+ra theo cùng một nhịp độ. Có những ngày tập trung vào
 pháo kích và oanh tạc, có những ngày giằng co ở các chốt, có những đêm
 đưa người và vật tư vượt sông trong điều kiện cực kỳ nguy hiểm.
 
@@ -137,7 +137,7 @@ ngôi mộ cụ thể không làm mất đi sự tồn tại của một con ng�
 ## Nhìn lại mà không lãng mạn hóa chiến tranh
 
 Thành cổ Quảng Trị thường được nhắc bằng những cụm từ hào hùng. Những từ
-ấy có thể cần thiết để ghi nhận lòng dũng cảm, nhưng không nên che khuất
+ấy có thể cần thiết để ghi nhận lòng dũng cảm, nhưng không thể che khuất
 nỗi đau. Người lính không phải một biểu tượng vô danh; họ là những người có
 gia đình, có nỗi sợ và có tương lai chưa kịp sống.
 

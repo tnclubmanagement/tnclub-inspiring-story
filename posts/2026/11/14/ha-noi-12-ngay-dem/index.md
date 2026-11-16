@@ -106,8 +106,8 @@ Xuân Thiều đã điều khiển máy bay lao vào B-52. Hành động ấy kh
 sinh, đồng thời trở thành một trong những câu chuyện được nhắc lại về sự
 quyết liệt của lực lượng không quân trong chiến dịch.
 
-Không nên chỉ nhìn câu chuyện này như một hình ảnh anh hùng tách rời khỏi
-chiến thuật. Mỗi chuyến bay là kết quả của thông tin radar, chỉ huy mặt
+Không thể tách câu chuyện này khỏi chiến thuật. Mỗi chuyến bay là kết quả
+của thông tin radar, chỉ huy mặt
 đất, kỹ thuật bảo đảm và sự phối hợp giữa nhiều lực lượng. Đằng sau quyết
 định trong vài giây là quá trình huấn luyện, những người đồng đội và một
 trận địa đang cố bảo vệ thành phố.

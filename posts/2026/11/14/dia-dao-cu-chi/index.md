@@ -53,8 +53,8 @@ tỏa ra các nhánh nhỏ, nối với chiến hào, hầm chiến đấu và n
 được giấu kín.
 
 Theo Cục Di sản văn hóa, toàn bộ mạng lưới từng dài hơn 200 km, kết hợp với
-khoảng 500 km chiến hào và công sự. Những con số ấy không nên được hiểu như
-một công trình được xây dựng bằng máy móc. Mỗi mét hầm là đất được đào lên
+khoảng 500 km chiến hào và công sự. Các con số ấy mô tả một công trình không
+được xây dựng bằng máy móc. Mỗi mét hầm là đất được đào lên
 bằng dụng cụ thô sơ, rồi phải chuyển đi mà không để lộ dấu vết.
 
 ## Ba tầng dưới mặt đất
@@ -147,8 +147,8 @@ nghiệm của du khách không hoàn toàn giống điều kiện chiến tranh
 Sự khác biệt ấy cần được nói rõ để người xem không nhầm một tuyến tham quan
 với toàn bộ đời sống khắc nghiệt của địa đạo.
 
-Khi tham quan, điều đáng nhớ không chỉ là cách địa đạo được thiết kế. Đó là
-câu hỏi về cái giá mà người dân phải trả để tồn tại trong chiến tranh, về
+Khi tham quan, điều đáng nhớ không nằm ở cách địa đạo được thiết kế, mà ở
+cái giá người dân phải trả để tồn tại trong chiến tranh, ở
 những người đã không còn trở về, và vì sao không ai nên xem hòa bình là điều
 hiển nhiên. Di tích có thể giúp ta hình dung quá khứ, nhưng không thể thay
 thế lời kể của những gia đình đã sống qua quá khứ ấy.
