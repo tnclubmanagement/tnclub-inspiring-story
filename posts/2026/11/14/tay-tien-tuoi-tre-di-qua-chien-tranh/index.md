@@ -17,19 +17,20 @@ hùng vừa lãng mạn. Nhưng trước khi trở thành một bài thơ đư�
 trường, Tây Tiến là tên của một đơn vị và là ký ức sống của những người đã
 đi qua chiến trường miền Tây Bắc và Thượng Lào.
 
-Đọc lịch sử Tây Tiến cần giữ được hai điều cùng lúc. Một mặt, phải trân
-trọng vẻ đẹp của tuổi trẻ, tình đồng đội và tinh thần chiến đấu. Mặt khác,
-không được để chất lãng mạn của thơ ca che khuất bệnh tật, thiếu thốn,
-những cuộc hành quân kiệt sức và những người đã không thể trở về.
+Khi nhìn lại lịch sử Tây Tiến, cần đặt hai mặt của câu chuyện cạnh nhau:
+vẻ đẹp của tuổi trẻ, tình đồng đội và tinh thần chiến đấu; cùng bệnh tật,
+thiếu thốn, những cuộc hành quân kiệt sức và những người đã không thể trở về.
+Chất lãng mạn của thơ ca chỉ thật sự có ý nghĩa khi không che khuất những
+mất mát ấy.
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về vùng Tây Tiến">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/MocChau.jpg?width=1200" alt="Phong cảnh Mộc Châu" loading="lazy">
+      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/moc-chau-wikimedia.jpg" alt="Phong cảnh Mộc Châu" loading="lazy">
       <figcaption>Mộc Châu, một địa danh gắn với vùng hoạt động của Trung đoàn Tây Tiến: <a href="https://commons.wikimedia.org/wiki/File:MocChau.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Qu%E1%BB%91c%20l%E1%BB%99%206%20qua%20%C4%91%E1%BB%8Ba%20ph%E1%BA%ADn%20th%E1%BB%8B%20tr%E1%BA%A5n%20M%E1%BB%99c%20Ch%C3%A2u.jpg?width=1200" alt="Đường qua Mộc Châu" loading="lazy">
+      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/quoc-lo-6-moc-chau-wikimedia.jpg" alt="Đường qua Mộc Châu" loading="lazy">
       <figcaption>Tuyến đường qua Mộc Châu ngày nay: <a href="https://commons.wikimedia.org/wiki/File:Quốc_lộ_6_qua_địa_phận_thị_trấn_Mộc_Châu.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
@@ -69,24 +70,23 @@ lực lượng địa phương, bảo vệ khu vực Tây Bắc và hỗ trợ l
 chiến ở vùng Thượng Lào.
 
 Địa bàn hoạt động trải rộng qua những vùng núi phía Tây Bắc và khu vực
-Sầm Nưa của Lào. Đường đi xa, địa hình phức tạp, giao thông khó khăn. Một
-đơn vị có thể phải hành quân qua rừng, vượt dốc, băng suối rồi lại nhanh
-chóng chuyển sang một địa bàn khác.
+Sầm Nưa của Lào. Đường đi xa, địa hình phức tạp, giao thông khó khăn. Các
+toán quân phải hành quân qua rừng, vượt dốc, băng suối rồi nhanh chóng
+chuyển sang những địa bàn khác.
 
-Thành phần của Tây Tiến cũng không nên được mô tả quá đơn giản. Đơn vị
-gồm nhiều lực lượng và nguồn gốc khác nhau: chiến sĩ từ các khu vực, bộ
-đội, tự vệ chiến đấu, thanh niên, học sinh và trí thức. Có những người từng
-sống ở thành phố, nhưng khi vào quân ngũ phải học cách tồn tại giữa núi
-rừng và chia sẻ mọi thiếu thốn với đồng đội.
+Lực lượng của Trung đoàn Tây Tiến quy tụ cán bộ, chiến sĩ từ nhiều địa
+phương, cùng những thanh niên, học sinh, trí thức và lực lượng tự vệ chiến
+đấu. Có những người từng sống ở thành phố, nhưng khi vào quân ngũ phải học
+cách tồn tại giữa núi rừng và chia sẻ mọi thiếu thốn với đồng đội.
 
-Quang Dũng từng là đại đội trưởng trong đơn vị. Những gì ông viết về Tây
-Tiến không phải là một câu chuyện đứng ngoài chiến tranh, mà là ký ức của
-một người đã trực tiếp sống cùng những người lính ấy.
+Quang Dũng từng là đại đội trưởng trong đơn vị. Vì vậy, những gì ông viết
+về Tây Tiến là ký ức của một người đã trực tiếp sống cùng những người lính
+ấy, chứ không phải góc nhìn của một người đứng ngoài chiến tranh.
 
 ## Con đường gian khổ hơn câu thơ
 
 Trong bài thơ, Tây Tiến hiện ra qua những dốc núi, chiều sương, mưa xa
-khơi và những bản làng miền Tây. Những hình ảnh ấy đẹp, nhưng vẻ đẹp đó
+khơi và những bản làng miền Tây Bắc. Những hình ảnh ấy đẹp, nhưng vẻ đẹp đó
 được tạo nên từ một thực tế rất khắc nghiệt.
 
 Người lính phải đi trong điều kiện thiếu lương thực, thiếu thuốc men và
@@ -96,11 +96,11 @@ một mối đe dọa thường xuyên. Nhiều người kiệt sức hoặc qua
 chỉ trong một trận đánh, mà sau những ngày dài hành quân và chống chọi với
 bệnh tật.
 
-Đó là lý do khi đọc câu thơ “Tây Tiến đoàn binh không mọc tóc”, không nên
-chỉ xem đây là một hình ảnh lạ hoặc có tính tạo hình. Nó gợi đến dấu vết
-của bệnh tật và những tháng ngày khắc nghiệt. Nhưng Quang Dũng không viết
-người lính như những con người bị đánh bại. Trong thơ, họ vẫn giữ được
-dáng đứng, ý chí và tình yêu.
+Bởi vậy, câu thơ “Tây Tiến đoàn binh không mọc tóc” không chỉ là một hình
+ảnh lạ hay một cách tạo hình. Nó gợi đến dấu vết của bệnh tật và những
+tháng ngày khắc nghiệt. Nhưng Quang Dũng không viết người lính như những
+con người bị đánh bại. Trong thơ, họ vẫn giữ được dáng đứng, ý chí và tình
+yêu.
 
 ## Tuổi trẻ giữa chiến trường
 
@@ -123,11 +123,10 @@ không có ngày trở lại.
 
 ## Những người đã nằm lại
 
-Không có một con số đơn giản nào có thể kể hết tổn thất của Trung đoàn Tây
-Tiến. Những người hy sinh nằm lại ở nhiều địa bàn, nhiều chặng đường và
-trong nhiều hoàn cảnh khác nhau. Có người ngã xuống trong chiến đấu, có
-người qua đời vì bệnh tật, có người mất trong những chuyến hành quân xa
-đơn vị.
+Tổn thất của Trung đoàn Tây Tiến không thể gói gọn trong một con số. Những
+người hy sinh nằm lại ở nhiều địa bàn, nhiều chặng đường và trong nhiều
+hoàn cảnh khác nhau. Có người ngã xuống trong chiến đấu, có người qua đời vì
+bệnh tật, có người mất trong những chuyến hành quân xa đơn vị.
 
 Trong chiến tranh, một cái chết không chỉ là mất đi một người lính. Đó còn
 là một gia đình mất con, một người mẹ mất người con trai, một người vợ mất

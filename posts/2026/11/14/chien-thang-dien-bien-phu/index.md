@@ -16,15 +16,15 @@ tags: [lịch sử Việt Nam, calendar, kháng chiến]
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dien%20Bien%20Phu%201954%20French%20prisoners.jpg?width=1200" alt="Tù binh Pháp tại Điện Biên Phủ năm 1954" loading="lazy">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/dien-bien-phu-tu-binh-phap.jpg" alt="Tù binh Pháp tại Điện Biên Phủ năm 1954" loading="lazy">
       <figcaption>Ảnh tư liệu: <a href="https://commons.wikimedia.org/wiki/File:Dien_Bien_Phu_1954_French_prisoners.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Contemporary%20Photo%20of%20Vietnminh%20Storming%20across%20Muong%20Thanh%20Bridge%20%281954%29%20-%20Dien%20Bien%20Phu%20Victory%20Museum%20-%20Dien%20Bien%20Phu%20-%20Vietnam%20%2848159225792%29.jpg?width=1200" alt="Hình ảnh bộ đội tiến qua cầu Mường Thanh" loading="lazy">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/bo-doi-cau-muong-thanh.jpg" alt="Hình ảnh bộ đội tiến qua cầu Mường Thanh" loading="lazy">
       <figcaption>Ảnh tư liệu tại Bảo tàng Chiến thắng Điện Biên Phủ: <a href="https://commons.wikimedia.org/wiki/File:Contemporary_Photo_of_Vietnminh_Storming_across_Muong_Thanh_Bridge_(1954)_-_Dien_Bien_Phu_Victory_Museum_-_Dien_Bien_Phu_-_Vietnam_(48159225792).jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Victory%20in%20Battle%20of%20Dien%20Bien%20Phu.jpg?width=1200" alt="Hình ảnh chiến thắng Điện Biên Phủ" loading="lazy">
+      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/chien-thang-dien-bien-phu.jpg" alt="Hình ảnh chiến thắng Điện Biên Phủ" loading="lazy">
       <figcaption>Ảnh tư liệu: <a href="https://commons.wikimedia.org/wiki/File:Victory_in_Battle_of_Dien_Bien_Phu.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>
@@ -136,8 +136,8 @@ Pháo binh cũng phải đối mặt với một nhiệm vụ đặc biệt khó
 trong các vị trí được che giấu. Việc giữ bí mật, bảo đảm đạn và duy trì
 trận địa quan trọng không kém việc có vũ khí trong tay.
 
-Nói đến hậu phương Điện Biên Phủ vì vậy không nên chỉ nói đến những con số
-về lương thực hoặc phương tiện. Mỗi con số là hàng nghìn chuyến đi, những
+Nói đến hậu phương Điện Biên Phủ không thể chỉ nói đến những con số về
+lương thực hoặc phương tiện. Mỗi con số là hàng nghìn chuyến đi, những
 đêm ngủ bên đường, những người bị thương vì tai nạn và những gia đình chờ
 người thân trở về sau chiến dịch.
 
@@ -176,8 +176,8 @@ kéo dài 56 ngày đêm. Có thể hình dung diễn biến qua ba giai đoạn
   như không thể hoạt động bình thường, việc tiếp tế bằng đường không gặp
   nhiều khó khăn và bộ chỉ huy Pháp bị đẩy vào tình thế ngày càng cô lập.
 
-Không nên hiểu ba đợt tiến công là ba bước tách rời hoàn toàn. Giữa các
-đợt là những ngày pháo kích, đào hào, phản kích, sửa trận địa và chuyển
+Ba đợt tiến công không phải ba bước tách rời hoàn toàn. Giữa các đợt là
+những ngày pháo kích, đào hào, phản kích, sửa trận địa và chuyển
 thương. Có những vị trí được giành đi giành lại, có những đoạn hào chỉ
 cách nhau vài chục mét nhưng trở thành ranh giới giữa sự sống và cái chết.
 
@@ -225,8 +225,8 @@ trên thế giới. Nó cho thấy một lực lượng có hậu phương tổ 
 chiến lược phù hợp và có khả năng huy động nhân dân có thể đánh bại một
 đối thủ sở hữu ưu thế về trang bị và phương tiện hiện đại.
 
-Tuy vậy, không nên kể Điện Biên Phủ như một câu chuyện chỉ có hào quang.
-Sau chiến thắng là những người không trở về, những người mang thương tật,
+Điện Biên Phủ không chỉ là một câu chuyện hào quang. Sau chiến thắng là
+những người không trở về, những người mang thương tật,
 những gia đình chờ tin và những năm tháng đất nước tiếp tục bị chia cắt.
 Một dấu mốc lớn của lịch sử vẫn được tạo nên từ những cuộc đời cụ thể.
 
