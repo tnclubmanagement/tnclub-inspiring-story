@@ -22,7 +22,7 @@ trong những trường đại học danh tiếng nhất Trung Quốc.
 Nhưng trước khi có bức ảnh ấy, đã có rất nhiều năm học tập trong im lặng.
 
 <figure class="story-figure story-figure-wide">
-  <img src="/posts/2026/10/10/nhan-giay-bao-bac-dai-giua-cong-truong/thoi-khanh-dao-nhan-giay-bao.jpg" alt="Thôi Khánh Đào cùng gia đình trong ngày nhận giấy báo trúng tuyển" loading="lazy">
+  <img src="{{ site.baseurl }}/posts/2026/10/10/nhan-giay-bao-bac-dai-giua-cong-truong/thoi-khanh-dao-nhan-giay-bao.jpg" alt="Thôi Khánh Đào cùng gia đình trong ngày nhận giấy báo trúng tuyển" loading="lazy">
   <figcaption>Thôi Khánh Đào cùng gia đình trong ngày nhận giấy báo trúng tuyển. Ảnh tư liệu do người dùng cung cấp.</figcaption>
 </figure>
 

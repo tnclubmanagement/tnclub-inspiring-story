@@ -18,7 +18,7 @@ tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới phía B�
       <figcaption>Bản đồ chiến tranh biên giới phía Bắc năm 1979: <a href="https://soha.vn/" rel="noopener">Sohanews</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Main-qimg-635a560adbe72ffdcf64d20710cd0f1f-c.jpg?width=1200" alt="Xe tăng bị phá hủy trong tư liệu về chiến tranh biên giới phía Bắc" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Main-qimg-635a560adbe72ffdcf64d20710cd0f1f-c.jpg" alt="Xe tăng bị phá hủy trong tư liệu về chiến tranh biên giới phía Bắc" loading="lazy">
       <figcaption>Tư liệu lưu trữ về chiến tranh biên giới phía Bắc; nguồn không ghi rõ địa điểm cụ thể: <a href="https://commons.wikimedia.org/wiki/File:Main-qimg-635a560adbe72ffdcf64d20710cd0f1f-c.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">

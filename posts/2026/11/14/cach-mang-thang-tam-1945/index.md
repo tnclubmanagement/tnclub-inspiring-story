@@ -16,15 +16,15 @@ tags: [lịch sử Việt Nam, calendar, Cách mạng tháng Tám]
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%ADt%20tinh%20ch%C3%A0o%20m%E1%BB%ABng%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20th%C3%A0nh%20c%C3%B4ng%20t%E1%BA%A1i%20Nh%C3%A0%20h%C3%A1t%20L%E1%BB%9Bn%20H%C3%A0%20N%E1%BB%99i.jpg?width=1200" alt="Mít tinh mừng Cách mạng tháng Tám tại Nhà hát Lớn Hà Nội" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/M%C3%ADt_tinh_ch%C3%A0o_m%E1%BB%ABng_C%C3%A1ch_m%E1%BA%A1ng_Th%C3%A1ng_T%C3%A1m_n%C4%83m_1945_th%C3%A0nh_c%C3%B4ng_t%E1%BA%A1i_Nh%C3%A0_h%C3%A1t_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i.jpg" alt="Mít tinh mừng Cách mạng tháng Tám tại Nhà hát Lớn Hà Nội" loading="lazy">
       <figcaption>Ảnh tư liệu: <a href="https://commons.wikimedia.org/wiki/File:Mít_tinh_chào_mừng_Cách_mạng_Tháng_Tám_năm_1945_thành_công_tại_Nhà_hát_Lớn_Hà_Nội.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Viet%20Minh%20during%20August%20Revolution.jpg?width=1200" alt="Lực lượng Việt Minh trong Cách mạng tháng Tám" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Viet_Minh_during_August_Revolution.jpg" alt="Lực lượng Việt Minh trong Cách mạng tháng Tám" loading="lazy">
       <figcaption>Ảnh tư liệu: <a href="https://commons.wikimedia.org/wiki/File:Viet_Minh_during_August_Revolution.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Qu%C3%A2n%20l%E1%BB%87nh%20s%E1%BB%91%201%20c%E1%BB%A7a%20%E1%BB%A6y%20ban%20Kh%E1%BB%9Fi%20ngh%C4%A9a%20to%C3%A0n%20qu%E1%BB%91c%2C%20ng%C3%A0y%2013-08-1945.jpg?width=1200" alt="Quân lệnh số 1 của Ủy ban Khởi nghĩa toàn quốc" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Qu%C3%A2n_l%E1%BB%87nh_s%E1%BB%91_1_c%E1%BB%A7a_%E1%BB%A6y_ban_Kh%E1%BB%9Fi_ngh%C4%A9a_to%C3%A0n_qu%E1%BB%91c%2C_ng%C3%A0y_13-08-1945.jpg" alt="Quân lệnh số 1 của Ủy ban Khởi nghĩa toàn quốc" loading="lazy">
       <figcaption>Quân lệnh số 1: <a href="https://commons.wikimedia.org/wiki/File:Quân_lệnh_số_1_của_Ủy_ban_Khởi_nghĩa_toàn_quốc,_ngày_13-08-1945.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>

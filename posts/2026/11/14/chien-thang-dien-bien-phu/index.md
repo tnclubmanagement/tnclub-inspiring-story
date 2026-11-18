@@ -16,15 +16,15 @@ tags: [lịch sử Việt Nam, calendar, kháng chiến]
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/dien-bien-phu-tu-binh-phap.jpg" alt="Tù binh Pháp tại Điện Biên Phủ năm 1954" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/dien-bien-phu-tu-binh-phap.jpg" alt="Tù binh Pháp tại Điện Biên Phủ năm 1954" loading="lazy">
       <figcaption>Ảnh tư liệu: <a href="https://commons.wikimedia.org/wiki/File:Dien_Bien_Phu_1954_French_prisoners.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/bo-doi-cau-muong-thanh.jpg" alt="Hình ảnh bộ đội tiến qua cầu Mường Thanh" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/bo-doi-cau-muong-thanh.jpg" alt="Hình ảnh bộ đội tiến qua cầu Mường Thanh" loading="lazy">
       <figcaption>Ảnh tư liệu tại Bảo tàng Chiến thắng Điện Biên Phủ: <a href="https://commons.wikimedia.org/wiki/File:Contemporary_Photo_of_Vietnminh_Storming_across_Muong_Thanh_Bridge_(1954)_-_Dien_Bien_Phu_Victory_Museum_-_Dien_Bien_Phu_-_Vietnam_(48159225792).jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/chien-thang-dien-bien-phu.jpg" alt="Hình ảnh chiến thắng Điện Biên Phủ" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/chien-thang-dien-bien-phu.jpg" alt="Hình ảnh chiến thắng Điện Biên Phủ" loading="lazy">
       <figcaption>Ảnh tư liệu: <a href="https://commons.wikimedia.org/wiki/File:Victory_in_Battle_of_Dien_Bien_Phu.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>
@@ -38,43 +38,43 @@ tags: [lịch sử Việt Nam, calendar, kháng chiến]
 <section class="story-gallery" aria-label="Hình ảnh lễ kỷ niệm 70 năm Chiến thắng Điện Biên Phủ">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-truc-thang.jpg" alt="Trực thăng mang cờ Đảng và cờ Tổ quốc bay qua lễ đài" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-truc-thang.jpg" alt="Trực thăng mang cờ Đảng và cờ Tổ quốc bay qua lễ đài" loading="lazy">
       <figcaption>Trực thăng mang cờ Đảng và cờ Tổ quốc bay qua lễ đài trong buổi tổng duyệt: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-nu-quan-y.jpg" alt="Khối nữ sĩ quan quân y diễu hành" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-nu-quan-y.jpg" alt="Khối nữ sĩ quan quân y diễu hành" loading="lazy">
       <figcaption>Khối nữ sĩ quan quân y trong đội hình diễu binh: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-cong-nhan.jpg" alt="Khối công nhân diễu hành với cờ và hoa" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-cong-nhan.jpg" alt="Khối công nhân diễu hành với cờ và hoa" loading="lazy">
       <figcaption>Khối công nhân Việt Nam trong đội hình diễu hành: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dan-cong.jpg" alt="Khối dân công hỏa tuyến với những chiếc xe đạp thồ" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dan-cong.jpg" alt="Khối dân công hỏa tuyến với những chiếc xe đạp thồ" loading="lazy">
       <figcaption>Khối dân công hỏa tuyến với những chiếc xe đạp thồ gợi nhớ hậu cần Chiến dịch Điện Biên Phủ: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-co-do.jpg" alt="Những lá cờ đỏ trong đội hình lễ kỷ niệm" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-co-do.jpg" alt="Những lá cờ đỏ trong đội hình lễ kỷ niệm" loading="lazy">
       <figcaption>Những lá cờ đỏ trong đội hình lễ kỷ niệm: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dieu-binh.jpg" alt="Khối chiến sĩ diễu binh trong lễ kỷ niệm" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dieu-binh.jpg" alt="Khối chiến sĩ diễu binh trong lễ kỷ niệm" loading="lazy">
       <figcaption>Các khối chiến sĩ diễu binh qua lễ đài: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-ky-binh.jpg" alt="Khối kỵ binh diễu hành trên đường phố Điện Biên" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-ky-binh.jpg" alt="Khối kỵ binh diễu hành trên đường phố Điện Biên" loading="lazy">
       <figcaption>Khối kỵ binh trong đội hình diễu hành: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dan-toc.jpg" alt="Đại diện các dân tộc trong đội hình lễ kỷ niệm" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-dan-toc.jpg" alt="Đại diện các dân tộc trong đội hình lễ kỷ niệm" loading="lazy">
       <figcaption>Đại diện các dân tộc trong đội hình diễu hành: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-nguoi-dan.jpg" alt="Người dân Điện Biên đứng bên đường theo dõi lễ diễu hành" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-nguoi-dan.jpg" alt="Người dân Điện Biên đứng bên đường theo dõi lễ diễu hành" loading="lazy">
       <figcaption>Người dân Điện Biên theo dõi đoàn diễu hành: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-tren-bau-troi.jpg" alt="Đội hình máy bay mang cờ trên bầu trời Điện Biên" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/chien-thang-dien-bien-phu/le-ky-niem-70-nam-tren-bau-troi.jpg" alt="Đội hình máy bay mang cờ trên bầu trời Điện Biên" loading="lazy">
       <figcaption>Đội hình máy bay mang cờ trên bầu trời Điện Biên: <a href="https://laodong.vn/thoi-su/nhung-hinh-anh-an-tuong-truoc-le-ky-niem-70-nam-chien-thang-dien-bien-phu-1336040.ldo" target="_blank" rel="noopener noreferrer">Lao Động</a>.</figcaption>
     </figure>
   </div>

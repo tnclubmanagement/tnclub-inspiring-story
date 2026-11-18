@@ -78,39 +78,39 @@ giữ ngôi vua hoặc không có mốc lên ngôi.*
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử Việt Nam">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/ba-dinh-1945.jpg" alt="Quảng trường Ba Đình ngày 2 tháng 9 năm 1945" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/nhan-vat-lich-su-viet-nam/ba-dinh-1945.jpg" alt="Quảng trường Ba Đình ngày 2 tháng 9 năm 1945" loading="lazy">
       <figcaption>Quảng trường Ba Đình năm 1945: <a href="https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_September_2nd,_1945.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/vo-nguyen-giap-1944.jpg" alt="Một đơn vị giải phóng quân trong tư liệu năm 1944" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/nhan-vat-lich-su-viet-nam/vo-nguyen-giap-1944.jpg" alt="Một đơn vị giải phóng quân trong tư liệu năm 1944" loading="lazy">
       <figcaption>Võ Nguyên Giáp và lực lượng Việt Minh: <a href="https://commons.wikimedia.org/wiki/File:Vo_Nguyen_Giap,_Vietminh_forces,_1944.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/reunification-banner.jpg" alt="Biểu ngữ về ngày thống nhất đất nước" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/nhan-vat-lich-su-viet-nam/reunification-banner.jpg" alt="Biểu ngữ về ngày thống nhất đất nước" loading="lazy">
       <figcaption>Tư liệu về ngày thống nhất: <a href="https://commons.wikimedia.org/wiki/File:Reunification_day_banner.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/hai-ba-trung.jpg" alt="Tranh Đông Hồ về Hai Bà Trưng" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/nhan-vat-lich-su-viet-nam/hai-ba-trung.jpg" alt="Tranh Đông Hồ về Hai Bà Trưng" loading="lazy">
       <figcaption>Tranh Đông Hồ về Hai Bà Trưng: <a href="https://commons.wikimedia.org/wiki/File:Hai_ba_trung_Dong_Ho_painting.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/nguyen-trai.jpg" alt="Hình tượng Nguyễn Trãi trong tư liệu Wikimedia Commons" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/nhan-vat-lich-su-viet-nam/nguyen-trai.jpg" alt="Hình tượng Nguyễn Trãi trong tư liệu Wikimedia Commons" loading="lazy">
       <figcaption>Tư liệu về Nguyễn Trãi: <a href="https://commons.wikimedia.org/wiki/File:Nguyen_Trai.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/quang-trung.jpg" alt="Tượng Quang Trung Nguyễn Huệ ở Gò Đống Đa" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/nhan-vat-lich-su-viet-nam/quang-trung.jpg" alt="Tượng Quang Trung Nguyễn Huệ ở Gò Đống Đa" loading="lazy">
       <figcaption>Tượng Quang Trung – Nguyễn Huệ ở Gò Đống Đa: <a href="https://commons.wikimedia.org/wiki/File:Quang_Trung_Nguy%E1%BB%85n_Hu%E1%BB%87,_G%C3%B2_%C4%90%E1%BB%91ng_%C4%90a.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/phan-boi-chau.jpg" alt="Chân dung Phan Bội Châu" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/nhan-vat-lich-su-viet-nam/phan-boi-chau.jpg" alt="Chân dung Phan Bội Châu" loading="lazy">
       <figcaption>Chân dung Phan Bội Châu: <a href="https://commons.wikimedia.org/wiki/File:Phan_Boi_Chau.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/dang-thuy-tram.jpg" alt="Chân dung Đặng Thùy Trâm" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/nhan-vat-lich-su-viet-nam/dang-thuy-tram.jpg" alt="Chân dung Đặng Thùy Trâm" loading="lazy">
       <figcaption>Chân dung Đặng Thùy Trâm: <a href="https://commons.wikimedia.org/wiki/File:Dang_Thuy_Tram.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/nhan-vat-lich-su-viet-nam/vo-thi-sau.jpg" alt="Chân dung Võ Thị Sáu trong tư liệu Wikimedia Commons" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/nhan-vat-lich-su-viet-nam/vo-thi-sau.jpg" alt="Chân dung Võ Thị Sáu trong tư liệu Wikimedia Commons" loading="lazy">
       <figcaption>Tư liệu về Võ Thị Sáu: <a href="https://commons.wikimedia.org/wiki/File:Portrait_of_V%C3%B5_Th%E1%BB%8B_S%C3%A1u.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>

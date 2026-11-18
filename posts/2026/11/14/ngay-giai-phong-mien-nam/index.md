@@ -16,7 +16,7 @@ tags: [lịch sử Việt Nam, calendar, lịch sử hiện đại]
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
   <div class="story-gallery-track">
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/HCMCampaign.svg?width=1200" alt="Sơ đồ Chiến dịch Hồ Chí Minh" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/HCMCampaign.svg/1280px-HCMCampaign.svg.png" alt="Sơ đồ Chiến dịch Hồ Chí Minh" loading="lazy">
       <figcaption>Sơ đồ chiến dịch: <a href="https://commons.wikimedia.org/wiki/File:HCMCampaign.svg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">

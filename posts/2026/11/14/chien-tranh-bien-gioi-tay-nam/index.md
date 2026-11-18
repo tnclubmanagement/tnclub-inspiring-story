@@ -14,15 +14,15 @@ tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới Tây Nam
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về chiến tranh biên giới Tây Nam">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vietnamese%20invasion%20of%20Cambodia.png?width=1200" alt="Bản đồ cuộc tiến công của Việt Nam vào Campuchia" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Vietnamese_invasion_of_Cambodia.png" alt="Bản đồ cuộc tiến công của Việt Nam vào Campuchia" loading="lazy">
       <figcaption>Bản đồ khái quát cuộc tiến công vào Campuchia: <a href="https://commons.wikimedia.org/wiki/File:Vietnamese_invasion_of_Cambodia.png" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Soviet%20ship%20brings%20humanitarian%20help%20to%20Cambodia%201979.jpg?width=1200" alt="Tàu Liên Xô chở hàng cứu trợ tới Campuchia năm 1979" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Soviet_ship_brings_humanitarian_help_to_Cambodia_1979.jpg/1280px-Soviet_ship_brings_humanitarian_help_to_Cambodia_1979.jpg" alt="Tàu Liên Xô chở hàng cứu trợ tới Campuchia năm 1979" loading="lazy">
       <figcaption>Tư liệu cứu trợ nhân đạo cho Campuchia năm 1979: <a href="https://commons.wikimedia.org/wiki/File:Soviet_ship_brings_humanitarian_help_to_Cambodia_1979.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Memorial%20Monument%20-%20Kratie%20province%20-%20Cambodia.jpeg?width=1200" alt="Đài tưởng niệm tại tỉnh Kratie, Campuchia" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Memorial_Monument_-_Kratie_province_-_Cambodia.jpeg" alt="Đài tưởng niệm tại tỉnh Kratie, Campuchia" loading="lazy">
       <figcaption>Một đài tưởng niệm tại Campuchia: <a href="https://commons.wikimedia.org/wiki/File:Memorial_Monument_-_Kratie_province_-_Cambodia.jpeg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>

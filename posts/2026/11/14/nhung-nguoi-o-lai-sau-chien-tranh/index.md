@@ -14,16 +14,12 @@ tags: [lịch sử Việt Nam, Hòa bình không dễ có, ký ức chiến tran
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về tưởng niệm sau chiến tranh">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ngh%C4%A9a%20trang%20li%E1%BB%87t%20s%C4%A9%20Tr%C6%B0%E1%BB%9Dng%20S%C6%A1n.JPG?width=1200" alt="Nghĩa trang liệt sĩ Trường Sơn" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ngh%C4%A9a_trang_li%E1%BB%87t_s%C4%A9_Tr%C6%B0%E1%BB%9Dng_S%C6%A1n.JPG/1280px-Ngh%C4%A9a_trang_li%E1%BB%87t_s%C4%A9_Tr%C6%B0%E1%BB%9Dng_S%C6%A1n.JPG" alt="Nghĩa trang liệt sĩ Trường Sơn" loading="lazy">
       <figcaption>Nghĩa trang liệt sĩ Trường Sơn, một không gian tưởng niệm: <a href="https://commons.wikimedia.org/wiki/File:Nghĩa_trang_liệt_sĩ_Trường_Sơn.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Truong%20Son%20National%20Cemetery%20-%20panoramio.jpg?width=1200" alt="Toàn cảnh nghĩa trang liệt sĩ Trường Sơn" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Truong_Son_National_Cemetery_-_panoramio.jpg/1280px-Truong_Son_National_Cemetery_-_panoramio.jpg" alt="Toàn cảnh nghĩa trang liệt sĩ Trường Sơn" loading="lazy">
       <figcaption>Không gian tưởng niệm: <a href="https://commons.wikimedia.org/wiki/File:Truong_Son_National_Cemetery_-_panoramio.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
-    </figure>
-    <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ngh%C4%A9a%20trang%20LS%20Khe%20Sanh%201.JPG?width=1200" alt="Nghĩa trang liệt sĩ Khe Sanh" loading="lazy">
-      <figcaption>Nghĩa trang liệt sĩ Khe Sanh: <a href="https://commons.wikimedia.org/wiki/File:Nghĩa_trang_LS_Khe_Sanh_1.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>
   <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>

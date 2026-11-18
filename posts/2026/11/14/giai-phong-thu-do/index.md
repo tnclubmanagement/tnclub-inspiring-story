@@ -16,15 +16,15 @@ tags: [lịch sử Việt Nam, calendar, Hà Nội]
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/M%E1%BB%99t%20con%20ph%E1%BB%91%20H%C3%A0%20N%E1%BB%99i%20v%C3%A0o%20th%C3%A1ng%2010%20n%C4%83m%201954.jpg?width=1200" alt="Một con phố Hà Nội vào tháng 10 năm 1954" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/M%E1%BB%99t_con_ph%E1%BB%91_H%C3%A0_N%E1%BB%99i_v%C3%A0o_th%C3%A1ng_10_n%C4%83m_1954.jpg" alt="Một con phố Hà Nội vào tháng 10 năm 1954" loading="lazy">
       <figcaption>Hà Nội tháng 10 năm 1954: <a href="https://commons.wikimedia.org/wiki/File:Một_con_phố_Hà_Nội_vào_tháng_10_năm_1954.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hanoi%2C%20de%20hoofdstad%20van%20Noord-Vietnam%2C%20Bestanddeelnr%20344006%20018.tif?width=1200" alt="Hà Nội năm 1954" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Hanoi%2C_de_hoofdstad_van_Noord-Vietnam%2C_Bestanddeelnr_344006_018.tif/lossy-page1-1280px-Hanoi%2C_de_hoofdstad_van_Noord-Vietnam%2C_Bestanddeelnr_344006_018.tif.jpg" alt="Hà Nội năm 1954" loading="lazy">
       <figcaption>Ảnh Hà Nội năm 1954: <a href="https://commons.wikimedia.org/wiki/File:Hanoi,_de_hoofdstad_van_Noord-Vietnam,_Bestanddeelnr_344006_018.tif" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/De%20laatste%20Franse%20troepen%20verlaten%20Hanoi%20in%20overeenkomst%20met%20het%20pact%20van%20Gen%C3%A8ve%20en%20gaan%20op%20weg%20naar%20Saigon%2C%20Bestanddeelnr%20344006%20010.tif?width=1200" alt="Những binh sĩ Pháp rời Hà Nội năm 1954" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/De_laatste_Franse_troepen_verlaten_Hanoi_in_overeenkomst_met_het_pact_van_Gen%C3%A8ve_en_gaan_op_weg_naar_Saigon%2C_Bestanddeelnr_344006_010.tif/lossy-page1-1280px-De_laatste_Franse_troepen_verlaten_Hanoi_in_overeenkomst_met_het_pact_van_Gen%C3%A8ve_en_gaan_op_weg_naar_Saigon%2C_Bestanddeelnr_344006_010.tif.jpg" alt="Những binh sĩ Pháp rời Hà Nội năm 1954" loading="lazy">
       <figcaption>Quân Pháp rời Hà Nội: <a href="https://commons.wikimedia.org/wiki/File:De_laatste_Franse_troepen_verlaten_Hanoi_in_overeenkomst_met_het_pact_van_Genève_en_gaan_op_weg_naar_Saigon,_Bestanddeelnr_344006_010.tif" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>

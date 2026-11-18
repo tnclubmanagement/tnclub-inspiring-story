@@ -18,9 +18,9 @@ tuyến kéo dài, những quy định khắt khe và nỗi nhớ người thân
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về Hiền Lương và Bến Hải">
   <div class="story-gallery-track">
-    <figure class="story-slide is-active"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Benhai04.JPG?width=1200" alt="Cầu Hiền Lương trên sông Bến Hải" loading="lazy"><figcaption>Cầu Hiền Lương: <a href="https://commons.wikimedia.org/wiki/File:Benhai04.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
-    <figure class="story-slide"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Benhai03.JPG?width=1200" alt="Di tích bên sông Bến Hải" loading="lazy"><figcaption>Tư liệu khu giới tuyến: <a href="https://commons.wikimedia.org/wiki/File:Benhai03.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
-    <figure class="story-slide"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Benhairiver1.jpg?width=1200" alt="Sông Bến Hải" loading="lazy"><figcaption>Sông Bến Hải: <a href="https://commons.wikimedia.org/wiki/File:Benhairiver1.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
+    <figure class="story-slide is-active"><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Benhai04.JPG" alt="Cầu Hiền Lương trên sông Bến Hải" loading="lazy"><figcaption>Cầu Hiền Lương: <a href="https://commons.wikimedia.org/wiki/File:Benhai04.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
+    <figure class="story-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Benhai03.JPG" alt="Di tích bên sông Bến Hải" loading="lazy"><figcaption>Tư liệu khu giới tuyến: <a href="https://commons.wikimedia.org/wiki/File:Benhai03.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
+    <figure class="story-slide"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Benhairiver1.jpg/1280px-Benhairiver1.jpg" alt="Sông Bến Hải" loading="lazy"><figcaption>Sông Bến Hải: <a href="https://commons.wikimedia.org/wiki/File:Benhairiver1.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
   </div>
   <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
   <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>

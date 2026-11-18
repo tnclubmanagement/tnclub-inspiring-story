@@ -16,15 +16,15 @@ tags: [lịch sử Việt Nam, calendar, độc lập]
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ba%20Dinh%20Square%20September%202nd%2C%201945.jpg?width=1200" alt="Quảng trường Ba Đình ngày 2 tháng 9 năm 1945" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ba_Dinh_Square_September_2nd%2C_1945.jpg/1280px-Ba_Dinh_Square_September_2nd%2C_1945.jpg" alt="Quảng trường Ba Đình ngày 2 tháng 9 năm 1945" loading="lazy">
       <figcaption>Quảng trường Ba Đình: <a href="https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_September_2nd,_1945.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pr%C3%A9sident%20Ho-chi-Minh%20lit%20la%20Proclamation-d%27ind%C3%A9pendance%20sur%20la%20place%20Ba-dinh%20le%202nd%20Sep%201945.jpg?width=1200" alt="Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Pr%C3%A9sident_Ho-chi-Minh_lit_la_Proclamation-d%27ind%C3%A9pendance_sur_la_place_Ba-dinh_le_2nd_Sep_1945.jpg" alt="Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập" loading="lazy">
       <figcaption>Khoảnh khắc đọc Tuyên ngôn Độc lập: <a href="https://commons.wikimedia.org/wiki/File:Président_Ho-chi-Minh_lit_la_Proclamation-d%27indépendance_sur_la_place_Ba-dinh_le_2nd_Sep_1945.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/To%C3%A0n%20c%E1%BA%A3nh%20l%E1%BB%85%20%C4%91%C3%A0i%20v%C6%B0%E1%BB%9Dn%20hoa%20Ba%20%C4%90%C3%ACnh%20%E2%80%93%20H%C3%A0%20N%E1%BB%99i%20%28ng%C3%A0y%2002-09-1945%29%2002.jpg?width=1200" alt="Toàn cảnh lễ đài Ba Đình ngày 2 tháng 9 năm 1945" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/To%C3%A0n_c%E1%BA%A3nh_l%E1%BB%85_%C4%91%C3%A0i_v%C6%B0%E1%BB%9Dn_hoa_Ba_%C4%90%C3%ACnh_%E2%80%93_H%C3%A0_N%E1%BB%99i_%28ng%C3%A0y_02-09-1945%29_02.jpg" alt="Toàn cảnh lễ đài Ba Đình ngày 2 tháng 9 năm 1945" loading="lazy">
       <figcaption>Toàn cảnh lễ đài: <a href="https://commons.wikimedia.org/wiki/File:Toàn_cảnh_lễ_đài_vườn_hoa_Ba_Đình_–_Hà_Nội_(ngày_02-09-1945)_02.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>

@@ -26,11 +26,11 @@ cậu cảm giác mình có thể làm một điều gì đó cho căn nhà củ
 <section class="story-gallery" aria-label="Hình ảnh về Bàng Chúng Vọng">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-portrait.jpg" alt="Chân dung Bàng Chúng Vọng" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-portrait.jpg" alt="Chân dung Bàng Chúng Vọng" loading="lazy">
       <figcaption>Chân dung Bàng Chúng Vọng: <a href="https://dantri.com.vn/giao-duc/tu-cau-be-nhat-ve-chai-den-nghien-cuu-sinh-tien-si-dai-hoc-top-dau-the-gioi-20250521085059529.htm" rel="noopener">Dân trí</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-me.jpg" alt="Bàng Chúng Vọng bên mẹ trong những năm tháng khó khăn" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/10/09/tu-nhat-phe-lieu-den-nghien-cuu-sinh-tien-si/bang-chung-vong-me.jpg" alt="Bàng Chúng Vọng bên mẹ trong những năm tháng khó khăn" loading="lazy">
       <figcaption>Bàng Chúng Vọng bên mẹ trong tư liệu về hành trình vượt khó: <a href="https://dantri.com.vn/giao-duc/tu-cau-be-nhat-ve-chai-den-nghien-cuu-sinh-tien-si-dai-hoc-top-dau-the-gioi-20250521085059529.htm" rel="noopener">Dân trí</a>.</figcaption>
     </figure>
   </div>

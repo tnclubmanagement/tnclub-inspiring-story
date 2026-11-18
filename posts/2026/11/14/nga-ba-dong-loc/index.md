@@ -25,15 +25,15 @@ tiếp tục đi qua.
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về Ngã ba Đồng Lộc">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nga%20Ba%20Dong%20Loc.jpg?width=1200" alt="Khu di tích Ngã ba Đồng Lộc" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nga_Ba_Dong_Loc.jpg/1280px-Nga_Ba_Dong_Loc.jpg" alt="Khu di tích Ngã ba Đồng Lộc" loading="lazy">
       <figcaption>Khu di tích Ngã ba Đồng Lộc: <a href="https://commons.wikimedia.org/wiki/File:Nga_Ba_Dong_Loc.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/T%C6%B0%E1%BB%A3ng%20%C4%91%C3%A0i.jpg?width=1200" alt="Tượng đài tại Ngã ba Đồng Lộc" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/T%C6%B0%E1%BB%A3ng_%C4%91%C3%A0i.jpg/1280px-T%C6%B0%E1%BB%A3ng_%C4%91%C3%A0i.jpg" alt="Tượng đài tại Ngã ba Đồng Lộc" loading="lazy">
       <figcaption>Tượng đài tưởng niệm: <a href="https://commons.wikimedia.org/wiki/File:Tượng_đài.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lighting%20incense%20at%20the%20Dong%20Loc%20Junction%20memorial.jpg?width=1200" alt="Người dân dâng hương tại khu tưởng niệm Ngã ba Đồng Lộc" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Lighting_incense_at_the_Dong_Loc_Junction_memorial.jpg/1280px-Lighting_incense_at_the_Dong_Loc_Junction_memorial.jpg" alt="Người dân dâng hương tại khu tưởng niệm Ngã ba Đồng Lộc" loading="lazy">
       <figcaption>Một buổi tưởng niệm tại khu di tích: <a href="https://commons.wikimedia.org/wiki/File:Lighting_incense_at_the_Dong_Loc_Junction_memorial.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>

@@ -16,15 +16,15 @@ tags: [lịch sử Việt Nam, calendar, quân đội]
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vo%20Nguyen%20Giap%2C%20Vietminh%20forces%2C%201944.jpg?width=1200" alt="Võ Nguyên Giáp cùng lực lượng Việt Minh năm 1944" loading="lazy">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Vo_Nguyen_Giap%2C_Vietminh_forces%2C_1944.jpg/1280px-Vo_Nguyen_Giap%2C_Vietminh_forces%2C_1944.jpg" alt="Võ Nguyên Giáp cùng lực lượng Việt Minh năm 1944" loading="lazy">
       <figcaption>Ảnh tư liệu: <a href="https://commons.wikimedia.org/wiki/File:Vo_Nguyen_Giap,_Vietminh_forces,_1944.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/1945%20Aug%20Archimedes%20Patti%2C%20Vo%20Nguyen%20Giap.png?width=1200" alt="Võ Nguyên Giáp năm 1945" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/1945_Aug_Archimedes_Patti%2C_Vo_Nguyen_Giap.png" alt="Võ Nguyên Giáp năm 1945" loading="lazy">
       <figcaption>Võ Nguyên Giáp năm 1945: <a href="https://commons.wikimedia.org/wiki/File:1945_Aug_Archimedes_Patti,_Vo_Nguyen_Giap.png" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Viet%20Minh%20during%20August%20Revolution.jpg?width=1200" alt="Lực lượng Việt Minh trong thời kỳ Cách mạng tháng Tám" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Viet_Minh_during_August_Revolution.jpg" alt="Lực lượng Việt Minh trong thời kỳ Cách mạng tháng Tám" loading="lazy">
       <figcaption>Ảnh lực lượng Việt Minh: <a href="https://commons.wikimedia.org/wiki/File:Viet_Minh_during_August_Revolution.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
   </div>

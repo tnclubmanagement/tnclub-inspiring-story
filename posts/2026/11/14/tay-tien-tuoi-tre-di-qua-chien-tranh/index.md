@@ -26,23 +26,23 @@ mất mát ấy.
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về vùng Tây Tiến">
   <div class="story-gallery-track">
     <figure class="story-slide is-active">
-      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/moc-chau-wikimedia.jpg" alt="Phong cảnh Mộc Châu" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/moc-chau-wikimedia.jpg" alt="Phong cảnh Mộc Châu" loading="lazy">
       <figcaption>Mộc Châu, một địa danh gắn với vùng hoạt động của Trung đoàn Tây Tiến: <a href="https://commons.wikimedia.org/wiki/File:MocChau.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/quoc-lo-6-moc-chau-wikimedia.jpg" alt="Đường qua Mộc Châu" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/quoc-lo-6-moc-chau-wikimedia.jpg" alt="Đường qua Mộc Châu" loading="lazy">
       <figcaption>Tuyến đường qua Mộc Châu ngày nay: <a href="https://commons.wikimedia.org/wiki/File:Quốc_lộ_6_qua_địa_phận_thị_trấn_Mộc_Châu.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/mai-chau-user.jpg" alt="Bản làng giữa núi rừng và ruộng lúa ở Mai Châu" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/mai-chau-user.jpg" alt="Bản làng giữa núi rừng và ruộng lúa ở Mai Châu" loading="lazy">
       <figcaption>Phong cảnh Mai Châu, gợi không gian núi rừng miền Tây Bắc: <a href="https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/depositphotos416716766xl-1736818922029.jpg" target="_blank" rel="noopener noreferrer">nguồn ảnh</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/ruong-bac-thang-user.jpg" alt="Ruộng bậc thang giữa vùng núi Tây Bắc" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/ruong-bac-thang-user.jpg" alt="Ruộng bậc thang giữa vùng núi Tây Bắc" loading="lazy">
       <figcaption>Ruộng bậc thang vùng Tây Bắc: <a href="https://taybacsensetravel.com/view/at_nhung-hinh-anh-du-lich-dep-me-hon-cua-vung-dat-tay-bac_019194d3614616680f8a580c1f6a964e.jpg" target="_blank" rel="noopener noreferrer">nguồn ảnh</a>.</figcaption>
     </figure>
     <figure class="story-slide">
-      <img src="/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/tay-tien-minh-hoa-user.jpg" alt="Tranh minh họa bài thơ Tây Tiến của Quang Dũng" loading="lazy">
+      <img src="{{ site.baseurl }}/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/tay-tien-minh-hoa-user.jpg" alt="Tranh minh họa bài thơ Tây Tiến của Quang Dũng" loading="lazy">
       <figcaption>Phong cảnh Tây Bắc kèm toàn bài thơ <em>Tây Tiến</em>, trình bày lại để dễ đọc: <a href="https://i.pinimg.com/1200x/4b/1a/67/4b1a672f9e816f430b64d44aad683586.jpg" target="_blank" rel="noopener noreferrer">ảnh gốc</a>.</figcaption>
     </figure>
   </div>
