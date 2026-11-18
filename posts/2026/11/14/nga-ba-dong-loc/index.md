@@ -5,6 +5,7 @@ permalink: /post/hoa-binh-khong-de-co-01-nga-ba-dong-loc/
 title: "[01 · Hòa bình không dễ có] : Ngã ba Đồng Lộc"
 subtitle: "Những người giữ đường giữa một tọa độ bị bom đạn vùi lấp"
 series: "Hòa bình không dễ có"
+series_url: "/series/hoa-binh-khong-de-co/"
 series_order: 1
 cover-img: "/posts/2026/11/14/nga-ba-dong-loc/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/nga-ba-dong-loc/cover-local.jpg"

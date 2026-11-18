@@ -100,7 +100,7 @@ layout: page
       data-post-series="{{ post.series | default: 'Bài viết độc lập' | escape }}"
       data-post-series-key="{{ post.series | default: 'Bài viết độc lập' | slugify }}"
       data-post-series-order="{{ post.series_order | default: 9999 }}"
-      data-post-series-url="{{ post.series_url | escape }}"
+      data-post-series-url="{{ post.series_url | relative_url | escape }}"
       data-post-search="{{ search_text | strip_html | strip_newlines | escape }}"
       data-post-date="{{ post.date | date: '%Y-%m-%d' }}">
     <span class="timeline-marker" aria-hidden="true"></span>

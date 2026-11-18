@@ -5,6 +5,7 @@ permalink: /post/hoa-binh-khong-de-co-08-chien-tranh-bien-gioi-tay-nam/
 title: "[09 · Hòa bình không dễ có] : Chiến tranh biên giới Tây Nam"
 subtitle: "Những người lính chiến đấu xa quê và người dân Campuchia trong thảm họa"
 series: "Hòa bình không dễ có"
+series_url: "/series/hoa-binh-khong-de-co/"
 series_order: 9
 cover-img: "/posts/2026/11/14/chien-tranh-bien-gioi-tay-nam/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-tay-nam/thumbnail-local.jpg"

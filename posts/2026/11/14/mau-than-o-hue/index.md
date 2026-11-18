@@ -5,6 +5,7 @@ permalink: /post/hoa-binh-khong-de-co-05-mau-than-o-hue/
 title: "[06 · Hòa bình không dễ có] : Mậu Thân ở Huế"
 subtitle: "Tuổi trẻ, thường dân và những cuộc đời bị chiến tranh cắt ngang"
 series: "Hòa bình không dễ có"
+series_url: "/series/hoa-binh-khong-de-co/"
 series_order: 6
 cover-img: "/posts/2026/11/14/mau-than-o-hue/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/mau-than-o-hue/cover-local.jpg"

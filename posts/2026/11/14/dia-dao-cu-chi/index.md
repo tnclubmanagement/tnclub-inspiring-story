@@ -5,6 +5,7 @@ permalink: /post/hoa-binh-khong-de-co-03-dia-dao-cu-chi/
 title: "[04 · Hòa bình không dễ có] : Địa đạo Củ Chi"
 subtitle: "Những con người sống và chiến đấu dưới lòng đất"
 series: "Hòa bình không dễ có"
+series_url: "/series/hoa-binh-khong-de-co/"
 series_order: 4
 cover-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"

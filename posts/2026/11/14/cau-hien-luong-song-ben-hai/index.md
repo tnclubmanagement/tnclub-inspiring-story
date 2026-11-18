@@ -5,6 +5,7 @@ permalink: /post/hoa-binh-khong-de-co-07-hien-luong-ben-hai/
 title: "[08 · Hòa bình không dễ có] : Cầu Hiền Lương và sông Bến Hải"
 subtitle: "Một dòng sông, một cây cầu và những gia đình bị chia cắt"
 series: "Hòa bình không dễ có"
+series_url: "/series/hoa-binh-khong-de-co/"
 series_order: 8
 cover-img: "/posts/2026/11/14/cau-hien-luong-song-ben-hai/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/cau-hien-luong-song-ben-hai/cover-local.jpg"

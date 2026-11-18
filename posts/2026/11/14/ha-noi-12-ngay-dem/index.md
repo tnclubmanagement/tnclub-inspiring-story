@@ -5,6 +5,7 @@ permalink: /post/hoa-binh-khong-de-co-04-ha-noi-12-ngay-dem/
 title: "[05 · Hòa bình không dễ có] : Hà Nội 12 ngày đêm"
 subtitle: "Bầu trời, trận địa và những người không trở về"
 series: "Hòa bình không dễ có"
+series_url: "/series/hoa-binh-khong-de-co/"
 series_order: 5
 cover-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"

@@ -5,6 +5,7 @@ permalink: /post/hoa-binh-khong-de-co-09-bien-gioi-phia-bac/
 title: "[10 · Hòa bình không dễ có] : Biên giới phía Bắc"
 subtitle: "Những người lính trẻ và người dân ở lại nơi địa đầu"
 series: "Hòa bình không dễ có"
+series_url: "/series/hoa-binh-khong-de-co/"
 series_order: 10
 cover-img: "/posts/2026/11/14/chien-tranh-bien-gioi-phia-bac/thumbnail-local.png"
 thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-phia-bac/thumbnail-local.png"

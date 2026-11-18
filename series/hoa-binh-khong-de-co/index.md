@@ -25,7 +25,7 @@ permalink: /series/hoa-binh-khong-de-co/
     </div>
     <img
       class="series-hero-image"
-      src="/assets/img/series-peace.jpg"
+      src="{{ '/assets/img/series-peace.jpg' | relative_url }}"
       alt="Minh họa hành trình từ ký ức chiến tranh đến những ngày hòa bình"
       loading="lazy">
   </section>

@@ -75,7 +75,8 @@ layout: base
             {% assign next_order = page.series_order | plus: 1 %}
             {% assign series_previous = series_posts | where: "series_order", previous_order | first %}
             {% assign series_next = series_posts | where: "series_order", next_order | first %}
-            {% assign series_url = page.series_url | default: '/series/hoa-binh-khong-de-co/' %}
+            {% assign series_landing = site.pages | where_exp: "p", "p.permalink contains '/series/'" | where: "title", page.series | first %}
+            {% assign series_url = page.series_url | default: series_landing.url %}
             <nav class="series-post-navigation" aria-label="Điều hướng trong chuyên đề">
               <div class="series-post-navigation-heading">
                 <span>Chuyên đề</span>

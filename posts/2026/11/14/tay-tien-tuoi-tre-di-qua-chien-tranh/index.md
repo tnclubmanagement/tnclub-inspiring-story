@@ -5,6 +5,7 @@ permalink: /post/hoa-binh-khong-de-co-02-tay-tien/
 title: "[02 · Hòa bình không dễ có] : Tây Tiến"
 subtitle: "Tuổi trẻ đi qua núi rừng, bệnh tật và những mùa chiến đấu"
 series: "Hòa bình không dễ có"
+series_url: "/series/hoa-binh-khong-de-co/"
 series_order: 2
 cover-img: "/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/cover-local.jpg"
