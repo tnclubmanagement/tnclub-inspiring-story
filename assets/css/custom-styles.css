@@ -5097,3 +5097,21 @@ body:has(.magazine-story) .header-section.has-img .post-meta {
     margin-left: auto !important;
   }
 }
+
+.not-found-lead {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #4a4f60;
+}
+
+.not-found-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.not-found-link {
+  font-weight: 600;
+}
