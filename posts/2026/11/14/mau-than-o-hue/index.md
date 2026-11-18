@@ -12,9 +12,9 @@ tags: [lịch sử Việt Nam, Hòa bình không dễ có, Mậu Thân, Huế]
 ---
 
 Mậu Thân 1968 ở Huế là một trong những chương đau đớn và phức tạp nhất của
-chiến tranh Việt Nam. Trận chiến kéo dài nhiều ngày, thành phố bị tàn phá,
-người dân bị cuốn vào bạo lực và số người chết, mất tích, di tản vẫn còn
-là vấn đề được nghiên cứu và tranh luận từ nhiều nguồn.
+chiến tranh Việt Nam. Giao tranh tại Huế kéo dài 25 ngày đêm, thành phố bị
+tàn phá, người dân bị cuốn vào bạo lực; quy mô thương vong, mất tích và di
+tản vẫn còn được nghiên cứu và tranh luận từ nhiều nguồn.
 
 Viết về Huế cần tránh hai thái cực: biến mọi đau thương thành khẩu hiệu, hoặc
 chỉ chọn một cách kể rồi phủ nhận ký ức của những người khác. Điều quan
@@ -23,9 +23,9 @@ trọng trước hết là gọi tên những người đã chịu mất mát.
 ## Huế trước Tết Mậu Thân
 
 Huế không chỉ là một đô thị có giá trị lịch sử và tôn giáo. Trong chiến
-tranh, thành phố còn có vị trí quân sự quan trọng ở miền Trung, với sông
-Hương chia cắt khu vực phía Bắc và phía Nam, các tuyến giao thông nối về
-phía nam và nhiều cơ sở hành chính, quân sự.
+tranh, thành phố còn có vị trí quân sự quan trọng ở miền Trung. Sông Hương,
+hệ thống cầu, các tuyến giao thông nối về phía nam cùng nhiều cơ sở hành
+chính, quân sự khiến Huế có ý nghĩa đặc biệt về chiến lược.
 
 Vị trí ấy khiến Huế trở thành một mục tiêu có ý nghĩa lớn trong Tổng tiến
 công và nổi dậy Tết Mậu Thân 1968. Nhưng vị trí quân sự không thể giải
@@ -62,6 +62,7 @@ không nên rút gọn thành một câu chuyện thắng – thua đơn tuyến
     <figure class="story-slide is-active"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/HU%E1%BA%BE_1968_-_Tet_Offensive.jpg/1280px-HU%E1%BA%BE_1968_-_Tet_Offensive.jpg" alt="Huế trong Tổng tiến công Tết Mậu Thân 1968" loading="lazy"><figcaption>Tư liệu Huế năm 1968: <a href="https://commons.wikimedia.org/wiki/File:HUẾ_1968_-_Tet_Offensive.jpg" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
     <figure class="story-slide"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Pontoon_Bridge_over_the_Perfume_River%2C_Hue%2C_1968.JPG/1280px-Pontoon_Bridge_over_the_Perfume_River%2C_Hue%2C_1968.JPG" alt="Cầu phao trên sông Hương ở Huế năm 1968" loading="lazy"><figcaption>Cầu phao trên sông Hương: <a href="https://commons.wikimedia.org/wiki/File:Pontoon_Bridge_over_the_Perfume_River,_Hue,_1968.JPG" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
     <figure class="story-slide"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Hue%2C_Vietnam....City_officials_of_Hue_who_are_responsible_for_identifying_the_victims_of_the_Tet_offensive_of_1968..._-_NARA_-_531460.tif/lossy-page1-1280px-Hue%2C_Vietnam....City_officials_of_Hue_who_are_responsible_for_identifying_the_victims_of_the_Tet_offensive_of_1968..._-_NARA_-_531460.tif.jpg" alt="Những người làm công việc nhận diện nạn nhân ở Huế" loading="lazy"><figcaption>Tư liệu lưu trữ về công việc nhận diện nạn nhân: <a href="https://commons.wikimedia.org/wiki/File:Hue,_Vietnam....City_officials_of_Hue_who_are_responsible_for_identifying_the_victims_of_the_Tet_offensive_of_1968..._-_NARA_-_531460.tif" rel="noopener">Wikimedia Commons</a>.</figcaption></figure>
+    <figure class="story-slide"><img src="https://baoquankhu4.com.vn/upload/18269/fck/files/Qu%C3%A2n%20%C4%91%E1%BB%99i%20ta%20ti%E1%BA%BFn%20v%C3%A0o%20th%C3%A0nh%20n%E1%BB%99i%20Hu%E1%BA%BF%20T%E1%BA%BFt%20M%E1%BA%ADu%20Th%C3%A2n%201968.jpg" alt="Quân đội ta tiến vào Thành nội Huế trong Tết Mậu Thân 1968" loading="lazy"><figcaption>Quân đội ta tiến vào Thành nội Huế trong Tết Mậu Thân 1968 (ngày 2/2/1968): <a href="https://baoquankhu4.com.vn/quoc-phong-an-ninh/nghe-thuat-quan-su-viet-nam/luc-luong-vu-trang-dia-phuong-thua-thien-hue-trong-cuoc-tong.html" target="_blank" rel="noopener noreferrer">Báo Quân khu 4</a>.</figcaption></figure>
   </div>
   <button class="story-gallery-control story-gallery-prev" type="button" aria-label="Hình trước">←</button>
   <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
@@ -88,8 +89,8 @@ không nên rút gọn thành một câu chuyện thắng – thua đơn tuyến
 Huế là một thành phố đại học, văn hóa và tôn giáo. Vì vậy, khi chiến sự
 đến, những người chịu ảnh hưởng không chỉ là các đơn vị quân đội. Sinh
 viên, học sinh, giáo viên, nhân viên bệnh viện, tu sĩ và các gia đình dân
-thường đều phải lựa chọn cách sống sót trong một thành phố bị phong tỏa và
-giao tranh.
+thường đều phải tìm cách sống sót trong một thành phố có giao thông và liên
+lạc bị gián đoạn bởi giao tranh.
 
 Có những thanh niên tham gia các lực lượng khác nhau, làm liên lạc, cứu
 thương hoặc hỗ trợ địa phương. Có những sinh viên đang học thì mất tích,
@@ -119,10 +120,12 @@ với điều cần tiếp tục kiểm chứng.
 
 ## Mười một cô gái sông Hương
 
-Một câu chuyện thường được nhắc đến là Tiểu đội 11 cô gái sông Hương. Các
-chị thuộc lực lượng dân quân ở khu vực Thủy Thanh, làm nhiệm vụ bám địa bàn,
-dẫn đường, tải thương và trực tiếp chiến đấu trong những ngày Huế bị tấn
-công và phản công.
+Một câu chuyện thường được nhắc đến trong các hồi ức và tư liệu báo chí là
+Tiểu đội 11 cô gái sông Hương. Các chị được mô tả là lực lượng địa phương,
+làm nhiệm vụ bám địa bàn, dẫn đường, tải thương và trực tiếp chiến đấu trong
+những ngày Huế bị tấn công và phản công. Chi tiết về đơn vị, địa bàn và
+nhiệm vụ cần được đối chiếu theo từng hồ sơ, vì các nguồn có thể gọi và mô
+tả lực lượng không hoàn toàn giống nhau.
 
 Các chị còn rất trẻ. Có người mới ngoài đôi mươi, nhưng phải thông thuộc
 đường phố, nắm mục tiêu và đưa các cánh quân qua những khu vực nguy hiểm.
@@ -168,4 +171,6 @@ giữ bằng sự thật, lòng trắc ẩn và trách nhiệm với ký ức c�
 
 - [Bảo tàng Lịch sử Quốc gia: Nơi họp và quyết định Tổng tiến công Tết Mậu Thân 1968](https://baotanglichsu.vn/vi/Articles/3091/55748/noi-hop-va-quyet-djinh-cuoc-tong-tien-cong-va-noi-day-tet-mau-than-1968.html)
 - [Bảo tàng Lịch sử Quốc gia: Cuộc Tổng tiến công và nổi dậy Tết Mậu Thân 1968](https://baotanglichsu.vn/vi/Articles/3097/73672/cuoc-tong-tien-cong-va-noi-day-tet-mau-than-1968-tam-voc-va-y-nghia-lich-su.html)
+- [Báo Quân khu 4: Lực lượng vũ trang địa phương Thừa Thiên Huế trong Xuân Mậu Thân 1968](https://baoquankhu4.com.vn/quoc-phong-an-ninh/nghe-thuat-quan-su-viet-nam/luc-luong-vu-trang-dia-phuong-thua-thien-hue-trong-cuoc-tong.html)
+- [VOV: Hồi ức về cuộc Tổng tiến công và nổi dậy Tết Mậu Thân 1968 ở Huế](https://vov.vn/chinh-tri/hoi-uc-ve-cuoc-tong-tien-cong-va-noi-day-tet-mau-than-1968-o-hue-589336.vov)
 - Tư liệu lưu trữ hình ảnh từ Wikimedia Commons.
