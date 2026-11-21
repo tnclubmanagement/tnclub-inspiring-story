@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/nhan-vat-lich-su-viet-nam/
-title: "Những nhân vật làm nên lịch sử Việt Nam"
+title: "[04 · Lịch sử Việt Nam] : Những nhân vật làm nên lịch sử Việt Nam"
 subtitle: "Một bức tranh khái quát về những con người đáng nhớ qua các thời kỳ"
 cover-img: "/posts/2026/11/14/nhan-vat-lich-su-viet-nam/banner-lich-su-viet-nam.jpg"
 thumbnail-img: "/posts/2026/11/14/nhan-vat-lich-su-viet-nam/banner-lich-su-viet-nam.jpg"
