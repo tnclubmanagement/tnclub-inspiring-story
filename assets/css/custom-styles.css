@@ -4394,14 +4394,14 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   text-align: left;
 }
 
-.powerline-facts,
+:is(.powerline-facts, .history-facts),
 .powerline-builders {
   display: grid;
   gap: 1rem;
   margin: 2.5rem 0;
 }
 
-.powerline-facts {
+:is(.powerline-facts, .history-facts) {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
@@ -4409,7 +4409,7 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.powerline-facts > div,
+:is(.powerline-facts, .history-facts) > div,
 .powerline-builders > article {
   min-width: 0;
   padding: 1.25rem;
@@ -4419,7 +4419,7 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   color: var(--theme-text);
 }
 
-.magazine-story .powerline-facts strong {
+.magazine-story :is(.powerline-facts, .history-facts) strong {
   display: block;
   margin-bottom: 0.5rem;
   color: var(--theme-link);
@@ -4427,15 +4427,15 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   line-height: 1.2;
 }
 
-.powerline-facts span,
-.powerline-kicker,
-.powerline-source {
+:is(.powerline-facts, .history-facts) span,
+:is(.powerline-kicker, .history-kicker),
+:is(.powerline-source, .history-source) {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.8rem;
   line-height: 1.6;
 }
 
-.powerline-kicker {
+:is(.powerline-kicker, .history-kicker) {
   display: block;
   margin: 0 0 0.8rem;
   font-weight: 700;
@@ -4454,7 +4454,7 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   font-size: 0.9rem;
 }
 
-.powerline-quote,
+:is(.powerline-quote, .history-quote),
 .powerline-remembrance,
 .powerline-music {
   margin: 3rem 0;
@@ -4465,11 +4465,11 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   color: var(--theme-text);
 }
 
-.powerline-quote {
+:is(.powerline-quote, .history-quote) {
   border-top: 4px solid var(--theme-link);
 }
 
-.magazine-story .post-body .powerline-quote blockquote {
+.magazine-story .post-body :is(.powerline-quote, .history-quote) blockquote {
   margin: 1rem 0 1.5rem;
   padding: 0;
   border: 0;
@@ -4480,15 +4480,15 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   line-height: 1.5;
 }
 
-.powerline-quote blockquote p {
+:is(.powerline-quote, .history-quote) blockquote p {
   margin: 0;
   font-size: inherit;
   line-height: inherit;
 }
 
-.powerline-quote figcaption,
+:is(.powerline-quote, .history-quote) figcaption,
 .powerline-archive-photo figcaption,
-.powerline-source {
+:is(.powerline-source, .history-source) {
   color: var(--theme-muted);
   font-size: 0.8rem;
   line-height: 1.65;
@@ -4526,17 +4526,17 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   color: #fff;
 }
 
-.story-gallery.powerline-gallery .story-gallery-track {
+.story-gallery:is(.powerline-gallery, .history-gallery) .story-gallery-track {
   min-height: 0;
 }
 
-.story-gallery.powerline-gallery .story-slide > img {
+.story-gallery:is(.powerline-gallery, .history-gallery) .story-slide > img {
   height: 400px;
   object-fit: contain;
   opacity: 1;
 }
 
-.story-gallery.powerline-gallery .story-slide figcaption {
+.story-gallery:is(.powerline-gallery, .history-gallery) .story-slide figcaption {
   position: static;
   padding: 1rem 1.25rem 2.75rem;
   background: #20242b;
@@ -4544,18 +4544,18 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   line-height: 1.65;
 }
 
-.story-gallery.powerline-gallery figcaption a {
+.story-gallery:is(.powerline-gallery, .history-gallery) figcaption a {
   color: #a9d4ff;
   text-decoration: underline;
 }
 
 @media (max-width: 600px) {
-  .powerline-facts,
+  :is(.powerline-facts, .history-facts),
   .powerline-builders {
     grid-template-columns: 1fr;
   }
 
-  .story-gallery.powerline-gallery .story-slide > img {
+  .story-gallery:is(.powerline-gallery, .history-gallery) .story-slide > img {
     height: 250px;
   }
 }
