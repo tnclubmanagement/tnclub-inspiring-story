@@ -2,11 +2,11 @@
 layout: post
 date: "2026-11-14 00:00:00 +0700"
 permalink: /post/lich-su-30-thang-4-1975/
-title: "[06 · Lịch sử Việt Nam] : Ngày đất nước nối liền một dải"
+title: "[07 · Lịch sử Việt Nam] : Ngày đất nước nối liền một dải"
 subtitle: "Một dấu mốc lớn trong lịch sử hiện đại Việt Nam"
 history-date: "04-30"
 series: "Lịch sử Việt Nam"
-series_order: 6
+series_order: 7
 series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jpg"
 thumbnail-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jpg"

@@ -12,8 +12,8 @@ permalink: /series/lich-su-viet-nam/
       <p class="series-landing-kicker">Lịch sử Việt Nam · {{ series_posts.size }} bài</p>
       <h1 id="history-series-title"><span class="series-hero-title-line">Những ngày</span><br><em>đáng nhớ.</em></h1>
       <p class="series-landing-intro">
-        Sáu bài viết ngắn về những dấu mốc quan trọng trong lịch sử Việt Nam,
-        được sắp xếp theo trình tự thời gian để dễ đọc và dễ ghi nhớ.
+        Những câu chuyện và dấu mốc trong lịch sử Việt Nam, từ đấu tranh
+        giành độc lập đến thống nhất, Đổi mới, dựng xây và hội nhập.
       </p>
       <a class="series-hero-button" href="#history-series-list">Xem các bài viết <span aria-hidden="true">→</span></a>
     </div>
@@ -28,9 +28,9 @@ permalink: /series/lich-su-viet-nam/
     <div class="series-section-heading">
       <div>
         <p class="series-landing-kicker">Mục lục</p>
-        <h2 id="history-series-list-title">Sáu dấu mốc</h2>
+        <h2 id="history-series-list-title">{{ series_posts.size }} bài viết · Một hành trình</h2>
       </div>
-      <p>Đọc từ ngày thành lập Quân đội nhân dân Việt Nam đến ngày đất nước thống nhất.</p>
+      <p>Từ những năm chiến tranh đến hành trình Đổi mới, kết nối đất nước và hợp tác khu vực.</p>
     </div>
     <ol class="series-post-list">
       {% for post in series_posts %}

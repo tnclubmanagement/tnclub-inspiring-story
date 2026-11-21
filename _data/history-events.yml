@@ -11,6 +11,27 @@
   source: "Tư liệu lịch sử Việt Nam"
   url: "/post/lich-su-30-thang-4-1975/"
 
+- date: "05-27"
+  title: "Đóng điện đường dây 500 kV Bắc–Nam mạch 1"
+  year: 1994
+  description: "Đường dây dài 1.487 km đi vào vận hành, liên kết hệ thống điện ba miền."
+  source: "Tập đoàn Điện lực Việt Nam (EVN)"
+  url: "/post/duong-day-500kv-bac-nam-mach-1/"
+
+- date: "07-28"
+  title: "Việt Nam gia nhập ASEAN"
+  year: 1995
+  description: "Tại Brunei, Việt Nam chính thức trở thành thành viên thứ bảy của ASEAN."
+  source: "ASEAN và Báo điện tử Chính phủ"
+  url: "/post/viet-nam-gia-nhap-asean-1995/"
+
+- date: "12-15"
+  title: "Khai mạc Đại hội VI, khởi xướng đường lối Đổi mới"
+  year: 1986
+  description: "Đại hội VI diễn ra tại Hà Nội từ ngày 15 đến 18/12/1986, đề ra đường lối đổi mới toàn diện."
+  source: "Cổng Thông tin điện tử Chính phủ"
+  url: "/post/buoc-ngoat-doi-moi-1986/"
+
 - date: "05-07"
   title: "Chiến thắng Điện Biên Phủ"
   year: 1954

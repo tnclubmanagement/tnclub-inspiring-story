@@ -43,6 +43,17 @@ subtitle: ""
   </div>
 </section>
 
+<section id="home-latest" class="latest-stories" aria-labelledby="latest-stories-title" data-home-section="latest">
+  <div class="featured-stories-heading">
+    <div>
+      <p class="home-eyebrow">Vừa lên trang</p>
+      <h2 id="latest-stories-title">Mới đăng</h2>
+    </div>
+    <a class="landing-cta" href="{{ '/newest/' | relative_url }}">Xem tất cả bài mới <span aria-hidden="true">→</span></a>
+  </div>
+  {% include latest-stories.html limit=8 %}
+</section>
+
 {% assign history_events = site.data.history-events %}
 <section id="home-history-calendar" class="history-calendar-section" aria-labelledby="history-calendar-title" data-home-section="history">
   <div class="history-calendar-heading">
@@ -189,6 +200,7 @@ subtitle: ""
 <nav class="home-section-dots" aria-label="Điều hướng trang chủ">
   <a class="home-section-dot is-active" href="#home-hero" data-home-dot="hero" aria-label="Phần mở đầu" aria-current="true"></a>
   <a class="home-section-dot" href="#home-intro" data-home-dot="intro" aria-label="Giới thiệu" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-latest" data-home-dot="latest" aria-label="Mới đăng" aria-current="false"></a>
   <a class="home-section-dot" href="#home-history-calendar" data-home-dot="history" aria-label="Lịch sử Việt Nam" aria-current="false"></a>
   <a class="home-section-dot" href="#home-featured" data-home-dot="featured" aria-label="Bài viết tiêu biểu" aria-current="false"></a>
   <a class="home-section-dot" href="#home-info" data-home-dot="info" aria-label="Thông tin website" aria-current="false"></a>

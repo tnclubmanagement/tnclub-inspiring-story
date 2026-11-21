@@ -36,6 +36,12 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   cũ chưa tương thích). Chạy `./serve.sh` để tự xử lý việc này.
 - Sửa `_config.yml` xong phải tắt (`Ctrl+C`) và chạy lại server — Jekyll chỉ
   đọc file này lúc khởi động, không tự reload.
+- Bài mới: `newest.html` và khối `#home-latest` trên trang chủ dùng chung
+  `_includes/latest-stories.html`, lấy tối đa 8 bài theo `date` giảm dần,
+  không gom theo series. Bài mới chỉ cần front matter `layout: post` và
+  `date` đúng là tự xuất hiện; bài có `draft: true` không được liệt kê.
+- Không gán class `.featured-stories` cho khối Bài mới: JS dùng class đó
+  để tìm riêng khối bộ lọc bài tiêu biểu; khối Bài mới dùng `.latest-stories`.
 - CSS tuỳ biến: `assets/css/custom-styles.css` (giao diện "Liquid Glass" —
   kính trong suốt, highlight bóng, khối màu nền mờ phía sau để kính khúc xạ).
 - JS tuỳ biến: `assets/js/custom-animations.js` (hero ảnh ngẫu nhiên + Ken
