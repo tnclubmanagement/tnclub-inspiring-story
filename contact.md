@@ -13,9 +13,15 @@ Inspiring được tạo ra từ những câu chuyện nhỏ, những ký ức �
 sẻ, một bài viết muốn góp ý hoặc chỉ đơn giản muốn gửi lời chào, mình rất vui
 được lắng nghe.
 
+### Gửi form góp ý / liên hệ
+
+Cách nhanh nhất: điền vào [form góp ý](https://forms.gle/cw89pMMkkuDE6Z9d9) —
+chỉ cần họ tên, email và nội dung bạn muốn nhắn. Mình sẽ nhận được ngay và
+phản hồi qua email bạn điền.
+
 ### Gửi email
 
-Bạn có thể gửi email đến:
+Hoặc bạn có thể gửi email trực tiếp đến:
 
 <p class="contact-email-card">
   <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>

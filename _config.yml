@@ -85,9 +85,9 @@ site-js:
 # --- Comments --- #
 ####################
 
-# Bình luận bằng Facebook: cần tạo 1 Facebook App ID miễn phí (không cần
-# code), xem hướng dẫn trong README.md, rồi điền ID vào đây.
-fb_comment_id: ""
+# Bình luận bằng Disqus: điền shortname đăng ký tại disqus.com (khung bình
+# luận tự hiện dưới mỗi bài viết vì "comments: true" đã bật sẵn bên dưới).
+disqus: "tnclub-inspiring-story"
 
 ################
 # --- Misc --- #
