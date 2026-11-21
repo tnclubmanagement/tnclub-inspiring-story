@@ -111,8 +111,7 @@ kramdown:
 
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      path: "posts"
     values:
       layout: "post"
       comments: true
