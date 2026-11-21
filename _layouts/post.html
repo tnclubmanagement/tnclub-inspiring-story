@@ -65,10 +65,6 @@ layout: base
             </div>
           {% endif %}
 
-          {% if page.social-share %}
-            {% include social-share.html %}
-          {% endif %}
-
           {% if page.series %}
             {% assign series_posts = site.pages | where: "series", page.series | sort: "series_order" %}
             {% assign previous_order = page.series_order | minus: 1 %}
@@ -136,6 +132,10 @@ layout: base
             {% endif %}
           </ul>
           {% endif %}
+          {% if page.social-share %}
+            {% include social-share.html %}
+          {% endif %}
+
           <div class="post-feedback-card">
             <span class="post-feedback-text">Bạn có góp ý hoặc muốn chỉnh sửa nội dung bài viết?</span>
             <a class="post-feedback-btn" href="https://forms.gle/cw89pMMkkuDE6Z9d9" target="_blank" rel="noopener">Gửi qua form góp ý &rarr;</a>
