@@ -105,7 +105,6 @@ timezone: "Asia/Ho_Chi_Minh"
 markdown: kramdown
 highlighter: rouge
 permalink: /post/:year-:month-:day-:title/
-paginate: 5
 
 kramdown:
   input: GFM
@@ -137,5 +136,4 @@ include:
   - .well-known
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
