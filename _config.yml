@@ -110,7 +110,10 @@ timezone: "Asia/Ho_Chi_Minh"
 # trang/bài, tạo file cùng đường dẫn tương đối với front matter `lang: en`.
 languages: ["vi", "en"]
 default_lang: "vi"
-parallel_localization: true
+# Tắt build song song: polyglot fork nhiều process dễ đụng race khi tạo
+# thư mục .jekyll-cache trên macOS (lỗi mkdir EINVAL). Site nhỏ nên build
+# tuần tự vẫn nhanh.
+parallel_localization: false
 # File/thư mục không nhân bản sang /en (regex khớp đường dẫn tương đối).
 # assets dùng đường dẫn tuyệt đối nên chỉ cần 1 bản ở root. Ảnh trong posts/
 # dùng đường dẫn tương đối theo URL bài viết nên PHẢI nhân bản cùng bài.
