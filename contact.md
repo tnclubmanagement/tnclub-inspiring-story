@@ -2,51 +2,48 @@
 layout: page
 title: Liên hệ
 subtitle: Mình luôn sẵn sàng lắng nghe
-cover-img: "/assets/img/about-modern.jpg"
 permalink: /contact/
+css: /assets/css/contact.css
 ---
 
-## Một lời nhắn cũng có thể bắt đầu một câu chuyện
+<section class="contact-intro" aria-labelledby="contact-intro-title">
+  <span class="contact-eyebrow">KẾT NỐI TỪ NHỮNG ĐIỀU NHỎ</span>
+  <h2 id="contact-intro-title">Một lời nhắn cũng có thể<br>bắt đầu một câu chuyện.</h2>
+  <p>Bạn có một câu chuyện muốn chia sẻ, một bài viết muốn góp ý, hay chỉ đơn giản muốn gửi lời chào? Mình rất vui được lắng nghe.</p>
+</section>
 
-Inspiring được tạo ra từ những câu chuyện nhỏ, những ký ức đáng nhớ và những
-điều khiến chúng ta muốn sống tử tế hơn. Nếu bạn có một câu chuyện muốn chia
-sẻ, một bài viết muốn góp ý hoặc chỉ đơn giản muốn gửi lời chào, mình rất vui
-được lắng nghe.
+<section class="contact-channels" aria-label="Cách liên hệ">
+  <article class="contact-channel contact-channel-primary">
+    <span class="contact-channel-label">GỬI LỜI NHẮN</span>
+    <h2>Đôi dòng từ bạn</h2>
+    <p>Để lại họ tên, email và điều bạn muốn chia sẻ qua form. Mình sẽ phản hồi qua email bạn điền.</p>
+    <a class="contact-action" href="https://forms.gle/cw89pMMkkuDE6Z9d9" target="_blank" rel="noopener noreferrer">Mở form liên hệ <span aria-hidden="true">↗</span></a>
+    <span class="contact-channel-note">Mở Google Forms trong tab mới</span>
+  </article>
+  <article class="contact-channel">
+    <span class="contact-channel-label">EMAIL TRỰC TIẾP</span>
+    <h2>Viết thư cho mình</h2>
+    <p>Muốn gửi kèm tư liệu, đường dẫn hay trao đổi chi tiết hơn? Bạn có thể gửi email trực tiếp.</p>
+    <a class="contact-action contact-action-email" href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com <span aria-hidden="true">↗</span></a>
+    <span class="contact-channel-note">Mở ứng dụng email của bạn</span>
+  </article>
+</section>
 
-### Gửi form góp ý / liên hệ
+<section class="contact-topics" aria-labelledby="contact-topics-title">
+  <div class="contact-section-heading"><span class="contact-eyebrow">MÌNH CÓ THỂ LẮNG NGHE</span><h2 id="contact-topics-title">Bạn muốn chia sẻ điều gì?</h2></div>
+  <div class="contact-topic-grid">
+    <article><span class="contact-topic-number" aria-hidden="true">01</span><div><h3>Một câu chuyện đáng kể</h3><p>Một người đáng nhớ, một hành động tử tế hoặc một lần vượt khó khiến bạn có thêm hy vọng.</p></div></article>
+    <article><span class="contact-topic-number" aria-hidden="true">02</span><div><h3>Một góc nhìn khác</h3><p>Bổ sung bối cảnh, nguồn tham khảo hoặc góc nhìn để bài viết đầy đủ và gần gũi hơn.</p></div></article>
+    <article><span class="contact-topic-number" aria-hidden="true">03</span><div><h3>Thông tin cần đính chính</h3><p>Báo lỗi về tên người, thời gian, địa điểm hay hình ảnh để mình kiểm tra và sửa lại.</p></div></article>
+    <article><span class="contact-topic-number" aria-hidden="true">04</span><div><h3>Trải nghiệm đọc tốt hơn</h3><p>Góp ý về bố cục, cách tìm bài hoặc những bất tiện khi xem website trên điện thoại.</p></div></article>
+  </div>
+</section>
 
-Cách nhanh nhất: điền vào [form góp ý](https://forms.gle/cw89pMMkkuDE6Z9d9) —
-chỉ cần họ tên, email và nội dung bạn muốn nhắn. Mình sẽ nhận được ngay và
-phản hồi qua email bạn điền.
-
-### Gửi email
-
-Hoặc bạn có thể gửi email trực tiếp đến:
-
-<p class="contact-email-card">
-  <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>
-</p>
-
-### Bạn có thể liên hệ để
-
-- **Chia sẻ một câu chuyện:** một người bạn đáng nhớ, một hành động tử tế,
-  một lần vượt qua khó khăn hoặc một điều giản dị khiến bạn có thêm hy vọng.
-- **Góp ý cho bài viết:** nếu bạn muốn bổ sung bối cảnh, nguồn tham khảo hoặc
-  một góc nhìn khác để bài viết đầy đủ hơn.
-- **Báo thông tin chưa chính xác:** nếu phát hiện lỗi về tên người, thời gian,
-  địa điểm, hình ảnh hoặc nội dung, bạn có thể gửi thông tin để mình kiểm tra
-  và đính chính.
-- **Góp ý về website:** mọi nhận xét về cách trình bày, khả năng đọc trên điện
-  thoại hoặc trải nghiệm tìm bài đều rất hữu ích.
-
-Khi gửi góp ý về nội dung, nếu có thể, bạn hãy ghi rõ bài viết liên quan và
-đính kèm nguồn tham khảo. Điều đó sẽ giúp mình kiểm tra nhanh và chính xác hơn.
-
-Mình sẽ cố gắng đọc và phản hồi sớm nhất có thể. Không phải tin nhắn nào cũng
-có thể trả lời ngay, nhưng mọi góp ý chân thành đều được trân trọng.
-
-## Khám phá website
-
-Bạn có thể xem các khu vực chính của Inspiring tại
-[Sơ đồ website]({{ '/sitemap/' | relative_url }}), hoặc bắt đầu từ danh sách
-[bài viết mới nhất]({{ '/posts/' | relative_url }}).
+<aside class="contact-note" aria-labelledby="contact-note-title">
+  <h2 id="contact-note-title">Một chút lưu ý trước khi gửi</h2>
+  <p>Nếu góp ý về nội dung, bạn nhớ gửi kèm đường dẫn bài viết và nguồn tham khảo nếu có. Mình sẽ cố gắng đọc và phản hồi sớm nhất có thể, dù không phải tin nhắn nào cũng có thể trả lời ngay.</p>
+</aside>
+<nav class="contact-explore" aria-label="Khám phá thêm">
+  <a href="{{ '/posts/' | relative_url }}">Khám phá các câu chuyện &rarr;</a>
+  <a href="{{ '/sitemap/' | relative_url }}">Sơ đồ website &rarr;</a>
+</nav>

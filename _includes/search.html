@@ -1,0 +1,8 @@
+{% if site.post_search %}
+<div id="beautifuljekyll-search-overlay" data-index-url="{{ '/search-index.json' | relative_url }}?v={{ site.search_index_digest }}" data-loading="Đang tải dữ liệu tìm kiếm…" data-empty="Không tìm thấy kết quả phù hợp." data-error="Không tải được dữ liệu. Nhập lại để thử lần nữa.">
+  <div id="nav-search-exit" role="button" tabindex="0" aria-label="Đóng tìm kiếm" title="Đóng tìm kiếm">&times;</div>
+  <input type="search" id="nav-search-input" placeholder="Tìm tiêu đề, chủ đề…" aria-label="Tìm tiêu đề, chủ đề" autocomplete="off" aria-controls="search-results-container">
+  <ul id="search-results-container" aria-live="polite" aria-label="Kết quả tìm kiếm"></ul>
+</div>
+<script src="{{ '/assets/js/search.js' | relative_url }}?v={{ site.search_index_digest }}" defer></script>
+{% endif %}

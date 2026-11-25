@@ -53,3 +53,11 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   để tránh vỡ layout mobile.
 - Khi override file của theme (vd `_includes/nav.html`), copy nguyên bản gốc
   trong gem rồi chỉnh, không viết lại từ đầu — tránh mất tính năng có sẵn.
+- Search: `_plugins/search_index.rb` tạo `/search-index.json` một lần mỗi
+  build; cache metadata ở `.jekyll-cache/inspiring-search/index.json`.
+  `_includes/search.html` giữ ID của theme; `assets/js/search.js` chỉ tải
+  index khi mở tìm kiếm, tìm tiêu đề/tags có hỗ trợ tiếng Việt không dấu.
+  Không nhúng lại vòng lặp `site.html_pages` vào include search. Thêm plugin
+  mới cần restart server local. Test qua môi trường Ruby trong `serve.sh`:
+  `bundle exec ruby scripts/search_index_test.rb` và
+  `node --test scripts/search_test.js`. CI lưu cache search giữa các build.

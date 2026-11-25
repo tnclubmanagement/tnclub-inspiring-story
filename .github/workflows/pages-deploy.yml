@@ -49,6 +49,19 @@ jobs:
       - name: Install minifiers
         run: npm ci
 
+      - name: Test search
+        run: |
+          bundle exec ruby scripts/search_index_test.rb
+          node --test scripts/search_test.js
+
+      - name: Restore search cache
+        uses: actions/cache@v4
+        with:
+          path: .jekyll-cache/inspiring-search
+          key: inspiring-search-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            inspiring-search-${{ runner.os }}-
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
