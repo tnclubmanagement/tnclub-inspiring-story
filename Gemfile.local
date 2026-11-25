@@ -1,5 +1,7 @@
 # Local-only dependencies. GitHub Pages uses the default Gemfile.
+# LiveReload dùng bản tích hợp sẵn của Jekyll 4 (--livereload), không cần
+# gem jekyll-livereload (gem đó chỉ hỗ trợ Jekyll 3, xung đột với
+# jekyll-polyglot yêu cầu Jekyll >= 4).
 source "https://rubygems.org"
 
 eval_gemfile "Gemfile"
-gem "jekyll-livereload"
