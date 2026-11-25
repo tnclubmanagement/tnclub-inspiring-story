@@ -20,8 +20,8 @@ baseurl: "/tnclub-inspiring-story"
 navbar-links:
   Bài mới: "newest"
   Bài viết: "posts"
-  Lưu trữ: "tags"
   Thêm:
+    - Lưu trữ: "tags"
     - Cửa hàng: "store"
     - Ủng hộ: "support"
 
