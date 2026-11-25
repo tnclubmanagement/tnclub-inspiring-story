@@ -1,0 +1,9 @@
+amounts:
+  - label: "10.000đ"
+    url: "https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/APdRlm0OKrkzaGy"
+  - label: "20.000đ"
+    url: "https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/MYer2rv8qKJweOB"
+  - label: "50.000đ"
+    url: "https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/l9avQyzlw6OMeG1"
+momo_qr: "/assets/img/momo-qr.png"
+recipient: "NGO MINH TRI"

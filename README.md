@@ -160,6 +160,25 @@ matter (đầu file) của bài đó.
 - Theme Beautiful Jekyll có sẵn: tag, chia sẻ lên mạng xã hội và ảnh cover lớn
   cho từng bài — không cần cấu hình thêm.
 
+## Ủng hộ qua MoMo
+
+Trang `/support/` có liên kết ở menu và footer. Trong `_data/support.yml`, điền
+`recipient` (tên người nhận), `amounts` (danh sách `label` và `url` nhận tiền
+MoMo tương ứng từng mệnh giá) và/hoặc `momo_qr` (đường dẫn ảnh QR đã tải lên, ví dụ
+`/assets/img/momo-qr.png`). Khi chưa có tên người nhận và ít nhất một phương
+thức nhận tiền, trang chỉ hiển thị thông báo đang cập nhật, không có nút trả tiền.
+Luôn kiểm tra QR/link và tên người nhận trước khi công bố.
+
+## Minify bản xuất bản
+
+GitHub Actions chạy `npm ci`, build Jekyll rồi minify CSS, JS và HTML trong
+thư mục đầu ra trước khi kiểm tra và deploy. Mã nguồn không bị thay đổi;
+`./serve.sh` vẫn giữ bản dễ đọc để phát triển. File `.min.css`/`.min.js` đã
+nén được bỏ qua; thông báo bản quyền JS và comment HTML được giữ lại.
+
+Chạy thủ công sau khi build: `npm ci` rồi `npm run minify -- _site` (hoặc
+thay `_site` bằng thư mục đầu ra riêng). Không truyền thư mục mã nguồn.
+
 ## Cấu trúc project
 
 ```

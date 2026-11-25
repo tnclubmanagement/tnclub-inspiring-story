@@ -18,10 +18,10 @@ baseurl: "/tnclub-inspiring-story"
 ###############################################
 
 navbar-links:
-  Trang Chủ: "/"
   Bài mới: "newest"
   Bài viết: "posts"
   Lưu trữ: "tags"
+  Ủng hộ: "support"
 
 ################
 # --- Logo --- #
@@ -126,6 +126,10 @@ defaults:
       footer-extra: ["footer-slogan.html", "footer-links.html"]
 
 exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - scripts
   - CHANGELOG.md
   - Gemfile
   - Gemfile.lock
