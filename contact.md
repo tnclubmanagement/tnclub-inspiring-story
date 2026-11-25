@@ -2,6 +2,7 @@
 layout: page
 title: Liên hệ
 subtitle: Mình luôn sẵn sàng lắng nghe
+cover-img: "/assets/img/contact-cover.jpg"
 permalink: /contact/
 css: /assets/css/contact.css
 ---

@@ -5,7 +5,7 @@
 title: Inspiring stories
 description: Những câu chuyện về lòng tốt, nghị lực, lịch sử và cách con người truyền cảm hứng cho nhau.
 
-author: Tri Ngo
+author: tnclubmanagement
 
 theme: beautiful-jekyll-theme
 
@@ -21,6 +21,7 @@ navbar-links:
   Bài mới: "newest"
   Bài viết: "posts"
   Lưu trữ: "tags"
+  Cửa hàng: "store"
   Ủng hộ: "support"
 
 ################
@@ -76,7 +77,7 @@ footer-hover-col: "#5AA9FF"
 
 # File CSS tuỳ biến thêm (card bo góc, nền tối, chữ đậm kiểu tạp chí)
 site-css:
-  - "/assets/css/custom-styles.css?v=theme-dark-1"
+  - "/assets/css/custom-styles.css?v=theme-store-1"
 
 # JS tuỳ biến thêm: animation fade-in khi cuộn, hero zoom nhẹ, khối màu nền
 site-js:

@@ -1,0 +1,89 @@
+---
+layout: page
+title: Cửa hàng
+subtitle: Những series đặc biệt kèm multimedia — mua một lần, đọc mãi mãi
+cover-img: "/assets/img/store-cover.jpg"
+permalink: /store/
+---
+
+<div class="store-intro">
+  <p class="store-kicker">CỬA HÀNG INSPIRING STORIES</p>
+  <h2>Những câu chuyện bạn đã đọc, trong một hình hài mới</h2>
+  <p>Mình đang ấp ủ biến các series được yêu thích nhất thành những sản
+  phẩm số chăm chút hơn — thêm bản đồ, dòng thời gian, hình ảnh tư liệu
+  và giọng đọc audio. Cửa hàng chưa mở, nhưng bạn có thể xem trước mình
+  đang làm gì.</p>
+</div>
+
+<div class="store-products">
+  <article class="store-product">
+    <div class="store-cover store-cover-ebook" aria-hidden="true">
+      <span class="fa fa-book-open"></span>
+    </div>
+    <div class="store-product-body">
+      <span class="store-badge store-badge-soon">Sắp ra mắt</span>
+      <h3>Lịch sử Việt Nam — Tuyển tập ebook</h3>
+      <p>Trọn bộ <em>Lịch sử Việt Nam</em> và <em>Hòa bình không dễ có</em>
+      — từ cầu Hiền Lương, Quảng Trị thành cổ tới Hà Nội 12 ngày đêm —
+      biên tập lại thành một cuốn đọc liền mạch như cuốn sách thật:</p>
+      <ul class="store-features">
+        <li>Bản đồ chiến dịch &amp; dòng thời gian minh họa từng giai đoạn</li>
+        <li>Hình tư liệu chọn lọc, chú thích nguồn đầy đủ</li>
+        <li>PDF đọc offline trên mọi thiết bị, in được thành sổ tay</li>
+      </ul>
+      <p class="store-price">Chưa định giá</p>
+      <a class="store-cta store-cta-notify"
+         href="mailto:tnclubmanagement@gmail.com?subject=B%C3%A1o%20t%C3%B4i%20khi%20ebook%20m%E1%BB%9F%20b%C3%A1n">Báo tôi khi mở bán</a>
+    </div>
+  </article>
+
+  <article class="store-product">
+    <div class="store-cover store-cover-audio" aria-hidden="true">
+      <span class="fa fa-headphones"></span>
+    </div>
+    <div class="store-product-body">
+      <span class="store-badge store-badge-soon">Sắp ra mắt</span>
+      <h3>Audio series — Nghe trọn một hành trình</h3>
+      <p>Những series như <em>Thầy Pháp Hòa</em> hay <em>Không đầu
+      hàng</em> được thu lại bằng giọng đọc rõ ràng, để bạn nghe trên
+      đường đi làm, lúc nấu ăn hay trước khi ngủ:</p>
+      <ul class="store-features">
+        <li>Toàn bộ tập trong series, file MP3 tải về máy</li>
+        <li>Nhạc nền nhẹ, chia track theo từng tập</li>
+        <li>Kèm ebook tóm tắt để tra lại khi cần</li>
+      </ul>
+      <p class="store-price">Chưa định giá</p>
+      <a class="store-cta store-cta-notify"
+         href="mailto:tnclubmanagement@gmail.com?subject=B%C3%A1o%20t%C3%B4i%20khi%20g%C3%B3i%20audio%20m%E1%BB%9F%20b%C3%A1n">Báo tôi khi mở bán</a>
+    </div>
+  </article>
+
+  <article class="store-product store-product-wide">
+    <div class="store-cover store-cover-bundle" aria-hidden="true">
+      <span class="fa fa-gift"></span>
+    </div>
+    <div class="store-product-body">
+      <span class="store-badge store-badge-soon">Ý tưởng</span>
+      <h3>Combo trọn bộ — Ebook + Audio</h3>
+      <p>Một gói duy nhất cho người muốn vừa đọc vừa nghe: mua riêng từng
+      thứ cũng được, nhưng combo sẽ có thêm quà nhỏ:</p>
+      <ul class="store-features">
+        <li>Trọn ebook + toàn bộ gói audio</li>
+        <li>Bookmark in được &amp; ảnh nền điện thoại chủ đề series</li>
+        <li>Cập nhật miễn phí khi series có tập mới</li>
+      </ul>
+      <p class="store-price">Chưa định giá</p>
+      <a class="store-cta store-cta-notify"
+         href="mailto:tnclubmanagement@gmail.com?subject=B%C3%A1o%20t%C3%B4i%20khi%20combo%20m%E1%BB%9F%20b%C3%A1n">Báo tôi khi mở bán</a>
+    </div>
+  </article>
+</div>
+
+<div class="store-note">
+  <span class="store-note-icon fa fa-lightbulb-o" aria-hidden="true"></span>
+  <h3>Đang ấp ủ, chưa mở bán</h3>
+  <p>Đây mới là những hướng mình đang cân nhắc — chưa có gì được bán cả.
+  Bấm "Báo tôi khi mở bán" ở món bạn thích nhất để gửi email; nhiều người
+  chọn món nào thì mình làm món đó trước. Thanh toán dự kiến qua
+  MoMo/VietQR, file giao qua email.</p>
+</div>

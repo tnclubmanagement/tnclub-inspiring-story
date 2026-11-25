@@ -2,6 +2,7 @@
 layout: page
 title: Lưu trữ theo chủ đề
 subtitle: Tất cả bài viết, nhóm theo tag
+cover-img: "/assets/img/tags-cover.jpg"
 permalink: /tags/
 ---
 
