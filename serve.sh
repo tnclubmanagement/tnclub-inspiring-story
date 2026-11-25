@@ -16,7 +16,24 @@ fi
 
 bundle check >/dev/null 2>&1 || bundle install
 
-bundle exec jekyll serve --future --config _config.yml,.jekyll-local.yml "$@" &
+export JEKYLL_DEBOUNCE_SECONDS="${JEKYLL_DEBOUNCE_SECONDS:-3}"
+
+bundle exec ruby -rjekyll -rjekyll-watch -e '
+  delay = Float(ENV.fetch("JEKYLL_DEBOUNCE_SECONDS"))
+  abort "JEKYLL_DEBOUNCE_SECONDS phải là số dương hữu hạn" unless delay.finite? && delay.positive?
+
+  Jekyll::Watcher.singleton_class.prepend(Module.new do
+    define_method(:build_listener) do |site, options|
+      Listen.to(options["source"],
+                ignore: listen_ignore_paths(options) + [%r!^\.jekyll-cache(?:/|$)!],
+                force_polling: options["force_polling"],
+                wait_for_delay: delay,
+                &listen_handler(site))
+    end
+  end)
+
+  load Gem.bin_path("jekyll", "jekyll")
+' -- serve --future --config _config.yml,.jekyll-local.yml "$@" &
 server_pid=$!
 
 cleanup() {
