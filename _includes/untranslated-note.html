@@ -1,0 +1,9 @@
+{%- comment -%}
+Banner nhỏ trên bài viết khi trang đang xem KHÔNG có bản dịch ở ngôn ngữ
+hiện tại (Polyglot fallback: rendered_lang khác active_lang → đang hiện
+bản tiếng Việt trong site /en).
+{%- endcomment -%}
+{%- if site.active_lang and page.rendered_lang and site.active_lang != page.rendered_lang -%}
+  {%- assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi -%}
+  <p class="untranslated-note">{{ s.ui.untranslated_note }}</p>
+{%- endif -%}

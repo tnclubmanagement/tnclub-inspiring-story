@@ -3,6 +3,7 @@
 source "https://rubygems.org"
 
 gem "beautiful-jekyll-theme", "6.0.1"
+gem "jekyll-polyglot", "~> 1.8"
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"

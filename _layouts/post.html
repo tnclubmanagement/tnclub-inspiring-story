@@ -8,6 +8,8 @@ layout: base
   <div class="row">
     <div class="{% if page.full-width %} col {% else %} col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 {% endif %}">
 
+      {% include untranslated-note.html %}
+
       {% if page.gh-repo %}
         {% assign gh_split =  page.gh-repo | split:'/'  %}
         {% assign gh_user =  gh_split[0]  %}

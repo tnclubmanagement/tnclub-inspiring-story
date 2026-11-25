@@ -103,6 +103,20 @@ date_format: "%d/%m/%Y"
 
 lang: vi
 timezone: "Asia/Ho_Chi_Minh"
+
+# Đa ngôn ngữ (jekyll-polyglot): vi là ngôn ngữ gốc, en build ra /en/.
+# Trang/bài không khai báo `lang:` được coi là bản vi và được nhân bản vào
+# /en/ (fallback — hiện bản tiếng Việt cho tới khi có bản dịch). Khi dịch một
+# trang/bài, tạo file cùng đường dẫn tương đối với front matter `lang: en`.
+languages: ["vi", "en"]
+default_lang: "vi"
+parallel_localization: true
+# File/thư mục không nhân bản sang /en (regex khớp đường dẫn tương đối).
+# assets dùng đường dẫn tuyệt đối nên chỉ cần 1 bản ở root. Ảnh trong posts/
+# dùng đường dẫn tương đối theo URL bài viết nên PHẢI nhân bản cùng bài.
+exclude_from_localization:
+  - "assets"
+  - "404.html"
 markdown: kramdown
 highlighter: rouge
 permalink: /post/:year-:month-:day-:title/
@@ -142,3 +156,4 @@ include:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-polyglot

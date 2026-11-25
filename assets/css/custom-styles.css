@@ -5605,3 +5605,64 @@ body:has(.store-products) .page-subheading {
     height: 130px;
   }
 }
+
+/* ---------- Nút đổi ngôn ngữ + banner "bài chưa dịch" ---------- */
+.navbar-nav .lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  gap: 0.2rem;
+  padding: 0.2rem;
+  margin: 0.35rem 0.5rem;
+  border: 1px solid var(--theme-border, var(--glass-border));
+  border-radius: 999px;
+  background: var(--theme-surface-soft, var(--glass-bg));
+}
+
+.navbar-custom .lang-switcher .lang-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-height: 40px;
+  padding: 0.45rem 0.7rem !important;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--theme-muted, var(--muted));
+  text-decoration: none;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.lang-switcher .lang-flag {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.navbar-custom .lang-switcher .lang-link:hover {
+  color: var(--theme-text, var(--ink));
+  background: var(--theme-surface, #fff);
+}
+
+.navbar-custom .lang-switcher .lang-link.is-active {
+  color: var(--theme-text, var(--ink));
+  background: var(--theme-surface, #fff);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  font-weight: 700;
+}
+
+.lang-switcher .lang-link:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 3px;
+}
+
+.untranslated-note {
+  margin: 0 0 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: var(--theme-muted, var(--muted));
+  background: var(--theme-surface-soft, var(--glass-bg));
+  border: 1px solid var(--theme-border, var(--glass-border));
+}

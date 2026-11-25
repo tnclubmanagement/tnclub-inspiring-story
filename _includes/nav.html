@@ -1,3 +1,4 @@
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
   <svg class="nav-icon-defs" aria-hidden="true" focusable="false">
     <symbol id="icon-home" viewBox="0 0 24 24">
@@ -31,7 +32,7 @@
     <span class="navbar-brand-text font-title">{{ site.title }}</span>
   </a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="{{ s.ui.open_menu }}">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -40,11 +41,11 @@
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% assign parent_label = link[0] %}{{ s.nav[parent_label] | default: link[0] }}</a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{% assign child_label = linkparts[0] %}{{ s.nav[child_label] | default: linkparts[0] }}</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>
@@ -62,7 +63,8 @@
           <li class="nav-item">
             <a class="nav-link nav-link-icon" href="{{ link[1] | relative_url }}">
               <svg class="nav-line-icon" aria-hidden="true"><use href="#{{ icon | strip }}"></use></svg>
-              <span>{{ link[0] }}</span>
+              {% assign item_label = link[0] %}
+              <span>{{ s.nav[item_label] | default: link[0] }}</span>
             </a>
           </li>
         {%- endif -%}
@@ -71,10 +73,11 @@
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
             <svg id="nav-search-icon" class="nav-line-icon" aria-hidden="true"><use href="#icon-search"></use></svg>
-            <span id="nav-search-text">Tìm Kiếm</span>
+            <span id="nav-search-text">{{ s.ui.search_short }}</span>
           </a>
         </li>
       {%- endif %}
+      {% include lang-switcher.html %}
     </ul>
   </div>
 

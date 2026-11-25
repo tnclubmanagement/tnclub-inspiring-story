@@ -1,7 +1,8 @@
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 <span class="footer-extra-links">
-  <a href="{{ '/support/' | relative_url }}">Ủng hộ qua MoMo</a>
+  <a href="{{ '/support/' | relative_url }}">{{ s.ui.footer_support }}</a>
   <span class="footer-extra-dot">&bull;</span>
-  <a href="{{ '/contact/' | relative_url }}">Liên hệ</a>
+  <a href="{{ '/contact/' | relative_url }}">{{ s.ui.footer_contact }}</a>
   <span class="footer-extra-dot">&bull;</span>
-  <a href="{{ '/privacy/' | relative_url }}">Chính sách &amp; điều khoản</a>
+  <a href="{{ '/privacy/' | relative_url }}">{{ s.ui.footer_privacy }}</a>
 </span>

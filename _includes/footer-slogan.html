@@ -1,1 +1,2 @@
-<span class="footer-slogan">Mỗi câu chuyện là một khoảnh khắc đáng nhớ ✨</span>
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+<span class="footer-slogan">{{ s.ui.footer_slogan }}</span>

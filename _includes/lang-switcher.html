@@ -1,0 +1,16 @@
+{%- comment -%}
+Nút chuyển ngôn ngữ trên navbar. Mọi trang đều tồn tại ở cả 2 ngôn ngữ
+(trang chưa dịch hiện bản tiếng Việt dưới /en), nên chỉ cần thêm/bớt
+prefix /en vào URL hiện tại. Lưu ý:
+- page.url trong bản EN vẫn là URL gốc không prefix — Polyglot chỉ thêm
+  /en vào đường dẫn file và rewrite href="/..." trong HTML đầu ra.
+- Link VI phải dùng absolute_url VÀ đặt hreflang="vi" ngay trước href để
+  Polyglot bỏ qua không rewrite (regex lookbehind của plugin).
+{%- endcomment -%}
+{%- assign cur = site.active_lang | default: site.default_lang -%}
+{%- assign vi_url = page.url | absolute_url -%}
+{%- assign en_url = site.baseurl | append: '/en' | append: page.url -%}
+<li class="nav-item lang-switcher" role="group" aria-label="{{ site.data.strings[cur].ui.lang_switch_label }}">
+  <a class="nav-link lang-link{% if cur == 'vi' %} is-active{% endif %}" hreflang="vi" href="{{ vi_url }}" lang="vi" aria-label="Tiếng Việt" title="Tiếng Việt"{% if cur == 'vi' %} aria-current="true"{% endif %}><span class="lang-flag" aria-hidden="true">🇻🇳</span><span>VI</span></a>
+  <a class="nav-link lang-link{% if cur == 'en' %} is-active{% endif %}" href="{{ en_url }}" hreflang="en" lang="en" aria-label="English" title="English"{% if cur == 'en' %} aria-current="true"{% endif %}><span class="lang-flag" aria-hidden="true">🇬🇧</span><span>EN</span></a>
+</li>

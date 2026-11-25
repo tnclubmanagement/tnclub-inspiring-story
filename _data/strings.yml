@@ -1,0 +1,50 @@
+# Chuỗi giao diện theo ngôn ngữ. Truy cập trong template qua:
+#   {% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+#   {{ s.ui.search }}
+# `nav` tra theo nhãn tiếng Việt trong _config.yml `navbar-links` (key = nhãn gốc).
+vi:
+  nav:
+    Bài mới: "Bài mới"
+    Bài viết: "Bài viết"
+    Lưu trữ: "Lưu trữ"
+    Cửa hàng: "Cửa hàng"
+    Ủng hộ: "Ủng hộ"
+  ui:
+    open_menu: "Mở menu"
+    search_short: "Tìm Kiếm"
+    footer_slogan: "Mỗi câu chuyện là một khoảnh khắc đáng nhớ ✨"
+    footer_support: "Ủng hộ qua MoMo"
+    footer_contact: "Liên hệ"
+    footer_privacy: "Chính sách & điều khoản"
+    lang_switch_label: "Đổi ngôn ngữ"
+    untranslated_note: "Bài này chỉ có tiếng Việt."
+  search:
+    loading: "Đang tải dữ liệu tìm kiếm…"
+    empty: "Không tìm thấy kết quả phù hợp."
+    error: "Không tải được dữ liệu. Nhập lại để thử lần nữa."
+    close: "Đóng tìm kiếm"
+    placeholder: "Tìm tiêu đề, chủ đề…"
+    results: "Kết quả tìm kiếm"
+en:
+  nav:
+    Bài mới: "Latest"
+    Bài viết: "Stories"
+    Lưu trữ: "Archive"
+    Cửa hàng: "Store"
+    Ủng hộ: "Support"
+  ui:
+    open_menu: "Open menu"
+    search_short: "Search"
+    footer_slogan: "Every story is a moment worth remembering ✨"
+    footer_support: "Support via MoMo"
+    footer_contact: "Contact"
+    footer_privacy: "Privacy & terms"
+    lang_switch_label: "Change language"
+    untranslated_note: "This story is only available in Vietnamese."
+  search:
+    loading: "Loading search index…"
+    empty: "No matching results."
+    error: "Could not load data. Type again to retry."
+    close: "Close search"
+    placeholder: "Search titles, topics…"
+    results: "Search results"

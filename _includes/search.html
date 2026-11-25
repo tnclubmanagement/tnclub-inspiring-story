@@ -1,8 +1,10 @@
 {% if site.post_search %}
-<div id="beautifuljekyll-search-overlay" data-index-url="{{ '/search-index.json' | relative_url }}?v={{ site.search_index_digest }}" data-loading="Đang tải dữ liệu tìm kiếm…" data-empty="Không tìm thấy kết quả phù hợp." data-error="Không tải được dữ liệu. Nhập lại để thử lần nữa.">
-  <div id="nav-search-exit" role="button" tabindex="0" aria-label="Đóng tìm kiếm" title="Đóng tìm kiếm">&times;</div>
-  <input type="search" id="nav-search-input" placeholder="Tìm tiêu đề, chủ đề…" aria-label="Tìm tiêu đề, chủ đề" autocomplete="off" aria-controls="search-results-container">
-  <ul id="search-results-container" aria-live="polite" aria-label="Kết quả tìm kiếm"></ul>
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+{% capture search_path %}{% if site.active_lang != site.default_lang %}/{{ site.active_lang }}{% endif %}/search-index.json{% endcapture %}
+<div id="beautifuljekyll-search-overlay" data-index-url="{{ search_path | relative_url }}?v={{ site.search_index_digest }}" data-loading="{{ s.search.loading }}" data-empty="{{ s.search.empty }}" data-error="{{ s.search.error }}">
+  <div id="nav-search-exit" role="button" tabindex="0" aria-label="{{ s.search.close }}" title="{{ s.search.close }}">&times;</div>
+  <input type="search" id="nav-search-input" placeholder="{{ s.search.placeholder }}" aria-label="{{ s.search.placeholder }}" autocomplete="off" aria-controls="search-results-container">
+  <ul id="search-results-container" aria-live="polite" aria-label="{{ s.search.results }}"></ul>
 </div>
 <script src="{{ '/assets/js/search.js' | relative_url }}?v={{ site.search_index_digest }}" defer></script>
 {% endif %}

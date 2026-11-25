@@ -38,7 +38,7 @@ Dir.mktmpdir('inspiring-search-test') do |directory|
   assert(result.first['title'] == 'Updated {{ literal }}', 'Liquid stays literal')
   _, result = build(site, documents.drop(1))
   assert(result.length == 1, 'Deleted entry removed')
-  cache = site.in_source_dir('.jekyll-cache', 'inspiring-search', 'index.json')
+  cache = site.in_source_dir('.jekyll-cache', 'inspiring-search', 'vi.json')
   assert(JSON.parse(File.read(cache))['entries'].keys == ['posts/b.md'], 'Cache prunes deleted entry')
   File.write(cache, '{invalid')
   corrupt, = build(site, documents)

@@ -53,8 +53,24 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   để tránh vỡ layout mobile.
 - Khi override file của theme (vd `_includes/nav.html`), copy nguyên bản gốc
   trong gem rồi chỉnh, không viết lại từ đầu — tránh mất tính năng có sẵn.
-- Search: `_plugins/search_index.rb` tạo `/search-index.json` một lần mỗi
-  build; cache metadata ở `.jekyll-cache/inspiring-search/index.json`.
+- Đa ngôn ngữ (i18n): dùng gem `jekyll-polyglot` (vi mặc định, en ở `/en/`),
+  cùng quy ước với project `tnclub-yedas`. Trang/bài KHÔNG khai báo `lang:` =
+  bản tiếng Việt, được Polyglot nhân bản sang `/en/` (fallback — bài viết
+  kèm banner "chưa có bản dịch" từ `_includes/untranslated-note.html`,
+  phát hiện qua `page.rendered_lang != site.active_lang`). Muốn dịch: tạo
+  file cùng đường dẫn với front matter `lang: en`. Link về bản VI trong
+  `_includes/lang-switcher.html` dùng `absolute_url` + `hreflang="vi"`
+  đặt TRƯỚC `href` (lookbehind regex của plugin). Chuỗi UI chung ở
+  `_data/strings.yml` (nav tra theo nhãn tiếng Việt gốc trong
+  `navbar-links`); trong template gán
+  `{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}`
+  rồi dùng `{{ s.ui.<key> }}`. `exclude_from_localization` chỉ loại
+  `assets` + `404.html`; ảnh trong `posts/` PHẢI nhân bản vì bài dùng
+  đường dẫn tương đối. `<html lang>` ở `_layouts/base.html` theo
+  `site.active_lang`.
+- Search: `_plugins/search_index.rb` tạo `/search-index.json` và
+  `/en/search-index.json` mỗi ngôn ngữ một lần mỗi build; cache metadata ở
+  `.jekyll-cache/inspiring-search/<lang>.json`.
   `_includes/search.html` giữ ID của theme; `assets/js/search.js` chỉ tải
   index khi mở tìm kiếm, tìm tiêu đề/tags có hỗ trợ tiếng Việt không dấu.
   Không nhúng lại vòng lặp `site.html_pages` vào include search. Thêm plugin
