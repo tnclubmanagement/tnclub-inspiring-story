@@ -1,46 +1,43 @@
-<div class="site-map-tree" aria-label="Sơ đồ website">
-  <div class="site-map-root">
-    <span class="site-map-node-kicker">Bắt đầu</span>
-    <a href="{{ '/' | relative_url }}">Trang chủ</a>
-    <span class="site-map-node-note">Nơi bắt đầu khám phá Inspiring</span>
+{% assign map_posts = site.pages | where: 'layout', 'post' | where_exp: 'p', 'p.draft != true' %}
+{% assign map_series = site.pages | where_exp: 'p', 'p.url contains "/series/"' | sort: 'title' %}
+{% include lucide-sitemap.html %}
+<nav class="explore-map" aria-label="Bản đồ khám phá Inspiring Stories">
+  <div class="explore-origin">
+    <span class="explore-kicker">BẠN MUỐN BẮT ĐẦU TỪ ĐÂU?</span>
+    <a class="explore-home" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/icons/logo.svg' | relative_url }}" alt="" width="44" height="44">
+      <span><strong>Inspiring Stories</strong><small>Trở về trang chủ</small></span>
+      <span aria-hidden="true">&rarr;</span>
+    </a>
+    <p>Chọn một lối đi. Tìm một câu chuyện chạm đến bạn.</p>
   </div>
-
-  <div class="site-map-branches">
-    <section class="site-map-branch">
-      <div class="site-map-node">
-        <span class="site-map-node-kicker">Nội dung chính</span>
-        <a href="{{ '/posts/' | relative_url }}">Bài viết</a>
-        <span class="site-map-node-note">Tìm kiếm, lọc và đọc theo series</span>
-      </div>
-      <div class="site-map-children">
-        <a class="site-map-leaf" href="{{ '/posts/' | relative_url }}">Danh sách bài viết</a>
-        <a class="site-map-leaf" href="{{ '/tags/' | relative_url }}">Theo chủ đề/tag</a>
-        <div class="site-map-node site-map-node-muted">
-          <span class="site-map-node-kicker">Đọc theo mạch</span>
-          <span>Series</span>
-          <span class="site-map-node-note">Các bài được đánh số theo thứ tự</span>
-        </div>
-        <div class="site-map-series-grid">
-          <a class="site-map-leaf" href="{{ '/series/hoa-binh-khong-de-co/' | relative_url }}">Hòa bình không dễ có</a>
-          <a class="site-map-leaf" href="{{ '/series/lich-su-viet-nam/' | relative_url }}">Lịch sử Việt Nam</a>
-          <a class="site-map-leaf" href="{{ '/series/khong-dau-hang/' | relative_url }}">Không đầu hàng</a>
-          <a class="site-map-leaf" href="{{ '/series/thay-phap-hoa/' | relative_url }}">Thầy Pháp Hòa</a>
-          <a class="site-map-leaf" href="{{ '/series/nen-khong-nen/' | relative_url }}">Nên – Không nên</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="site-map-branch">
-      <div class="site-map-node">
-        <span class="site-map-node-kicker">Thông tin</span>
-        <span>Về website</span>
-        <span class="site-map-node-note">Thông tin và liên hệ</span>
-      </div>
-      <div class="site-map-children">
-        <a class="site-map-leaf" href="{{ '/aboutme/' | relative_url }}">Giới thiệu</a>
-        <a class="site-map-leaf" href="{{ '/contact/' | relative_url }}">Liên hệ</a>
-        <a class="site-map-leaf" href="{{ '/privacy/' | relative_url }}">Chính sách riêng tư</a>
-      </div>
-    </section>
+  <div class="explore-paths">
+    <a class="explore-path explore-path-new" href="{{ '/newest/' | relative_url }}"><span class="explore-path-icon"><svg class="explore-lucide" aria-hidden="true"><use href="#map-clock"/></svg></span><span class="explore-kicker">VỪA ĐƯỢC CHIA SẺ</span><strong>Bài mới nhất</strong><p>Một góc nhìn mới cho ngày hôm nay.</p><span class="explore-path-footer">Khám phá điều mới <span aria-hidden="true">&rarr;</span></span></a>
+    <a class="explore-path explore-path-library" href="{{ '/posts/' | relative_url }}"><span class="explore-path-icon"><svg class="explore-lucide" aria-hidden="true"><use href="#map-book"/></svg></span><span class="explore-kicker">THƯ VIỆN CÂU CHUYỆN</span><strong>Tất cả bài viết</strong><p>Tìm kiếm, chọn cách xem và đọc theo sở thích.</p><span class="explore-path-footer">{{ map_posts.size }} câu chuyện <span aria-hidden="true">&rarr;</span></span></a>
+    <a class="explore-path explore-path-topics" href="{{ '/tags/' | relative_url }}"><span class="explore-path-icon"><svg class="explore-lucide" aria-hidden="true"><use href="#map-compass"/></svg></span><span class="explore-kicker">THEO ĐIỀU BẠN QUAN TÂM</span><strong>Chủ đề yêu thích</strong><p>Từ lòng tốt, nghị lực đến những dấu mốc lịch sử.</p><span class="explore-path-footer">Dạo qua các chủ đề <span aria-hidden="true">&rarr;</span></span></a>
   </div>
-</div>
+  <section class="explore-collections" aria-labelledby="explore-series-title">
+    <div class="explore-heading"><div><span class="explore-kicker">ĐỌC CHẬM HƠN, HIỂU SÂU HƠN</span><h2 id="explore-series-title">Những hành trình nhiều chương</h2></div><span class="explore-count">{{ map_series.size }} series</span></div>
+    <p class="explore-description">Theo một mạch kể xuyên suốt, từ câu chuyện đầu tiên đến những điều còn đọng lại.</p>
+    <div class="explore-series-grid">
+      {% for collection in map_series %}
+      {% assign collection_posts = map_posts | where: 'series', collection.title | sort: 'series_order' %}
+      {% assign first_story = collection_posts | first %}
+      {% assign collection_image = first_story.thumbnail-img | default: first_story.cover-img %}
+      <a class="explore-series" href="{{ collection.url | relative_url }}">
+        {% if collection_image %}<img src="{{ collection_image | relative_url }}" alt="" width="88" height="104" loading="lazy">{% endif %}
+        <span class="explore-series-copy"><small>CHUYÊN ĐỀ {{ forloop.index | prepend: '0' }}</small><strong>{{ collection.title | escape }}</strong><span>{{ collection_posts.size }} câu chuyện <span aria-hidden="true">&rarr;</span></span></span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="explore-connect" aria-labelledby="explore-connect-title">
+    <div class="explore-heading"><div><span class="explore-kicker">PHÍA SAU NHỮNG CÂU CHUYỆN</span><h2 id="explore-connect-title">Hiểu thêm &amp; cùng kết nối</h2></div></div>
+    <div class="explore-connect-grid">
+      <a href="{{ '/aboutme/' | relative_url }}"><svg class="explore-lucide" aria-hidden="true"><use href="#map-leaf"/></svg><strong>Về Inspiring</strong><small>Tinh thần của website</small><span class="explore-link-arrow" aria-hidden="true">&rarr;</span></a>
+      <a href="{{ '/contact/' | relative_url }}"><svg class="explore-lucide" aria-hidden="true"><use href="#map-mail"/></svg><strong>Gửi lời nhắn</strong><small>Chia sẻ &amp; góp ý</small><span class="explore-link-arrow" aria-hidden="true">&rarr;</span></a>
+      <a href="{{ '/support/' | relative_url }}"><svg class="explore-lucide" aria-hidden="true"><use href="#map-heart"/></svg><strong>Đồng hành</strong><small>Tiếp sức qua MoMo</small><span class="explore-link-arrow" aria-hidden="true">&rarr;</span></a>
+      <a href="{{ '/privacy/' | relative_url }}"><svg class="explore-lucide" aria-hidden="true"><use href="#map-shield"/></svg><strong>Chính sách</strong><small>Minh bạch &amp; riêng tư</small><span class="explore-link-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </section>
+</nav>
