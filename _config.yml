@@ -17,10 +17,14 @@ baseurl: "/tnclub-inspiring-story"
 # --- List of links in the navigation bar --- #
 ###############################################
 
+# Dropdown nav tự giãn theo item dài nhất (mặc định theme bóp width = nút
+# cha nên chữ dài bị cắt).
+navbar-var-length: true
+
 navbar-links:
   Bài mới: "newest"
   Bài viết: "posts"
-  Thêm:
+  Khám phá:
     - Lưu trữ: "tags"
     - Cửa hàng: "store"
     - Ủng hộ: "support"
