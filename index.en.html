@@ -1,0 +1,208 @@
+---
+layout: page
+title: ""
+subtitle: ""
+lang: en
+---
+
+<main class="home-landing">
+  <section id="home-hero" class="home-hero-clean" data-home-section="hero">
+    <div class="home-hero-copy">
+      <p class="home-eyebrow">Inspiring stories</p>
+      <h1>Stories<br><em>worth remembering.</em></h1>
+      <p class="home-hero-lead">
+        A quiet place to read about kindness, perseverance, and the little
+        things that can change a day.
+      </p>
+      <a class="home-hero-button" href="{{ '/posts/' | relative_url }}">Explore the stories <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="home-hero-visual">
+      <span class="home-hero-wash"></span>
+      <img src="{{ '/assets/img/hero-1.jpg' | relative_url }}" alt="Sunrise over an open field" fetchpriority="high">
+      <span class="home-hero-note">Every story<br>is a moment.</span>
+    </div>
+  </section>
+
+<section id="home-intro" class="landing-intro" aria-labelledby="landing-intro-title" data-home-section="intro">
+  <div class="landing-intro-copy">
+    <p class="landing-intro-kicker">A small corner to pause</p>
+    <h2 id="landing-intro-title">Hello <span aria-hidden="true">👋</span></h2>
+    <p>
+      This is where I keep and share the inspiring stories I've read — about
+      perseverance, kindness, and the small moments that change someone's
+      life.
+    </p>
+    <a class="landing-cta" href="{{ '/posts/' | relative_url }}">Read the stories <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="landing-intro-visual">
+    <span class="landing-intro-orbit landing-intro-orbit-one" aria-hidden="true"></span>
+    <span class="landing-intro-orbit landing-intro-orbit-two" aria-hidden="true"></span>
+    <div class="landing-intro-image">
+      <img src="{{ '/assets/img/hero-2.jpg' | relative_url }}" alt="Sunlight on a road through nature" loading="lazy">
+    </div>
+    <p class="landing-intro-note">One story<br><em>can change a day.</em></p>
+  </div>
+</section>
+
+<section id="home-latest" class="latest-stories" aria-labelledby="latest-stories-title" data-home-section="latest">
+  <div class="featured-stories-heading">
+    <div>
+      <p class="home-eyebrow">Just published</p>
+      <h2 id="latest-stories-title">Newest stories</h2>
+    </div>
+    <a class="landing-cta" href="{{ '/newest/' | relative_url }}">See all new posts <span aria-hidden="true">→</span></a>
+  </div>
+  {% include latest-stories.html limit=8 %}
+</section>
+
+{% assign history_events = site.data.history-events %}
+<section id="home-history-calendar" class="history-calendar-section" aria-labelledby="history-calendar-title" data-home-section="history">
+  <div class="history-calendar-heading">
+    <div>
+      <p class="home-eyebrow">On this day</p>
+      <h2 id="history-calendar-title">Vietnam history</h2>
+      <p>Pick a day to discover memorable milestones in history.</p>
+    </div>
+    <button id="history-today-button" class="history-today-button" type="button">Back to today</button>
+  </div>
+
+  <div class="history-calendar-layout">
+    <div class="history-calendar" aria-label="Date picker calendar">
+      <div class="history-calendar-nav">
+        <button id="history-prev-month" type="button" aria-label="Previous month">←</button>
+        <h3 id="history-calendar-month" aria-live="polite"></h3>
+        <button id="history-next-month" type="button" aria-label="Next month">→</button>
+      </div>
+      <div class="history-calendar-weekdays" aria-hidden="true">
+        <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
+      </div>
+      <div id="history-calendar-days" class="history-calendar-days" role="grid" aria-label="Days of the month"></div>
+      <p class="history-calendar-legend"><span aria-hidden="true"></span> Has a history event</p>
+    </div>
+
+    <div class="history-events-panel">
+      <p id="history-selected-label" class="history-selected-label"></p>
+      <div id="history-event-list" class="history-event-list" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <script type="application/json" id="history-events-data">[
+    {% for event in history_events %}
+    {
+      "date": "{{ event.date }}",
+      "title": {{ event.title | jsonify }},
+      "year": {{ event.year }},
+      "description": {{ event.description | jsonify }},
+      "source": {{ event.source | jsonify }},
+      "url": {{ event.url | default: "" | relative_url | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]</script>
+</section>
+
+{% assign featured_posts = site.pages | where: "layout", "post" | sort: "date" | reverse %}
+<section id="home-featured" class="featured-stories" aria-labelledby="featured-stories-title" data-home-section="featured">
+  <div class="featured-stories-heading">
+    <div>
+      <p class="home-eyebrow">Curated reading</p>
+      <h2 id="featured-stories-title">Featured stories</h2>
+    </div>
+    <div class="featured-story-filters" role="tablist" aria-label="Filter featured stories">
+      <button class="featured-filter is-active" type="button" data-featured-tag="phap-hoa" role="tab" aria-selected="true">
+        <svg class="nav-line-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-tags"></use></svg>
+        <span>Pháp Hòa</span>
+      </button>
+      <button class="featured-filter" type="button" data-featured-tag="nen-lam,khong-nen-lam" role="tab" aria-selected="false">
+        <svg class="nav-line-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-tags"></use></svg>
+        <span>Do's & don'ts</span>
+      </button>
+      <button class="featured-filter" type="button" data-featured-tag="hoc-tap,kien-tri" role="tab" aria-selected="false">
+        <svg class="nav-line-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-tags"></use></svg>
+        <span>Learning · Perseverance</span>
+      </button>
+      <button class="featured-filter" type="button" data-featured-tag="tinh-yeu" role="tab" aria-selected="false">
+        <svg class="nav-line-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-tags"></use></svg>
+        <span>Love</span>
+      </button>
+    </div>
+  </div>
+  <div class="featured-story-grid">
+    {% for post in featured_posts %}
+      {% assign post_tags = post.tags | join: "," %}
+      {% if post_tags contains "phap-hoa" or post_tags contains "nen-lam" or post_tags contains "khong-nen-lam" or post_tags contains "hoc-tap" or post_tags contains "kien-tri" or post_tags contains "tinh-yeu" %}
+      {% assign featured_visible = false %}
+      {% if post.tags contains "phap-hoa" %}{% assign featured_visible = true %}{% endif %}
+      <article class="featured-story-card" data-featured-tags="{{ post_tags }}"{% unless featured_visible %} hidden{% endunless %}>
+        <a class="featured-story-image" href="{{ post.url | relative_url }}">
+          {% if post.thumbnail-img %}
+          <img src="{{ post.thumbnail-img | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+          {% endif %}
+        </a>
+        <div class="featured-story-content">
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.date_format }}</time>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.content | strip_html | strip | truncatewords: 20 }}</p>
+          <a class="featured-story-more" href="{{ post.url | relative_url }}">Read more <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section id="home-info" class="home-info-stack" aria-label="About this website" data-home-section="info">
+  <article id="about" class="home-info-card home-info-card-about">
+    <div class="home-info-image">
+      <img src="{{ '/assets/img/about-modern.jpg' | relative_url }}" alt="A modern glass-fronted building among high-rises" loading="lazy">
+      <span class="home-info-image-label">01 / About this site</span>
+    </div>
+    <div class="home-info-content">
+      <p class="home-info-kicker">A small corner to pause</p>
+      <h2>About</h2>
+      <p>
+        Inspiring is where I keep stories about perseverance, kindness, and
+        the small moments that change someone's life.
+      </p>
+      <p>
+        Every post is chosen and rewritten to feel close and approachable —
+        something you can read slowly, reflect on, and take something useful
+        into your day.
+      </p>
+      <a class="home-info-link" href="{{ '/aboutme/' | relative_url }}">Read more about this site <span aria-hidden="true">↗</span></a>
+      <small class="home-info-credit">Photo: Pinterest</small>
+    </div>
+  </article>
+
+  <article id="privacy" class="home-info-card home-info-card-privacy">
+    <div class="home-info-content">
+      <p class="home-info-kicker">Clear and just enough</p>
+      <h2>Privacy &amp; Terms</h2>
+      <p>
+        This is a personal blog. It doesn't sell data, doesn't use ad
+        tracking cookies, and only loads Facebook Comments if you choose to
+        join the discussion.
+      </p>
+      <ul class="home-info-list">
+        <li>Content is meant to share and inspire — not professional advice.</li>
+        <li>Please credit the source when sharing content.</li>
+        <li>Spotted something off? Send a note and I'll fix it.</li>
+      </ul>
+      <a class="home-info-link" href="{{ '/privacy/' | relative_url }}">Read the full policy <span aria-hidden="true">↗</span></a>
+      <small class="home-info-credit">Photo: OfficeChai</small>
+    </div>
+    <div class="home-info-image">
+      <img src="https://officechai.com/wp-content/uploads/2015/05/Cyberecture-egg-shaped-building-mumbai.jpg" alt="An egg-shaped building glowing at night" loading="lazy">
+      <span class="home-info-image-label">02 / Transparency</span>
+    </div>
+  </article>
+</section>
+</main>
+
+<nav class="home-section-dots" aria-label="Homepage sections">
+  <a class="home-section-dot is-active" href="#home-hero" data-home-dot="hero" aria-label="Intro" aria-current="true"></a>
+  <a class="home-section-dot" href="#home-intro" data-home-dot="intro" aria-label="About" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-latest" data-home-dot="latest" aria-label="Newest stories" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-history-calendar" data-home-dot="history" aria-label="Vietnam history" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-featured" data-home-dot="featured" aria-label="Featured stories" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-info" data-home-dot="info" aria-label="Site info" aria-current="false"></a>
+</nav>

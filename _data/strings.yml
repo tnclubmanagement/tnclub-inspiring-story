@@ -19,6 +19,10 @@ vi:
     footer_privacy: "Chính sách & điều khoản"
     lang_switch_label: "Đổi ngôn ngữ"
     untranslated_note: "Bài này chỉ có tiếng Việt."
+  post:
+    standalone: "Bài viết độc lập"
+    read_more: "Đọc tiếp"
+    no_new: "Chưa có bài viết mới. Mời bạn quay lại sau."
   search:
     loading: "Đang tải dữ liệu tìm kiếm…"
     empty: "Không tìm thấy kết quả phù hợp."
@@ -43,6 +47,10 @@ en:
     footer_privacy: "Privacy & terms"
     lang_switch_label: "Change language"
     untranslated_note: "This story is only available in Vietnamese."
+  post:
+    standalone: "Standalone post"
+    read_more: "Read more"
+    no_new: "No new posts yet. Please check back later."
   search:
     loading: "Loading search index…"
     empty: "No matching results."

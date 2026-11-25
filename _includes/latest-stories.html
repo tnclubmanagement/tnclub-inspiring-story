@@ -1,3 +1,4 @@
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 {% assign latest_posts = site.pages | where: "layout", "post" | where_exp: "post", "post.draft != true" | sort: "date" | reverse %}
 <div class="featured-story-grid latest-story-grid">
   {% for post in latest_posts limit: include.limit %}
@@ -12,13 +13,13 @@
       {% if post.series %}
       <a class="latest-story-series" href="{{ post.series_url | default: '/posts/' | relative_url }}">{{ post.series | escape }}</a>
       {% else %}
-      <span class="latest-story-series">Bài viết độc lập</span>
+      <span class="latest-story-series">{{ s.post.standalone }}</span>
       {% endif %}
       <p>{{ post.subtitle | default: post.content | strip_html | strip | truncatewords: 22 | escape }}</p>
-      <a class="featured-story-more" href="{{ post.url | relative_url }}">Đọc tiếp <span aria-hidden="true">→</span></a>
+      <a class="featured-story-more" href="{{ post.url | relative_url }}">{{ s.post.read_more }} <span aria-hidden="true">→</span></a>
     </div>
   </article>
   {% else %}
-  <p>Chưa có bài viết mới. Mời bạn quay lại sau.</p>
+  <p>{{ s.post.no_new }}</p>
   {% endfor %}
 </div>
