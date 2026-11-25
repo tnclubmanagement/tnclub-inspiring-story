@@ -21,8 +21,9 @@ navbar-links:
   Bài mới: "newest"
   Bài viết: "posts"
   Lưu trữ: "tags"
-  Cửa hàng: "store"
-  Ủng hộ: "support"
+  Thêm:
+    - Cửa hàng: "store"
+    - Ủng hộ: "support"
 
 ################
 # --- Logo --- #
