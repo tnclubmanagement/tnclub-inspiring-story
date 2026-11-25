@@ -1,3 +1,4 @@
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 <!-- TODO this file has become a mess, refactor it -->
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
@@ -48,9 +49,9 @@
             {% if page.readtime %}
               {% include readtime.html %}
             {% endif %}
-            <div class="post-reading-tools" aria-label="Công cụ đọc bài">
+            <div class="post-reading-tools" aria-label="{{ s.post.tools_aria }}">
               <button class="post-audio-toggle" type="button" aria-pressed="false">
-                <span aria-hidden="true">▶</span> Đọc bài
+                <span aria-hidden="true">▶</span> {{ s.post.read_post }}
               </button>
             </div>
           {% endif %}
@@ -87,9 +88,9 @@
             {% if page.readtime %}
               {% include readtime.html %}
             {% endif %}
-            <div class="post-reading-tools" aria-label="Công cụ đọc bài">
+            <div class="post-reading-tools" aria-label="{{ s.post.tools_aria }}">
               <button class="post-audio-toggle" type="button" aria-pressed="false">
-                <span aria-hidden="true">▶</span> Đọc bài
+                <span aria-hidden="true">▶</span> {{ s.post.read_post }}
               </button>
             </div>
           {% endif %}

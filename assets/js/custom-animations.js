@@ -2,6 +2,12 @@
 (function () {
   "use strict";
 
+  // Chuỗi UI theo ngôn ngữ — base.html xuất window.__i18n từ strings.yml.
+  function tx(key, fallback) {
+    var s = window.__i18n || {};
+    return s[key] || fallback;
+  }
+
   function onReady(fn) {
     if (document.readyState !== "loading") fn();
     else document.addEventListener("DOMContentLoaded", fn);
@@ -99,7 +105,7 @@
       var groups = [];
       var byKey = {};
       masonry.items.forEach(function (card, index) {
-        var key = card.getAttribute("data-post-series") || "Bài viết độc lập";
+        var key = card.getAttribute("data-post-series") || tx('standalone', "Bài viết độc lập");
         if (!byKey[key]) {
           byKey[key] = {
             key: key,
@@ -145,7 +151,7 @@
         toggle.type = "button";
         toggle.setAttribute("data-series-key", group.slug);
         toggle.setAttribute("aria-expanded", collapsedSeries[group.slug] ? "false" : "true");
-        toggle.setAttribute("aria-label", (collapsedSeries[group.slug] ? "Mở " : "Thu gọn ") + group.key);
+        toggle.setAttribute("aria-label", (collapsedSeries[group.slug] ? tx('expand_prefix', "Mở ") : tx('collapse_prefix', "Thu gọn ")) + group.key);
         var label = document.createElement("span");
         label.className = "post-series-heading-label";
         label.textContent = group.key;
@@ -160,8 +166,8 @@
           var openSeries = document.createElement("a");
           openSeries.className = "post-series-open";
           openSeries.href = group.url;
-          openSeries.textContent = "Mở series ↗";
-          openSeries.setAttribute("aria-label", "Mở series " + group.key);
+          openSeries.textContent = tx('open_series', "Mở series ↗");
+          openSeries.setAttribute("aria-label", tx('open_series', "Mở series ↗").replace(' ↗', '') + " " + group.key);
           headingContent.appendChild(openSeries);
         }
         heading.appendChild(headingContent);
@@ -233,7 +239,7 @@
     function updateTagSummary() {
       var selected = getSelectedTags();
       if (tagSummary) {
-        tagSummary.textContent = selected.length ? selected.length + " đã chọn" : "Tất cả";
+        tagSummary.textContent = selected.length ? selected.length + tx('selected_suffix', " đã chọn") : tx('all', "Tất cả");
       }
     }
 
@@ -261,7 +267,7 @@
       });
       updateTagSummary();
       updateSearchUi();
-      if (resultCount) resultCount.textContent = visible + " câu chuyện";
+      if (resultCount) resultCount.textContent = visible + " " + tx('stories', "câu chuyện");
       if (emptyState) emptyState.hidden = visible !== 0;
       renderSeriesGroups();
       if (masonry && list.classList.contains("view-grid") && (!groupSeries || !groupSeries.checked)) masonry.layout();
@@ -388,13 +394,13 @@
 
       var diffDays = Math.floor((Date.now() - publishedAt.getTime()) / 86400000);
       if (diffDays <= 0) {
-        element.textContent = "Hôm nay";
+        element.textContent = tx('today', "Hôm nay");
       } else if (diffDays < 30) {
-        element.textContent = diffDays + " ngày trước";
+        element.textContent = diffDays + " " + tx('days_ago', "ngày trước");
       } else if (diffDays < 365) {
-        element.textContent = Math.floor(diffDays / 30) + " tháng trước";
+        element.textContent = Math.floor(diffDays / 30) + " " + tx('months_ago', "tháng trước");
       } else {
-        element.textContent = Math.floor(diffDays / 365) + " năm trước";
+        element.textContent = Math.floor(diffDays / 365) + " " + tx('years_ago', "năm trước");
       }
     });
   }
@@ -405,7 +411,7 @@
       lightbox = document.createElement("dialog");
       lightbox.id = "story-lightbox";
       lightbox.className = "story-lightbox";
-      lightbox.innerHTML = '<button class="story-lightbox-close" type="button" aria-label="Đóng ảnh">×</button><button class="story-lightbox-prev" type="button" aria-label="Ảnh trước">←</button><figure><img class="story-lightbox-image" alt=""><figcaption></figcaption></figure><button class="story-lightbox-next" type="button" aria-label="Ảnh tiếp theo">→</button>';
+      lightbox.innerHTML = '<button class="story-lightbox-close" type="button" aria-label="' + tx('close_image', "Đóng ảnh") + '">×</button><button class="story-lightbox-prev" type="button" aria-label="' + tx('prev_image', "Ảnh trước") + '">←</button><figure><img class="story-lightbox-image" alt=""><figcaption></figcaption></figure><button class="story-lightbox-next" type="button" aria-label="' + tx('next_image', "Ảnh tiếp theo") + '">→</button>';
       document.body.appendChild(lightbox);
     }
     var lightboxImage = lightbox.querySelector(".story-lightbox-image");
@@ -464,7 +470,7 @@
       slides.forEach(function (_, i) {
         var dot = document.createElement("button");
         dot.type = "button";
-        dot.setAttribute("aria-label", "Hiển thị hình " + (i + 1));
+        dot.setAttribute("aria-label", tx('show_image_prefix', "Hiển thị hình ") + (i + 1));
         dot.setAttribute("role", "tab");
         dot.addEventListener("click", function () { show(i); });
         dots.appendChild(dot);
@@ -515,7 +521,7 @@
     var themeButton = document.createElement("button");
     themeButton.className = "theme-toggle";
     themeButton.type = "button";
-    themeButton.setAttribute("aria-label", "Đổi giao diện sáng tối");
+    themeButton.setAttribute("aria-label", tx('toggle_theme', "Đổi giao diện sáng tối"));
     themeButton.textContent = savedTheme === "dark" ? "☀" : "☾";
     if (savedTheme) root.dataset.theme = savedTheme;
     themeButton.addEventListener("click", function () {
@@ -540,15 +546,15 @@
       if (window.speechSynthesis.speaking) {
         window.speechSynthesis.cancel();
         button.setAttribute("aria-pressed", "false");
-        button.innerHTML = '<span aria-hidden="true">▶</span> Đọc bài';
+        button.innerHTML = '<span aria-hidden="true">▶</span> ' + tx('read_post', "Đọc bài");
         return;
       }
       var vietnameseVoice = voices.find(function (voice) {
         return voice.lang && voice.lang.toLowerCase().indexOf("vi") === 0;
       });
       if (!vietnameseVoice) {
-        button.textContent = "Chưa có giọng Việt";
-        button.title = "Hãy cài hoặc bật một giọng đọc tiếng Việt trong hệ điều hành";
+        button.textContent = tx('no_voice', "Chưa có giọng Việt");
+        button.title = tx('no_voice_hint', "Hãy cài hoặc bật một giọng đọc tiếng Việt trong hệ điều hành");
         return;
       }
       var readable = article.cloneNode(true);
@@ -556,14 +562,14 @@
         element.remove();
       });
       utterance = new SpeechSynthesisUtterance(readable.innerText.replace(/\s+/g, " ").trim());
-      utterance.lang = "vi-VN";
+      utterance.lang = tx('locale', "vi-VN");
       utterance.voice = vietnameseVoice;
       utterance.onend = function () {
         button.setAttribute("aria-pressed", "false");
-        button.innerHTML = '<span aria-hidden="true">▶</span> Đọc bài';
+        button.innerHTML = '<span aria-hidden="true">▶</span> ' + tx('read_post', "Đọc bài");
       };
       button.setAttribute("aria-pressed", "true");
-      button.innerHTML = '<span aria-hidden="true">■</span> Dừng đọc';
+      button.innerHTML = '<span aria-hidden="true">■</span> ' + tx('stop_reading', "Dừng đọc");
       window.speechSynthesis.speak(utterance);
     });
   }
@@ -612,8 +618,8 @@
     var now = new Date();
     var selected = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     var visibleMonth = new Date(selected.getFullYear(), selected.getMonth(), 1);
-    var monthFormatter = new Intl.DateTimeFormat("vi-VN", { month: "long", year: "numeric" });
-    var dateFormatter = new Intl.DateTimeFormat("vi-VN", {
+    var monthFormatter = new Intl.DateTimeFormat(tx('locale', "vi-VN"), { month: "long", year: "numeric" });
+    var dateFormatter = new Intl.DateTimeFormat(tx('locale', "vi-VN"), {
       weekday: "long", day: "numeric", month: "long", year: "numeric"
     });
 
@@ -629,15 +635,15 @@
     function renderEvents() {
       var selectedEvents = eventsFor(selected);
       var isToday = selected.toDateString() === now.toDateString();
-      selectedLabel.textContent = isToday ? "Hôm nay trong lịch sử" : dateFormatter.format(selected);
+      selectedLabel.textContent = isToday ? tx('today_in_history', "Hôm nay trong lịch sử") : dateFormatter.format(selected);
       eventList.innerHTML = "";
 
       if (!selectedEvents.length) {
         var empty = document.createElement("p");
         empty.className = "history-events-empty";
         empty.textContent = isToday
-          ? "Chưa có sự kiện được thêm cho ngày hôm nay."
-          : "Chưa có sự kiện được ghi nhận cho ngày này.";
+          ? tx('no_events_today', "Chưa có sự kiện được thêm cho ngày hôm nay.")
+          : tx('no_events_day', "Chưa có sự kiện được ghi nhận cho ngày này.");
         eventList.appendChild(empty);
         return;
       }

@@ -2,6 +2,8 @@
 layout: base
 ---
 
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+
 {% include header.html type="post" %}
 
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
@@ -75,23 +77,23 @@ layout: base
             {% assign series_next = series_posts | where: "series_order", next_order | first %}
             {% assign series_landing = site.pages | where_exp: "p", "p.permalink contains '/series/'" | where: "title", page.series | first %}
             {% assign series_url = page.series_url | default: series_landing.url %}
-            <nav class="series-post-navigation" aria-label="Điều hướng trong chuyên đề">
+            <nav class="series-post-navigation" aria-label="{{ s.post.nav_aria }}">
               <div class="series-post-navigation-heading">
-                <span>Chuyên đề</span>
+                <span>{{ s.post.series_label }}</span>
                 <a href="{{ series_url | relative_url }}">{{ page.series }}</a>
               </div>
               <div class="series-post-navigation-links">
                 {% if series_previous %}
                 <a class="series-post-navigation-link previous" href="{{ series_previous.url | relative_url }}">
                   <span class="series-post-navigation-arrow" aria-hidden="true">←</span>
-                  <span class="series-post-navigation-copy"><small>Bài trước · Phần {{ series_previous.series_order }}</small><strong>{{ series_previous.title }}</strong></span>
+                  <span class="series-post-navigation-copy"><small>{{ s.post.prev_prefix }}{{ series_previous.series_order }}</small><strong>{{ series_previous.title }}</strong></span>
                 </a>
                 {% else %}
                 <span class="series-post-navigation-link is-empty"></span>
                 {% endif %}
                 {% if series_next %}
                 <a class="series-post-navigation-link next" href="{{ series_next.url | relative_url }}">
-                  <span class="series-post-navigation-copy"><small>Bài tiếp · Phần {{ series_next.series_order }}</small><strong>{{ series_next.title }}</strong></span>
+                  <span class="series-post-navigation-copy"><small>{{ s.post.next_prefix }}{{ series_next.series_order }}</small><strong>{{ series_next.title }}</strong></span>
                   <span class="series-post-navigation-arrow" aria-hidden="true">→</span>
                 </a>
                 {% endif %}
@@ -99,7 +101,7 @@ layout: base
             </nav>
             <section class="series-post-index" aria-labelledby="series-post-index-title">
               <div class="series-post-index-heading">
-                <span>Đọc cùng chuyên đề</span>
+                <span>{{ s.post.read_same_series }}</span>
                 <h2 id="series-post-index-title">{{ page.series }}</h2>
               </div>
               <ol class="series-post-index-list">
@@ -107,12 +109,12 @@ layout: base
                 <li>
                   {% if series_post.url == page.url %}
                   <span class="series-post-index-link is-current" aria-current="page">
-                    <span>Phần {{ series_post.series_order }}</span>
+                    <span>{{ s.post.part_prefix }}{{ series_post.series_order }}</span>
                     <strong>{{ series_post.title | split: "] : " | last }}</strong>
                   </span>
                   {% else %}
                   <a class="series-post-index-link" href="{{ series_post.url | relative_url }}">
-                    <span>Phần {{ series_post.series_order }}</span>
+                    <span>{{ s.post.part_prefix }}{{ series_post.series_order }}</span>
                     <strong>{{ series_post.title | split: "] : " | last }}</strong>
                   </a>
                   {% endif %}
@@ -139,8 +141,8 @@ layout: base
           {% endif %}
 
           <div class="post-feedback-card">
-            <span class="post-feedback-text">Bạn có góp ý hoặc muốn chỉnh sửa nội dung bài viết?</span>
-            <a class="post-feedback-btn" href="https://forms.gle/cw89pMMkkuDE6Z9d9" target="_blank" rel="noopener">Gửi qua form góp ý &rarr;</a>
+            <span class="post-feedback-text">{{ s.post.feedback_text }}</span>
+            <a class="post-feedback-btn" href="https://forms.gle/cw89pMMkkuDE6Z9d9" target="_blank" rel="noopener">{{ s.post.feedback_btn }}</a>
           </div>
           {% include comments.html %}
         </div>
