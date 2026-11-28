@@ -110,6 +110,7 @@
     </div>
   </div>
   <div class="athlete-detail" id="athlete-detail" hidden></div>
+  <p class="map-music-credit">{{ s.map.music_credit }}</p>
 
   <div class="athlete-modal" id="athlete-modal" hidden>
     <div class="athlete-modal-backdrop"></div>
@@ -121,16 +122,25 @@
 </section>
 
 <script src="{{ '/assets/js/map-pins.js' | relative_url }}"></script>
-<script>
 {%- capture map_pins_path -%}{% if site.active_lang != site.default_lang %}/{{ site.active_lang }}{% endif %}/map-pins.bin?v={{ site.map_pins_digest }}{%- endcapture -%}
-window.__athleteMapConfig = {
-  defaultFilter: {{ include.default_filter | default: "all" | jsonify }},
-  pinsUrl: {{ map_pins_path | relative_url | jsonify }},
-  base: {{ '/' | relative_url | jsonify }},
-  lang: {{ site.active_lang | jsonify }},
-  defaultLang: {{ site.default_lang | jsonify }}
-};
-window.__mapStrings = {{ s.map | jsonify }};
+{%- capture map_config -%}
+{
+  "defaultFilter": {{ include.default_filter | default: "all" | jsonify }},
+  "pinsUrl": {{ map_pins_path | relative_url | jsonify }},
+  "base": {{ '/' | relative_url | jsonify }},
+  "lang": {{ site.active_lang | jsonify }},
+  "defaultLang": {{ site.default_lang | jsonify }},
+  "music": [
+    {{ '/assets/audio/meditation-impromptu-01.mp3' | relative_url | jsonify }},
+    {{ '/assets/audio/meditation-impromptu-02.mp3' | relative_url | jsonify }},
+    {{ '/assets/audio/meditation-impromptu-03.mp3' | relative_url | jsonify }}
+  ]
+}
+{%- endcapture -%}
+<div id="athlete-map-data" hidden data-config="{{ map_config | escape }}" data-strings="{{ s.map | jsonify | escape }}"></div>
+<script>
+window.__athleteMapConfig = JSON.parse(document.getElementById('athlete-map-data').getAttribute('data-config'));
+window.__mapStrings = JSON.parse(document.getElementById('athlete-map-data').getAttribute('data-strings'));
 </script>
 <script src="{{ '/assets/js/map-weather.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/site-map.js' | relative_url }}"></script>

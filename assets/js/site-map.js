@@ -751,6 +751,27 @@
     var muteBtn = tourBar.querySelector('[data-act="mute"]');
     var synth = window.speechSynthesis || null;
     var tour = { on: false, paused: false, muted: false, stopNow: false, skip: false, endSpeech: null };
+
+    // Nhạc nền tour: 1 <audio> dùng chung, mỗi lần phát chọn ngẫu nhiên
+    // 1 track trong cfg.music (piano Kevin MacLeod, CC BY — credit ở
+    // cuối section map). Volume thấp cố định để lùi sau giọng TTS;
+    // mute/pause của tour tác động luôn cả nhạc.
+    var tourMusic = null;
+    function musicStart() {
+      var list = (window.__athleteMapConfig || {}).music || [];
+      if (!list.length) return;
+      if (!tourMusic) tourMusic = new Audio();
+      tourMusic.src = list[Math.floor(Math.random() * list.length)];
+      tourMusic.loop = true;
+      tourMusic.volume = 0.16;
+      tourMusic.muted = tour.muted;
+      try { tourMusic.play().catch(function () {}); } catch (e) {}
+    }
+    function musicStop() {
+      if (!tourMusic) return;
+      tourMusic.pause();
+      tourMusic.currentTime = 0;
+    }
     var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var isEn = (window.__athleteMapConfig || {}).lang !== (window.__athleteMapConfig || {}).defaultLang;
 
@@ -906,6 +927,7 @@
       playBtn.title = tx('stop_tour', 'Dừng phát');
       playBtn.setAttribute('aria-label', playBtn.title);
       playBtn.setAttribute('aria-pressed', 'true');
+      musicStart();
       runTour(seq);
     }
 
@@ -915,6 +937,7 @@
       tour.on = false;
       if (tour.endSpeech) tour.endSpeech();
       if (synth) synth.cancel();
+      musicStop();
       tourBar.hidden = true;
       playBtn.innerHTML = licon('l-play');
       playBtn.title = tx('play_tour', 'Phát chuyên đề');
@@ -984,11 +1007,16 @@
       else if (act === 'pause') {
         tour.paused = !tour.paused;
         if (synth) tour.paused ? synth.pause() : synth.resume();
+        if (tourMusic) {
+          if (tour.paused) tourMusic.pause();
+          else try { tourMusic.play().catch(function () {}); } catch (e) {}
+        }
         btn.innerHTML = licon(tour.paused ? 'l-play' : 'l-pause');
         btn.title = tx(tour.paused ? 'resume_tour' : 'pause_tour', tour.paused ? 'Tiếp tục' : 'Tạm dừng');
         btn.setAttribute('aria-label', btn.title);
       } else if (act === 'mute') {
         tour.muted = !tour.muted;
+        if (tourMusic) tourMusic.muted = tour.muted;
         if (tour.muted && synth) {
           synth.cancel();
           if (tour.endSpeech) tour.endSpeech();
