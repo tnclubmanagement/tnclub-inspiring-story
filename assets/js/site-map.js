@@ -851,19 +851,22 @@
     }
 
     // Ghi âm thật (front matter tour_audio, vd bản đọc Tuyên ngôn Độc lập):
-    // phát <audio> thay giọng TTS. Pause/mute/skip/stop tác động như TTS;
-    // khi mute chờ theo độ dài câu thuyết minh như speak(). Nếu file lỗi
-    // hoặc bị chặn autoplay thì rơi về đọc TTS của fallbackText.
+    // phát <audio> thay giọng TTS — pin có clip thì BẮT BUỘC phát hết clip
+    // mới sang bài kế, không cho giọng bot chen vào hay nhảy sớm. Cắt mọi
+    // TTS còn sót trước khi phát; chờ file load (canplay) rồi retry play
+    // liên tục; chỉ khi file thật sự lỗi mới rơi về đọc TTS của fallbackText.
+    // Pause/mute/skip/stop tác động như TTS; khi mute chờ theo độ dài câu.
     var tourAudio = null;
     function playClip(url, fallbackText) {
       return new Promise(function (resolve) {
         var est = Math.min(Math.max(fallbackText.length * 85, 2600), 14000);
         if (tour.muted) { tourSleep(est).then(resolve); return; }
+        if (synth) synth.cancel();
         if (!tourAudio) tourAudio = new Audio();
         var a = tourAudio;
         a.src = url;
         a.muted = tour.muted;
-        var done = false, failed = false;
+        var done = false, failed = false, retries = 0;
         function fin() { if (!done) { done = true; clearInterval(t); tour.endSpeech = null; a.pause(); resolve(); } }
         tour.endSpeech = fin;
         a.onended = fin;
@@ -873,9 +876,15 @@
           if (a.ended) { fin(); return; }
           if (failed) { clearInterval(t); tour.endSpeech = null; speak(fallbackText).then(fin); return; }
           if (tour.paused) { if (!a.paused) a.pause(); return; }
-          if (a.paused) { try { a.play().catch(function () { failed = true; }); } catch (e) { failed = true; } }
+          if (a.paused) {
+            retries++;
+            // File tải chậm/lỗi mạng: thử tới ~10s vẫn chưa phát được thì
+            // mới coi là hỏng — tránh bot đọc chen vào ghi âm thật.
+            if (retries > 33) { failed = true; return; }
+            try { a.play().catch(function () {}); } catch (e) {}
+          }
         }, 300);
-        try { a.play().catch(function () { failed = true; }); } catch (e) { failed = true; }
+        try { a.play().catch(function () {}); } catch (e) {}
       });
     }
 
