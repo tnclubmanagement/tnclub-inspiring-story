@@ -505,6 +505,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .athlete-qv-head > div {
   position: absolute;
   inset: 0;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -557,7 +558,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .athlete-qv-more { margin-bottom: 0.8rem; border-top: 1px solid var(--hairline); }
 .athlete-qv-more summary { padding: 0.7rem 0; font-size: 0.82rem; font-weight: 600; cursor: pointer; }
 .athlete-qv-actions { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
-.athlete-qv-actions a { display: inline-flex; align-items: center; min-height: 44px; white-space: nowrap; }
+.athlete-qv-actions a { display: inline-flex; align-items: center; min-height: 44px; white-space: nowrap; color: var(--accent-secondary);}
 .athlete-qv-directions { font-size: 0.85rem; font-weight: 600; }
 .athlete-qv-directions[hidden] { display: none; }
 .athlete-qv-close { top: 6px; right: 6px; width: 44px; height: 44px; border-radius: 50%; background: rgba(0, 0, 0, 0.5); color: #fff; }
@@ -632,7 +633,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 }
 /* Link tắt Galleries / Videos trong quick view */
 .athlete-qv-shortcuts { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
-.athlete-qv-goto, .athlete-qv-google { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.25rem 0.7rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; color: var(--accent-secondary); border: 1px solid color-mix(in srgb, var(--accent-secondary) 30%, transparent); text-decoration: none; transition: background-color 0.15s ease; }
+.athlete-qv-goto, .athlete-qv-google { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.25rem 0.7rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; color: var(--accent-secondary) !important; border: 1px solid color-mix(in srgb, var(--accent-secondary) 30%, transparent); text-decoration: none; transition: background-color 0.15s ease; }
 .athlete-qv-goto:hover, .athlete-qv-google:hover { background: color-mix(in srgb, var(--accent-secondary) 8%, transparent); }
 /* Flash nhẹ vùng được nhảy tới */
 .athlete-detail-flash { outline: 3px solid color-mix(in srgb, var(--accent-secondary) 45%, transparent); outline-offset: 4px; border-radius: 8px; transition: outline-color 0.4s ease; }

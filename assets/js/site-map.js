@@ -377,8 +377,11 @@
     function openQuickview(d) {
         qv.querySelector('.athlete-qv-avatar').src = d.image || d.avatar;
         qv.querySelector('.athlete-qv-avatar').alt = d.name;
-        qv.querySelector('.athlete-qv-name').textContent = d.topic === 'food' && d.title ? d.title : d.name;
         var isPlace = d.kind === 'place';
+        // Pin địa danh hiện tiêu đề bài (bỏ tiền tố "[xx · series] :"),
+        // tên địa điểm đưa xuống dòng Địa điểm trong grid.
+        qv.querySelector('.athlete-qv-name').textContent = isPlace && d.title
+          ? (cleanTourTitle(d.title) || d.name) : d.name;
         var nick = qv.querySelector('.athlete-qv-nick');
         nick.textContent = !isPlace && d.nick ? '“' + d.nick + '”' : '';
         nick.hidden = !nick.textContent;
@@ -393,7 +396,7 @@
           [tx('updated', 'Cập nhật'), d.ranking || (!hasScores && hasLegacyScore) ? d.ratingUpdated : '']
         ]);
         renderFacts('.athlete-qv-grid', isPlace
-          ? [[tx('f_country', 'Quốc gia'), COUNTRY_LABEL[d.country] || d.country, COUNTRY_CODE[d.country]], [tx('f_region', 'Vùng'), d.region], [tx('f_area', 'Diện tích'), d.area], [tx('f_population', 'Dân số'), d.population]]
+          ? [[tx('f_place', 'Địa điểm'), d.name], [tx('f_country', 'Quốc gia'), COUNTRY_LABEL[d.country] || d.country, COUNTRY_CODE[d.country]], [tx('f_region', 'Vùng'), d.region], [tx('f_area', 'Diện tích'), d.area], [tx('f_population', 'Dân số'), d.population]]
           : [[tx('f_nationality', 'Quốc tịch'), COUNTRY_LABEL[d.country] || d.country, COUNTRY_CODE[d.country]], [tx('f_event', 'Nội dung'), d.event], [tx('f_best_rank', 'Hạng cao nhất'), d.rank]]);
         renderFacts('.athlete-qv-facts', isPlace
           ? [[tx('f_highlights', 'Nên ghé'), d.highlights], [tx('f_best_time', 'Thời điểm nên đi'), d.bestTime]]

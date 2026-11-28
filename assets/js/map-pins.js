@@ -70,6 +70,12 @@
   function placePin(p, isFood, base) {
     var region = String(p.placeRegion || '').trim();
     if (!region && isFood) region = canonicalRegion(p.tags);
+    // Không có place_region: lấy phần sau dấu phẩy của place_name làm
+    // tỉnh thành/khu vực (vd "Cầu Hiền Lương, Quảng Trị" → "Quảng Trị").
+    if (!region) {
+      var nameParts = String(p.placeName || '').split(',');
+      if (nameParts.length > 1) region = nameParts[nameParts.length - 1].trim();
+    }
     return ratingFields(p, {
       kind: 'place',
       topic: isFood ? 'food' : 'travel',
