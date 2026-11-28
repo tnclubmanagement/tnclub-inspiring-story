@@ -3214,9 +3214,8 @@ a.series-post-index-link:hover,
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 999px;
-  padding: 0.3rem 1.5rem;
+  border-radius: 9px;
+  padding: 1.3rem 1.5rem;
   text-shadow: none;
 }
 
@@ -4313,6 +4312,21 @@ body:has(.home-controls) {
   background: #f6f4ef;
 }
 
+/* ---------- Chiều rộng nội dung thống nhất toàn site ----------
+   Theme mặc định container-md hẹp + cột col-xl-8 offset — ép mọi trang
+   rộng bằng trang chủ (1200px, cột full). Trang muốn full-bleed vẫn
+   dùng full-width: true (container-fluid) như cũ. */
+.container-md {
+  max-width: 1200px;
+}
+
+.container-md > .row > [class*="col-"] {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
 body:has(.home-controls) .container-md {
   max-width: 1200px;
 }
@@ -5099,6 +5113,15 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
 
 body:has(.magazine-story) .container-md {
   max-width: 1200px;
+}
+
+/* Breadcrumb + note chưa dịch nằm ngoài .post-body — căn cùng trục
+   nội dung 900px, không để lệch theo container 1200px. */
+body:has(.magazine-story) .post-breadcrumb,
+body:has(.magazine-story) .untranslated-note {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .magazine-story .post-body {

@@ -44,7 +44,6 @@
       <div class="filter-drop" id="filter-drop-series">
         <button class="home-tab" type="button" data-filter="Chuyên đề"><span class="filter-drop-label">{{ s.map.series }}</span> <span class="drop-caret">▾</span></button>
         <div class="drop-menu">
-          <button class="drop-item drop-item-active" type="button" data-series="all">{{ s.map.all_series }}</button>
           {% for name in map_place_series %}
           <button class="drop-item" type="button" data-series="{{ name | escape }}">{{ name }}</button>
           {% endfor %}

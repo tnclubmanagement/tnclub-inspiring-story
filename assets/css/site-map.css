@@ -209,7 +209,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 
 .athlete-map {
   position: relative;
-  height: 480px;
+  height: 640px;
   border-radius: 20px;
   overflow: hidden;
   border: 1px solid var(--hairline);
@@ -465,7 +465,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .athlete-qv-link:hover { text-decoration: underline; }
 /* Pin nhỏ lại trên mobile */
 @media (max-width: 640px) {
-  .athlete-map { height: 380px; }
+  .athlete-map { height: 460px; }
   .athlete-pin-wrap { width: 30px !important; height: 36px !important; margin-left: -15px !important; margin-top: -36px !important; }
   .athlete-pin { width: 30px; height: 30px; border-width: 2px; }
   .athlete-pin-wrap::after { border-width: 6px; border-top-width: 8px; }

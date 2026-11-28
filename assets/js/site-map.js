@@ -497,7 +497,11 @@
       clusters.push(cl);
     });
 
-    var HOME_VIEW = { center: [20, 105], zoom: 2 };
+    // Khung nhìn mặc định bao trọn tất cả pin — tự tính theo dữ liệu
+    // thay vì hardcode center/zoom (đổi chiều cao map không bị lệch).
+    var homeBounds = L.latLngBounds(entries.map(function (en) {
+      return en.marker.getLatLng();
+    }));
 
     var filterBar = document.getElementById('athlete-map-filters');
     var seriesDrop = document.getElementById('filter-drop-series');
@@ -625,7 +629,7 @@
     // và filter đều đi qua hàm này (zoom luôn được áp theo vùng đích).
     function focusView() {
       if (activeFilter === 'all') {
-        map.flyTo(HOME_VIEW.center, HOME_VIEW.zoom, { duration: 1.0 });
+        map.flyToBounds(homeBounds, { padding: [50, 50], duration: 1.0, maxZoom: 6 });
       } else {
         var bounds = [];
         entries.forEach(function (en) {
@@ -682,8 +686,9 @@
         else seriesDrop.classList.remove('open');
       }
       if (f === activeFilter) {
+        // Bấm lại nút dropdown chỉ đóng menu — không reset về "tất cả"
+        // (menu không còn mục Tất cả; muốn bỏ lọc dùng nút × trên chip).
         if (seriesDrop) seriesDrop.classList.remove('open');
-        setMainFilter('all', filterBar.querySelector('[data-filter="all"]'));
       } else {
         setMainFilter(f, btn);
       }
@@ -773,7 +778,8 @@
       if (saved.series && seriesDrop && seriesDrop.querySelector('[data-series="' + saved.series + '"]')) {
         activeSeries = saved.series;
         var seb = seriesDrop.querySelector('[data-series="' + saved.series + '"]');
-        seriesDrop.querySelector('[data-series="all"]').classList.remove('drop-item-active');
+        var allSeb = seriesDrop.querySelector('[data-series="all"]');
+        if (allSeb) allSeb.classList.remove('drop-item-active');
         seb.classList.add('drop-item-active');
         seriesLabel.textContent = tx('series', 'Chuyên đề');
       }
