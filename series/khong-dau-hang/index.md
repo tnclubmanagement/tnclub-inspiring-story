@@ -12,8 +12,8 @@ permalink: /series/khong-dau-hang/
       <p class="series-landing-kicker">Câu chuyện truyền cảm hứng · {{ series_posts.size }} bài</p>
       <h1 id="khong-dau-hang-series-title"><span class="series-hero-title-line">Không</span><br><em>đầu hàng.</em></h1>
       <p class="series-landing-intro">
-        Bảy câu chuyện về những người trẻ đi qua thiếu thốn, mất mát và
-        nghịch cảnh để giữ lấy việc học và tự viết tiếp tương lai.
+        Mười một câu chuyện từ Trung Quốc và Việt Nam về những con người
+        đi qua thiếu thốn, bệnh tật và nghịch cảnh — cùng sự đồng hành giúp họ đi tiếp.
       </p>
       <a class="series-hero-button" href="#khong-dau-hang-series-list">Xem các bài viết <span aria-hidden="true">→</span></a>
     </div>
@@ -28,7 +28,7 @@ permalink: /series/khong-dau-hang/
     <div class="series-section-heading">
       <div>
         <p class="series-landing-kicker">Mục lục</p>
-        <h2 id="khong-dau-hang-series-list-title">Bảy câu chuyện</h2>
+        <h2 id="khong-dau-hang-series-list-title">{{ series_posts.size }} câu chuyện</h2>
       </div>
       <p>Những con người đã biến nghịch cảnh thành động lực để đi tiếp.</p>
     </div>
