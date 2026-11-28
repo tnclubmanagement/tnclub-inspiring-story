@@ -40,7 +40,7 @@ layout: page
   <div class="home-view-switcher" role="group" aria-label="{{ s.home.views_aria }}">
     <button class="home-view-btn is-active" type="button" data-view="grid" aria-label="{{ s.home.view_grid }}" aria-pressed="true">{{ s.home.view_grid }}</button>
     <button class="home-view-btn" type="button" data-view="list" aria-label="{{ s.home.view_list }}" aria-pressed="false">{{ s.home.view_list }}</button>
-    <button class="home-view-btn" type="button" data-view="table" aria-label="{{ s.home.view_table }}" aria-pressed="false">{{ s.home.view_table }}</button>
+    <button class="home-view-btn" type="button" data-view="masonry" aria-label="{{ s.home.view_masonry }}" aria-pressed="false">{{ s.home.view_masonry }}</button>
     <button class="home-view-btn" type="button" data-view="timeline" aria-label="{{ s.home.view_timeline }}" aria-pressed="false">{{ s.home.view_timeline }}</button>
   </div>
   <div class="home-filter-summary-row">
@@ -87,12 +87,6 @@ layout: page
 
 <!-- role="list" needed so Safari keeps list semantics with list-style resets. -->
 <ul class="posts-list list-unstyled" role="list">
-  <li class="posts-table-header" aria-hidden="true">
-    <span>{{ s.home.table_no }}</span>
-    <span>{{ s.home.table_image }}</span>
-    <span>{{ s.home.table_story }}</span>
-    <span>{{ s.home.table_date }}</span>
-  </li>
   {% for post in posts %}
 {% capture search_text %}{{ post.title }} {{ post.subtitle }} {% for tag in post.tags %}{{ tag }} {% endfor %}{{ post.content | strip_html }}{% endcapture %}
   <li class="post-preview"
@@ -106,7 +100,6 @@ layout: page
       data-post-date="{{ post.date | date: '%Y-%m-%d' }}">
     <span class="timeline-marker" aria-hidden="true"></span>
     <time class="timeline-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%m/%Y" }}</time>
-    <span class="table-index">{{ forloop.index }}</span>
     <article>
       {% capture thumbnail %}
         {% if post.thumbnail-img %}
@@ -145,7 +138,6 @@ layout: page
         <span class="date-separator" aria-hidden="true"> · </span>
         <span class="relative-date" data-date="{{ post.date | date: '%Y-%m-%dT%H:%M:%S%z' }}"></span>
       </p>
-      <p class="table-excerpt">{{ post.content | strip_html | replace: "\n", " " | strip | truncatewords: 18 }}</p>
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags">

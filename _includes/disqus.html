@@ -1,0 +1,9 @@
+{%- if site.disqus -%}
+<div class="disqus-comments">
+  <div class="comments">
+    <div id="disqus_thread" data-shortname="{{ site.disqus | escape }}"></div>
+    <script src="{{ '/assets/js/disqus.js' | relative_url }}" defer></script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
+{%- endif -%}

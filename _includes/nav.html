@@ -1,31 +1,5 @@
 {% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
-  <svg class="nav-icon-defs" aria-hidden="true" focusable="false">
-    <symbol id="icon-home" viewBox="0 0 24 24">
-      <path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>
-      <path d="M9 21v-6h6v6"/>
-    </symbol>
-    <symbol id="icon-info" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="9"/>
-      <path d="M12 11v5M12 8h.01"/>
-    </symbol>
-    <symbol id="icon-tags" viewBox="0 0 24 24">
-      <path d="m3 7 4-4h5l9 9-8 8-9-9Z"/>
-      <circle cx="8.5" cy="7.5" r="1"/>
-    </symbol>
-    <symbol id="icon-mail" viewBox="0 0 24 24">
-      <rect x="3" y="5" width="18" height="14" rx="2"/>
-      <path d="m3 7 9 6 9-6"/>
-    </symbol>
-    <symbol id="icon-shield" viewBox="0 0 24 24">
-      <path d="M12 3 20 6v5c0 5-3.4 8.3-8 10-4.6-1.7-8-5-8-10V6Z"/>
-      <path d="m9 12 2 2 4-4"/>
-    </symbol>
-    <symbol id="icon-search" viewBox="0 0 24 24">
-      <circle cx="10.8" cy="10.8" r="6.8"/>
-      <path d="m16 16 5 5"/>
-    </symbol>
-  </svg>
 
   <a class="navbar-brand navbar-brand-with-logo" href="{{ '' | absolute_url }}">
     <img class="navbar-logo-icon" alt="{{ site.title }} logo" src="{{ '/assets/img/icons/logo.svg' | relative_url }}">
@@ -39,32 +13,28 @@
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
       {%- for link in site.navbar-links -%}
-        {%- if link[1].first %}
+        {% assign item_label = link.title %}
+        {%- if link.children %}
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% assign parent_label = link[0] %}{{ s.nav[parent_label] | default: link[0] }}</a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-              {%- for childlink in link[1] -%}
-                {%- for linkparts in childlink %}
-                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{% assign child_label = linkparts[0] %}{{ s.nav[child_label] | default: linkparts[0] }}</a>
-                {%- endfor -%}
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {% if link.icon %}<svg class="nav-line-icon" aria-hidden="true"><use href="{{ '/assets/img/icons/nav.svg' | relative_url }}#{{ link.icon | escape }}"></use></svg>{% endif %}
+              <span>{{ s.nav[item_label] | default: link.title | escape }}</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-dropdown-{{ forloop.index }}">
+              {%- for child in link.children %}
+                {% assign child_label = child.title %}
+                <a class="dropdown-item" href="{{ child.url | relative_url }}">
+                  {% if child.icon %}<svg class="nav-line-icon" aria-hidden="true"><use href="{{ '/assets/img/icons/nav.svg' | relative_url }}#{{ child.icon | escape }}"></use></svg>{% endif %}
+                  <span>{{ s.nav[child_label] | default: child.title | escape }}</span>
+                </a>
               {%- endfor %}
             </div>
           </li>
         {% else %}
-          {%- capture icon -%}
-            {%- case link[1] -%}
-              {%- when "/" -%}icon-home
-              {%- when "newest" -%}icon-tags
-              {%- when "posts" -%}icon-home
-              {%- when "tags" -%}icon-tags
-              {%- else -%}icon-info
-            {%- endcase -%}
-          {%- endcapture -%}
           <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="{{ link[1] | relative_url }}">
-              <svg class="nav-line-icon" aria-hidden="true"><use href="#{{ icon | strip }}"></use></svg>
-              {% assign item_label = link[0] %}
-              <span>{{ s.nav[item_label] | default: link[0] }}</span>
+            <a class="nav-link nav-link-icon" href="{{ link.url | relative_url }}">
+              {% if link.icon %}<svg class="nav-line-icon" aria-hidden="true"><use href="{{ '/assets/img/icons/nav.svg' | relative_url }}#{{ link.icon | escape }}"></use></svg>{% endif %}
+              <span>{{ s.nav[item_label] | default: link.title | escape }}</span>
             </a>
           </li>
         {%- endif -%}
@@ -72,7 +42,7 @@
       {% if site.post_search %}
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
-            <svg id="nav-search-icon" class="nav-line-icon" aria-hidden="true"><use href="#icon-search"></use></svg>
+            <svg id="nav-search-icon" class="nav-line-icon" aria-hidden="true"><use href="{{ '/assets/img/icons/nav.svg' | relative_url }}#icon-search"></use></svg>
             <span id="nav-search-text">{{ s.ui.search_short }}</span>
           </a>
         </li>

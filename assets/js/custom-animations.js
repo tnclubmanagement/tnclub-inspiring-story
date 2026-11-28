@@ -2,6 +2,9 @@
 (function () {
   "use strict";
 
+  var translations = document.getElementById("site-i18n");
+  window.__i18n = translations ? JSON.parse(translations.textContent) : {};
+
   // Chuỗi UI theo ngôn ngữ — base.html xuất window.__i18n từ strings.yml.
   function tx(key, fallback) {
     var s = window.__i18n || {};
@@ -39,6 +42,8 @@
     }
 
     function layout() {
+      var grouping = document.querySelector("#home-group-series");
+      if (!list.classList.contains("view-masonry") || (grouping && grouping.checked)) return;
       var n = columnsFor(window.innerWidth);
 
       if (n === 1) {
@@ -49,11 +54,13 @@
       // Restore first so each card is measured at the current column width.
       restore();
       list.classList.add("js-masonry");
+      list.innerHTML = "";
       var cols = [];
       for (var i = 0; i < n; i++) {
         var col = document.createElement("div");
         col.className = "masonry-col";
         cols.push(col);
+        list.appendChild(col);
       }
       var heights = new Array(n).fill(0);
       items.forEach(function (item) {
@@ -180,16 +187,16 @@
     }
 
     function setView(mode) {
-      var validModes = ["grid", "list", "table", "timeline"];
+      var validModes = ["grid", "list", "masonry", "timeline"];
       if (validModes.indexOf(mode) === -1) mode = "grid";
-      list.classList.remove("view-grid", "view-list", "view-table", "view-timeline");
+      list.classList.remove("view-grid", "view-list", "view-table", "view-masonry", "view-timeline");
       list.classList.add("view-" + mode);
       if (masonry) {
-        if (mode === "grid" && (!groupSeries || !groupSeries.checked)) masonry.layout();
+        if (mode === "masonry" && (!groupSeries || !groupSeries.checked)) masonry.layout();
         else masonry.restore();
       }
       renderSeriesGroups();
-      if (masonry && mode === "grid" && (!groupSeries || !groupSeries.checked)) masonry.layout();
+      if (masonry && mode === "masonry" && (!groupSeries || !groupSeries.checked)) masonry.layout();
       viewButtons.forEach(function (item) {
         var active = item.getAttribute("data-view") === mode;
         item.classList.toggle("is-active", active);
@@ -202,7 +209,7 @@
       var query = search.value.trim();
       var tags = getSelectedTags();
       var series = seriesFilter ? seriesFilter.value : "";
-      var mode = list.className.match(/view-(grid|list|table|timeline)/);
+      var mode = list.className.match(/view-(grid|list|masonry|timeline)/);
       if (query) params.set("q", query);
       else params.delete("q");
       if (tags.length) params.set("tag", tags.join(","));
@@ -270,7 +277,7 @@
       if (resultCount) resultCount.textContent = visible + " " + tx('stories', "câu chuyện");
       if (emptyState) emptyState.hidden = visible !== 0;
       renderSeriesGroups();
-      if (masonry && list.classList.contains("view-grid") && (!groupSeries || !groupSeries.checked)) masonry.layout();
+      if (masonry && list.classList.contains("view-masonry") && (!groupSeries || !groupSeries.checked)) masonry.layout();
       if (shouldUpdateUrl) updateUrl();
     }
 
@@ -352,7 +359,7 @@
       if (collapsedSeries[key]) delete collapsedSeries[key];
       else collapsedSeries[key] = true;
       renderSeriesGroups();
-      if (list.classList.contains("view-grid") && (!groupSeries || !groupSeries.checked)) masonry.layout();
+      if (list.classList.contains("view-masonry") && (!groupSeries || !groupSeries.checked)) masonry.layout();
       updateUrl();
     });
     window.addEventListener("popstate", restoreFromUrl);

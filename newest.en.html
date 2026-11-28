@@ -4,10 +4,17 @@ title: "Latest"
 subtitle: "Freshly published stories — newest first, not grouped by series"
 cover-img: "/assets/img/newest-banner.jpg"
 permalink: /newest/
+css:
+  - "/assets/css/newest.css"
 lang: en
 ---
 
-<section class="latest-stories" aria-label="Posts by publish date, newest first">
-  <p class="posts-page-intro">Follow what just went live, wherever it sits in a series. Want to read continuously? Tap the series name on each card.</p>
+<section class="latest-stories latest-stories-masonry" aria-label="Posts by publish date, newest first">
+  <header class="latest-editorial-heading">
+    <span class="latest-editorial-kicker">INSPIRING STORIES / FIELD NOTES</span>
+    <h2>New stories.<br><em>Fresh perspectives.</em></h2>
+    <p>A place, a person, something unexpected.<br>Stay with the story that sparks your curiosity.</p>
+    <a href="{{ '/posts/' | relative_url }}">Explore all stories <span aria-hidden="true">↗</span></a>
+  </header>
   {% include latest-stories.html limit=8 %}
 </section>

@@ -34,7 +34,7 @@ common-js:
 
   {% include footer.html %}
 
-  <script>window.__i18n = {{ site.data.strings[site.active_lang].js | default: site.data.strings.vi.js | jsonify }};</script>
+  <script type="application/json" id="site-i18n">{{ site.data.strings[site.active_lang].js | default: site.data.strings.vi.js | jsonify | replace: '<', '\u003c' }}</script>
   {% include footer-scripts.html %}
 
 </body>

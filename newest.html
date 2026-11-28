@@ -4,9 +4,16 @@ title: "Bài mới"
 subtitle: "Những câu chuyện vừa được đăng — mới nhất ở đầu, không gom theo series"
 cover-img: "/assets/img/newest-banner.jpg"
 permalink: /newest/
+css:
+  - "/assets/css/newest.css"
 ---
 
-<section class="latest-stories" aria-label="Bài viết theo ngày đăng mới nhất">
-  <p class="posts-page-intro">Theo dõi những bài vừa lên trang, dù nằm ở phần nào trong một chuyên đề. Muốn đọc liền mạch, hãy bấm tên series trên từng thẻ.</p>
+<section class="latest-stories latest-stories-masonry" aria-label="Bài viết theo ngày đăng mới nhất">
+  <header class="latest-editorial-heading">
+    <span class="latest-editorial-kicker">INSPIRING STORIES / NHẬT KÝ KHÁM PHÁ</span>
+    <h2>Câu chuyện mới.<br><em>Góc nhìn khác.</em></h2>
+    <p>Một điểm đến, một con người, một điều chưa biết.<br>Dừng lại ở câu chuyện khiến bạn tò mò.</p>
+    <a href="{{ '/posts/' | relative_url }}">Khám phá tất cả bài viết <span aria-hidden="true">↗</span></a>
+  </header>
   {% include latest-stories.html limit=8 %}
 </section>

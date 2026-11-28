@@ -22,13 +22,27 @@ baseurl: "/tnclub-inspiring-story"
 navbar-var-length: true
 
 navbar-links:
-  Bài mới: "newest"
-  Bài viết: "posts"
-  Khám phá:
-    - Bản đồ: "map"
-    - Lưu trữ: "tags"
-    - Cửa hàng: "store"
-    - Ủng hộ: "support"
+  - title: "Bài mới"
+    url: "newest"
+    icon: "icon-latest"
+  - title: "Bài viết"
+    url: "posts"
+    icon: "icon-book"
+  - title: "Khám phá"
+    icon: "icon-compass"
+    children:
+      - title: "Bản đồ"
+        url: "map"
+        icon: "icon-map"
+      - title: "Lưu trữ"
+        url: "tags"
+        icon: "icon-archive"
+      - title: "Cửa hàng"
+        url: "store"
+        icon: "icon-bag"
+      - title: "Ủng hộ"
+        url: "support"
+        icon: "icon-heart"
 
 ################
 # --- Logo --- #
