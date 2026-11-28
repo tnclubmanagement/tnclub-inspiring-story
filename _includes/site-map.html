@@ -19,26 +19,6 @@
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
 <section class="athlete-map-section" aria-label="{{ s.map.aria_label }}">
-  <div class="athlete-map-head">
-    <div class="athlete-map-title">
-      <h2 class="tag-section-title">{{ s.map.title }}</h2>
-      <details class="map-score-help">
-        <summary aria-label="{{ s.map.score_help_aria }}" aria-describedby="map-score-help-tooltip"><span class="fas fa-info-circle" aria-hidden="true"></span></summary>
-        <div class="map-score-legend" id="map-score-help-tooltip" role="tooltip">
-          <strong>{{ s.map.score_aria }}</strong>
-          <ul>
-            <li><span class="fas fa-file-alt" aria-hidden="true"></span> {{ s.map.score_content }}</li>
-            <li><span class="fas fa-map-marker-alt" aria-hidden="true"></span> {{ s.map.score_destination }}</li>
-          </ul>
-          <ul class="map-score-levels">
-            <li data-level="low"><i aria-hidden="true"></i><span class="sr-only">{{ s.map.score_low }}</span> &lt;5</li>
-            <li data-level="medium"><i aria-hidden="true"></i><span class="sr-only">{{ s.map.score_medium }}</span> 5–&lt;8</li>
-            <li data-level="high"><i aria-hidden="true"></i><span class="sr-only">{{ s.map.score_high }}</span> ≥8</li>
-          </ul>
-        </div>
-      </details>
-    </div>
-  </div>
   <div class="athlete-map-filters" id="athlete-map-filters">
     <button class="home-tab" type="button" data-filter="all">{{ s.map.all }}</button>
     {% if map_place_series.size > 0 %}
@@ -53,6 +33,21 @@
     </div>
     {% endif %}
     <input class="athlete-map-search" id="athlete-map-search" type="search" placeholder="{{ s.map.search_placeholder }}" aria-label="{{ s.map.search_aria }}">
+    <details class="map-score-help">
+      <summary aria-label="{{ s.map.score_help_aria }}" aria-describedby="map-score-help-tooltip"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></summary>
+      <div class="map-score-legend" id="map-score-help-tooltip" role="tooltip">
+        <strong>{{ s.map.score_aria }}</strong>
+        <ul>
+          <li><span class="fas fa-file-alt" aria-hidden="true"></span> {{ s.map.score_content }}</li>
+          <li><span class="fas fa-map-marker-alt" aria-hidden="true"></span> {{ s.map.score_destination }}</li>
+        </ul>
+        <ul class="map-score-levels">
+          <li data-level="low"><i aria-hidden="true"></i><span class="sr-only">{{ s.map.score_low }}</span> &lt;5</li>
+          <li data-level="medium"><i aria-hidden="true"></i><span class="sr-only">{{ s.map.score_medium }}</span> 5–&lt;8</li>
+          <li data-level="high"><i aria-hidden="true"></i><span class="sr-only">{{ s.map.score_high }}</span> ≥8</li>
+        </ul>
+      </div>
+    </details>
   </div>
   <div class="map-filter-chips" id="map-filter-chips"></div>
   <div class="athlete-map" id="athlete-map">

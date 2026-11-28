@@ -58,9 +58,7 @@
   margin: 0 -1.2rem 1rem;
   border-radius: 24px;
 }
-.athlete-map-head, .athlete-map-filters { display: flex; align-items: center; flex-wrap: wrap; }
-.athlete-map-head { justify-content: space-between; gap: 0.6rem; }
-.athlete-map-filters { gap: 0.4rem; margin-bottom: 0.9rem; max-width: 100%; }
+.athlete-map-filters { display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem; max-width: 100%; }
 .athlete-map-search {
   flex: 0 1 260px;
   min-width: 160px;
@@ -364,7 +362,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   overflow-y: auto;
 }
 .athlete-map-section.is-fullscreen { top: 0; z-index: var(--z-fullscreen, 800); height: 100dvh; }
-.athlete-map-section:is(.is-max, .is-fullscreen) .athlete-map-head { flex: none; }
+.athlete-map-section:is(.is-max, .is-fullscreen) .athlete-map-filters { flex: none; }
 .athlete-map-section:is(.is-max, .is-fullscreen) .athlete-map {
   flex: 1;
   height: auto;
@@ -530,19 +528,19 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .athlete-qv-score:last-child .athlete-qv-score-tooltip { left: auto; right: 0; }
 .athlete-qv-score:is(:hover, :focus) .athlete-qv-score-tooltip { display: block; }
 .athlete-qv-score .athlete-qv-score-tooltip[hidden] { display: none; }
-.athlete-map-title { display: flex; align-items: baseline; gap: 0.35rem; }
 .map-score-help { position: relative; z-index: var(--z-map-help, 800); }
-.map-score-help summary { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; color: var(--muted); cursor: pointer; list-style: none; }
+.map-score-help summary { display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; border-radius: 50%; color: var(--muted); cursor: pointer; list-style: none; }
+.map-score-help summary:hover { background: var(--surface); color: var(--ink); }
 .map-score-help summary::-webkit-details-marker { display: none; }
 .map-score-help summary:focus-visible { outline: 2px solid var(--ink); border-radius: 8px; }
-.athlete-map-title .map-score-legend { position: absolute; top: 100%; left: -8rem; width: 230px; max-width: calc(100vw - 32px); margin: 0; padding: 0.7rem; border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); color: var(--ink); font-size: 0.78rem; line-height: 1.5; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); }
+.map-score-help .map-score-legend { position: absolute; top: calc(100% + 6px); right: 0; width: 230px; max-width: calc(100vw - 32px); margin: 0; padding: 0.7rem; border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); color: var(--ink); font-size: 0.78rem; line-height: 1.5; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); }
 .map-score-legend > strong { display: block; margin-bottom: 0.4rem; font-size: 0.78rem; }
 .map-score-legend ul { display: flex; flex-wrap: wrap; gap: 0.3rem 0.8rem; margin: 0; padding: 0; list-style: none; }
 .map-score-legend ul + ul { margin-top: 0.45rem; padding-top: 0.45rem; border-top: 1px solid var(--hairline); }
 .map-score-legend .fas { width: 1em; color: var(--muted); text-align: center; }
 .map-score-levels li { display: inline-flex; align-items: center; gap: 0.3rem; font-weight: 600; color: var(--score-color); }
 .map-score-levels i { width: 18px; height: 5px; border-radius: 999px; background: var(--score-color); }
-@media (max-width: 640px) { .athlete-map-title .map-score-legend { left: -2.5rem; } }
+
 .athlete-qv-more { margin-bottom: 0.8rem; border-top: 1px solid var(--hairline); }
 .athlete-qv-more summary { padding: 0.7rem 0; font-size: 0.82rem; font-weight: 600; cursor: pointer; }
 .athlete-qv-actions { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
@@ -627,8 +625,8 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .athlete-detail-flash { outline: 3px solid color-mix(in srgb, var(--accent-secondary) 45%, transparent); outline-offset: 4px; border-radius: 8px; transition: outline-color 0.4s ease; }
 @media (max-width: 760px) {
   .athlete-map-section:is(.is-max, .is-fullscreen) { padding: 0.6rem; gap: 0.3rem; }
-  .athlete-map-head, .athlete-map-filters { width: 100%; min-width: 0; }
-  .athlete-map-search { flex-basis: 100%; margin-left: 0; height: 2.4rem; font-size: 16px; }
+  .athlete-map-filters { width: 100%; min-width: 0; }
+  .athlete-map-search { flex: 1 1 auto; margin-left: 0; height: 2.4rem; font-size: 16px; }
   .athlete-map-filters .home-tab { max-width: calc(100vw - 48px); white-space: normal; overflow-wrap: anywhere; }
   .map-country-dialog { padding: 0.75rem; }
 }
