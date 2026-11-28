@@ -80,6 +80,11 @@ không nên rút gọn thành một câu chuyện thắng – thua đơn tuyến
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+<figure class="story-audio">
+  <audio controls preload="none" src="{{ site.baseurl }}/posts/2026/11/14/mau-than-o-hue/chuc-tet-mau-than-1968.mp3"></audio>
+  <figcaption>Chủ tịch Hồ Chí Minh chúc Tết đồng bào nhân dịp Xuân Mậu Thân 1968 — nguồn <a href="https://hochiminh.vn/tu-lieu-audio" rel="noopener">Thư viện tư liệu Hồ Chí Minh, Báo Nhân Dân</a>.</figcaption>
+</figure>
+
 ## Video liên quan
 
 <figure class="gallery-video">

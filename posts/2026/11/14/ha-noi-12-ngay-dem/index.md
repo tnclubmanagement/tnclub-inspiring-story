@@ -11,6 +11,7 @@ cover-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Hà Nội, B-52]
 event_year: 1972
+tour_audio: "/posts/2026/11/14/ha-noi-12-ngay-dem/ban-tin-b52-1972.mp3"
 tour_note: "Từ ngày 18 đến 29 tháng 12 năm 1972, Hà Nội và nhiều địa phương miền Bắc hứng chịu những đợt ném bom dữ dội bằng B-52. 'Điện Biên Phủ trên không' là câu chuyện của những trận trực chiến, những khu phố rung chuyển — và rất nhiều người không trở về."
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
@@ -38,6 +39,16 @@ những trận trực chiến kéo dài, những khu phố rung chuyển và r�
   <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
+
+<figure class="story-audio">
+  <audio controls preload="none" src="{{ site.baseurl }}/posts/2026/11/14/ha-noi-12-ngay-dem/ban-tin-b52-1972.mp3"></audio>
+  <figcaption>Đoạn phát thanh thời B-52 trên bầu trời Hà Nội, giọng phát thanh viên Nguyễn Thị Thìn — Đài Tiếng nói Việt Nam, 12/1972.</figcaption>
+</figure>
+
+<figure class="story-audio">
+  <audio controls preload="none" src="{{ site.baseurl }}/posts/2026/11/14/ha-noi-12-ngay-dem/loi-keu-goi-chong-my-cuu-nuoc-1966.mp3"></audio>
+  <figcaption>Chủ tịch Hồ Chí Minh đọc "Lời kêu gọi toàn quốc chống Mỹ cứu nước" (17/7/1966) — nguồn <a href="https://hochiminh.vn/tu-lieu-audio" rel="noopener">Thư viện tư liệu Hồ Chí Minh, Báo Nhân Dân</a>.</figcaption>
+</figure>
 
 ## Vì sao Hà Nội trở thành mục tiêu
 

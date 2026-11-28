@@ -62,6 +62,11 @@ mất mát ấy.
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
 
+<figure class="story-audio">
+  <audio controls preload="none" src="{{ site.baseurl }}/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/loi-keu-goi-toan-quoc-khang-chien-1946.mp3"></audio>
+  <figcaption>Chủ tịch Hồ Chí Minh đọc "Lời kêu gọi toàn quốc kháng chiến" (19/12/1946) — nguồn <a href="https://hochiminh.vn/tu-lieu-audio" rel="noopener">Thư viện tư liệu Hồ Chí Minh, Báo Nhân Dân</a>.</figcaption>
+</figure>
+
 ## Video liên quan
 
 <div class="gallery-video">
