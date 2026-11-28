@@ -8,6 +8,7 @@ permalink: /series/lich-su-viet-nam/
 <div class="series-page">
   {% assign series_posts = site.pages | where: "series", "Lịch sử Việt Nam" | sort: "series_order" %}
   <section class="series-hero" aria-labelledby="history-series-title">
+    <img class="series-hero-image" src="https://redsvn.net/wp-content/uploads/2017/05/Vietnam-War-46.jpg" alt="Minh họa chuyên đề Lịch sử Việt Nam" fetchpriority="high">
     <div class="series-hero-copy">
       <p class="series-landing-kicker">Lịch sử Việt Nam · {{ series_posts.size }} bài</p>
       <h1 id="history-series-title"><span class="series-hero-title-line">Những ngày</span><br><em>đáng nhớ.</em></h1>

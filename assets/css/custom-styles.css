@@ -2583,9 +2583,18 @@ body:has(.series-page) .header-section {
   width: 43%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: left top;
   opacity: 0.92;
   mask-image: linear-gradient(to right, transparent 0%, #000 22%);
+}
+
+.series-hero-image ~ .series-hero-copy,
+.series-hero-image ~ .series-hero-aside {
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border-radius: 1.25rem;
+  background: color-mix(in srgb, var(--surface, #fff) 88%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .series-hero-copy {
