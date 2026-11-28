@@ -828,24 +828,38 @@
         tour.endSpeech = fin;
         u.onend = fin;
         u.onerror = fin;
+        var started = false;
+        u.onstart = function () { started = true; };
         var est = Math.min(Math.max(text.length * 90, 2500), 20000);
-        var elapsed = 0;
+        var elapsed = 0, quiet = 0, lastResume = 0;
         var t = setInterval(function () {
+          // Đóng băng đồng hồ khi pause: tránh hardTimeout nổ giữa chừng
+          // và tránh resume() đè lên pause của user.
+          if (tour.paused) return;
           elapsed += 500;
-          var speechGone = elapsed > est && !synth.speaking && !synth.pending;
-          var hardTimeout = elapsed > Math.max(60000, est * 5);
-          if (tour.stopNow || speechGone || hardTimeout) {
-            clearInterval(t);
-            fin();
-            return;
+          if (tour.stopNow) { clearInterval(t); fin(); return; }
+          if (synth.speaking || synth.pending) {
+            quiet = 0;
+          } else {
+            // Voice chưa từng bắt đầu sau 4s → coi như lỗi, bỏ qua sớm
+            // thay vì chờ hết est.
+            if (!started && elapsed > 4000) { clearInterval(t); fin(); return; }
+            // Đã quá thời lượng ước tính VÀ im lặng liên tục >=2s (4 tick)
+            // mới coi là đọc xong — chống Chrome flap 'speaking' giữa câu
+            // làm nhảy bài sớm trong khi giọng vẫn đang đọc.
+            if (elapsed > est) {
+              quiet++;
+              if (quiet >= 4) { clearInterval(t); fin(); return; }
+            }
           }
-          // Workaround lỗi Chrome cắt giọng sau ~15s với voice remote:
-          // resume() định kỳ giữ luồng đọc (bỏ qua khi user đang pause).
-          if (elapsed % 10000 === 0 && synth.speaking && !tour.paused) {
+          if (elapsed > Math.max(60000, est * 5)) { clearInterval(t); fin(); return; }
+          // Workaround lỗi Chrome cắt giọng sau ~15s với voice remote.
+          if (elapsed - lastResume >= 10000 && synth.speaking) {
+            lastResume = elapsed;
             try { synth.resume(); } catch (e) {}
           }
         }, 500);
-        synth.speak(u);
+        try { synth.speak(u); } catch (e) { fin(); }
       });
     }
 
