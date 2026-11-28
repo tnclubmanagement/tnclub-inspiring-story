@@ -11,6 +11,8 @@ vi:
     Cửa hàng: "Cửa hàng"
     Ủng hộ: "Ủng hộ"
   ui:
+    home: "Trang chủ"
+    breadcrumb: "Đường dẫn điều hướng"
     open_menu: "Mở menu"
     search_short: "Tìm Kiếm"
     footer_slogan: "Mỗi câu chuyện là một khoảnh khắc đáng nhớ ✨"
@@ -103,6 +105,8 @@ en:
     Cửa hàng: "Store"
     Ủng hộ: "Support"
   ui:
+    home: "Home"
+    breadcrumb: "Breadcrumb"
     open_menu: "Open menu"
     search_short: "Search"
     footer_slogan: "Every story is a moment worth remembering ✨"

@@ -10,6 +10,19 @@ layout: base
   <div class="row">
     <div class="{% if page.full-width %} col {% else %} col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 {% endif %}">
 
+      {% assign series_landing = site.pages | where_exp: "p", "p.permalink contains '/series/'" | where: "title", page.series | first %}
+      {% assign series_url = page.series_url | default: series_landing.url %}
+      <nav class="post-breadcrumb" aria-label="{{ s.ui.breadcrumb }}">
+        <ol role="list">
+          <li><a href="{{ '/' | relative_url }}">{{ s.ui.home }}</a></li>
+          <li><a href="{{ '/posts/' | relative_url }}">{{ s.nav['Bài viết'] }}</a></li>
+          {% if page.series and series_url %}
+          <li><a href="{{ series_url | relative_url }}">{{ page.series | escape }}</a></li>
+          {% endif %}
+          <li aria-current="page">{{ page.title | strip_html | escape }}</li>
+        </ol>
+      </nav>
+
       {% include untranslated-note.html %}
 
       {% if page.gh-repo %}
@@ -75,8 +88,6 @@ layout: base
             {% assign next_order = page.series_order | plus: 1 %}
             {% assign series_previous = series_posts | where: "series_order", previous_order | first %}
             {% assign series_next = series_posts | where: "series_order", next_order | first %}
-            {% assign series_landing = site.pages | where_exp: "p", "p.permalink contains '/series/'" | where: "title", page.series | first %}
-            {% assign series_url = page.series_url | default: series_landing.url %}
             <nav class="series-post-navigation" aria-label="{{ s.post.nav_aria }}">
               <div class="series-post-navigation-heading">
                 <span>{{ s.post.series_label }}</span>

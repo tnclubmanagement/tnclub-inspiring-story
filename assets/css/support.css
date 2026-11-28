@@ -31,7 +31,7 @@
 .support-how ol { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); list-style: none; gap: 1.5rem; padding: 0; margin: 2rem 0; }
 .support-how li { position: relative; text-align: center; }
 .support-how li:not(:last-child)::after { content: ""; position: absolute; top: 23px; left: calc(50% + 24px); width: calc(100% + 1.5rem - 48px); height: 2px; background: linear-gradient(90deg, #ba568b, #e9bfd5); }
-.support-how li > span { position: relative; z-index: 1; display: grid; place-items: center; width: 48px; height: 48px; margin: 0 auto 1rem; border: 1px solid #dba4c1; border-radius: 50%; background: #fbecf4; box-shadow: 0 4px 14px rgba(165,0,100,.08); font: 800 .85rem system-ui, sans-serif; color: #a32264; }
+.support-how li > span { position: relative; z-index: var(--z-layer-1); display: grid; place-items: center; width: 48px; height: 48px; margin: 0 auto 1rem; border: 1px solid #dba4c1; border-radius: 50%; background: #fbecf4; box-shadow: 0 4px 14px rgba(165,0,100,.08); font: 800 .85rem system-ui, sans-serif; color: #a32264; }
 .support-how li:last-child > span { background: #a50064; border-color: #a50064; color: white; }
 .support-how h3 { font-size: 1rem; margin: .6rem 0; }
 .support-how li p { font-size: .83rem; color: var(--muted); line-height: 1.8; }
