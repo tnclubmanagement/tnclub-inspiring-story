@@ -947,6 +947,27 @@
       return 0;
     }
 
+    // Pin nằm trong cụm trùng tọa độ không hiện riêng trên bản đồ — tour
+    // tới điểm đó phải tạm ẩn pin cụm, hiện đúng pin của bài đang đọc,
+    // không thì người xem thấy avatar bài khác trong khi nghe bài này.
+    var tourRevealed = null;
+    function hideStopMarker() {
+      if (!tourRevealed) return;
+      var en = tourRevealed;
+      tourRevealed = null;
+      map.removeLayer(en.marker);
+      if (en.cluster && en.cluster.visList.length > 1) en.cluster.marker.addTo(map);
+    }
+    function revealStopMarker(en) {
+      if (tourRevealed === en) return;
+      hideStopMarker();
+      if (en.cluster && en.cluster.visList.length > 1) {
+        map.removeLayer(en.cluster.marker);
+        en.marker.addTo(map);
+        tourRevealed = en;
+      }
+    }
+
     function renderTourStop(d, idx, total) {
       var markerText = tourMarker(d);
       tourYearEl.textContent = markerText || cleanTourTitle(d.title) || d.name;
@@ -976,6 +997,7 @@
       if (!tour.on) return;
       tour.stopNow = true;
       tour.on = false;
+      hideStopMarker();
       if (tour.endSpeech) tour.endSpeech();
       if (synth) synth.cancel();
       if (tourAudio) tourAudio.pause();
@@ -1011,6 +1033,7 @@
         if (tour.stopNow || i >= seq.length) { stopTour(); return; }
         tour.skip = false;
         var en = seq[i];
+        revealStopMarker(en);
         renderTourStop(en.d, i + 1, seq.length);
         var ll = en.marker.getLatLng();
         var zoom = Math.max(map.getZoom(), 6);

@@ -58,6 +58,7 @@ module Inspiring
         geo = athlete.is_a?(Hash) ? athlete['geo'] : nil
         next unless geo || data['geo']
         entry = { 'athlete' => athlete, 'geo' => data['geo'], 'url' => post.url,
+                  'id' => post.url,
                   'pinAvatar' => pin_avatar(site, data['banner-img'].to_s) }
         FIELDS.each { |src, dst| entry[dst] = data[src] unless data[src].nil? }
         entry

@@ -135,6 +135,9 @@
       }
       if (pins.length === before) return;
       var pin = pins[pins.length - 1];
+      // Id ổn định cho mỗi pin (permalink của bài) — dùng để so khớp dữ
+      // liệu khi debug và các tính năng cần tham chiếu pin sau này.
+      pin.id = str(p.id) || str(p.url);
       // event_year trong front matter ghi đè năm đoán từ title/permalink.
       var fy = Number(p.eventYear);
       pin.eventYear = fy > 0 ? fy : eventYearOf(p);
