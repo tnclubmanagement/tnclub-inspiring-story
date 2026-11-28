@@ -12,7 +12,7 @@ cover-img: "/posts/2026/11/14/thanh-lap-quan-doi-nhan-dan-viet-nam/cover-local.j
 thumbnail-img: "/posts/2026/11/14/thanh-lap-quan-doi-nhan-dan-viet-nam/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, quân đội]
 event_year: 1944
-tour_note: "Ngày 22 tháng 12 năm 1944, tại Hoàng Hoa Thám, Cao Bằng, Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập với 34 chiến sĩ, do Võ Nguyên Giáp tổ chức và chỉ huy. Từ đội quân nhỏ ấy bắt đầu một truyền thống vì nhân dân — tiền thân của Quân đội nhân dân Việt Nam hôm nay."
+tour_note: "Ngày 22 tháng 12 năm 1944, tại Hoàng Hoa Thám, Cao Bằng, Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập với 34 chiến sĩ, do đồng chí Võ Nguyên Giáp tổ chức và chỉ huy. Từ đội quân nhỏ ấy bắt đầu một truyền thống vì nhân dân — tiền thân của Quân đội nhân dân Việt Nam hôm nay."
 geo: [22.665, 106.258]
 place_name: "Hoàng Hoa Thám, Cao Bằng"
 place_country: "Vietnam"

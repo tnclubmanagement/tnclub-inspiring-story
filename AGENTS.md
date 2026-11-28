@@ -99,7 +99,9 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   viết để nghe); không có thì ghép title + subtitle. Bài có `tour_audio`
   (đường dẫn mp3) thì phát bản ghi âm thật thay giọng TTS — dùng cho mốc
   có tư liệu âm thanh (vd Tuyên ngôn Độc lập); file lỗi/mute rơi về
-  TTS/`tour_note` như cũ. Mốc đọc: `tour_marker`
+  TTS/`tour_note` như cũ. Trong `tour_note`, danh nhân lịch sử/quân sự
+  kèm kính ngữ đúng thời điểm sự kiện (vd "đồng chí Võ Nguyên Giáp" cho
+  1944 — chưa phong Đại tướng). Mốc đọc: `tour_marker`
   (chuỗi tuỳ chọn cho bài không có 1 năm) → "Ngày D tháng M năm YYYY"
   (`event_year` + `history-date`) → "Năm YYYY"; nếu `tour_note` đã tự mở
   bằng đúng năm thì không đọc lặp mốc. Với bài câu chuyện nhân vật,
