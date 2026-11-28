@@ -12,6 +12,7 @@ cover-img: "/posts/2026/11/14/tuyen-ngon-doc-lap/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/tuyen-ngon-doc-lap/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, độc lập]
 event_year: 1945
+tour_audio: "/posts/2026/11/14/tuyen-ngon-doc-lap/tuyen-ngon-doc-lap-clip.mp3"
 tour_note: "Chiều ngày 2 tháng 9 năm 1945, tại Quảng trường Ba Đình, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa. Văn kiện ấy tuyên bố với cả thế giới: dân tộc Việt Nam có quyền được tự do và độc lập."
 geo: [21.0367, 105.8347]
 place_name: "Quảng trường Ba Đình, Hà Nội"
@@ -42,6 +43,11 @@ map_rating_updated: "2026-11-28"
   <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
+
+<figure class="story-audio">
+  <audio controls preload="none" src="{{ site.baseurl }}/posts/2026/11/14/tuyen-ngon-doc-lap/tuyen-ngon-doc-lap-full.mp3"></audio>
+  <figcaption>Bản ghi âm đọc Tuyên ngôn Độc lập, khoảng 7 phút — nguồn <a href="https://hochiminh.vn/tu-lieu-audio" rel="noopener">Thư viện tư liệu Hồ Chí Minh, Báo Nhân Dân</a> (thu lại sau năm 1945).</figcaption>
+</figure>
 
 ## Dữ kiện lịch sử
 
@@ -79,3 +85,4 @@ ngày nghỉ hay một hình ảnh lễ nghi.
 
 - [Bảo tàng Lịch sử Quốc gia: Tuyên ngôn Độc lập 2/9/1945](https://baotanglichsu.vn/vi/Articles/3096/71055/tuyen-ngon-djoc-lap-2-9-1945-ban-tuyen-ngon-ve-y-chi-khong-co-gi-quy-hon-djoc-lap-tu-do-cua-dan-toc-viet-nam.html)
 - [Bảo tàng Lịch sử Quốc gia: Chủ tịch Hồ Chí Minh với Bản Tuyên ngôn Độc lập](https://baotanglichsu.vn/vi/Articles/3097/71053/chu-tich-ho-chi-minh-voi-ban-tuyen-ngon-djoc-lap-nhung-gia-tri-lich-su-con-mai-voi-thoi-gian.html)
+- [Thư viện tư liệu Hồ Chí Minh — Báo Nhân Dân: bản ghi âm đọc Tuyên ngôn Độc lập](https://hochiminh.vn/tu-lieu-audio) (đoạn trích đọc trong auto-play chuyên đề trên trang `/map/`)

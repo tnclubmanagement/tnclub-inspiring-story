@@ -140,6 +140,7 @@
       pin.eventYear = fy > 0 ? fy : eventYearOf(p);
       pin.tourNote = str(p.tourNote);
       pin.tourMarker = str(p.tourMarker);
+      pin.tourAudio = rel(base, str(p.tourAudio));
       // Không có năm sự kiện → dùng năm đăng bài làm mốc sắp xếp cuối
       // (bài chưa ghi năm sẽ xếp sau các sự kiện có năm rõ ràng).
       var dYear = String(p.date || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/);

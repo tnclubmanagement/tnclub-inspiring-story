@@ -76,6 +76,11 @@
       "type": "string",
       "description": "Mốc thời gian dạng chữ đọc trong auto-play khi không có 1 năm cụ thể, VD \"Qua nhiều thời kỳ\", \"Từ sau năm 1975\"."
     },
+    "tour_audio": {
+      "type": "string",
+      "pattern": "^(/|https?://)",
+      "description": "File ghi âm thật (mp3) phát trong auto-play chuyên đề thay giọng TTS — dùng cho mốc có tư liệu âm thanh."
+    },
     "geo": {
       "type": "array",
       "items": { "type": "number" },

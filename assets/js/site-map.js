@@ -850,6 +850,35 @@
       });
     }
 
+    // Ghi âm thật (front matter tour_audio, vd bản đọc Tuyên ngôn Độc lập):
+    // phát <audio> thay giọng TTS. Pause/mute/skip/stop tác động như TTS;
+    // khi mute chờ theo độ dài câu thuyết minh như speak(). Nếu file lỗi
+    // hoặc bị chặn autoplay thì rơi về đọc TTS của fallbackText.
+    var tourAudio = null;
+    function playClip(url, fallbackText) {
+      return new Promise(function (resolve) {
+        var est = Math.min(Math.max(fallbackText.length * 85, 2600), 14000);
+        if (tour.muted) { tourSleep(est).then(resolve); return; }
+        if (!tourAudio) tourAudio = new Audio();
+        var a = tourAudio;
+        a.src = url;
+        a.muted = tour.muted;
+        var done = false, failed = false;
+        function fin() { if (!done) { done = true; clearInterval(t); tour.endSpeech = null; a.pause(); resolve(); } }
+        tour.endSpeech = fin;
+        a.onended = fin;
+        a.onerror = function () { failed = true; };
+        var t = setInterval(function () {
+          if (tour.stopNow || tour.skip) { fin(); return; }
+          if (a.ended) { fin(); return; }
+          if (failed) { clearInterval(t); tour.endSpeech = null; speak(fallbackText).then(fin); return; }
+          if (tour.paused) { if (!a.paused) a.pause(); return; }
+          if (a.paused) { try { a.play().catch(function () { failed = true; }); } catch (e) { failed = true; } }
+        }, 300);
+        try { a.play().catch(function () { failed = true; }); } catch (e) { failed = true; }
+      });
+    }
+
     function cleanTourTitle(t) {
       return String(t || '').replace(/^\s*\[[^\]]*\]\s*:?\s*/, '');
     }
@@ -940,6 +969,7 @@
       tour.on = false;
       if (tour.endSpeech) tour.endSpeech();
       if (synth) synth.cancel();
+      if (tourAudio) tourAudio.pause();
       musicStop();
       tourBar.hidden = true;
       playBtn.innerHTML = licon('l-play');
@@ -981,7 +1011,8 @@
           if (tour.stopNow) return;
           if (tour.skip) { i++; next(); return; }
           openQuickview(en.d);
-          return speak(narrationOf(en.d)).then(function () { return tourSleep(1000); });
+          var say = en.d.tourAudio ? playClip(en.d.tourAudio, narrationOf(en.d)) : speak(narrationOf(en.d));
+          return say.then(function () { return tourSleep(1000); });
         }).then(function () {
           if (tour.stopNow) return;
           i++;
@@ -1020,6 +1051,7 @@
       } else if (act === 'mute') {
         tour.muted = !tour.muted;
         if (tourMusic) tourMusic.muted = tour.muted;
+        if (tourAudio) tourAudio.muted = tour.muted;
         if (tour.muted && synth) {
           synth.cancel();
           if (tour.endSpeech) tour.endSpeech();

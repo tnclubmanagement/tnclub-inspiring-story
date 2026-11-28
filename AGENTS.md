@@ -96,7 +96,10 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   pause/mute/stop, thanh caption `.map-tour-bar`). Tour mở đầu bằng lời
   giới thiệu chuyên đề (`tour_intro`), mỗi điểm đọc mốc thời gian trước
   nội dung. Lời đọc lấy từ front matter `tour_note` (văn riêng, ưu tiên
-  viết để nghe); không có thì ghép title + subtitle. Mốc đọc: `tour_marker`
+  viết để nghe); không có thì ghép title + subtitle. Bài có `tour_audio`
+  (đường dẫn mp3) thì phát bản ghi âm thật thay giọng TTS — dùng cho mốc
+  có tư liệu âm thanh (vd Tuyên ngôn Độc lập); file lỗi/mute rơi về
+  TTS/`tour_note` như cũ. Mốc đọc: `tour_marker`
   (chuỗi tuỳ chọn cho bài không có 1 năm) → "Ngày D tháng M năm YYYY"
   (`event_year` + `history-date`) → "Năm YYYY"; nếu `tour_note` đã tự mở
   bằng đúng năm thì không đọc lặp mốc. Với bài câu chuyện nhân vật,

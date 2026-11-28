@@ -4781,6 +4781,19 @@ body:has(.tag-archive) .container-md > .row > [class*="col-"] {
   text-decoration: underline;
 }
 
+.story-audio {
+  margin: 1.5rem 0;
+}
+.story-audio audio {
+  width: 100%;
+}
+.story-audio figcaption {
+  font-size: 0.85rem;
+  color: var(--muted, #667);
+  margin-top: 0.35rem;
+  line-height: 1.5;
+}
+
 @media (max-width: 600px) {
   :is(.powerline-facts, .history-facts),
   .powerline-builders {

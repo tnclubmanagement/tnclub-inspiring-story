@@ -25,7 +25,7 @@ module Inspiring
       'subtitle' => 'subtitle', 'tags' => 'tags',
       'history-date' => 'historyDate', 'date' => 'date',
       'event_year' => 'eventYear', 'tour_note' => 'tourNote',
-      'tour_marker' => 'tourMarker',
+      'tour_marker' => 'tourMarker', 'tour_audio' => 'tourAudio',
       'cover-img' => 'cover', 'banner-img' => 'banner',
       'place_name' => 'placeName', 'place_region' => 'placeRegion',
       'place_country' => 'placeCountry', 'place_population' => 'population',
