@@ -334,6 +334,44 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   cursor: pointer;
 }
 .map-tour-btn:hover { background: var(--hairline); }
+/* Switch nhạc nền — pill mảnh + nút trượt, icon nốt nhạc ở đầu */
+.map-tour-music {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  height: 32px;
+  padding: 0 0.4rem 0 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--hairline);
+  background: var(--bg-light);
+  color: var(--ink);
+  cursor: pointer;
+}
+.map-tour-music .licon { font-size: 0.78rem; color: var(--muted); }
+.map-tour-music[aria-checked="true"] .licon { color: var(--ink); }
+.map-tour-music-sw {
+  position: relative;
+  width: 26px;
+  height: 15px;
+  border-radius: 999px;
+  background: var(--hairline);
+  transition: background 0.18s ease;
+}
+.map-tour-music-sw i {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--surface, #fff);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.18s ease;
+}
+.map-tour-music[aria-checked="true"] .map-tour-music-sw { background: var(--ink); }
+.map-tour-music[aria-checked="true"] .map-tour-music-sw i { transform: translateX(11px); }
+.map-tour-music[aria-checked="false"] { opacity: 0.75; }
+.map-tour-music:hover { background: var(--hairline); }
 .map-tour-bar[hidden] { display: none; }
 @media (max-width: 640px) {
   .map-tour-bar {

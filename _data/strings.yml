@@ -65,6 +65,10 @@ vi:
     table_date: "Ngày đăng"
     draft: "Bản nháp"
     empty_state: "Không tìm thấy câu chuyện phù hợp."
+  music:
+    kicker: "Nghe một chút"
+    title: "Giai điệu nền"
+    credit: "“Meditation Impromptu 01–03” — Kevin MacLeod (incompetech.com), CC BY 4.0"
   js:
     locale: "vi-VN"
     expand_prefix: "Mở "
@@ -180,6 +184,7 @@ vi:
     google_aria: "Tìm %1 trên Google (mở tab mới)"
     play_tour: "Phát chuyên đề"
     music_credit: "Nhạc nền: “Meditation Impromptu 01–03” — Kevin MacLeod (incompetech.com), CC BY 4.0"
+    music_toggle: "Nhạc nền"
     pause_tour: "Tạm dừng"
     resume_tour: "Tiếp tục"
     stop_tour: "Dừng phát"
@@ -252,6 +257,10 @@ en:
     table_date: "Published"
     draft: "Draft"
     empty_state: "No matching stories."
+  music:
+    kicker: "Listen for a bit"
+    title: "Background piano"
+    credit: "“Meditation Impromptu 01–03” — Kevin MacLeod (incompetech.com), CC BY 4.0"
   js:
     locale: "en-US"
     expand_prefix: "Expand "
@@ -367,6 +376,7 @@ en:
     google_aria: "Search %1 on Google (opens new tab)"
     play_tour: "Play series"
     music_credit: "Music: “Meditation Impromptu 01–03” — Kevin MacLeod (incompetech.com), CC BY 4.0"
+    music_toggle: "Background music"
     pause_tour: "Pause"
     resume_tour: "Resume"
     stop_tour: "Stop"

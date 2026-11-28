@@ -751,6 +751,9 @@
     var muteBtn = tourBar.querySelector('[data-act="mute"]');
     var synth = window.speechSynthesis || null;
     var tour = { on: false, paused: false, muted: false, stopNow: false, skip: false, endSpeech: null };
+    var musicBtn = tourBar.querySelector('[data-act="music"]');
+    tour.musicOn = localStorage.getItem('inspiring-map-music') !== 'off';
+    if (musicBtn) musicBtn.setAttribute('aria-checked', tour.musicOn ? 'true' : 'false');
 
     // Nhạc nền tour: 1 <audio> dùng chung, mỗi lần phát chọn ngẫu nhiên
     // 1 track trong cfg.music (piano Kevin MacLeod, CC BY — credit ở
@@ -759,7 +762,7 @@
     var tourMusic = null;
     function musicStart() {
       var list = (window.__athleteMapConfig || {}).music || [];
-      if (!list.length) return;
+      if (!list.length || !tour.musicOn) return;
       if (!tourMusic) tourMusic = new Audio();
       tourMusic.src = list[Math.floor(Math.random() * list.length)];
       tourMusic.loop = true;
@@ -992,7 +995,7 @@
       if (tour.on) stopTour(); else startTour();
     });
     tourBar.addEventListener('click', function (e) {
-      var btn = e.target.closest('.map-tour-btn');
+      var btn = e.target.closest('[data-act]');
       if (!btn) return;
       var act = btn.dataset.act;
       if (act === 'stop') stopTour();
@@ -1024,6 +1027,16 @@
         btn.innerHTML = licon(tour.muted ? 'l-volume-x' : 'l-volume-2');
         btn.title = tx(tour.muted ? 'unmute_tour' : 'mute_tour', tour.muted ? 'Bật tiếng' : 'Tắt tiếng');
         btn.setAttribute('aria-label', btn.title);
+      } else if (act === 'music') {
+        tour.musicOn = !tour.musicOn;
+        try { localStorage.setItem('inspiring-map-music', tour.musicOn ? 'on' : 'off'); } catch (e) {}
+        btn.setAttribute('aria-checked', tour.musicOn ? 'true' : 'false');
+        if (tourMusic) {
+          if (tour.musicOn && !tour.paused) try { tourMusic.play().catch(function () {}); } catch (e) {}
+          else tourMusic.pause();
+        } else if (tour.musicOn && tour.on && !tour.paused) {
+          musicStart();
+        }
       }
     });
     document.addEventListener('keydown', function (e) {

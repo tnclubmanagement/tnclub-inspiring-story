@@ -1,0 +1,78 @@
+{%- assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi -%}
+<aside class="home-music" aria-label="{{ s.music.title }}">
+  <p class="home-music-head">
+    <svg class="home-music-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+    <span>{{ s.music.title }}</span>
+  </p>
+  <ol class="home-music-list">
+    {% for i in (1..3) %}
+    <li>
+      <button class="home-music-track" type="button" data-music-src="{{ '/assets/audio/meditation-impromptu-0' | append: i | append: '.mp3' | relative_url }}">
+        <span class="home-music-play" aria-hidden="true">
+          <svg class="home-music-ic home-music-ic-play" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3" fill="currentColor"/></svg>
+          <svg class="home-music-ic home-music-ic-pause" viewBox="0 0 24 24"><rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor"/><rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor"/></svg>
+        </span>
+        <span class="home-music-name">Meditation Impromptu 0{{ i }}</span>
+        <span class="home-music-time" data-music-time>--:--</span>
+        <span class="home-music-bar" aria-hidden="true"><i data-music-bar></i></span>
+      </button>
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="home-music-credit">{{ s.music.credit }}</p>
+</aside>
+<script>
+(function () {
+  var wrap = document.querySelector('.home-music-list');
+  if (!wrap) return;
+  var audio = new Audio();
+  var tracks = Array.prototype.slice.call(wrap.querySelectorAll('.home-music-track'));
+  var current = null;
+
+  function fmt(sec) {
+    if (!isFinite(sec)) return '--:--';
+    var m = Math.floor(sec / 60), s = Math.round(sec % 60);
+    return m + ':' + (s < 10 ? '0' : '') + s;
+  }
+  function reset(btn) {
+    btn.classList.remove('is-playing');
+    var bar = btn.querySelector('[data-music-bar]');
+    if (bar) bar.style.width = '0%';
+  }
+  tracks.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      if (current === btn) {
+        if (audio.paused) audio.play(); else audio.pause();
+        return;
+      }
+      if (current) reset(current);
+      current = btn;
+      audio.src = btn.dataset.musicSrc;
+      audio.play().catch(function () {});
+    });
+  });
+  audio.addEventListener('play', function () { if (current) current.classList.add('is-playing'); });
+  audio.addEventListener('pause', function () { if (current) current.classList.remove('is-playing'); });
+  audio.addEventListener('ended', function () {
+    if (!current) return;
+    var idx = tracks.indexOf(current);
+    reset(current);
+    var next = tracks[idx + 1] || tracks[0];
+    current = next;
+    audio.src = next.dataset.musicSrc;
+    audio.play().catch(function () {});
+  });
+  audio.addEventListener('timeupdate', function () {
+    if (!current || !isFinite(audio.duration)) return;
+    var bar = current.querySelector('[data-music-bar]');
+    var time = current.querySelector('[data-music-time]');
+    if (bar) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    if (time) time.textContent = fmt(audio.currentTime);
+  });
+  audio.addEventListener('loadedmetadata', function () {
+    if (!current) return;
+    var time = current.querySelector('[data-music-time]');
+    if (time) time.textContent = fmt(audio.duration);
+  });
+})();
+</script>
