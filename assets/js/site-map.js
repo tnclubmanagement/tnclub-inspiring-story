@@ -11,9 +11,11 @@
     var groups = [];
     list.forEach(function (en, idx) {
       var d = en.d;
-      var label = d.kind === 'place' && d.topic === 'food' && d.title ? d.title : d.name;
+      // Pin địa danh cùng một nơi đều có name giống nhau (vd 4 bài "Hà Nội")
+      // — dùng tiêu đề bài làm nhãn chính, địa danh đưa xuống dòng phụ.
+      var label = d.kind === 'place' && d.title ? d.title : d.name;
       var sub = d.kind === 'place'
-        ? [countryLabels[d.country] || d.country, d.region].filter(Boolean).join(' · ')
+        ? [d.name, countryLabels[d.country] || d.country, d.region].filter(Boolean).join(' · ')
         : [d.event || d.series, countryLabels[d.country] || d.country].filter(Boolean).join(' · ');
       var match = d.topic === 'food' && label.match(/^\[\s*\d+\s*·\s*([^\]]+)\]\s*:\s*(.+)$/);
       var title = match ? match[1].trim() : '';
@@ -557,8 +559,10 @@
         if (!btn) return;
         var what = btn.dataset.clear;
         if (what === 'series' && seriesDrop) {
+          // Menu không còn mục "Tất cả" — gỡ chip chuyên đề = về filter all.
           activeSeries = 'all';
           resetDrop(seriesDrop, seriesLabel, tx('series', 'Chuyên đề'), 'series');
+          setMainFilter('all', filterBar.querySelector('[data-filter="all"]'), true);
         } else return;
         applyFilters(true);
         saveFilters();
@@ -656,7 +660,17 @@
       filterBar.querySelectorAll(':scope > .home-tab, :scope .filter-drop > .home-tab').forEach(function (b) {
         b.classList.toggle('home-tab-active', b === btn);
       });
-      if (name !== 'Chuyên đề' && activeSeries !== 'all' && seriesDrop) {
+      if (name === 'Chuyên đề' && activeSeries === 'all' && seriesDrop) {
+        // Menu không còn mục "Tất cả" — bật filter Chuyên đề mà chưa chọn
+        // gì thì tự chọn chuyên đề đầu tiên trong danh sách.
+        var first = seriesDrop.querySelector('.drop-item[data-series]');
+        if (first) {
+          activeSeries = first.dataset.series;
+          seriesDrop.querySelectorAll('.drop-item').forEach(function (b) {
+            b.classList.toggle('drop-item-active', b === first);
+          });
+        }
+      } else if (name !== 'Chuyên đề' && activeSeries !== 'all' && seriesDrop) {
         activeSeries = 'all';
         resetDrop(seriesDrop, seriesLabel, tx('series', 'Chuyên đề'), 'series');
       }
@@ -686,9 +700,10 @@
         else seriesDrop.classList.remove('open');
       }
       if (f === activeFilter) {
-        // Bấm lại nút dropdown chỉ đóng menu — không reset về "tất cả"
+        // Bấm lại nút đang active: Chuyên đề chỉ toggle menu (đã xử lý ở
+        // trên), các nút khác đóng menu — không reset về "tất cả"
         // (menu không còn mục Tất cả; muốn bỏ lọc dùng nút × trên chip).
-        if (seriesDrop) seriesDrop.classList.remove('open');
+        if (seriesDrop && f !== 'Chuyên đề') seriesDrop.classList.remove('open');
       } else {
         setMainFilter(f, btn);
       }
