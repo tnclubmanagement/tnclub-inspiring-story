@@ -12,6 +12,7 @@ cover-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jp
 thumbnail-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jpg"
 tags: [lịch sử Việt Nam, calendar, lịch sử hiện đại]
 event_year: 1975
+tour_audio: "/posts/2026/11/14/ngay-giai-phong-mien-nam/ban-tin-chien-thang-clip.mp3"
 tour_note: "Ngày 30 tháng 4 năm 1975, chiến dịch Hồ Chí Minh kết thúc thắng lợi: miền Nam được giải phóng, đất nước nối liền một dải. Đó là kết quả của một chặng đường dài đấu tranh và hy sinh của nhiều thế hệ người Việt."
 geo: [10.7769, 106.7009]
 place_name: "TP. Hồ Chí Minh"
@@ -38,6 +39,11 @@ map_rating_updated: "2026-11-28"
   <button class="story-gallery-control story-gallery-next" type="button" aria-label="Hình tiếp theo">→</button>
   <div class="story-gallery-dots" role="tablist" aria-label="Chọn hình"></div>
 </section>
+
+<figure class="story-audio">
+  <audio controls preload="none" src="{{ site.baseurl }}/posts/2026/11/14/ngay-giai-phong-mien-nam/ban-tin-chien-thang-full.mp3"></audio>
+  <figcaption>"Bản tin chiến thắng" phát trên Đài Tiếng nói Việt Nam ngày 30/4/1975, giọng phát thanh viên Tuyết Mai và Nguyễn Thơ — nguồn <a href="https://vov.vn/chinh-tri/ban-tin-chien-thang-phat-tren-song-dai-tieng-noi-viet-nam-ngay-3041975-post1193965.vov" rel="noopener">VOV</a> (bản thu lại lưu trữ, không phải thu trực tiếp buổi phát sóng).</figcaption>
+</figure>
 
 ## Dữ kiện lịch sử
 
@@ -174,3 +180,4 @@ trung tâm thay vì chỉ còn là một mốc trên lịch.
 - [Bảo tàng Lịch sử Quốc gia: Chiến dịch Hồ Chí Minh lịch sử (26/4–30/4/1975)](https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html)
 - [Bảo tàng Lịch sử Quốc gia: Chiến dịch Hồ Chí Minh (14–30/4/1975)](https://baotanglichsu.vn/vi/Articles/3097/16216/chien-dich-ho-chi-minh-14-30-4-1975-tran-quyet-chien-chien-luoc-cuoi-cung-thang-loi-ket-thuc-hoan-toan-cuoc-chong-my-cuu-nuoc-cua-quan-va-dan-viet-nam.html)
 - [Bảo tàng Lịch sử Quốc gia: Chiến thắng 30/4 – đỉnh cao của sự nghiệp giải phóng dân tộc](https://baotanglichsu.vn/vi/Articles/3097/73875/chien-thang-30-4-djinh-cao-choi-loi-cua-su-nghiep-giai-phong-dan-toc.html)
+- [VOV: "Bản tin chiến thắng" phát trên sóng Đài Tiếng nói Việt Nam ngày 30/4/1975](https://vov.vn/chinh-tri/ban-tin-chien-thang-phat-tren-song-dai-tieng-noi-viet-nam-ngay-3041975-post1193965.vov) (đoạn trích đọc trong auto-play chuyên đề trên trang `/map/`)
