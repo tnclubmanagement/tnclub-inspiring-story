@@ -11,6 +11,9 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/14/tuyen-ngon-doc-lap/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/tuyen-ngon-doc-lap/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, độc lập]
+geo: [21.0367, 105.8347]
+place_name: "Quảng trường Ba Đình, Hà Nội"
+place_country: "Vietnam"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">

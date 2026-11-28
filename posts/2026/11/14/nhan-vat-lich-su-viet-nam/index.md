@@ -10,6 +10,9 @@ tags: [lịch sử Việt Nam, nhân vật lịch sử, calendar]
 series: "Lịch sử Việt Nam"
 series_order: 4
 series_url: "/series/lich-su-viet-nam/"
+geo: [21.0285, 105.8542]
+place_name: "Hà Nội"
+place_country: "Vietnam"
 ---
 
 Lịch sử Việt Nam không chỉ được tạo nên bởi những vị vua hay những vị tướng.

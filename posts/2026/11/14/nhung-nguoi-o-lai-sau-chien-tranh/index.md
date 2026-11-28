@@ -10,6 +10,9 @@ series_order: 11
 cover-img: "/posts/2026/11/14/nhung-nguoi-o-lai-sau-chien-tranh/thumbnail-local.jpg"
 thumbnail-img: "/posts/2026/11/14/nhung-nguoi-o-lai-sau-chien-tranh/thumbnail-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, ký ức chiến tranh, hòa bình]
+geo: [16.74, 107.19]
+place_name: "Quảng Trị"
+place_country: "Vietnam"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về tưởng niệm sau chiến tranh">

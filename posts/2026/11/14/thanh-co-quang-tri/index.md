@@ -10,6 +10,9 @@ series_order: 7
 cover-img: "/posts/2026/11/14/thanh-co-quang-tri/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/thanh-co-quang-tri/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Thành cổ Quảng Trị, chiến tranh]
+geo: [16.742, 107.188]
+place_name: "Thành cổ Quảng Trị"
+place_country: "Vietnam"
 ---
 
 Mùa hè năm 1972, Thành cổ Quảng Trị trở thành tâm điểm của một trận chiến

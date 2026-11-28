@@ -11,6 +11,9 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/14/thanh-lap-quan-doi-nhan-dan-viet-nam/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/thanh-lap-quan-doi-nhan-dan-viet-nam/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, quân đội]
+geo: [22.665, 106.258]
+place_name: "Hoàng Hoa Thám, Cao Bằng"
+place_country: "Vietnam"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">

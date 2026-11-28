@@ -10,6 +10,9 @@ series_order: 6
 cover-img: "/posts/2026/11/14/mau-than-o-hue/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/mau-than-o-hue/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Mậu Thân, Huế]
+geo: [16.4637, 107.5909]
+place_name: "Huế"
+place_country: "Vietnam"
 ---
 
 Mậu Thân 1968 ở Huế là một trong những chương đau đớn và phức tạp nhất của

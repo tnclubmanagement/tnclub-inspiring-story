@@ -10,6 +10,9 @@ series_order: 10
 cover-img: "/posts/2026/11/14/chien-tranh-bien-gioi-phia-bac/thumbnail-local.png"
 thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-phia-bac/thumbnail-local.png"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới phía Bắc, Vị Xuyên]
+geo: [21.8537, 106.7615]
+place_name: "Biên giới phía Bắc, Lạng Sơn"
+place_country: "Vietnam"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về chiến tranh biên giới phía Bắc">

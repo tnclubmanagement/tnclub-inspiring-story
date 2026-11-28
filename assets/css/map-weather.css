@@ -1,0 +1,192 @@
+/* Thời tiết trên quick view bản đồ: nhãn (.athlete-qv-weather) và hiệu ứng
+   trên ảnh (.athlete-qv-wx-fx). Đi kèm assets/js/map-weather.js. */
+.athlete-qv-weather {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.athlete-qv-weather:hover { background: rgba(0, 0, 0, 0.75); color: #fff; }
+.athlete-qv-weather .fas { margin-right: 0.1rem; }
+/* Hiệu ứng thời tiết trên ảnh quick view — chạy 1 lần (~2s) rồi mờ hẳn, không loop */
+.athlete-qv-wx-fx { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.athlete-qv-wx-fx::before, .athlete-qv-wx-fx::after { content: ""; position: absolute; opacity: 0; }
+/* Mưa / mưa phùn / giông: hạt mưa xiên rơi xuống */
+.athlete-qv-wx-fx.is-on:is([data-wx="rain"], [data-wx="drizzle"], [data-wx="storm"])::before {
+  inset: -40% -20%;
+  background-image:
+    radial-gradient(1px 9px at 50% 50%, rgba(255, 255, 255, 0.75), transparent),
+    radial-gradient(1px 7px at 50% 50%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 11px at 50% 50%, rgba(220, 235, 255, 0.7), transparent);
+  background-size: 23px 47px, 37px 61px, 53px 83px;
+  transform: rotate(12deg);
+  animation: wx-rain 2s linear forwards;
+}
+.athlete-qv-wx-fx.is-on[data-wx="drizzle"]::before { background-size: 41px 67px, 59px 89px, 79px 113px; animation-duration: 2.4s; }
+@keyframes wx-rain {
+  0% { opacity: 0; background-position: 0 0, 0 0, 0 0; }
+  15%, 75% { opacity: 1; }
+  100% { opacity: 0; background-position: 0 282px, 0 366px, 0 498px; }
+}
+/* Giông: thêm 2 lần chớp sáng */
+.athlete-qv-wx-fx.is-on[data-wx="storm"]::after { inset: 0; background: #fff; animation: wx-flash 2s ease-out forwards; }
+@keyframes wx-flash {
+  0%, 12%, 22%, 32%, 100% { opacity: 0; }
+  15% { opacity: 0.6; }
+  26% { opacity: 0.4; }
+}
+/* Tuyết: hạt tròn rơi chậm */
+.athlete-qv-wx-fx.is-on[data-wx="snow"]::before {
+  inset: -30% -10%;
+  background-image:
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.95) 1.5px, transparent 2.5px),
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8) 1px, transparent 2px),
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.9) 2px, transparent 3px),
+    radial-gradient(circle at 30% 70%, rgba(255, 255, 255, 0.7) 1px, transparent 2px),
+    radial-gradient(circle at 70% 20%, rgba(255, 255, 255, 0.85) 1.5px, transparent 2.5px);
+  background-size: 31px 37px, 47px 53px, 71px 89px, 23px 67px, 59px 43px;
+  transform: rotate(-9deg);
+  animation: wx-snow 2.6s linear forwards;
+}
+@keyframes wx-snow {
+  0% { opacity: 0; background-position: 0 0, 13px 21px, 37px 7px, 5px 29px, 19px 11px; }
+  15%, 75% { opacity: 1; }
+  100% { opacity: 0; background-position: 12px 111px, 5px 127px, 49px 185px, -6px 165px, 29px 140px; }
+}
+/* Nắng / ít mây (ban ngày): vệt sáng lướt qua + quầng ấm góc trên */
+.athlete-qv-wx-fx.is-on:is([data-wx="clear"], [data-wx="partly"])::before {
+  top: -20%; bottom: -20%; left: -60%; width: 60%;
+  background: linear-gradient(90deg, transparent, rgba(255, 244, 214, 0.6) 50%, transparent);
+  animation: wx-sweep 1.6s ease-in-out forwards;
+}
+.athlete-qv-wx-fx.is-on:is([data-wx="clear"], [data-wx="partly"])::after {
+  inset: 0;
+  background: radial-gradient(circle at 76% 26%, rgba(255, 230, 80, 0.5), transparent 50%);
+  animation: wx-glow 2s ease-out forwards;
+}
+.athlete-qv-wx-fx.is-on[data-wx="partly"]::before { animation-duration: 2s; }
+@keyframes wx-sweep {
+  0% { opacity: 0; transform: translateX(0) skewX(-15deg); }
+  20%, 80% { opacity: 1; }
+  100% { opacity: 0; transform: translateX(270%) skewX(-15deg); }
+}
+@keyframes wx-glow { 0%, 100% { opacity: 0; } 40% { opacity: 1; } }
+/* Nhiều mây: ảnh tối nhẹ (mây vẽ riêng bằng .wx-cloud); sương mù: lớp mờ trôi ngang */
+.athlete-qv-wx-fx.is-on:is([data-wx="cloudy"], [data-wx="fog"])::before {
+  inset: -10% -40%;
+  background: linear-gradient(rgba(70, 80, 95, 0.28), rgba(70, 80, 95, 0.18));
+  animation: wx-drift 2.8s ease-in-out forwards;
+}
+.athlete-qv-wx-fx.is-on[data-wx="fog"]::before {
+  background:
+    linear-gradient(transparent 10%, rgba(235, 238, 242, 0.85) 50%, transparent 90%),
+    linear-gradient(rgba(225, 229, 235, 0.45), rgba(225, 229, 235, 0.45));
+}
+@keyframes wx-drift {
+  0% { opacity: 0; transform: translateX(-12%); }
+  30%, 70% { opacity: 1; }
+  100% { opacity: 0; transform: translateX(12%); }
+}
+/* Hình minh hoạ: mặt trời/trăng, mây, sét, gió (JS tạo .wx-part theo thời tiết) */
+.athlete-qv-wx-fx .wx-part { position: absolute; opacity: 0; line-height: 1; }
+/* Mặt trời: lõi vàng tươi + quầng sáng, vòng tia nắng xoay chậm */
+.athlete-qv-wx-fx .wx-sun {
+  top: 16%; right: 21%; width: 40px; height: 40px; border-radius: 50%;
+  background: radial-gradient(circle at 40% 38%, #fff9c4 0%, #ffe94d 35%, #ffd600 75%, #ffc400 100%);
+  box-shadow: 0 0 14px 4px rgba(255, 221, 0, 0.75), 0 0 36px 12px rgba(255, 214, 0, 0.35);
+}
+.athlete-qv-wx-fx .wx-sun::before {
+  content: ""; position: absolute; inset: -16px; border-radius: 50%;
+  background: repeating-conic-gradient(#ffe14d 0deg 9deg, transparent 9deg 30deg);
+  -webkit-mask: radial-gradient(circle, transparent 54%, #000 57%, #000 70%, transparent 73%);
+  mask: radial-gradient(circle, transparent 54%, #000 57%, #000 70%, transparent 73%);
+}
+.athlete-qv-wx-fx.is-on .wx-sun::before { animation: wx-rays 2.6s linear forwards; }
+@keyframes wx-rays { to { transform: rotate(60deg); } }
+.athlete-qv-wx-fx .wx-moon {
+  top: 16%; right: 21%; font-size: 2.1rem; color: #fdf3c4;
+  filter: drop-shadow(0 0 10px rgba(255, 245, 200, 0.8));
+}
+/* Mây bông: thân bo tròn + 2 cụm tròn phía trên (pseudo), kích thước qua `scale` */
+.athlete-qv-wx-fx :is(.wx-cloud, .wx-rain-cloud) {
+  width: 72px; height: 24px; border-radius: 24px;
+  background: #f6f8fb;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.16);
+  transform-origin: left top;
+}
+.athlete-qv-wx-fx :is(.wx-cloud, .wx-rain-cloud)::before,
+.athlete-qv-wx-fx :is(.wx-cloud, .wx-rain-cloud)::after {
+  content: ""; position: absolute; border-radius: 50%; background: inherit;
+}
+.athlete-qv-wx-fx :is(.wx-cloud, .wx-rain-cloud)::before { width: 30px; height: 30px; left: 10px; top: -15px; }
+.athlete-qv-wx-fx :is(.wx-cloud, .wx-rain-cloud)::after { width: 40px; height: 40px; left: 26px; top: -22px; }
+.athlete-qv-wx-fx .wx-rain-cloud { background: #8a93a1; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.28); }
+/* Ít mây: 1 đám trôi tới che hờ mặt trời; nhiều mây: 3 đám rải ngang */
+.athlete-qv-wx-fx[data-wx="partly"] .wx-cloud.wx-n1 { top: 32%; left: 54%; }
+.athlete-qv-wx-fx .wx-cloud.wx-n1 { top: 30%; left: 12%; }
+.athlete-qv-wx-fx .wx-cloud.wx-n2 { top: 48%; left: 46%; scale: 0.7; }
+.athlete-qv-wx-fx .wx-cloud.wx-n3 { top: 24%; left: 68%; scale: 0.85; }
+.athlete-qv-wx-fx .wx-rain-cloud.wx-n1 { left: 8%; top: 28%; }
+.athlete-qv-wx-fx .wx-rain-cloud.wx-n2 { left: 40%; top: 24%; scale: 0.8; }
+.athlete-qv-wx-fx .wx-rain-cloud.wx-n3 { left: 64%; top: 30%; scale: 0.9; }
+.athlete-qv-wx-fx .wx-bolt {
+  top: 40%; left: 22%; font-size: 1.8rem; color: #ffe066;
+  filter: drop-shadow(0 0 8px rgba(255, 230, 100, 0.95));
+}
+/* Gió: lá bay lượn ngang qua ảnh */
+.athlete-qv-wx-fx .wx-wind { left: -10%; font-size: 1.1rem; filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.35)); }
+.athlete-qv-wx-fx .wx-wind.wx-n1 { top: 40%; color: #7cc35a; }
+.athlete-qv-wx-fx .wx-wind.wx-n2 { top: 60%; color: #e8a33d; font-size: 0.9rem; }
+.athlete-qv-wx-fx .wx-wind.wx-n3 { top: 28%; color: #b5d46a; font-size: 1rem; }
+.athlete-qv-wx-fx.is-on .wx-sun { animation: wx-sun 2.6s ease-out forwards; }
+.athlete-qv-wx-fx.is-on .wx-moon { animation: wx-moon 2.6s ease-out forwards; }
+.athlete-qv-wx-fx.is-on :is(.wx-cloud, .wx-rain-cloud) { animation: wx-cloud 2.8s ease-in-out forwards; }
+.athlete-qv-wx-fx.is-on :is(.wx-cloud, .wx-rain-cloud).wx-n2 { animation-duration: 2.6s; animation-delay: 0.15s; }
+.athlete-qv-wx-fx.is-on :is(.wx-cloud, .wx-rain-cloud).wx-n3 { animation-duration: 3s; animation-delay: 0.3s; }
+.athlete-qv-wx-fx.is-on .wx-bolt { animation: wx-bolt 2s linear forwards; }
+.athlete-qv-wx-fx.is-on .wx-wind { animation: wx-leaf 2.2s ease-in-out forwards; }
+.athlete-qv-wx-fx.is-on .wx-wind.wx-n2 { animation-duration: 2s; animation-delay: 0.3s; }
+.athlete-qv-wx-fx.is-on .wx-wind.wx-n3 { animation-duration: 2.4s; animation-delay: 0.55s; }
+@keyframes wx-sun {
+  0% { opacity: 0; transform: translateY(10px) scale(0.7); }
+  25%, 75% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(0) scale(1); }
+}
+@keyframes wx-moon {
+  0% { opacity: 0; transform: translateY(10px) rotate(-10deg); }
+  25%, 75% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(0) rotate(0deg); }
+}
+/* Mây trôi chậm một đoạn ngắn rồi mờ đi — không vụt ngang cả ảnh */
+@keyframes wx-cloud {
+  0% { opacity: 0; transform: translateX(-28px); }
+  25%, 75% { opacity: 0.95; }
+  100% { opacity: 0; transform: translateX(28px); }
+}
+@keyframes wx-bolt {
+  0%, 12%, 22%, 32%, 100% { opacity: 0; }
+  15% { opacity: 1; }
+  26% { opacity: 0.8; }
+}
+@keyframes wx-leaf {
+  0% { opacity: 0; left: -10%; transform: translateY(0) rotate(0deg); }
+  10% { opacity: 1; }
+  25% { transform: translateY(-14px) rotate(120deg); }
+  50% { transform: translateY(10px) rotate(260deg); }
+  75% { transform: translateY(-8px) rotate(400deg); }
+  90% { opacity: 1; }
+  100% { opacity: 0; left: 105%; transform: translateY(6px) rotate(540deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .athlete-qv-wx-fx { display: none; }
+}
+a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }

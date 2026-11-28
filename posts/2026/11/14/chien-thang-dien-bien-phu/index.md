@@ -11,6 +11,9 @@ series_url: "/series/hoa-binh-khong-de-co/"
 cover-img: "/posts/2026/11/14/chien-thang-dien-bien-phu/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/chien-thang-dien-bien-phu/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, kháng chiến]
+geo: [21.3856, 103.023]
+place_name: "Điện Biên Phủ"
+place_country: "Vietnam"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">

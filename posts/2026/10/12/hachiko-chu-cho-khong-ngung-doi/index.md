@@ -7,6 +7,9 @@ cover-img: "/posts/2026/10/12/hachiko-chu-cho-khong-ngung-doi/cover.jpg"
 thumbnail-img: "/posts/2026/10/12/hachiko-chu-cho-khong-ngung-doi/cover.jpg"
 layout-style: magazine
 tags: [dong-vat, long-trung-thanh, nhat-ban, tinh-yeu]
+geo: [35.6595, 139.7005]
+place_name: "Shibuya, Tokyo"
+place_country: "Japan"
 ---
 
 Mỗi ngày, Hachikō đều đến ga Shibuya.

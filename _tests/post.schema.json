@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://inspiring-stories.local/post.schema.json",
+  "title": "Inspiring Stories post front matter",
+  "description": "Cấu trúc front matter cho file posts/**/index.md (và index.en.md). Validate bởi _tests/post_frontmatter_test.rb.",
+  "type": "object",
+  "required": ["layout", "title", "subtitle", "cover-img"],
+  "additionalProperties": false,
+  "properties": {
+    "layout": {
+      "type": "string",
+      "enum": ["post"],
+      "description": "Mọi file trong posts/ đều là bài viết (layout: post)."
+    },
+    "lang": {
+      "type": "string",
+      "enum": ["en"],
+      "description": "Chỉ khai báo trên bản dịch tiếng Anh; bản tiếng Việt KHÔNG khai báo lang."
+    },
+    "draft": { "type": "boolean" },
+    "layout-style": {
+      "type": "string",
+      "enum": ["magazine"],
+      "description": "Biến thể trình bày của layout post."
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}[-/]\\d{2}[-/]\\d{2}([ T]\\d{2}:\\d{2}(:\\d{2})?\\s*[+\\-]\\d{4})?$",
+      "description": "VD: \"2026-11-14 08:00:00 +0700\"."
+    },
+    "permalink": {
+      "type": "string",
+      "pattern": "^/",
+      "description": "URL tuỳ biến của bài, VD /post/lich-su-2-thang-9-1945/."
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "subtitle": { "type": "string", "minLength": 1 },
+    "cover-img": {
+      "type": "string",
+      "description": "Ảnh lớn đầu bài; đường dẫn root-relative (/posts/..., /assets/...) hoặc URL https.",
+      "pattern": "^(/|https?://)"
+    },
+    "thumbnail-img": {
+      "type": "string",
+      "description": "Ảnh nhỏ dùng cho card/danh sách.",
+      "pattern": "^(/|https?://)"
+    },
+    "history-date": {
+      "type": "string",
+      "pattern": "^\\d{2}-\\d{2}$",
+      "description": "Ngày lịch sử gắn với bài (MM-DD), dùng cho series Lịch sử Việt Nam."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "series": { "type": "string" },
+    "series_order": { "type": "integer", "minimum": 1 },
+    "series_url": {
+      "type": "string",
+      "pattern": "^/series/",
+      "description": "Đường dẫn trang tổng quan series, VD /series/lich-su-viet-nam/"
+    },
+    "geo": {
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "[vĩ độ, kinh độ] — bài có geo xuất hiện trên bản đồ /map/."
+    },
+    "place_name": { "type": "string" },
+    "place_country": { "type": "string" },
+    "place_region": { "type": "string" },
+    "place_area": { "type": "string" },
+    "place_population": { "type": "string" },
+    "place_economy": { "type": "string" },
+    "place_festival": { "type": "string" },
+    "place_highlights": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 3,
+      "description": "Tối đa 3 mục, hiện trong quickview bản đồ."
+    },
+    "place_best_time": { "type": "string" },
+    "place_food": { "type": "string" },
+    "place_transport": { "type": "string" },
+    "map_content_score": {
+      "type": "number", "minimum": 0, "maximum": 10,
+      "description": "Điểm chất lượng bài viết, số 0-10, không kèm \"/10\"."
+    },
+    "map_content_note": { "type": "string" },
+    "map_destination_score": {
+      "type": "number", "minimum": 0, "maximum": 10,
+      "description": "Điểm độ hấp dẫn điểm đến."
+    },
+    "map_destination_note": { "type": "string" },
+    "map_rating_updated": {
+      "type": "string",
+      "pattern": "^(\\d{4}-\\d{2}-\\d{2})?$",
+      "description": "YYYY-MM-DD hoặc chuỗi rỗng."
+    },
+    "map_score": {
+      "type": "string",
+      "description": "Định dạng cũ \"8.5/10\"; chỉ hiển thị khi chưa có 2 điểm mới."
+    },
+    "map_ranking": { "type": "string" },
+    "gh-repo": { "type": "string" },
+    "gh-badge": { "type": "array", "items": { "type": "string" } },
+    "full-width": { "type": "boolean" },
+    "comments": { "type": "boolean" }
+  },
+  "allOf": [
+    {
+      "if": { "required": ["series_order"] },
+      "then": {
+        "required": ["series", "series_url"],
+        "description": "Có series_order thì phải có đủ series và series_url."
+      }
+    },
+    {
+      "if": { "required": ["map_content_score"] },
+      "then": {
+        "required": ["map_content_note", "map_rating_updated"],
+        "description": "Điểm phải kèm lý do và ngày đánh giá."
+      }
+    },
+    {
+      "if": { "required": ["map_destination_score"] },
+      "then": { "required": ["map_destination_note", "map_rating_updated"] }
+    },
+    {
+      "if": { "required": ["geo"] },
+      "then": {
+        "required": ["place_name", "place_country"],
+        "description": "Có toạ độ bản đồ thì phải có tên địa điểm và quốc gia."
+      }
+    }
+  ]
+}

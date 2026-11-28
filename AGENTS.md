@@ -77,3 +77,21 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   mới cần restart server local. Test qua môi trường Ruby trong `serve.sh`:
   `bundle exec ruby scripts/search_index_test.rb` và
   `node --test scripts/search_test.js`. CI lưu cache search giữa các build.
+- Bản đồ (trang `/map/`, port từ `tnclub-yedas`): `_includes/site-map.html`
+  + `assets/{js,css}/{site-map,map-weather,map-pins}.*` + plugin
+  `_plugins/map_pins_index.rb` xuất `/map-pins.bin` (XOR+base64, key
+  `inspiring-map-pins-v1` phải khớp giữa plugin và `map-pins.js`).
+  Pin lấy từ front matter `geo: [lat, lng]` của bài `layout: post`.
+  Đã BỎ hẳn filter Thể thao/Ẩm thực (athlete/food là đặc thù của yedas)
+  — filter bar chỉ còn: ô tìm kiếm, dropdown "Du lịch" (quốc gia/châu
+  lục) và dropdown "Chuyên đề" lọc theo `series` của bài. Chuỗi UI trong
+  `_data/strings.yml` mục `map`; localStorage keys đổi thành
+  `inspiring-map-*`/`inspiring-geo-cc`. CSS phụ thuộc `.home-tab`/
+  `.tag-section-title` và biến `--bg-light/--surface/--hairline/--z-map-*`
+  nằm trong `site-map.css` + `custom-styles.css` `:root`. Không port
+  `travel-spinner` (đặc thù của yedas).
+- Front matter bài viết được chuẩn hóa bởi `_tests/post.schema.json`
+  (port từ `tnclub-yedas`, bỏ rule tag miền vì site này không có bài ẩm
+  thực) — kiểm tra bằng `bundle exec ruby _tests/post_frontmatter_test.rb`
+  với môi trường Ruby trong `serve.sh`. Bài có `geo` BẮT BUỘC `place_name`
+  + `place_country`; `history-date` dạng MM-DD cho series Lịch sử.

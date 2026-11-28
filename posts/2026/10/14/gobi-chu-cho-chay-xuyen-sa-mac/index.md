@@ -7,6 +7,9 @@ cover-img: "/posts/2026/10/14/gobi-chu-cho-chay-xuyen-sa-mac/cover.jpg"
 thumbnail-img: "/posts/2026/10/14/gobi-chu-cho-chay-xuyen-sa-mac/cover.jpg"
 layout-style: magazine
 tags: [dong-vat, long-tot, vuot-kho, trung-quoc]
+geo: [42.79, 93.51]
+place_name: "Sa mạc Gobi"
+place_country: "China"
 ---
 
 Ngày đầu tiên của cuộc đua, Dion Leonard nhìn thấy một chú chó nhỏ lang

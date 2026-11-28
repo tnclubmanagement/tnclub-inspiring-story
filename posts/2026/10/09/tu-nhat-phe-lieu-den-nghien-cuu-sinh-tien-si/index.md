@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, nghien-cuu, trung-quoc]
 series: "Không đầu hàng"
 series_order: 4
 series_url: "/series/khong-dau-hang/"
+geo: [39.9, 116.4]
+place_name: "Bắc Kinh"
+place_country: "China"
 ---
 
 Khi nhắc đến Bàng Chúng Vọng, nhiều người nhớ đến hình ảnh một cậu học

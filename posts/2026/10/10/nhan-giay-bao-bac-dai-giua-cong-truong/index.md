@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, bac-dai, trung-quoc]
 series: "Không đầu hàng"
 series_order: 5
 series_url: "/series/khong-dau-hang/"
+geo: [25.04, 102.71]
+place_name: "Vân Nam"
+place_country: "China"
 ---
 
 Thôi Khánh Đào nhận giấy báo trúng tuyển Đại học Bắc Kinh khi đang trộn

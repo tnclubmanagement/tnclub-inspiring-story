@@ -10,6 +10,9 @@ series_order: 5
 cover-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Hà Nội, B-52]
+geo: [21.0285, 105.8542]
+place_name: "Hà Nội"
+place_country: "Vietnam"
 ---
 
 Từ ngày 18 đến ngày 29 tháng 12 năm 1972, Hà Nội và một số địa phương miền

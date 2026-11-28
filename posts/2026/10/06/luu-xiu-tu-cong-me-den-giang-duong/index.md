@@ -10,6 +10,9 @@ tags: [vuot-kho, giao-duc, long-tot, trung-quoc]
 series: "Không đầu hàng"
 series_order: 1
 series_url: "/series/khong-dau-hang/"
+geo: [26.65, 106.7]
+place_name: "Quý Châu"
+place_country: "China"
 ---
 
 Có những người bước ra khỏi nghịch cảnh để tìm một cuộc sống dễ dàng hơn.

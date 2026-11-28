@@ -7,6 +7,9 @@ cover-img: "/posts/2026/10/15/klepetan-malena-doi-chim-co-va-canh-uoc-mo/cover.j
 thumbnail-img: "/posts/2026/10/15/klepetan-malena-doi-chim-co-va-canh-uoc-mo/cover.jpg"
 layout-style: magazine
 tags: [dong-vat, long-trung-thanh, tinh-yeu, chau-au]
+geo: [45.16, 18.0]
+place_name: "Brodski Varoš"
+place_country: "Croatia"
 ---
 
 Mỗi mùa xuân, người dân ở Brodski Varoš, Croatia lại nhìn lên bầu trời.

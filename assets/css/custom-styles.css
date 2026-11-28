@@ -11,6 +11,13 @@
   --z-layer-3: 3;
   --z-section-nav: 10;
   --z-floating-controls: 20;
+  --z-map-dropdown: 700;
+  --z-map-controls: 800;
+  --z-overlay: 1000;
+  --z-map-expanded: 1020;
+  --z-map-help: 1050;
+  --z-fullscreen: 1100;
+  --z-modal: 1200;
 
   --ink: #1d1d2b;
   --muted: #6b6b7a;
@@ -19,6 +26,12 @@
   --accent-green: #4ad6a8;
   --glass-bg: rgba(255, 255, 255, 0.45);
   --glass-border: rgba(255, 255, 255, 0.9);
+  /* Biến nền/chữ kiểu Apple để module bản đồ (site-map.css, port từ
+     tnclub-yedas) dùng chung — không đổi phần Liquid Glass còn lại. */
+  --bg-light: #f5f5f7;
+  --bg-white: #ffffff;
+  --surface: #ffffff;
+  --hairline: rgba(0, 0, 0, 0.08);
 
   /* ========================================================================
      TYPOGRAPHY DÙNG CHUNG — khai báo font DUY NHẤT ở đây.
@@ -27,6 +40,20 @@
      ======================================================================== */
   --font-title: "Playfair Display", Georgia, serif;    /* dùng cho title/heading */
   --font-subtitle: "Dancing Script", cursive;           /* dùng cho subtitle/tagline */
+  /* Font nội dung chính. Open Sans đã được theme load sẵn ở _layouts/base.html
+     nên không tốn thêm request. Muốn đổi sang Roboto: thêm dòng
+     @import Roboto ở đầu file rồi sửa giá trị biến này. */
+  --font-body: "Open Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+/* Button/input/select/textarea không tự kế thừa font của body — kế thừa
+   để mọi control (filter map, form...) dùng đúng --font-body. */
+button, input, select, textarea {
+  font-family: inherit;
 }
 
 /* Mọi heading thật (h1-h4) trong khu vực nội dung tuỳ biến đều tự động
@@ -1239,6 +1266,46 @@ body:has(.home-landing) .container-md > .row > [class*="col-"] {
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   padding-left: 2.25rem !important;
+}
+
+/* ---------- Dropdown menu desktop: Liquid Glass ---------- */
+@media (min-width: 992px) {
+  .navbar-custom .navbar-nav .dropdown-menu {
+    min-width: 12rem;
+    margin-top: 0.35rem;
+    padding: 0.45rem;
+    border: 1px solid var(--hairline);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.82);
+    -webkit-backdrop-filter: blur(18px) saturate(1.4);
+    backdrop-filter: blur(18px) saturate(1.4);
+    box-shadow:
+      0 12px 32px rgba(20, 20, 50, 0.14),
+      0 2px 8px rgba(20, 20, 50, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  }
+
+  .navbar-custom .navbar-nav .dropdown-menu .dropdown-item {
+    padding: 0.55rem 0.9rem !important;
+    border-radius: 9px;
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
+  .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus-visible {
+    background: rgba(120, 130, 220, 0.12);
+    color: var(--ink);
+  }
+
+  .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:active {
+    background: rgba(120, 130, 220, 0.2);
+    color: var(--ink);
+  }
 }
 
 /* ---------- Menu: đồng bộ breakpoint với navbar-expand-lg ----------

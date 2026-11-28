@@ -10,6 +10,9 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/21/cac-luc-luong-dong-minh-trong-chien-tranh-viet-nam/cover.jpg"
 thumbnail-img: "/posts/2026/11/21/cac-luc-luong-dong-minh-trong-chien-tranh-viet-nam/cover.jpg"
 tags: [lịch sử Việt Nam, chiến tranh Việt Nam, ký ức chiến tranh]
+geo: [10.7769, 106.7009]
+place_name: "Sài Gòn"
+place_country: "Vietnam"
 ---
 
 Trong những câu chuyện về chiến tranh Việt Nam, người ta thường nhắc đến quân đội Mỹ. Nhưng trên chiến trường miền Nam còn có binh sĩ đến từ Hàn Quốc, Australia, New Zealand, Thái Lan và Philippines. Vai trò của họ không giống nhau, và cũng không thể gộp tất cả vào một con số quân tham chiến.

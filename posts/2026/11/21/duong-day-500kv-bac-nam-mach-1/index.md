@@ -11,6 +11,9 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/21/duong-day-500kv-bac-nam-mach-1/cover.jpg"
 thumbnail-img: "/posts/2026/11/21/duong-day-500kv-bac-nam-mach-1/cover.jpg"
 tags: [lịch sử Việt Nam, đường dây 500 kV, Võ Văn Kiệt, dựng xây đất nước, calendar]
+geo: [15.0, 107.8]
+place_name: "Đèo Lò Xo, Trường Sơn"
+place_country: "Vietnam"
 ---
 
 Có điện ở nơi này không có nghĩa có thể đưa ngay đến nơi khác. Đầu những năm 1990, miền Bắc có nguồn điện từ Thủy điện Hòa Bình, trong khi miền Trung và miền Nam thiếu điện. Giữa nơi có khả năng cung cấp và nơi đang cần là một khoảng cách dài, chưa có tuyến truyền tải siêu cao áp nối liền.

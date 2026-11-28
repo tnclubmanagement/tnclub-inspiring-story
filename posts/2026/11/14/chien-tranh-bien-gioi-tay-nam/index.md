@@ -10,6 +10,9 @@ series_order: 9
 cover-img: "/posts/2026/11/14/chien-tranh-bien-gioi-tay-nam/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-tay-nam/thumbnail-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới Tây Nam, Campuchia]
+geo: [10.5, 105.0]
+place_name: "Biên giới Tây Nam, An Giang"
+place_country: "Vietnam"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về chiến tranh biên giới Tây Nam">

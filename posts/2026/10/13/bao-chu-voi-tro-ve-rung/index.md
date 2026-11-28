@@ -7,6 +7,9 @@ cover-img: "/posts/2026/10/13/bao-chu-voi-tro-ve-rung/cover.jpg"
 thumbnail-img: "/posts/2026/10/13/bao-chu-voi-tro-ve-rung/cover.jpg"
 layout-style: magazine
 tags: [dong-vat, bao-ton, long-tot, trung-quoc]
+geo: [22.0, 100.79]
+place_name: "Tây Song Bản Nạp, Vân Nam"
+place_country: "China"
 ---
 
 Ngày A Bảo trở về rừng, người chăm sóc chú mang theo một túi cà rốt.

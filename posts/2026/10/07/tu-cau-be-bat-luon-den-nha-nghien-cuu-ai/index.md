@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, cong-nghe, trung-quoc]
 series: "Không đầu hàng"
 series_order: 2
 series_url: "/series/khong-dau-hang/"
+geo: [30.8, 106.08]
+place_name: "Tứ Xuyên"
+place_country: "China"
 ---
 
 Những năm tháng tuổi thơ của Hoàng Quốc Bình gắn với ruộng nước, ngọn đèn

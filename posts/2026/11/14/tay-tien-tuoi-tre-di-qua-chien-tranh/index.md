@@ -10,6 +10,9 @@ series_order: 2
 cover-img: "/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Tây Tiến, kháng chiến chống Pháp]
+geo: [20.67, 105.0]
+place_name: "Tây Bắc"
+place_country: "Vietnam"
 ---
 
 Nhắc đến Tây Tiến, nhiều người nhớ ngay đến những câu thơ của Quang Dũng:

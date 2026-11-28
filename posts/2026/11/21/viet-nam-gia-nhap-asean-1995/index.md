@@ -11,6 +11,9 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/21/viet-nam-gia-nhap-asean-1995/cover.jpg"
 thumbnail-img: "/posts/2026/11/21/viet-nam-gia-nhap-asean-1995/cover.jpg"
 tags: [lịch sử Việt Nam, ASEAN, hội nhập, ngoại giao, calendar]
+geo: [4.9031, 114.9398]
+place_name: "Bandar Seri Begawan"
+place_country: "Brunei"
 ---
 
 **16 giờ 55 phút, ngày 28/7/1995.** Theo bài hồi cố của nhà báo Danh Đức trên Tuổi Trẻ, đó là lúc quốc kỳ Việt Nam được kéo lên ở Bandar Seri Begawan, thủ đô Brunei. Một lá cờ mới đứng trong hàng cờ ASEAN, khép lại nhiều năm Việt Nam ở ngoài khuôn khổ hợp tác ấy.

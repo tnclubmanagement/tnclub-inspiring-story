@@ -11,6 +11,9 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jpg"
 thumbnail-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jpg"
 tags: [lịch sử Việt Nam, calendar, lịch sử hiện đại]
+geo: [10.7769, 106.7009]
+place_name: "TP. Hồ Chí Minh"
+place_country: "Vietnam"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">

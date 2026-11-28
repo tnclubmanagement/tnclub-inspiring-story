@@ -25,6 +25,7 @@ navbar-links:
   Bài mới: "newest"
   Bài viết: "posts"
   Khám phá:
+    - Bản đồ: "map"
     - Lưu trữ: "tags"
     - Cửa hàng: "store"
     - Ủng hộ: "support"
@@ -82,7 +83,7 @@ footer-hover-col: "#5AA9FF"
 
 # File CSS tuỳ biến thêm (card bo góc, nền tối, chữ đậm kiểu tạp chí)
 site-css:
-  - "/assets/css/custom-styles.css?v=theme-store-1"
+  - "/assets/css/custom-styles.css?v=map-3"
 
 # JS tuỳ biến thêm: animation fade-in khi cuộn, hero zoom nhẹ, khối màu nền
 site-js:
@@ -154,6 +155,7 @@ exclude:
   - package-lock.json
   - scripts
   - CHANGELOG.md
+  - docs
   - Gemfile
   - Gemfile.lock
   - LICENSE

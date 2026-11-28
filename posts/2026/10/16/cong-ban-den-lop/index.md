@@ -10,6 +10,9 @@ tags: [dong-luc, giao-duc, tinh-ban, vuot-kho, trung-quoc]
 series: "Không đầu hàng"
 series_order: 7
 series_url: "/series/khong-dau-hang/"
+geo: [30.65, 104.07]
+place_name: "Tứ Xuyên"
+place_country: "China"
 ---
 
 Mỗi buổi sáng, Trương Thải Hồng lại cúi người xuống trước mặt bạn.

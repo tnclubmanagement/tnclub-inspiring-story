@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, que-huong, trung-quoc]
 series: "Không đầu hàng"
 series_order: 3
 series_url: "/series/khong-dau-hang/"
+geo: [25.04, 102.71]
+place_name: "Vân Nam"
+place_country: "China"
 ---
 
 Ngày giấy báo đại học được gửi về, Lâm Vạn Đông đang làm việc ở một công

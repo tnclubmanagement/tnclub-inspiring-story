@@ -10,6 +10,9 @@ series_order: 8
 cover-img: "/posts/2026/11/14/cau-hien-luong-song-ben-hai/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/cau-hien-luong-song-ben-hai/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Hiền Lương, Bến Hải]
+geo: [17.001, 107.048]
+place_name: "Cầu Hiền Lương, Quảng Trị"
+place_country: "Vietnam"
 ---
 
 Cầu Hiền Lương bắc qua sông Bến Hải thường được nhắc như biểu tượng của

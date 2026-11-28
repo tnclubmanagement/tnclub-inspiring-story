@@ -10,6 +10,9 @@ series_order: 4
 cover-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Củ Chi, chiến tranh]
+geo: [11.052, 106.495]
+place_name: "Địa đạo Củ Chi, TP. Hồ Chí Minh"
+place_country: "Vietnam"
 ---
 
 Địa đạo Củ Chi thường được nhắc đến như một công trình quân sự đặc biệt.

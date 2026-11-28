@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, giao-duc, trung-quoc]
 series: "Không đầu hàng"
 series_order: 6
 series_url: "/series/khong-dau-hang/"
+geo: [25.04, 102.71]
+place_name: "Vân Nam"
+place_country: "China"
 ---
 
 Ở một ngôi trường vùng núi Vân Nam, Vương Miểu từng có một cách học rất

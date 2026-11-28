@@ -11,6 +11,9 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/14/giai-phong-thu-do/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/giai-phong-thu-do/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, Hà Nội]
+geo: [21.0285, 105.8542]
+place_name: "Hà Nội"
+place_country: "Vietnam"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
