@@ -16,6 +16,69 @@
     else document.addEventListener("DOMContentLoaded", fn);
   }
 
+  onReady(function () {
+    var archive = document.querySelector(".tag-archive");
+    if (!archive) return;
+    var english = document.documentElement.lang === "en";
+    var groups = Array.prototype.slice.call(archive.querySelectorAll(".tag-group"));
+    var revealGroups;
+
+    function paginate(container, selector, batchSize) {
+      var items = Array.prototype.slice.call(container.querySelectorAll(selector));
+      var visible = batchSize;
+      var button = document.createElement("button");
+      button.type = "button";
+      button.className = "tag-load-more";
+      container.insertAdjacentElement("afterend", button);
+
+      function render() {
+        items.forEach(function (item, index) { item.hidden = index >= visible; });
+        var remaining = Math.max(0, items.length - visible);
+        button.hidden = remaining === 0;
+        button.textContent = (english ? "Load more" : "Xem thêm") + " (" + remaining + ")";
+      }
+
+      button.addEventListener("click", function () {
+        var firstNew = items[visible];
+        visible += batchSize;
+        render();
+        if (firstNew) {
+          firstNew.tabIndex = -1;
+          firstNew.focus({ preventScroll: true });
+        }
+      });
+      render();
+      return function (item) {
+        var index = items.indexOf(item);
+        if (index >= visible) {
+          visible = Math.ceil((index + 1) / batchSize) * batchSize;
+          render();
+        }
+      };
+    }
+
+    var cloud = archive.querySelector(".tag-cloud");
+    var groupList = archive.querySelector(".tag-groups");
+    if (cloud) paginate(cloud, ".tag-cloud-link", 20);
+    if (groupList) revealGroups = paginate(groupList, ".tag-group", 8);
+
+    function revealHash() {
+      var target = groups.find(function (group) { return "#" + group.id === window.location.hash; });
+      if (!target || !revealGroups) return;
+      revealGroups(target);
+      target.scrollIntoView();
+    }
+
+    archive.addEventListener("click", function (event) {
+      var link = event.target.closest(".tag-cloud-link");
+      if (!link || !revealGroups) return;
+      var target = document.getElementById(link.getAttribute("href").slice(1));
+      if (target) revealGroups(target);
+    });
+    window.addEventListener("hashchange", revealHash);
+    revealHash();
+  });
+
   // Masonry thật bằng JS: CSS `column-count` bị lỗi dồn hết item vào 1 cột
   // khi item cao + ít item (break-inside:avoid). Thay bằng thuật toán
   // "luôn bỏ vào cột đang thấp nhất", đo chiều cao thật.
