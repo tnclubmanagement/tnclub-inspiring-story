@@ -16,6 +16,9 @@ tour_note: "Nguyễn Thị Thu Thương sống với bệnh xương thủy tinh 
 geo: [20.75, 105.91]
 place_name: "Phú Xuyên, Hà Nội"
 place_country: "Vietnam"
+map_content_score: 7
+map_content_note: "Đánh giá biên tập sơ bộ: câu chuyện học nghề và tạo việc làm có chi tiết cụ thể, gallery và nguồn VTV rõ. Tư liệu chủ yếu từ cùng một chương trình năm 2022, thiếu cập nhật hoạt động trung tâm và video phát lại đã xác minh."
+map_rating_updated: "2026-11-28"
 ---
 
 Thu Thương đến *Trạm yêu thương* với một bức tranh logo của chương trình. Trong lần xuất hiện ấy, thứ chị mang theo không chỉ là câu chuyện của mình, mà còn là sản phẩm của một nghề đã giúp chị thay đổi cuộc sống.

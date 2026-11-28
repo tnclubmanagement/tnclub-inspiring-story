@@ -16,6 +16,9 @@ tour_note: "Nghệ sĩ Quốc Tuấn cùng gia đình đi qua nhiều năm chữ
 geo: [21.0245, 105.8262]
 place_name: "Hà Nội"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Đánh giá biên tập sơ bộ: mạch kể rõ từ chữa bệnh đến học nhạc, đối chiếu tư liệu VTV năm 2017 và 2024; có ảnh và nguồn trực tiếp. Video mới dẫn về nguồn, chưa có bản nhúng xác minh được; chưa khai thác sâu việc học đàn."
+map_rating_updated: "2026-11-28"
 ---
 
 Khi được hỏi về ước mơ trong cuộc trò chuyện trên VTV tháng 6 năm 2024, Bôm trả lời: “Vẫn là nghệ sĩ piano thôi”.

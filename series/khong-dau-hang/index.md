@@ -12,7 +12,7 @@ permalink: /series/khong-dau-hang/
       <p class="series-landing-kicker">Câu chuyện truyền cảm hứng · {{ series_posts.size }} bài</p>
       <h1 id="khong-dau-hang-series-title"><span class="series-hero-title-line">Không</span><br><em>đầu hàng.</em></h1>
       <p class="series-landing-intro">
-        Mười một câu chuyện từ Trung Quốc và Việt Nam về những con người
+        {{ series_posts.size }} câu chuyện từ Trung Quốc và Việt Nam về những con người
         đi qua thiếu thốn, bệnh tật và nghịch cảnh — cùng sự đồng hành giúp họ đi tiếp.
       </p>
       <a class="series-hero-button" href="#khong-dau-hang-series-list">Xem các bài viết <span aria-hidden="true">→</span></a>

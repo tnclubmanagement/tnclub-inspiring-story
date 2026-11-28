@@ -16,6 +16,9 @@ tour_note: "Tháng 10 năm 2011, Nguyễn Sơn Lâm lên đỉnh Fansipan với 
 geo: [22.3033, 103.775]
 place_name: "Fansipan, Lào Cai"
 place_country: "Vietnam"
+map_content_score: 7
+map_content_note: "Đánh giá biên tập sơ bộ: dựa vào phỏng vấn sau chuyến đi, giữ rõ vai trò hỗ trợ chuyên môn và phân biệt ảnh năm 2011 với 2017. Ít tư liệu diễn biến trên đường núi; chưa có video hành trình đã xác minh để nhúng."
+map_rating_updated: "2026-11-28"
 ---
 
 Lên đến đỉnh Fansipan, Nguyễn Sơn Lâm gọi điện về cho mẹ.

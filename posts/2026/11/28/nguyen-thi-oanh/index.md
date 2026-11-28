@@ -16,6 +16,9 @@ tour_note: "Nguyễn Thị Oanh từng phải điều trị viêm cầu thận k
 geo: [21.2731, 106.1946]
 place_name: "Bắc Giang — quê hương Nguyễn Thị Oanh"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Đánh giá biên tập sơ bộ: đối chiếu chân dung từ cơ quan thể thao với kết quả SEA Games và chùm ảnh báo chí; giải thích đúng khoảng cách hai giờ xuất phát, không cổ vũ bỏ qua sức khỏe. Video nằm ở bài nguồn, chưa nhúng trực tiếp."
+map_rating_updated: "2026-11-28"
 ---
 
 Ngày 9/5/2023, Nguyễn Thị Oanh đứng trước một lịch thi đấu đặc biệt: nội dung 1.500 m bắt đầu lúc 17 giờ 30, còn 3.000 m vượt chướng ngại vật bắt đầu lúc 17 giờ 50.
