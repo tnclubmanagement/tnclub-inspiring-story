@@ -38,19 +38,21 @@
         </div>
       </details>
     </div>
-    <div class="athlete-map-filters" id="athlete-map-filters">
-      <input class="athlete-map-search" id="athlete-map-search" type="search" placeholder="{{ s.map.search_placeholder }}" aria-label="{{ s.map.search_aria }}">
-      {% if map_place_series.size > 0 %}
-      <div class="filter-drop" id="filter-drop-series">
-        <button class="home-tab" type="button" data-filter="Chuyên đề"><span class="filter-drop-label">{{ s.map.series }}</span> <span class="drop-caret">▾</span></button>
-        <div class="drop-menu">
-          {% for name in map_place_series %}
-          <button class="drop-item" type="button" data-series="{{ name | escape }}">{{ name }}</button>
-          {% endfor %}
-        </div>
+  </div>
+  <div class="athlete-map-filters" id="athlete-map-filters">
+    <button class="home-tab" type="button" data-filter="all">{{ s.map.all }}</button>
+    {% if map_place_series.size > 0 %}
+    <div class="filter-drop" id="filter-drop-series">
+      <button class="home-tab" type="button" data-filter="Chuyên đề"><span class="filter-drop-label">{{ s.map.series }}</span> <span class="drop-caret">▾</span></button>
+      <div class="drop-menu">
+        <button class="drop-item drop-item-active" type="button" data-series="all">{{ s.map.all_series }}</button>
+        {% for name in map_place_series %}
+        <button class="drop-item" type="button" data-series="{{ name | escape }}">{{ name }}</button>
+        {% endfor %}
       </div>
-      {% endif %}
     </div>
+    {% endif %}
+    <input class="athlete-map-search" id="athlete-map-search" type="search" placeholder="{{ s.map.search_placeholder }}" aria-label="{{ s.map.search_aria }}">
   </div>
   <div class="map-filter-chips" id="map-filter-chips"></div>
   <div class="athlete-map" id="athlete-map">

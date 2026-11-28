@@ -520,53 +520,20 @@
         }));
       } catch (e) {}
     }
-    // Hàng chip dưới filter bar: hiện lựa chọn phụ đang áp dụng + số điểm.
-    // Nút × trên chip gỡ lựa chọn đó mà không cần mở lại dropdown.
+    // Hàng chip dưới filter bar: giữ chỗ cho các lựa chọn phụ sau này.
+    // Chuyên đề đã hiện ngay trên nhãn dropdown nên không cần chip nữa.
     var chipsRow = document.getElementById('map-filter-chips');
-    function renderChips(shown) {
-      if (!chipsRow) return;
-      chipsRow.replaceChildren();
-      var chips = [];
-      if (activeFilter === 'Chuyên đề' && activeSeries !== 'all' && seriesDrop) {
-        var seb = seriesDrop.querySelector('[data-series="' + activeSeries + '"]');
-        chips.push(['series', tx('series', 'Chuyên đề') + ': ' + (seb ? seb.textContent.trim() : activeSeries)]);
-      }
-      chips.forEach(function (chip) {
-        var b = document.createElement('button');
-        b.type = 'button';
-        b.className = 'map-chip';
-        b.dataset.clear = chip[0];
-        b.setAttribute('aria-label', tx('clear_filter', 'Bỏ lọc %1').replace('%1', chip[1]));
-        var text = document.createElement('span');
-        text.textContent = chip[1];
-        var x = document.createElement('b');
-        x.setAttribute('aria-hidden', 'true');
-        x.textContent = '×';
-        b.append(text, x);
-        chipsRow.appendChild(b);
-      });
-      if (chips.length || typeof shown === 'number') {
-        var status = document.createElement('span');
-        status.className = 'map-filter-status';
-        status.textContent = tx('showing', 'Đang hiện %1 điểm').replace('%1', shown);
-        chipsRow.appendChild(status);
-      }
-      chipsRow.hidden = !chipsRow.childElementCount;
+    function renderChips() {
+      if (chipsRow) chipsRow.hidden = !chipsRow.childElementCount;
     }
-    if (chipsRow) {
-      chipsRow.addEventListener('click', function (e) {
-        var btn = e.target.closest('[data-clear]');
-        if (!btn) return;
-        var what = btn.dataset.clear;
-        if (what === 'series' && seriesDrop) {
-          // Menu không còn mục "Tất cả" — gỡ chip chuyên đề = về filter all.
-          activeSeries = 'all';
-          resetDrop(seriesDrop, seriesLabel, tx('series', 'Chuyên đề'), 'series');
-          setMainFilter('all', filterBar.querySelector('[data-filter="all"]'), true);
-        } else return;
-        applyFilters(true);
-        saveFilters();
-      });
+
+    // Nhãn dropdown Chuyên đề: hiện tên series đang chọn thay vì chữ
+    // "Chuyên đề" trống — nhìn là biết đang lọc cái gì, không cần chip.
+    function syncSeriesLabel() {
+      if (!seriesLabel) return;
+      var sel = activeSeries !== 'all' && seriesDrop
+        ? seriesDrop.querySelector('[data-series="' + activeSeries + '"]') : null;
+      seriesLabel.textContent = sel ? sel.textContent.trim() : tx('series', 'Chuyên đề');
     }
 
     function normalizeText(value) {
@@ -583,7 +550,7 @@
         var on;
         if (activeFilter === 'all') on = true;
         else if (activeFilter === 'Chuyên đề')
-          on = activeSeries === 'all' || en.series === activeSeries;
+          on = activeSeries === 'all' ? !!en.series : en.series === activeSeries;
         else on = false;
         on = on && terms.every(function (term) { return en.searchText.indexOf(term) !== -1; });
         en._vis = on;
@@ -620,7 +587,8 @@
       });
       if (count) count.textContent = shown;
       if (totalCount) totalCount.textContent = shown;
-      renderChips(shown);
+      renderChips();
+      syncSeriesLabel();
       close();
       // Nút ▶ chuyên đề chỉ hiện khi đang lọc một chuyên đề cụ thể
       if (playBtn) playBtn.hidden = !(activeFilter === 'Chuyên đề' && activeSeries !== 'all' && shown > 1);
@@ -663,17 +631,7 @@
       filterBar.querySelectorAll(':scope > .home-tab, :scope .filter-drop > .home-tab').forEach(function (b) {
         b.classList.toggle('home-tab-active', b === btn);
       });
-      if (name === 'Chuyên đề' && activeSeries === 'all' && seriesDrop) {
-        // Menu không còn mục "Tất cả" — bật filter Chuyên đề mà chưa chọn
-        // gì thì tự chọn chuyên đề đầu tiên trong danh sách.
-        var first = seriesDrop.querySelector('.drop-item[data-series]');
-        if (first) {
-          activeSeries = first.dataset.series;
-          seriesDrop.querySelectorAll('.drop-item').forEach(function (b) {
-            b.classList.toggle('drop-item-active', b === first);
-          });
-        }
-      } else if (name !== 'Chuyên đề' && activeSeries !== 'all' && seriesDrop) {
+      if (name !== 'Chuyên đề' && activeSeries !== 'all' && seriesDrop) {
         activeSeries = 'all';
         resetDrop(seriesDrop, seriesLabel, tx('series', 'Chuyên đề'), 'series');
       }
@@ -690,7 +648,7 @@
         seriesDrop.querySelectorAll('.drop-item').forEach(function (b) {
           b.classList.toggle('drop-item-active', b === btn);
         });
-        seriesLabel.textContent = tx('series', 'Chuyên đề');
+        syncSeriesLabel();
         setMainFilter('Chuyên đề', seriesDrop.querySelector('[data-filter="Chuyên đề"]'));
         seriesDrop.classList.remove('open');
         return;
@@ -1067,7 +1025,6 @@
         var allSeb = seriesDrop.querySelector('[data-series="all"]');
         if (allSeb) allSeb.classList.remove('drop-item-active');
         seb.classList.add('drop-item-active');
-        seriesLabel.textContent = tx('series', 'Chuyên đề');
       }
       var initBtn = f === 'all' ? filterBar.querySelector('[data-filter="all"]')
         : seriesDrop && seriesDrop.querySelector(':scope > .home-tab');

@@ -99,6 +99,7 @@
     var badge = opts.badge, fx = opts.fx;
     var tx = opts.tx || function (k, d) { return d; };
     var seq = 0;
+    var placeName = '';
 
     // Hiệu ứng chạy 1 lần mỗi lần mở, không loop.
     function play(wx) {
@@ -124,6 +125,7 @@
       var icon = badgeIcon(wx);
       var parts = wx.text.slice();
       if (label) parts.splice(1, 0, tx(label[0], label[1]));
+      if (placeName) parts.unshift(placeName);
       badge.replaceChildren();
       if (icon) {
         var ic = document.createElement('span');
@@ -139,6 +141,7 @@
     // Ẩn nhãn, dừng hiệu ứng và bỏ kết quả của lần tải đang chờ.
     function clear() {
       seq++;
+      placeName = '';
       badge.hidden = true;
       badge.textContent = '';
       if (fx) fx.classList.remove('is-on');
@@ -147,6 +150,7 @@
     function show(d) {
       clear();
       var mySeq = seq;
+      placeName = d.name || '';
       badge.href = 'https://www.windy.com/' + d.lat.toFixed(3) + '/' + d.lng.toFixed(3);
       var key = d.lat.toFixed(2) + ',' + d.lng.toFixed(2);
       var apply = function (wx) {

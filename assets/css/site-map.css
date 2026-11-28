@@ -62,22 +62,30 @@
 .athlete-map-head { justify-content: space-between; gap: 0.6rem; }
 .athlete-map-filters { gap: 0.4rem; margin-bottom: 0.9rem; max-width: 100%; }
 .athlete-map-search {
-  flex: 1 1 220px;
-  min-width: 0;
-  width: 260px;
-  max-width: 100%;
-  padding: 0.5rem 0.8rem;
+  flex: 0 1 260px;
+  min-width: 160px;
+  margin-left: auto;
+  height: 2rem;
+  padding: 0 0.9rem;
   border: 1px solid var(--hairline);
-  border-radius: 12px;
+  border-radius: 999px;
   background: var(--surface);
   color: var(--ink);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 .athlete-map-search::placeholder { color: var(--muted); }
 .athlete-map-search:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 
 /* Dropdown sub-menu trong filter bản đồ */
 .filter-drop { position: relative; }
+.filter-drop-label {
+  display: inline-block;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
 .filter-drop .drop-caret { display: inline-block; margin-left: 3px; font-size: 0.75em; }
 .filter-drop.open .drop-caret { transform: rotate(180deg); }
 .filter-drop .drop-menu {
@@ -620,7 +628,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 @media (max-width: 760px) {
   .athlete-map-section:is(.is-max, .is-fullscreen) { padding: 0.6rem; gap: 0.3rem; }
   .athlete-map-head, .athlete-map-filters { width: 100%; min-width: 0; }
-  .athlete-map-search { flex-basis: 100%; width: 100%; font-size: 16px; }
+  .athlete-map-search { flex-basis: 100%; margin-left: 0; height: 2.4rem; font-size: 16px; }
   .athlete-map-filters .home-tab { max-width: calc(100vw - 48px); white-space: normal; overflow-wrap: anywhere; }
   .map-country-dialog { padding: 0.75rem; }
 }
