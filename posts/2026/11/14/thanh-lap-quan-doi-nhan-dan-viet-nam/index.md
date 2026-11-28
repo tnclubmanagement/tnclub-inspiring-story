@@ -16,6 +16,11 @@ tour_note: "Ngày 22 tháng 12 năm 1944, tại Hoàng Hoa Thám, Cao Bằng, Đ
 geo: [22.665, 106.258]
 place_name: "Hoàng Hoa Thám, Cao Bằng"
 place_country: "Vietnam"
+map_content_score: 7
+map_content_note: "Dữ kiện và diễn giải rõ ràng, nguồn bảo tàng đầy đủ; bài ngắn, chưa đi sâu vào con người hay bối cảnh rộng."
+map_destination_score: 5
+map_destination_note: "Khu di tích Hoàng Hoa Thám ý nghĩa lịch sử nhưng xa trung tâm, ít điểm tham quan kèm theo."
+map_rating_updated: "2026-11-28"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">

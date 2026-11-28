@@ -16,6 +16,11 @@ tour_note: "Ngày 27 tháng 5 năm 1994, đường dây 500 kV Bắc–Nam mạc
 geo: [15.0, 107.8]
 place_name: "Đèo Lò Xo, Trường Sơn"
 place_country: "Vietnam"
+map_content_score: 9
+map_content_note: "Kể đầy đủ từ quyết định, kỹ thuật, các cung đoạn đến những người không trở về; nguồn EVN/hồi cố/phóng sự phong phú, nhân vật có tên tuổi."
+map_destination_score: 6
+map_destination_note: "Đèo Lò Xo và tuyến Trường Sơn cảnh đẹp, ý nghĩa lớn; nhưng xa, thiếu hạ tầng tham quan chuyên về công trình."
+map_rating_updated: "2026-11-28"
 ---
 
 Có điện ở nơi này không có nghĩa có thể đưa ngay đến nơi khác. Đầu những năm 1990, miền Bắc có nguồn điện từ Thủy điện Hòa Bình, trong khi miền Trung và miền Nam thiếu điện. Giữa nơi có khả năng cung cấp và nơi đang cần là một khoảng cách dài, chưa có tuyến truyền tải siêu cao áp nối liền.

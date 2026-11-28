@@ -15,6 +15,11 @@ tour_note: "Chiến tranh qua đi, nhưng mất mát thì ở lại: những ngh
 geo: [16.74, 107.19]
 place_name: "Quảng Trị"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Bài khép series giàu chiều sâu: người mất tích, cựu binh, nghĩa trang; khối 'cái giá chiến tranh' hiệu quả; nguồn nêu chung chung."
+map_destination_score: 7
+map_destination_note: "Quảng Trị có nghĩa trang liệt sĩ Trường Sơn, Đường 9 — điểm tưởng niệm lớn; kết hợp tốt với tuyến DMZ."
+map_rating_updated: "2026-11-28"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về tưởng niệm sau chiến tranh">

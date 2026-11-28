@@ -16,6 +16,11 @@ tour_note: "56 ngày đêm năm 1954 tại lòng chảo Điện Biên Phủ. Chi
 geo: [21.3856, 103.023]
 place_name: "Điện Biên Phủ"
 place_country: "Vietnam"
+map_content_score: 9
+map_content_note: "Đầy đủ nhất loạt: bối cảnh chiến lược, hậu cần, ba đợt tiến công và góc nhìn hai phía; gallery tư liệu + lễ 70 năm phong phú."
+map_destination_score: 7
+map_destination_note: "Điện Biên có bảo tàng, đồi A1, hầm De Castries — điểm lịch sử lớn; xa, đường đi vất vả."
+map_rating_updated: "2026-11-28"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">

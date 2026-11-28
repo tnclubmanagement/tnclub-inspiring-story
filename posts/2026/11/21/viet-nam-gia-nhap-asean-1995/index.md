@@ -16,6 +16,11 @@ tour_note: "Ngày 28 tháng 7 năm 1995, quốc kỳ Việt Nam được kéo l�
 geo: [4.9031, 114.9398]
 place_name: "Bandar Seri Begawan"
 place_country: "Brunei"
+map_content_score: 9
+map_content_note: "Hồi ức người trong cuộc, mốc giờ cụ thể, nghị định thư CEPT và trục thời gian đầy đủ; văn rõ, nguồn chính thống đa dạng."
+map_destination_score: 6
+map_destination_note: "Bandar Seri Begawan là nơi diễn ra lễ kết nạp; điểm đến yên tĩnh, ít di tích tham quan gắn trực tiếp sự kiện."
+map_rating_updated: "2026-11-28"
 ---
 
 **16 giờ 55 phút, ngày 28/7/1995.** Theo bài hồi cố của nhà báo Danh Đức trên Tuổi Trẻ, đó là lúc quốc kỳ Việt Nam được kéo lên ở Bandar Seri Begawan, thủ đô Brunei. Một lá cờ mới đứng trong hàng cờ ASEAN, khép lại nhiều năm Việt Nam ở ngoài khuôn khổ hợp tác ấy.

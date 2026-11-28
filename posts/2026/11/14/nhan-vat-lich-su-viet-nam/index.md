@@ -15,6 +15,11 @@ tour_note: "Lịch sử Việt Nam không chỉ là của các vị vua và danh
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Bảng tra 24 nhân vật rất hữu ích để định vị, có ghi chú niên đại còn tranh luận; gallery ảnh phong phú, nguồn rõ."
+map_destination_score: 8
+map_destination_note: "Bài viết tổng quan gắn Hà Nội; thành phố giàu di tích tham quan, điểm đến hấp dẫn."
+map_rating_updated: "2026-11-28"
 ---
 
 Lịch sử Việt Nam không chỉ được tạo nên bởi những vị vua hay những vị tướng.

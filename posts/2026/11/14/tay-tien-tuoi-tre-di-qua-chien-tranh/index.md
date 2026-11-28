@@ -15,6 +15,11 @@ tour_note: "Tây Tiến là đoàn quân hành quân qua núi cao Tây Bắc tro
 geo: [20.67, 105.0]
 place_name: "Tây Bắc"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Đặt bài thơ Quang Dũng bên cạnh lịch sử Trung đoàn 52; cân bằng giữa vẻ đẹp văn thơ và mất mát thật, ảnh minh họa đẹp."
+map_destination_score: 7
+map_destination_note: "Địa bàn Tây Tiến trải rộng Mộc Châu – Mai Châu, phong cảnh đẹp nhưng không một di tích tham quan duy nhất."
+map_rating_updated: "2026-11-28"
 ---
 
 Nhắc đến Tây Tiến, nhiều người nhớ ngay đến những câu thơ của Quang Dũng:

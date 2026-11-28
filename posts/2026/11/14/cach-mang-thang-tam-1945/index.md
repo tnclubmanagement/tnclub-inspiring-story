@@ -16,6 +16,11 @@ tour_note: "Ngày 19 tháng 8 năm 1945, hàng vạn người dân Hà Nội xu�
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"
+map_content_score: 7
+map_content_note: "Bố cục dữ kiện – diễn giải – suy ngẫm mạch lạc, nguồn bảo tàng; nội dung còn khái quát, ít chi tiết và lời kể cụ thể."
+map_destination_score: 8
+map_destination_note: "Nhà hát Lớn và khu phố cổ là điểm đến đầy ý nghĩa, dễ kết hợp tham quan trong nội thành Hà Nội."
+map_rating_updated: "2026-11-28"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">

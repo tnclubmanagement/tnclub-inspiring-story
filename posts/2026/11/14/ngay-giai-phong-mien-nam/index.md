@@ -16,6 +16,11 @@ tour_note: "Ngày 30 tháng 4 năm 1975, chiến dịch Hồ Chí Minh kết th�
 geo: [10.7769, 106.7009]
 place_name: "TP. Hồ Chí Minh"
 place_country: "Vietnam"
+map_content_score: 7
+map_content_note: "Dữ kiện chuẩn, bộ ảnh lễ 50 năm phong phú; phần văn bản khá ngắn so với khối tư liệu hình, ít phân tích."
+map_destination_score: 8
+map_destination_note: "TP.HCM có nhiều điểm gắn sự kiện (Dinh Độc Lập, các tuyến quân tiến vào); điểm đến đô thị hấp dẫn."
+map_rating_updated: "2026-11-28"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">

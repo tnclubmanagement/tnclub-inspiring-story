@@ -15,6 +15,11 @@ tour_note: "Ngã ba Đồng Lộc, Hà Tĩnh — một tọa độ bị bom đ�
 geo: [18.417, 105.75]
 place_name: "Ngã ba Đồng Lộc, Hà Tĩnh"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Đặt câu chuyện 10 cô gái trong bối cảnh tuyến đường lớn; gọi tên đầy đủ từng người, nguồn khu di tích và báo chí rõ."
+map_destination_score: 7
+map_destination_note: "Khu di tích Đồng Lộc có mộ, hố bom và tượng đài; nằm ngoài tuyến du lịch chính nhưng đáng ghé khi qua Hà Tĩnh."
+map_rating_updated: "2026-11-28"
 ---
 
 Ngã ba Đồng Lộc hôm nay là một khu di tích yên tĩnh ở Hà Tĩnh. Người đến

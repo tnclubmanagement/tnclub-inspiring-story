@@ -15,6 +15,11 @@ tour_note: "Mậu Thân 1968 ở Huế là một trong những chương đau đ�
 geo: [16.4637, 107.5909]
 place_name: "Huế"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Xử lý đề tài nhạy cảm rất cân bằng: phân biệt dữ kiện, lời kể và vấn đề tranh luận; câu chuyện 11 cô gái sông Hương có hồ sơ; nguồn đa dạng."
+map_destination_score: 9
+map_destination_note: "Huế là điểm đến lớn: kinh thành, sông Hương, ẩm thực; giàu di tích gắn sự kiện 1968."
+map_rating_updated: "2026-11-28"
 ---
 
 Mậu Thân 1968 ở Huế là một trong những chương đau đớn và phức tạp nhất của

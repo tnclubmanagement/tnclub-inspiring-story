@@ -15,6 +15,11 @@ tour_note: "Cuối năm 1978, chiến sự bùng lên ở biên giới Tây Nam.
 geo: [10.5, 105.0]
 place_name: "Biên giới Tây Nam, An Giang"
 place_country: "Vietnam"
+map_content_score: 7
+map_content_note: "Đề tài ít được kể, cách nhìn hai phía cân bằng; phần nguồn chỉ nêu chung chung, thiếu tài liệu dẫn cụ thể — điểm yếu nhất."
+map_destination_score: 5
+map_destination_note: "Biên giới Tây Nam rải rác, không một di tích trung tâm; An Giang có điểm riêng nhưng sự kiện gắn địa danh lỏng."
+map_rating_updated: "2026-11-28"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về chiến tranh biên giới Tây Nam">

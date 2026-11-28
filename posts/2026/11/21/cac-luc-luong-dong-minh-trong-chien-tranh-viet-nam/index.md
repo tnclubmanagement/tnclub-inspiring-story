@@ -15,6 +15,11 @@ tour_note: "Trên chiến trường miền Nam không chỉ có quân Mỹ. Từ
 geo: [10.7769, 106.7009]
 place_name: "Sài Gòn"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Đề tài ít được viết; phân biệt rõ vai trò từng lực lượng, nguồn quốc tế chính thống (AWM, NZ History, Reuters), câu chuyện Phong Nhị có nhân chứng."
+map_destination_score: 8
+map_destination_note: "Sài Gòn/TP.HCM giàu địa điểm liên quan chiến tranh (Dinh Độc Lập, Bảo tàng Chứng tích); gắn bài hơi rời điểm đến cụ thể."
+map_rating_updated: "2026-11-28"
 ---
 
 Trong những câu chuyện về chiến tranh Việt Nam, người ta thường nhắc đến quân đội Mỹ. Nhưng trên chiến trường miền Nam còn có binh sĩ đến từ Hàn Quốc, Australia, New Zealand, Thái Lan và Philippines. Vai trò của họ không giống nhau, và cũng không thể gộp tất cả vào một con số quân tham chiến.

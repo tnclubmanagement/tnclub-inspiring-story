@@ -15,6 +15,11 @@ tour_note: "Mùa hè năm 1972, Thành cổ Quảng Trị là tâm điểm của
 geo: [16.742, 107.188]
 place_name: "Thành cổ Quảng Trị"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Mốc 81 ngày đêm rõ, chia giai đoạn hợp lý, góc nhìn hậu phương bên Thạch Hãn tốt; video + trailer Mưa đỏ bổ sung."
+map_destination_score: 7
+map_destination_note: "Thành cổ và sông Thạch Hãn là di tích thiêng, có khu tưởng niệm; trên đường DMZ nên dễ kết hợp tour Quảng Trị."
+map_rating_updated: "2026-11-28"
 ---
 
 Mùa hè năm 1972, Thành cổ Quảng Trị trở thành tâm điểm của một trận chiến

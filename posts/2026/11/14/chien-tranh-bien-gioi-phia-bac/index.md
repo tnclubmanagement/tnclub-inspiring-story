@@ -15,6 +15,11 @@ tour_note: "Tháng 2 năm 1979, chiến tranh lan đến biên giới phía Bắ
 geo: [21.8537, 106.7615]
 place_name: "Biên giới phía Bắc, Lạng Sơn"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Bối cảnh quốc tế (Trung–Mỹ–Xô) giải thích rõ, giọng điệu bình tĩnh; nguồn ngoại chính thống và tư liệu Vị Xuyên tốt."
+map_destination_score: 6
+map_destination_note: "Mặt trận Vị Xuyên và các điểm biên giới có nghĩa trang, di tích; nhưng phân tán, ít hạ tầng tham quan tập trung."
+map_rating_updated: "2026-11-28"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu về chiến tranh biên giới phía Bắc">

@@ -16,6 +16,11 @@ tour_note: "Chiều ngày 2 tháng 9 năm 1945, tại Quảng trường Ba Đìn
 geo: [21.0367, 105.8347]
 place_name: "Quảng trường Ba Đình, Hà Nội"
 place_country: "Vietnam"
+map_content_score: 7
+map_content_note: "Dữ kiện chuẩn, nguồn bảo tàng; bài ngắn, phần phân tích văn kiện còn gọn, chưa khai thác sâu."
+map_destination_score: 8
+map_destination_note: "Quảng trường Ba Đình – Lăng Bác là điểm đến biểu tượng, nhiều di tích liền kề; đông vào dịp lễ."
+map_rating_updated: "2026-11-28"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">

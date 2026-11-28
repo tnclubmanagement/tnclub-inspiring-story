@@ -15,6 +15,11 @@ tour_note: "Dưới lòng đất Củ Chi là một thế giới khác: hệ th�
 geo: [11.052, 106.495]
 place_name: "Địa đạo Củ Chi, TP. Hồ Chí Minh"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Từ nguồn gốc hầm, ba tầng, các cuộc càn đến đời sống dưới đất; có chú thích rõ về khác biệt di tích – điều kiện thật; nguồn Cục Di sản."
+map_destination_score: 8
+map_destination_note: "Địa đạo Củ Chi là điểm du lịch lịch sử nổi tiếng, tổ chức tham quan bài bản; đông khách quốc tế."
+map_rating_updated: "2026-11-28"
 ---
 
 Địa đạo Củ Chi thường được nhắc đến như một công trình quân sự đặc biệt.

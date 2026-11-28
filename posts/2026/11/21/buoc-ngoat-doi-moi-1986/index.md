@@ -16,6 +16,11 @@ tour_note: "Tháng 12 năm 1986, Đại hội VI của Đảng họp tại Hà N
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"
+map_content_score: 9
+map_content_note: "Trích văn kiện nguyên bản, số liệu có nguồn, trục thời gian rõ; cân bằng giữa văn kiện và đời sống người dân — một trong những bài chất lượng nhất loạt."
+map_destination_score: 8
+map_destination_note: "Hà Nội là bối cảnh Đại hội VI và bảo tàng tem phiếu bao cấp; điểm đến nội thành phong phú."
+map_rating_updated: "2026-11-28"
 ---
 
 Một tờ phiếu nhỏ có thể quyết định một gia đình được mua bao nhiêu thịt, bao nhiêu vải. Trong bộ sưu tập về thời bao cấp của Bảo tàng Lịch sử quốc gia, tem phiếu và sổ lương thực không chỉ là những mảnh giấy đã cũ. Chúng lưu lại một cách tổ chức đời sống mà khi ấy, có tiền chưa chắc đã mua được thứ đang cần.

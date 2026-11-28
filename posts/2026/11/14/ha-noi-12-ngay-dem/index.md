@@ -15,6 +15,11 @@ tour_note: "Từ ngày 18 đến 29 tháng 12 năm 1972, Hà Nội và nhiều �
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"
+map_content_score: 8
+map_content_note: "Diễn biến ba giai đoạn rõ, câu chuyện Vũ Xuân Thiều có chiều sâu, đề cập Khâm Thiên và mặt dân sự; video tư liệu kèm theo."
+map_destination_score: 8
+map_destination_note: "Hà Nội có Bảo tàng Phòng không – Không quân, phố Khâm Thiên; điểm đến nội thành dễ tiếp cận."
+map_rating_updated: "2026-11-28"
 ---
 
 Từ ngày 18 đến ngày 29 tháng 12 năm 1972, Hà Nội và một số địa phương miền

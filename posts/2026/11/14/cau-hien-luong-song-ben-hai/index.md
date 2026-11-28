@@ -15,6 +15,11 @@ tour_note: "Từ năm 1954, cầu Hiền Lương bắc qua sông Bến Hải tr�
 geo: [17.001, 107.048]
 place_name: "Cầu Hiền Lương, Quảng Trị"
 place_country: "Vietnam"
+map_content_score: 7
+map_content_note: "Viết cảm xúc tốt về sự chia cắt; bài ngắn, phần dữ kiện về giới tuyến và đời sống hai bờ còn gọn, thiếu lời kể cụ thể."
+map_destination_score: 7
+map_destination_note: "Khu di tích đôi bờ Hiền Lương – Bến Hải là điểm dừng chính của tuyến DMZ, có bảo tàng và cầu phục dựng."
+map_rating_updated: "2026-11-28"
 ---
 
 Cầu Hiền Lương bắc qua sông Bến Hải thường được nhắc như biểu tượng của

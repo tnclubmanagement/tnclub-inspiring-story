@@ -16,6 +16,11 @@ tour_note: "Ngày 10 tháng 10 năm 1954, các đơn vị Quân đội nhân dâ
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"
+map_content_score: 7
+map_content_note: "Kể đúng mạch sự kiện, ảnh tư liệu Hà Nội 1954 quý; bài ngắn, thiếu lời kể nhân chứng và chi tiết diễn biến."
+map_destination_score: 8
+map_destination_note: "Các tuyến phố tiếp quản nằm ngay trung tâm Hà Nội, dễ tham quan, giàu bối cảnh lịch sử."
+map_rating_updated: "2026-11-28"
 ---
 
 <section class="story-gallery" aria-label="Hình ảnh tư liệu lịch sử">
