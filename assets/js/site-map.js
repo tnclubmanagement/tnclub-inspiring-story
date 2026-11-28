@@ -47,6 +47,8 @@
     // trong site-map.html. Fallback giữ nguyên tiếng Việt gốc.
     var S = window.__mapStrings || {};
     function tx(k, d) { return S[k] || d; }
+    // Icon Lucide qua sprite <symbol> trong _includes/lucide-map.html
+    function licon(id) { return '<svg class="licon" aria-hidden="true"><use href="#' + id + '"/></svg>'; }
 
     var map = L.map(el, {
       minZoom: 2, maxZoom: 10, zoomSnap: 0.5,
@@ -324,7 +326,7 @@
         var heading = document.createElement('div');
         var label = document.createElement('span');
         var value = document.createElement('strong');
-        label.className = index === 0 ? 'fas fa-file-alt' : 'fas fa-map-marker-alt';
+        label.innerHTML = licon(index === 0 ? 'l-file-text' : 'l-map-pin');
         label.setAttribute('aria-hidden', 'true');
         value.textContent = score === null ? '—' : score + '/10';
         row.tabIndex = 0;
@@ -897,7 +899,7 @@
       tour.skip = false;
       tour.paused = false;
       tourBar.hidden = false;
-      playBtn.innerHTML = '<span class="fas fa-stop" aria-hidden="true"></span>';
+      playBtn.innerHTML = licon('l-square');
       playBtn.title = tx('stop_tour', 'Dừng phát');
       playBtn.setAttribute('aria-label', playBtn.title);
       playBtn.setAttribute('aria-pressed', 'true');
@@ -911,7 +913,7 @@
       if (tour.endSpeech) tour.endSpeech();
       if (synth) synth.cancel();
       tourBar.hidden = true;
-      playBtn.innerHTML = '<span class="fas fa-play" aria-hidden="true"></span>';
+      playBtn.innerHTML = licon('l-play');
       playBtn.title = tx('play_tour', 'Phát chuyên đề');
       playBtn.setAttribute('aria-label', playBtn.title);
       playBtn.setAttribute('aria-pressed', 'false');
@@ -979,7 +981,7 @@
       else if (act === 'pause') {
         tour.paused = !tour.paused;
         if (synth) tour.paused ? synth.pause() : synth.resume();
-        btn.innerHTML = '<span class="fas fa-' + (tour.paused ? 'play' : 'pause') + '" aria-hidden="true"></span>';
+        btn.innerHTML = licon(tour.paused ? 'l-play' : 'l-pause');
         btn.title = tx(tour.paused ? 'resume_tour' : 'pause_tour', tour.paused ? 'Tiếp tục' : 'Tạm dừng');
         btn.setAttribute('aria-label', btn.title);
       } else if (act === 'mute') {
@@ -988,7 +990,7 @@
           synth.cancel();
           if (tour.endSpeech) tour.endSpeech();
         }
-        btn.innerHTML = '<span class="fas fa-volume-' + (tour.muted ? 'mute' : 'up') + '" aria-hidden="true"></span>';
+        btn.innerHTML = licon(tour.muted ? 'l-volume-x' : 'l-volume-2');
         btn.title = tx(tour.muted ? 'unmute_tour' : 'mute_tour', tour.muted ? 'Bật tiếng' : 'Tắt tiếng');
         btn.setAttribute('aria-label', btn.title);
       }

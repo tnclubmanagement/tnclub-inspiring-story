@@ -10,6 +10,19 @@
   font-family: inherit;
 }
 
+/* Icon Lucide qua <use href="#l-..."> từ _includes/lucide-map.html */
+.licon {
+  width: 1em;
+  height: 1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: -0.125em;
+  flex: none;
+}
+
 /* Dropdown con cuối filter bar sát mép phải — canh menu về mép phải
    để không bị tràn khỏi viewport. */
 .athlete-map-filters .filter-drop:last-child .drop-menu {
@@ -537,7 +550,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .map-score-legend > strong { display: block; margin-bottom: 0.4rem; font-size: 0.78rem; }
 .map-score-legend ul { display: flex; flex-wrap: wrap; gap: 0.3rem 0.8rem; margin: 0; padding: 0; list-style: none; }
 .map-score-legend ul + ul { margin-top: 0.45rem; padding-top: 0.45rem; border-top: 1px solid var(--hairline); }
-.map-score-legend .fas { width: 1em; color: var(--muted); text-align: center; }
+.map-score-legend svg { color: var(--muted); }
 .map-score-levels li { display: inline-flex; align-items: center; gap: 0.3rem; font-weight: 600; color: var(--score-color); }
 .map-score-levels i { width: 18px; height: 5px; border-radius: 999px; background: var(--score-color); }
 

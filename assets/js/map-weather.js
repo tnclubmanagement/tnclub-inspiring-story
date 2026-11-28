@@ -12,11 +12,12 @@
     fog: ['wx_fog', 'Sương mù'], drizzle: ['wx_drizzle', 'Mưa phùn'], rain: ['wx_rain', 'Mưa'],
     snow: ['wx_snow', 'Tuyết'], storm: ['wx_storm', 'Giông bão']
   };
+  // Icon Lucide — id <symbol> trong _includes/lucide-map.html
   var WX_ICON = {
-    clear: 'fa-sun', partly: 'fa-cloud-sun', cloudy: 'fa-cloud', fog: 'fa-smog',
-    drizzle: 'fa-cloud-rain', rain: 'fa-cloud-showers-heavy', snow: 'fa-snowflake', storm: 'fa-bolt'
+    clear: 'l-sun', partly: 'l-cloud-sun', cloudy: 'l-cloud', fog: 'l-cloud-fog',
+    drizzle: 'l-cloud-drizzle', rain: 'l-cloud-rain', snow: 'l-snowflake', storm: 'l-cloud-lightning'
   };
-  var WX_NIGHT_ICON = { clear: 'fa-moon', partly: 'fa-cloud-moon' };
+  var WX_NIGHT_ICON = { clear: 'l-moon', partly: 'l-cloud-moon' };
   // Hình minh hoạ chạy qua ảnh theo loại thời tiết: mặt trời/trăng, mây
   // (trôi ngang hoặc mây đen lơ lửng khi mưa), tia sét khi giông.
   var WX_PARTS = {
@@ -24,8 +25,8 @@
     drizzle: ['rain-cloud', 'rain-cloud'], rain: ['rain-cloud', 'rain-cloud', 'rain-cloud'],
     storm: ['rain-cloud', 'rain-cloud', 'bolt'], snow: ['rain-cloud', 'rain-cloud']
   };
-  // Mặt trời và mây vẽ bằng CSS (.wx-sun / .wx-cloud), còn lại dùng icon Font Awesome
-  var WX_PART_ICON = { moon: 'fa-moon', bolt: 'fa-bolt', wind: 'fa-leaf' };
+  // Mặt trời và mây vẽ bằng CSS (.wx-sun / .wx-cloud), còn lại dùng icon Lucide
+  var WX_PART_ICON = { moon: 'l-moon', bolt: 'l-zap', wind: 'l-leaf' };
   var WX_WINDY = 20; // km/h — từ mức này thêm lá bay ngang (gió)
 
   function kindFromCode(code) {
@@ -112,7 +113,10 @@
       plan.parts.forEach(function (p) {
         var n = seen[p] = (seen[p] || 0) + 1;
         var el = document.createElement('i');
-        el.className = 'wx-part wx-' + p + ' wx-n' + n + (WX_PART_ICON[p] ? ' fas ' + WX_PART_ICON[p] : '');
+        el.className = 'wx-part wx-' + p + ' wx-n' + n;
+        if (WX_PART_ICON[p]) {
+          el.innerHTML = '<svg class="licon" aria-hidden="true"><use href="#' + WX_PART_ICON[p] + '"/></svg>';
+        }
         fx.appendChild(el);
       });
       fx.dataset.wx = plan.kind;
@@ -129,7 +133,7 @@
       badge.replaceChildren();
       if (icon) {
         var ic = document.createElement('span');
-        ic.className = 'fas ' + icon;
+        ic.innerHTML = '<svg class="licon" aria-hidden="true"><use href="#' + icon + '"/></svg>';
         ic.setAttribute('aria-hidden', 'true');
         badge.append(ic, ' ');
       }

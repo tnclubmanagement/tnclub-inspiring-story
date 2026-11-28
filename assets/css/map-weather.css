@@ -19,7 +19,7 @@
   text-overflow: ellipsis;
 }
 .athlete-qv-weather:hover { background: rgba(0, 0, 0, 0.75); color: #fff; }
-.athlete-qv-weather .fas { margin-right: 0.1rem; }
+.athlete-qv-weather svg { margin-right: 0.1rem; vertical-align: -0.15em; }
 /* Hiệu ứng thời tiết trên ảnh quick view — chạy 1 lần (~2s) rồi mờ hẳn, không loop */
 .athlete-qv-wx-fx { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
 .athlete-qv-wx-fx::before, .athlete-qv-wx-fx::after { content: ""; position: absolute; opacity: 0; }
