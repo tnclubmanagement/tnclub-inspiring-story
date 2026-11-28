@@ -10,6 +10,9 @@ tags: [dong-luc, giao-duc, tinh-ban, vuot-kho, trung-quoc]
 series: "Không đầu hàng"
 series_order: 7
 series_url: "/series/khong-dau-hang/"
+event_year: 2022
+tour_marker: "Câu chuyện được chia sẻ rộ rãi năm 2022"
+tour_note: "Suốt hai năm trời, Trương Thải Hồng cõng người bạn khuyết tật Trần Thần qua mọi chặng đường: lớp học, ký túc xá, phòng ăn, cầu thang. Cùng nhau, hai cô gái Tứ Xuyên giữ lấy ước mơ bước vào đại học."
 geo: [30.65, 104.07]
 place_name: "Tứ Xuyên"
 place_country: "China"

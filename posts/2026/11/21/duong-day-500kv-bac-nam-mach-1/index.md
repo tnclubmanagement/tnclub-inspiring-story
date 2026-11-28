@@ -11,6 +11,8 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/21/duong-day-500kv-bac-nam-mach-1/cover.jpg"
 thumbnail-img: "/posts/2026/11/21/duong-day-500kv-bac-nam-mach-1/cover.jpg"
 tags: [lịch sử Việt Nam, đường dây 500 kV, Võ Văn Kiệt, dựng xây đất nước, calendar]
+event_year: 1994
+tour_note: "Ngày 27 tháng 5 năm 1994, đường dây 500 kV Bắc–Nam mạch 1 đóng điện. Từ dòng Đà qua Trường Sơn, hàng vạn bàn tay làm nên công trình — và có những người đã không kịp nhìn thấy ngày dòng điện nối liền."
 geo: [15.0, 107.8]
 place_name: "Đèo Lò Xo, Trường Sơn"
 place_country: "Vietnam"

@@ -440,7 +440,7 @@
       m.bindTooltip(tipHtml,
         { direction: 'top', offset: [0, -24], className: 'athlete-pin-tip' }
       );
-      m.on('click', function () { openQuickview(d); });
+      m.on('click', function () { stopTour(); openQuickview(d); });
       return {
         marker: m, d: d, kind: d.kind, topic: d.topic, url: d.url, region: d.region || '', series: d.series, country: d.country || '',
         searchText: normalizeText([d.name, d.title, d.nick, d.series, d.country, COUNTRY_LABEL[d.country], d.hometown,
@@ -478,7 +478,7 @@
       cm.bindPopup('', { className: 'map-cluster-popup', maxWidth: 280, offset: [0, -14] });
       var cl = { marker: cm, members: members, visList: [] };
       cm.on('click', function () {
-        if (cl.visList.length === 1) { map.closePopup(); openQuickview(cl.visList[0].d); return; }
+        if (cl.visList.length === 1) { map.closePopup(); stopTour(); openQuickview(cl.visList[0].d); return; }
         if (!cl.visList.length) return;
         var html = buildClusterPopup(cl.visList, COUNTRY_LABEL);
         cm.getPopup().setContent(html);
@@ -492,7 +492,7 @@
           if (!btn) return;
           map.closePopup();
           var en = cl.visList[+btn.dataset.idx];
-          if (en) openQuickview(en.d);
+          if (en) { stopTour(); openQuickview(en.d); }
         });
       });
       members.forEach(function (en) { en.cluster = cl; });
@@ -622,6 +622,9 @@
       if (totalCount) totalCount.textContent = shown;
       renderChips(shown);
       close();
+      // Nút ▶ chuyên đề chỉ hiện khi đang lọc một chuyên đề cụ thể
+      if (playBtn) playBtn.hidden = !(activeFilter === 'Chuyên đề' && activeSeries !== 'all' && shown > 1);
+      if (tour.on) stopTour();
 
       // Tự zoom theo filter: quốc gia cụ thể → khung nước đó;
       // "Tất cả" → về khung nhìn mặc định; còn lại fit theo các pin đang hiện
@@ -769,6 +772,230 @@
     document.getElementById('map-center-btn').addEventListener('click', function () {
       close();
       focusView();
+    });
+
+    // ===== Auto-play chuyên đề: bay qua từng điểm theo mốc thời gian
+    // tăng dần, mở quick view và đọc thuyết minh (TTS + caption).
+    var playBtn = document.getElementById('map-play-btn');
+    var tourBar = document.getElementById('map-tour-bar');
+    L.DomEvent.disableClickPropagation(playBtn);
+    L.DomEvent.disableClickPropagation(tourBar);
+    var tourYearEl = tourBar.querySelector('.map-tour-year');
+    var tourTitleEl = tourBar.querySelector('.map-tour-title');
+    var tourSubEl = tourBar.querySelector('.map-tour-sub');
+    var tourProgEl = tourBar.querySelector('.map-tour-progress');
+    var pauseBtn = tourBar.querySelector('[data-act="pause"]');
+    var muteBtn = tourBar.querySelector('[data-act="mute"]');
+    var synth = window.speechSynthesis || null;
+    var tour = { on: false, paused: false, muted: false, stopNow: false, endSpeech: null };
+    var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var isEn = (window.__athleteMapConfig || {}).lang !== (window.__athleteMapConfig || {}).defaultLang;
+
+    // Chờ ms — dừng ngay khi stop, đóng băng khi pause.
+    function tourSleep(ms) {
+      return new Promise(function (resolve) {
+        var left = ms, last = Date.now();
+        var t = setInterval(function () {
+          if (tour.stopNow) { clearInterval(t); resolve(); return; }
+          var now = Date.now();
+          if (!tour.paused) left -= now - last;
+          last = now;
+          if (left <= 0) { clearInterval(t); resolve(); }
+        }, 120);
+      });
+    }
+
+    // Đọc thuyết minh bằng Web Speech API; khi mute (hoặc trình duyệt
+    // không có TTS) chờ theo độ dài câu. Resolve khi đọc xong / bị dừng.
+    function speak(text) {
+      return new Promise(function (resolve) {
+        if (!synth || tour.muted) {
+          tourSleep(Math.min(Math.max(text.length * 85, 2600), 14000)).then(resolve);
+          return;
+        }
+        var u = new SpeechSynthesisUtterance(text);
+        u.lang = isEn ? 'en-US' : 'vi-VN';
+        var prefix = u.lang.slice(0, 2);
+        var voice = synth.getVoices().filter(function (v) {
+          return v.lang && v.lang.slice(0, 2) === prefix;
+        })[0];
+        if (voice) u.voice = voice;
+        var done = false;
+        function fin() { if (!done) { done = true; tour.endSpeech = null; resolve(); } }
+        tour.endSpeech = fin;
+        u.onend = fin;
+        u.onerror = fin;
+        // Fallback nếu onend không bao giờ chạy (một số trình duyệt).
+        setTimeout(fin, Math.max(6000, text.length * 140) + 5000);
+        synth.speak(u);
+      });
+    }
+
+    function cleanTourTitle(t) {
+      return String(t || '').replace(/^\s*\[[^\]]*\]\s*:?\s*/, '');
+    }
+
+    // Mốc thời gian đọc trước nội dung: ưu tiên tour_marker dạng chữ
+    // ("Qua nhiều thời kỳ"), sau đó "Ngày 7 tháng 5 năm 1954" / "Năm 1986".
+    function tourMarker(d) {
+      if (d.tourMarker) return d.tourMarker;
+      if (!d.eventYear) return '';
+      var dm = String(d.historyDate || '').split('-');
+      if (dm.length === 2) {
+        return tx('tour_date', 'Ngày %1 tháng %2 năm %3')
+          .replace('%1', String(+dm[1])).replace('%2', String(+dm[0])).replace('%3', d.eventYear);
+      }
+      return tx('tour_year', 'Năm %1').replace('%1', d.eventYear);
+    }
+
+    // Lời thuyết minh: mốc thời gian + tour_note (văn riêng do tác giả
+    // viết); không có tour_note thì ghép title + subtitle.
+    function narrationOf(d) {
+      var marker = tourMarker(d);
+      var body;
+      if (d.tourNote) body = d.tourNote;
+      else {
+        var name = d.kind === 'place' && d.title ? cleanTourTitle(d.title) : d.name;
+        var bits = [name];
+        var sub = d.subtitle || d.summary;
+        if (sub) bits.push(sub);
+        body = bits.join('. ');
+      }
+      // Note đã tự mở bằng đúng năm sự kiện thì không đọc lại mốc nữa.
+      if (marker && d.eventYear && body.slice(0, 90).indexOf(String(d.eventYear)) === -1) {
+        return marker + '. ' + body;
+      }
+      if (marker && !d.eventYear) return marker + '. ' + body;
+      return body;
+    }
+
+    // Sắp xếp theo mốc thời gian tăng dần: năm sự kiện (hoặc mốc gần
+    // nhất) → series_order (tác giả đánh số theo trình tự) →
+    // history-date (MM-DD) → tên.
+    function tourSortKey(en) {
+      var d = en.d;
+      return [
+        d.sortYear || 99999,
+        Number(d.seriesOrder) || 9999,
+        String(d.historyDate || '99-99'),
+        d.title || d.name || ''
+      ];
+    }
+    function tourCompare(a, b) {
+      var ka = tourSortKey(a), kb = tourSortKey(b);
+      for (var i = 0; i < ka.length; i++) {
+        if (ka[i] < kb[i]) return -1;
+        if (ka[i] > kb[i]) return 1;
+      }
+      return 0;
+    }
+
+    function renderTourStop(d, idx, total) {
+      var markerText = tourMarker(d);
+      tourYearEl.textContent = markerText || cleanTourTitle(d.title) || d.name;
+      tourTitleEl.textContent = markerText ? (cleanTourTitle(d.title) || d.name) : '';
+      tourSubEl.textContent = d.subtitle || d.summary || '';
+      tourProgEl.textContent = idx + '/' + total;
+    }
+
+    function startTour() {
+      if (tour.on) return;
+      var seq = entries.filter(function (en) { return en._vis !== false; }).sort(tourCompare);
+      if (!seq.length) return;
+      tour.on = true;
+      tour.stopNow = false;
+      tour.paused = false;
+      tourBar.hidden = false;
+      playBtn.innerHTML = '<span class="fas fa-stop" aria-hidden="true"></span>';
+      playBtn.title = tx('stop_tour', 'Dừng phát');
+      playBtn.setAttribute('aria-label', playBtn.title);
+      playBtn.setAttribute('aria-pressed', 'true');
+      runTour(seq);
+    }
+
+    function stopTour() {
+      if (!tour.on) return;
+      tour.stopNow = true;
+      tour.on = false;
+      if (tour.endSpeech) tour.endSpeech();
+      if (synth) synth.cancel();
+      tourBar.hidden = true;
+      playBtn.innerHTML = '<span class="fas fa-play" aria-hidden="true"></span>';
+      playBtn.title = tx('play_tour', 'Phát chuyên đề');
+      playBtn.setAttribute('aria-label', playBtn.title);
+      playBtn.setAttribute('aria-pressed', 'false');
+    }
+
+    function runTour(seq) {
+      // Lời giới thiệu: thu nhỏ bản đồ về khung trọn chuyên đề rồi đọc
+      // intro ("Chuyên đề X — N điểm theo mốc thời gian") trước điểm đầu.
+      var seqBounds = L.latLngBounds(seq.map(function (en) { return en.marker.getLatLng(); }));
+      var seriesBtn = seriesDrop && seriesDrop.querySelector('[data-series="' + activeSeries + '"]');
+      var seriesName = seriesBtn ? seriesBtn.textContent.trim() : activeSeries;
+      tourYearEl.textContent = seriesName;
+      tourTitleEl.textContent = tx('showing', 'Đang hiện %1 điểm').replace('%1', seq.length);
+      tourSubEl.textContent = '';
+      tourProgEl.textContent = '';
+      if (reducedMotion) map.fitBounds(seqBounds, { padding: [50, 50], animate: false });
+      else map.flyToBounds(seqBounds, { padding: [50, 50], duration: 1.4, maxZoom: 6 });
+      var intro = tx('tour_intro', 'Chuyên đề %1. Hành trình qua %2 điểm đến theo mốc thời gian tăng dần.')
+        .replace('%1', seriesName).replace('%2', seq.length);
+      speak(intro).then(function () {
+        if (tour.stopNow) return;
+        next();
+      });
+
+      var i = 0;
+      function next() {
+        if (tour.stopNow || i >= seq.length) { stopTour(); return; }
+        var en = seq[i];
+        renderTourStop(en.d, i + 1, seq.length);
+        var ll = en.marker.getLatLng();
+        var zoom = Math.max(map.getZoom(), 6);
+        if (reducedMotion) map.setView(ll, zoom, { animate: false });
+        else map.flyTo(ll, zoom, { duration: 1.5 });
+        tourSleep(reducedMotion ? 400 : 1700).then(function () {
+          if (tour.stopNow) return;
+          openQuickview(en.d);
+          return speak(narrationOf(en.d)).then(function () { return tourSleep(1000); });
+        }).then(function () {
+          i++;
+          next();
+        });
+      }
+      next();
+    }
+
+    playBtn.addEventListener('click', function () {
+      if (tour.on) stopTour(); else startTour();
+    });
+    tourBar.addEventListener('click', function (e) {
+      var btn = e.target.closest('.map-tour-btn');
+      if (!btn) return;
+      var act = btn.dataset.act;
+      if (act === 'stop') stopTour();
+      else if (act === 'pause') {
+        tour.paused = !tour.paused;
+        if (synth) tour.paused ? synth.pause() : synth.resume();
+        btn.innerHTML = '<span class="fas fa-' + (tour.paused ? 'play' : 'pause') + '" aria-hidden="true"></span>';
+        btn.title = tx(tour.paused ? 'resume_tour' : 'pause_tour', tour.paused ? 'Tiếp tục' : 'Tạm dừng');
+        btn.setAttribute('aria-label', btn.title);
+      } else if (act === 'mute') {
+        tour.muted = !tour.muted;
+        if (tour.muted && synth) {
+          synth.cancel();
+          if (tour.endSpeech) tour.endSpeech();
+        }
+        btn.innerHTML = '<span class="fas fa-volume-' + (tour.muted ? 'mute' : 'up') + '" aria-hidden="true"></span>';
+        btn.title = tx(tour.muted ? 'unmute_tour' : 'mute_tour', tour.muted ? 'Bật tiếng' : 'Tắt tiếng');
+        btn.setAttribute('aria-label', btn.title);
+      }
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !e.defaultPrevented && tour.on) {
+        e.preventDefault();
+        stopTour();
+      }
     });
     document.addEventListener('keydown', function (e) {
       if (e.key !== 'Escape' || e.defaultPrevented) return;

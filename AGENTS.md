@@ -90,6 +90,24 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   `.tag-section-title` và biến `--bg-light/--surface/--hairline/--z-map-*`
   nằm trong `site-map.css` + `custom-styles.css` `:root`. Không port
   `travel-spinner` (đặc thù của yedas).
+- Auto-play chuyên đề (nút ▶ trên bản đồ, chỉ hiện khi đang lọc một
+  series): tour bay qua từng pin theo mốc thời gian tăng dần, mở quick
+  view và đọc thuyết minh bằng Web Speech API (TTS vi/en, có nút
+  pause/mute/stop, thanh caption `.map-tour-bar`). Tour mở đầu bằng lời
+  giới thiệu chuyên đề (`tour_intro`), mỗi điểm đọc mốc thời gian trước
+  nội dung. Lời đọc lấy từ front matter `tour_note` (văn riêng, ưu tiên
+  viết để nghe); không có thì ghép title + subtitle. Mốc đọc: `tour_marker`
+  (chuỗi tuỳ chọn cho bài không có 1 năm) → "Ngày D tháng M năm YYYY"
+  (`event_year` + `history-date`) → "Năm YYYY"; nếu `tour_note` đã tự mở
+  bằng đúng năm thì không đọc lặp mốc. Với bài câu chuyện nhân vật,
+  `event_year`/`tour_marker` dùng **năm câu chuyện được chia sẻ rộ rãi**
+  (vd "Câu chuyện được chia sẻ rộ rãi năm 2022"), không phải năm sự kiện.
+  Năm sự kiện: `event_year` ghi đè,
+  không có thì đoán từ title/permalink (`eventYearOf` trong map-pins.js,
+  đã loại đoạn /YYYY/MM/DD/ của URL đăng bài); bài thiếu năm xếp sau theo
+  `series_order`. Logic tour nằm trong `site-map.js` (khối
+  "Auto-play chuyên đề"), chuỗi UI ở `strings.yml` mục `map` (khóa
+  `play_tour`…`tour_date`, `tour_intro`).
 - Front matter bài viết được chuẩn hóa bởi `_tests/post.schema.json`
   (port từ `tnclub-yedas`, bỏ rule tag miền vì site này không có bài ẩm
   thực) — kiểm tra bằng `bundle exec ruby _tests/post_frontmatter_test.rb`

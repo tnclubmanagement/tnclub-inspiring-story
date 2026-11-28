@@ -11,6 +11,8 @@ series_url: "/series/hoa-binh-khong-de-co/"
 cover-img: "/posts/2026/11/14/chien-thang-dien-bien-phu/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/chien-thang-dien-bien-phu/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, kháng chiến]
+event_year: 1954
+tour_note: "56 ngày đêm năm 1954 tại lòng chảo Điện Biên Phủ. Chiến thắng ngày 7 tháng 5 làm nên một dấu mốc lịch sử — kết thúc cuộc kháng chiến chống Pháp, và để lại những bài học về ý chí và sự chuẩn bị."
 geo: [21.3856, 103.023]
 place_name: "Điện Biên Phủ"
 place_country: "Vietnam"

@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, bac-dai, trung-quoc]
 series: "Không đầu hàng"
 series_order: 5
 series_url: "/series/khong-dau-hang/"
+event_year: 2018
+tour_marker: "Câu chuyện được chia sẻ rộ rãi năm 2018"
+tour_note: "Thôi Khánh Đào nhận giấy báo Đại học Bắc Kinh giữa công trường Vân Nam, hai tay còn dính xi măng. Anh không xem đó là phép màu — chỉ là kết quả của nhiều năm miệt mài không buông, và là khởi đầu để tự viết tiếp tương lai."
 geo: [25.04, 102.71]
 place_name: "Vân Nam"
 place_country: "China"

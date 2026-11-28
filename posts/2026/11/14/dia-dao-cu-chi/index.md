@@ -10,6 +10,8 @@ series_order: 4
 cover-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/dia-dao-cu-chi/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Củ Chi, chiến tranh]
+event_year: 1966
+tour_note: "Dưới lòng đất Củ Chi là một thế giới khác: hệ thống địa đạo được đào bằng sức người, nơi cả một cộng đồng sống, chữa thương và chiến đấu suốt những năm chiến tranh. Đằng sau công trình quân sự ấy là sức chịu đựng của con người."
 geo: [11.052, 106.495]
 place_name: "Địa đạo Củ Chi, TP. Hồ Chí Minh"
 place_country: "Vietnam"

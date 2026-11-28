@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, cong-nghe, trung-quoc]
 series: "Không đầu hàng"
 series_order: 2
 series_url: "/series/khong-dau-hang/"
+event_year: 2021
+tour_marker: "Câu chuyện được chia sẻ rộ rãi năm 2021"
+tour_note: "Từ những đêm mò lươn dưới ruộng nước Tứ Xuyên để có tiền đi học, Hoàng Quốc Bình đã đi qua đại học, nghiên cứu sinh, để trở thành nhà nghiên cứu AI tại Tencent. Câu chuyện của anh là sự kiên trì biến những đêm mò mẫm thành một sự nghiệp khoa học."
 geo: [30.8, 106.08]
 place_name: "Tứ Xuyên"
 place_country: "China"

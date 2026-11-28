@@ -10,6 +10,8 @@ series_order: 9
 cover-img: "/posts/2026/11/14/chien-tranh-bien-gioi-tay-nam/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-tay-nam/thumbnail-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới Tây Nam, Campuchia]
+event_year: 1978
+tour_note: "Cuối năm 1978, chiến sự bùng lên ở biên giới Tây Nam. Những người lính chiến đấu xa quê, còn người dân Campuchia thoát khỏi một thảm họa — một chương lịch sử phức tạp, cần nhớ cho đúng những con người đã trả giá."
 geo: [10.5, 105.0]
 place_name: "Biên giới Tây Nam, An Giang"
 place_country: "Vietnam"

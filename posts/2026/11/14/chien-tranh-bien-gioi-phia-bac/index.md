@@ -10,6 +10,8 @@ series_order: 10
 cover-img: "/posts/2026/11/14/chien-tranh-bien-gioi-phia-bac/thumbnail-local.png"
 thumbnail-img: "/posts/2026/11/14/chien-tranh-bien-gioi-phia-bac/thumbnail-local.png"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, biên giới phía Bắc, Vị Xuyên]
+event_year: 1979
+tour_note: "Tháng 2 năm 1979, chiến tranh lan đến biên giới phía Bắc. Những người lính trẻ và người dân địa đầu đã ở lại giữ quê hương — cuộc chiến kéo dài cả thập kỷ trên những đỉnh núi và bản làng vùng cao."
 geo: [21.8537, 106.7615]
 place_name: "Biên giới phía Bắc, Lạng Sơn"
 place_country: "Vietnam"

@@ -10,6 +10,8 @@ series_order: 7
 cover-img: "/posts/2026/11/14/thanh-co-quang-tri/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/thanh-co-quang-tri/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Thành cổ Quảng Trị, chiến tranh]
+event_year: 1972
+tour_note: "Mùa hè năm 1972, Thành cổ Quảng Trị là tâm điểm của một trận chiến kéo dài 81 ngày đêm. Bức tường thành và dòng Thạch Hãn chứng kiến sự hy sinh của rất nhiều người trẻ — những người nằm lại để giữ lấy từng tấc đất."
 geo: [16.742, 107.188]
 place_name: "Thành cổ Quảng Trị"
 place_country: "Vietnam"

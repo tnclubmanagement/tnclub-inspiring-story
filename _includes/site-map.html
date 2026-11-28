@@ -59,6 +59,19 @@
     <button class="map-fs-btn map-expand-btn" id="map-expand-btn" type="button" aria-label="{{ s.map.expand }}" title="{{ s.map.expand }}" aria-pressed="false">↗</button>
     <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="{{ s.map.fullscreen }}" title="{{ s.map.fullscreen }}" aria-pressed="false">⛶</button>
     <button class="map-fs-btn map-center-btn" id="map-center-btn" type="button" aria-label="{{ s.map.recenter }}" title="{{ s.map.recenter }}">◎</button>
+    <button class="map-fs-btn map-play-btn" id="map-play-btn" type="button" aria-label="{{ s.map.play_tour }}" title="{{ s.map.play_tour }}" aria-pressed="false" hidden><span class="fas fa-play" aria-hidden="true"></span></button>
+    <div class="map-tour-bar" id="map-tour-bar" hidden>
+      <div class="map-tour-info">
+        <strong class="map-tour-year"></strong>
+        <div class="map-tour-text"><b class="map-tour-title"></b><span class="map-tour-sub"></span></div>
+      </div>
+      <div class="map-tour-controls">
+        <span class="map-tour-progress" aria-live="polite"></span>
+        <button class="map-tour-btn" type="button" data-act="pause" aria-label="{{ s.map.pause_tour }}" title="{{ s.map.pause_tour }}"><span class="fas fa-pause" aria-hidden="true"></span></button>
+        <button class="map-tour-btn" type="button" data-act="mute" aria-label="{{ s.map.mute_tour }}" title="{{ s.map.mute_tour }}"><span class="fas fa-volume-up" aria-hidden="true"></span></button>
+        <button class="map-tour-btn" type="button" data-act="stop" aria-label="{{ s.map.stop_tour }}" title="{{ s.map.stop_tour }}"><span class="fas fa-times" aria-hidden="true"></span></button>
+      </div>
+    </div>
     <div class="athlete-quickview" id="athlete-quickview" hidden>
       <button class="athlete-qv-close" type="button" aria-label="{{ s.map.close }}"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
       <div class="athlete-qv-head">

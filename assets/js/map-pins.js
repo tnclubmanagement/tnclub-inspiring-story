@@ -96,6 +96,19 @@
     });
   }
 
+  // Năm sự kiện cho tour theo mốc thời gian: chỉ lấy năm 4 chữ số có
+  // trong title (vd "1986 — Bước ngoặt Đổi mới") hoặc permalink
+  // (vd /post/lich-su-7-thang-5-1954/) — KHÔNG lấy năm đăng bài vì đó
+  // là năm viết, không phải năm của sự kiện.
+  function eventYearOf(p) {
+    // Bỏ đoạn /YYYY/MM/DD/ của permalink mặc định trước khi tìm năm —
+    // đó là ngày đăng bài, không phải năm sự kiện.
+    var url = String(p.url || '').replace(/\/\d{4}\/\d{2}\/\d{2}\//g, '/');
+    var m = String(p.title || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/) ||
+            url.match(/\b(1[0-9]{3}|20[0-9]{2})\b/);
+    return m ? +m[0] : 0;
+  }
+
   function build(posts, opts) {
     opts = opts || {};
     // Prefix ngôn ngữ: trang EN dùng base + 'en/' để link về bản /en/...
@@ -108,11 +121,25 @@
     var pins = [];
     (posts || []).forEach(function (p) {
       var a = p.athlete;
+      var before = pins.length;
       if (a && a.geo) pins.push(athletePin(p, a, base));
       else if (p.geo) {
         var isFood = !!foodCategories[String(p.category || '').toLowerCase().trim()];
         pins.push(placePin(p, isFood, base));
       }
+      if (pins.length === before) return;
+      var pin = pins[pins.length - 1];
+      // event_year trong front matter ghi đè năm đoán từ title/permalink.
+      var fy = Number(p.eventYear);
+      pin.eventYear = fy > 0 ? fy : eventYearOf(p);
+      pin.tourNote = str(p.tourNote);
+      pin.tourMarker = str(p.tourMarker);
+      // Không có năm sự kiện → dùng năm đăng bài làm mốc sắp xếp cuối
+      // (bài chưa ghi năm sẽ xếp sau các sự kiện có năm rõ ràng).
+      var dYear = String(p.date || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/);
+      pin.sortYear = pin.eventYear || (dYear ? +dYear[0] : 99999);
+      pin.historyDate = str(p.historyDate);
+      pin.seriesOrder = p.seriesOrder;
     });
     return pins;
   }
@@ -134,7 +161,7 @@
       .then(function (text) { return build(decode(text), opts); });
   }
 
-  var api = { build: build, load: load, decode: decode, canonicalRegion: canonicalRegion, rel: rel };
+  var api = { build: build, load: load, decode: decode, canonicalRegion: canonicalRegion, rel: rel, eventYearOf: eventYearOf };
   root.MapPins = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

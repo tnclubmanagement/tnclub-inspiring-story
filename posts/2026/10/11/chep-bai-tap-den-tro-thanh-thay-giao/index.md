@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, giao-duc, trung-quoc]
 series: "Không đầu hàng"
 series_order: 6
 series_url: "/series/khong-dau-hang/"
+event_year: 2021
+tour_marker: "Câu chuyện được chia sẻ rộ rãi năm 2021"
+tour_note: "Không có tiền mua sách bài tập, Vương Miểu ngồi trong hiệu sách của trường chép tay từng đề. Cậu thi đỗ đại học và chọn trở thành thầy giáo — để mang tri thức quay lại vùng núi Vân Nam nơi mình lớn lên."
 geo: [25.04, 102.71]
 place_name: "Vân Nam"
 place_country: "China"

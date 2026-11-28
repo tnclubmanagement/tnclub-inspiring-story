@@ -11,6 +11,8 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/14/cach-mang-thang-tam-1945/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/cach-mang-thang-tam-1945/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, Cách mạng tháng Tám]
+event_year: 1945
+tour_note: "Ngày 19 tháng 8 năm 1945, hàng vạn người dân Hà Nội xuống đường mít tinh và giành chính quyền. Thắng lợi ở Thủ đô mở đầu cho Cách mạng tháng Tám thành công trên cả nước."
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"

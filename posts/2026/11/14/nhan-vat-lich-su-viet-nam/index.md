@@ -10,6 +10,8 @@ tags: [lịch sử Việt Nam, nhân vật lịch sử, calendar]
 series: "Lịch sử Việt Nam"
 series_order: 4
 series_url: "/series/lich-su-viet-nam/"
+tour_marker: "Qua nhiều thời kỳ"
+tour_note: "Lịch sử Việt Nam không chỉ là của các vị vua và danh tướng. Đó còn là câu chuyện của nữ anh hùng, nhà giáo, nhà thơ, thầy thuốc và hàng triệu người bình thường — mỗi người để lại một dấu ấn trong hành trình dựng nước và giữ nước."
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"

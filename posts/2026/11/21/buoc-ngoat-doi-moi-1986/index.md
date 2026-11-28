@@ -11,6 +11,8 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/21/buoc-ngoat-doi-moi-1986/cover.jpg"
 thumbnail-img: "/posts/2026/11/21/buoc-ngoat-doi-moi-1986/cover.jpg"
 tags: [lịch sử Việt Nam, Đổi mới, lịch sử kinh tế, calendar]
+event_year: 1986
+tour_note: "Tháng 12 năm 1986, Đại hội VI của Đảng họp tại Hà Nội và chọn con đường Đổi mới: nhìn thẳng vào sự thật, nhận ra sai lầm, thay đổi tư duy kinh tế. Từ thời tem phiếu thiếu trước mặt sau, đất nước mở ra một quá trình thay đổi lâu dài."
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"

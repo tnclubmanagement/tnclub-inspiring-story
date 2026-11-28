@@ -11,6 +11,8 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/14/giai-phong-thu-do/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/giai-phong-thu-do/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, Hà Nội]
+event_year: 1954
+tour_note: "Ngày 10 tháng 10 năm 1954, các đơn vị Quân đội nhân dân Việt Nam tiến vào tiếp quản Hà Nội. Sau chín năm chiến tranh, người dân Thủ đô đón những đoàn quân trở về trong niềm vui ngập tràn các con phố."
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"

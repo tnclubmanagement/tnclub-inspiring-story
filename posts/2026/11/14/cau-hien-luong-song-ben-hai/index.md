@@ -10,6 +10,8 @@ series_order: 8
 cover-img: "/posts/2026/11/14/cau-hien-luong-song-ben-hai/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/cau-hien-luong-song-ben-hai/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Hiền Lương, Bến Hải]
+event_year: 1954
+tour_note: "Từ năm 1954, cầu Hiền Lương bắc qua sông Bến Hải trở thành ranh giới chia cắt đất nước. Hai mươi năm, biết bao gia đình sống hai bên bờ với những quy định khắt khe và nỗi nhớ người thân — cho đến ngày đất nước nối liền."
 geo: [17.001, 107.048]
 place_name: "Cầu Hiền Lương, Quảng Trị"
 place_country: "Vietnam"

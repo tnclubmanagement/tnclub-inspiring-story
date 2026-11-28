@@ -240,6 +240,91 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 /* Nút về giữa vùng đang chọn — xếp chồng ngay trên nút toàn màn hình */
 .map-center-btn { bottom: 140px; }
 .map-expand-btn { bottom: 92px; }
+/* Nút phát chuyên đề — xếp chồng trên cụm nút trái dưới */
+.map-play-btn { bottom: 188px; }
+/* Thanh thuyết minh tour — nằm dưới giữa, tránh cụm nút trái và attribution phải */
+.map-tour-bar {
+  position: absolute;
+  left: 50%;
+  bottom: 44px;
+  transform: translateX(-50%);
+  z-index: var(--z-map-controls, 800);
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  max-width: min(620px, calc(100% - 150px));
+  padding: 0.55rem 0.8rem 0.55rem 1rem;
+  border-radius: 14px;
+  border: 1px solid var(--hairline);
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+}
+.map-tour-info {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-width: 0;
+  flex: 1;
+}
+.map-tour-year {
+  flex: none;
+  font-size: 0.95rem;
+  color: #0071e3;
+  white-space: nowrap;
+}
+.map-tour-text {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+.map-tour-title {
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.map-tour-sub {
+  font-size: 0.78rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.map-tour-controls {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.map-tour-progress {
+  font-size: 0.78rem;
+  color: var(--muted);
+  white-space: nowrap;
+  margin-right: 0.15rem;
+}
+.map-tour-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--hairline);
+  background: var(--bg-light);
+  color: var(--ink);
+  font-size: 0.8rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.map-tour-btn:hover { background: var(--hairline); }
+.map-tour-bar[hidden] { display: none; }
+@media (max-width: 640px) {
+  .map-tour-bar {
+    bottom: auto;
+    top: 56px;
+    max-width: calc(100% - 24px);
+    width: calc(100% - 24px);
+  }
+  .map-tour-sub { display: none; }
+}
 /* Tổng số điểm đang hiện — giữa phía trên, tránh nút zoom (trái) và quick view (phải) */
 .map-total {
   position: absolute;

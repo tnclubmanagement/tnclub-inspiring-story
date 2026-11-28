@@ -10,6 +10,8 @@ series_order: 5
 cover-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/ha-noi-12-ngay-dem/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Hà Nội, B-52]
+event_year: 1972
+tour_note: "Từ ngày 18 đến 29 tháng 12 năm 1972, Hà Nội và nhiều địa phương miền Bắc hứng chịu những đợt ném bom dữ dội bằng B-52. 'Điện Biên Phủ trên không' là câu chuyện của những trận trực chiến, những khu phố rung chuyển — và rất nhiều người không trở về."
 geo: [21.0285, 105.8542]
 place_name: "Hà Nội"
 place_country: "Vietnam"

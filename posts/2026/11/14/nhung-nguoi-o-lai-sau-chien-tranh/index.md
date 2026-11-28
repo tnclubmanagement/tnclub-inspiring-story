@@ -10,6 +10,8 @@ series_order: 11
 cover-img: "/posts/2026/11/14/nhung-nguoi-o-lai-sau-chien-tranh/thumbnail-local.jpg"
 thumbnail-img: "/posts/2026/11/14/nhung-nguoi-o-lai-sau-chien-tranh/thumbnail-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, ký ức chiến tranh, hòa bình]
+tour_marker: "Từ sau năm 1975"
+tour_note: "Chiến tranh qua đi, nhưng mất mát thì ở lại: những nghĩa trang, những người thân không còn, những cuộc đời tiếp tục sống cùng thương nhớ. Họ là phần dài nhất và ít được kể nhất của chuyện hòa bình."
 geo: [16.74, 107.19]
 place_name: "Quảng Trị"
 place_country: "Vietnam"

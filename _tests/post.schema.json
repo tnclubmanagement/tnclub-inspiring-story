@@ -62,6 +62,20 @@
       "pattern": "^/series/",
       "description": "Đường dẫn trang tổng quan series, VD /series/lich-su-viet-nam/"
     },
+    "event_year": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3000,
+      "description": "Năm diễn ra sự kiện — dùng cho auto-play chuyên đề trên /map/ khi năm không đọc được từ title/permalink."
+    },
+    "tour_note": {
+      "type": "string",
+      "description": "Lời thuyết minh riêng cho auto-play chuyên đề trên /map/ (2-4 câu, viết để nghe; bài nhân vật nên có tiểu sử, sự kiện, thành tựu, đóng góp)."
+    },
+    "tour_marker": {
+      "type": "string",
+      "description": "Mốc thời gian dạng chữ đọc trong auto-play khi không có 1 năm cụ thể, VD \"Qua nhiều thời kỳ\", \"Từ sau năm 1975\"."
+    },
     "geo": {
       "type": "array",
       "items": { "type": "number" },

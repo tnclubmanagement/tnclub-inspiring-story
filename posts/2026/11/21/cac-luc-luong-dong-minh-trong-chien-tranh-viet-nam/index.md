@@ -10,6 +10,8 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/21/cac-luc-luong-dong-minh-trong-chien-tranh-viet-nam/cover.jpg"
 thumbnail-img: "/posts/2026/11/21/cac-luc-luong-dong-minh-trong-chien-tranh-viet-nam/cover.jpg"
 tags: [lịch sử Việt Nam, chiến tranh Việt Nam, ký ức chiến tranh]
+event_year: 1965
+tour_note: "Trên chiến trường miền Nam không chỉ có quân Mỹ. Từ năm 1965 còn có binh sĩ Hàn Quốc, Australia, New Zealand, Thái Lan và Philippines — mỗi lực lượng một vai trò riêng, cho thấy quy mô quốc tế của cuộc chiến."
 geo: [10.7769, 106.7009]
 place_name: "Sài Gòn"
 place_country: "Vietnam"

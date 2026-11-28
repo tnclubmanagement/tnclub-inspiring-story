@@ -11,6 +11,8 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jpg"
 thumbnail-img: "/posts/2026/11/14/ngay-giai-phong-mien-nam/banner-30-thang-4-1975.jpg"
 tags: [lịch sử Việt Nam, calendar, lịch sử hiện đại]
+event_year: 1975
+tour_note: "Ngày 30 tháng 4 năm 1975, chiến dịch Hồ Chí Minh kết thúc thắng lợi: miền Nam được giải phóng, đất nước nối liền một dải. Đó là kết quả của một chặng đường dài đấu tranh và hy sinh của nhiều thế hệ người Việt."
 geo: [10.7769, 106.7009]
 place_name: "TP. Hồ Chí Minh"
 place_country: "Vietnam"

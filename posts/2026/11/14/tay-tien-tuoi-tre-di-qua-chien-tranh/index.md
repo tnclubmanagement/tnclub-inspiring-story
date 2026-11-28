@@ -10,6 +10,8 @@ series_order: 2
 cover-img: "/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/tay-tien-tuoi-tre-di-qua-chien-tranh/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Tây Tiến, kháng chiến chống Pháp]
+event_year: 1947
+tour_note: "Tây Tiến là đoàn quân hành quân qua núi cao Tây Bắc trong những năm kháng chiến — qua bệnh tật, thiếu thốn và những mùa chiến đấu. Qua thơ Quang Dũng, tuổi trẻ của họ vừa hào hùng vừa lãng mạn; và sự thật là nhiều người đã không thể trở về."
 geo: [20.67, 105.0]
 place_name: "Tây Bắc"
 place_country: "Vietnam"

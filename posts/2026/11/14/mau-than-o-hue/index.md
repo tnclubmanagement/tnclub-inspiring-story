@@ -10,6 +10,8 @@ series_order: 6
 cover-img: "/posts/2026/11/14/mau-than-o-hue/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/mau-than-o-hue/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, Mậu Thân, Huế]
+event_year: 1968
+tour_note: "Mậu Thân 1968 ở Huế là một trong những chương đau đớn nhất của chiến tranh Việt Nam: giao tranh 25 ngày đêm, thành phố tàn phá, người dân bị cuốn vào bạo lực. Viết về Huế trước hết là gọi tên những người đã chịu mất mát."
 geo: [16.4637, 107.5909]
 place_name: "Huế"
 place_country: "Vietnam"

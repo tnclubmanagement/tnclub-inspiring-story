@@ -10,6 +10,9 @@ tags: [vuot-kho, giao-duc, long-tot, trung-quoc]
 series: "Không đầu hàng"
 series_order: 1
 series_url: "/series/khong-dau-hang/"
+event_year: 2022
+tour_marker: "Câu chuyện được chia sẻ rộ rãi năm 2022"
+tour_note: "Lưu Tú Tường, chàng trai Quý Châu từng cõng mẹ bệnh qua những năm tháng đi học và bước vào đại học. Tốt nghiệp, anh chọn quay về quê làm giáo — với lời hứa không để một đứa trẻ nào phải bỏ học chỉ vì nghèo."
 geo: [26.65, 106.7]
 place_name: "Quý Châu"
 place_country: "China"

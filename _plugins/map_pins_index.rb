@@ -20,8 +20,12 @@ module Inspiring
     end
     # Front matter → key trong JSON (đúng tên MapPins.build đọc).
     FIELDS = {
-      'series' => 'series', 'category' => 'category', 'title' => 'title',
+      'series' => 'series', 'series_order' => 'seriesOrder',
+      'category' => 'category', 'title' => 'title',
       'subtitle' => 'subtitle', 'tags' => 'tags',
+      'history-date' => 'historyDate', 'date' => 'date',
+      'event_year' => 'eventYear', 'tour_note' => 'tourNote',
+      'tour_marker' => 'tourMarker',
       'cover-img' => 'cover', 'banner-img' => 'banner',
       'place_name' => 'placeName', 'place_region' => 'placeRegion',
       'place_country' => 'placeCountry', 'place_population' => 'population',

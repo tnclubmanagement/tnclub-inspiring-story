@@ -11,6 +11,8 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/21/viet-nam-gia-nhap-asean-1995/cover.jpg"
 thumbnail-img: "/posts/2026/11/21/viet-nam-gia-nhap-asean-1995/cover.jpg"
 tags: [lịch sử Việt Nam, ASEAN, hội nhập, ngoại giao, calendar]
+event_year: 1995
+tour_note: "Ngày 28 tháng 7 năm 1995, quốc kỳ Việt Nam được kéo lên tại Bandar Seri Begawan, Brunei. Việt Nam trở thành thành viên thứ bảy của ASEAN — một cánh cửa mở ra sau nhiều năm khoảng cách, đi kèm cả một hành trình phải học và phải làm phía sau."
 geo: [4.9031, 114.9398]
 place_name: "Bandar Seri Begawan"
 place_country: "Brunei"

@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, que-huong, trung-quoc]
 series: "Không đầu hàng"
 series_order: 3
 series_url: "/series/khong-dau-hang/"
+event_year: 2023
+tour_marker: "Câu chuyện được chia sẻ rộ rãi năm 2023"
+tour_note: "713 điểm thi, giấy báo Thanh Hoa đến khi Lâm Vạn Đông đang bốc gạch cùng mẹ ở công trường Vân Nam. Tốt nghiệp, anh trở về làm cán bộ cơ sở — chọn dùng chính tri thức của mình để xây dựng quê hương."
 geo: [25.04, 102.71]
 place_name: "Vân Nam"
 place_country: "China"

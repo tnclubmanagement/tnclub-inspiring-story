@@ -9,6 +9,9 @@ tags: [vuot-kho, hoc-tap, nghien-cuu, trung-quoc]
 series: "Không đầu hàng"
 series_order: 4
 series_url: "/series/khong-dau-hang/"
+event_year: 2017
+tour_marker: "Câu chuyện được chia sẻ rộ rãi năm 2017"
+tour_note: "Mẹ liệt, cha bệnh — Bàng Chúng Vọng vừa học vừa nhặt phế liệu nuôi gia đình ở Hà Bắc. Cậu đỗ Thanh Hoa và trở thành nghiên cứu sinh tiến sĩ, mang sự bền bỉ từ căn nhà nghèo vào phòng thí nghiệm."
 geo: [39.9, 116.4]
 place_name: "Bắc Kinh"
 place_country: "China"

@@ -11,6 +11,8 @@ series_url: "/series/lich-su-viet-nam/"
 cover-img: "/posts/2026/11/14/tuyen-ngon-doc-lap/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/tuyen-ngon-doc-lap/cover-local.jpg"
 tags: [lịch sử Việt Nam, calendar, độc lập]
+event_year: 1945
+tour_note: "Chiều ngày 2 tháng 9 năm 1945, tại Quảng trường Ba Đình, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa. Văn kiện ấy tuyên bố với cả thế giới: dân tộc Việt Nam có quyền được tự do và độc lập."
 geo: [21.0367, 105.8347]
 place_name: "Quảng trường Ba Đình, Hà Nội"
 place_country: "Vietnam"

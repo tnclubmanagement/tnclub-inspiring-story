@@ -10,6 +10,8 @@ series_order: 1
 cover-img: "/posts/2026/11/14/nga-ba-dong-loc/cover-local.jpg"
 thumbnail-img: "/posts/2026/11/14/nga-ba-dong-loc/cover-local.jpg"
 tags: [lịch sử Việt Nam, Hòa bình không dễ có, thanh niên xung phong, chiến tranh]
+event_year: 1968
+tour_note: "Ngã ba Đồng Lộc, Hà Tĩnh — một tọa độ bị bom đạn vùi lấp nhưng chưa bao giờ bị bỏ rơi. Ngày 24 tháng 7 năm 1968, mười nữ thanh niên xung phong đã nằm lại nơi đây để giữ thông mạch đường chi viện ra tiền tuyến."
 geo: [18.417, 105.75]
 place_name: "Ngã ba Đồng Lộc, Hà Tĩnh"
 place_country: "Vietnam"
