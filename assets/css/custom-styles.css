@@ -22,7 +22,7 @@
   --ink: #1d1d2b;
   --muted: #6b6b7a;
   --accent-pink: #ff7a8a;
-  --accent-blue: #5aa9ff;
+  --accent-secondary: #ff7a8a;
   --accent-green: #4ad6a8;
   --glass-bg: rgba(255, 255, 255, 0.45);
   --glass-border: rgba(255, 255, 255, 0.9);
@@ -365,7 +365,7 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
   color: #ffffff !important;
-  background: linear-gradient(135deg, var(--accent-pink), var(--accent-blue));
+  background: linear-gradient(135deg, var(--accent-pink), var(--accent-secondary));
   border-radius: 999px;
   padding: 0.5rem 1.75rem;
   text-decoration: none;
@@ -554,7 +554,7 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
   width: 0.45rem;
   height: 0.45rem;
   border-radius: 50%;
-  background: var(--accent-blue);
+  background: var(--accent-secondary);
   content: "";
 }
 
@@ -745,7 +745,7 @@ body:has(.home-info-stack) .container-md > .row > [class*="col-"] {
 .home-tag-filter-trigger:focus,
 .home-tag-filter-trigger[aria-expanded="true"],
 .home-series-filter select:focus {
-  border-color: var(--accent-blue);
+  border-color: var(--accent-secondary);
   box-shadow: 0 0 0 3px rgba(90, 169, 255, 0.14);
 }
 
@@ -1372,7 +1372,7 @@ body:has(.home-landing) .container-md > .row > [class*="col-"] {
 }
 
 .gallery-video-caption a {
-  color: var(--accent-blue);
+  color: var(--accent-secondary);
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 0.15rem;
@@ -1719,7 +1719,7 @@ body,
 }
 
 .gallery-video-caption a {
-  color: var(--accent-blue);
+  color: var(--accent-secondary);
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 0.15rem;
@@ -2404,7 +2404,7 @@ body,
   width: 0.3rem;
   height: 0.3rem;
   border-radius: 50%;
-  background: var(--accent-blue);
+  background: var(--accent-secondary);
   content: "";
 }
 
@@ -2425,7 +2425,7 @@ body,
   width: 0.4rem;
   height: 0.4rem;
   border-radius: 50%;
-  background: var(--accent-blue);
+  background: var(--accent-secondary);
 }
 
 .history-selected-label {
@@ -2452,7 +2452,7 @@ body,
 .history-event-year {
   display: block;
   margin-bottom: 0.35rem;
-  color: var(--accent-blue);
+  color: var(--accent-secondary);
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.1em;
@@ -3726,7 +3726,7 @@ footer .footer-line a:hover {
 
 .home-tag-filter-trigger:focus,
 .home-tag-filter-trigger[aria-expanded="true"] {
-  border-color: var(--accent-blue);
+  border-color: var(--accent-secondary);
   box-shadow: 0 0 0 3px rgba(90, 169, 255, 0.14);
 }
 
@@ -3794,7 +3794,7 @@ dialog.home-tag-options:not([open]) {
 }
 
 .home-tag-search:focus {
-  border-color: var(--accent-blue);
+  border-color: var(--accent-secondary);
   box-shadow: 0 0 0 3px rgba(90, 169, 255, 0.14);
 }
 
@@ -3850,7 +3850,7 @@ dialog.home-tag-options:not([open]) {
 }
 
 .home-tag-filter-trigger:focus {
-  border-color: var(--accent-blue);
+  border-color: var(--accent-secondary);
   box-shadow: 0 0 0 3px rgba(90, 169, 255, 0.14);
 }
 
@@ -4215,7 +4215,7 @@ dialog.home-tag-options:not([open]) {
   bottom: 1rem;
   left: 0.45rem;
   width: 2px;
-  background: linear-gradient(var(--accent-pink), var(--accent-blue));
+  background: linear-gradient(var(--accent-pink), var(--accent-secondary));
 }
 
 .posts-list.view-timeline .post-preview {
@@ -5566,7 +5566,7 @@ body:has(.magazine-story) .header-section.has-img .post-meta {
 
 .navbar-custom .navbar-toggler:focus-visible,
 .navbar-custom .nav-link:focus-visible {
-  outline: 2px solid var(--accent-blue);
+  outline: 2px solid var(--accent-secondary);
   outline-offset: 2px;
 }
 
@@ -5768,7 +5768,7 @@ body:has(.store-products) .page-subheading {
   font-weight: 700;
   letter-spacing: 0.06em;
   color: #fff;
-  background: var(--accent-blue);
+  background: var(--accent-secondary);
 }
 
 .store-badge-soon {
@@ -5811,7 +5811,7 @@ body:has(.store-products) .page-subheading {
   font-weight: 600;
   text-align: center;
   text-decoration: none;
-  background: var(--accent-blue);
+  background: var(--accent-secondary);
 }
 
 .store-cta:hover {
@@ -5820,14 +5820,14 @@ body:has(.store-products) .page-subheading {
 }
 
 .store-cta-notify {
-  color: var(--accent-blue);
+  color: var(--accent-secondary);
   background: transparent;
-  border: 1.5px solid var(--accent-blue);
+  border: 1.5px solid var(--accent-secondary);
 }
 
 .store-cta-notify:hover {
   color: #fff;
-  background: var(--accent-blue);
+  background: var(--accent-secondary);
   opacity: 1;
 }
 
@@ -5944,7 +5944,7 @@ body:has(.store-products) .page-subheading {
 }
 
 .lang-switcher .lang-link:focus-visible {
-  outline: 2px solid var(--accent-blue);
+  outline: 2px solid var(--accent-secondary);
   outline-offset: 3px;
 }
 

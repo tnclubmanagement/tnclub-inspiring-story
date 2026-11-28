@@ -787,7 +787,7 @@
     var pauseBtn = tourBar.querySelector('[data-act="pause"]');
     var muteBtn = tourBar.querySelector('[data-act="mute"]');
     var synth = window.speechSynthesis || null;
-    var tour = { on: false, paused: false, muted: false, stopNow: false, endSpeech: null };
+    var tour = { on: false, paused: false, muted: false, stopNow: false, skip: false, endSpeech: null };
     var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var isEn = (window.__athleteMapConfig || {}).lang !== (window.__athleteMapConfig || {}).defaultLang;
 
@@ -796,7 +796,7 @@
       return new Promise(function (resolve) {
         var left = ms, last = Date.now();
         var t = setInterval(function () {
-          if (tour.stopNow) { clearInterval(t); resolve(); return; }
+          if (tour.stopNow || tour.skip) { clearInterval(t); resolve(); return; }
           var now = Date.now();
           if (!tour.paused) left -= now - last;
           last = now;
@@ -806,7 +806,10 @@
     }
 
     // Đọc thuyết minh bằng Web Speech API; khi mute (hoặc trình duyệt
-    // không có TTS) chờ theo độ dài câu. Resolve khi đọc xong / bị dừng.
+    // không có TTS) chờ theo độ dài câu. Resolve khi giọng đọc xong —
+    // poll synth.speaking/pending thay vì timeout ước tính, vì nếu nhảy
+    // sang bài tiếp trong khi giọng vẫn đang đọc thì màn hình sẽ đi
+    // trước lời đọc một bài.
     function speak(text) {
       return new Promise(function (resolve) {
         if (!synth || tour.muted) {
@@ -821,12 +824,27 @@
         })[0];
         if (voice) u.voice = voice;
         var done = false;
-        function fin() { if (!done) { done = true; tour.endSpeech = null; resolve(); } }
+        function fin() { if (!done) { done = true; clearInterval(t); tour.endSpeech = null; resolve(); } }
         tour.endSpeech = fin;
         u.onend = fin;
         u.onerror = fin;
-        // Fallback nếu onend không bao giờ chạy (một số trình duyệt).
-        setTimeout(fin, Math.max(6000, text.length * 140) + 5000);
+        var est = Math.min(Math.max(text.length * 90, 2500), 20000);
+        var elapsed = 0;
+        var t = setInterval(function () {
+          elapsed += 500;
+          var speechGone = elapsed > est && !synth.speaking && !synth.pending;
+          var hardTimeout = elapsed > Math.max(60000, est * 5);
+          if (tour.stopNow || speechGone || hardTimeout) {
+            clearInterval(t);
+            fin();
+            return;
+          }
+          // Workaround lỗi Chrome cắt giọng sau ~15s với voice remote:
+          // resume() định kỳ giữ luồng đọc (bỏ qua khi user đang pause).
+          if (elapsed % 10000 === 0 && synth.speaking && !tour.paused) {
+            try { synth.resume(); } catch (e) {}
+          }
+        }, 500);
         synth.speak(u);
       });
     }
@@ -904,6 +922,7 @@
       if (!seq.length) return;
       tour.on = true;
       tour.stopNow = false;
+      tour.skip = false;
       tour.paused = false;
       tourBar.hidden = false;
       playBtn.innerHTML = '<span class="fas fa-stop" aria-hidden="true"></span>';
@@ -948,6 +967,7 @@
       var i = 0;
       function next() {
         if (tour.stopNow || i >= seq.length) { stopTour(); return; }
+        tour.skip = false;
         var en = seq[i];
         renderTourStop(en.d, i + 1, seq.length);
         var ll = en.marker.getLatLng();
@@ -956,9 +976,11 @@
         else map.flyTo(ll, zoom, { duration: 1.5 });
         tourSleep(reducedMotion ? 400 : 1700).then(function () {
           if (tour.stopNow) return;
+          if (tour.skip) { i++; next(); return; }
           openQuickview(en.d);
           return speak(narrationOf(en.d)).then(function () { return tourSleep(1000); });
         }).then(function () {
+          if (tour.stopNow) return;
           i++;
           next();
         });
@@ -974,6 +996,14 @@
       if (!btn) return;
       var act = btn.dataset.act;
       if (act === 'stop') stopTour();
+      else if (act === 'next') {
+        // Nhảy sang điểm kế: cắt lời đọc hiện tại, cờ skip làm mọi
+        // chờ đợi (bay + đọc) kết thúc ngay → next() đi tiếp.
+        tour.skip = true;
+        if (tour.paused && synth) { try { synth.resume(); } catch (e) {} }
+        if (synth) synth.cancel();
+        if (tour.endSpeech) tour.endSpeech();
+      }
       else if (act === 'pause') {
         tour.paused = !tour.paused;
         if (synth) tour.paused ? synth.pause() : synth.resume();
